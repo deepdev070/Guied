@@ -1,0 +1,424 @@
+{
+  "slug": "driving-licence-new",
+  "name": "Permanent Driving Licence Application",
+  "description": "How to get a permanent driving licence in India after holding a learner permit, with automated test track steps and Gujarat state rules.",
+  "categorySlug": "vehicles",
+  "national": {
+    "title": "How to Apply for a Permanent Driving Licence in India (2026)",
+    "summary": "Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (\u20b9700), and driving test rules.",
+    "estimatedTime": "15-30 days after driving test",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/driving-licence-0",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Complete 30-Day Mandatory Waiting Period",
+        "description": "Ensure at least 30 days have elapsed since your Learner's Licence (LLR) was issued, and that your LLR has not expired (must be within 180 days of issue).",
+        "where": "Eligibility Requirement",
+        "estimatedTime": "30 days minimum wait",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Submit Form 2 Application on Sarathi Parivahan",
+        "description": "Visit sarathi.parivahan.gov.in, select your State, and click 'Apply for Driving Licence'. Enter your Learner's Licence number and date of birth to load your details automatically.",
+        "where": "Official Sarathi Portal (parivahan.gov.in)",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://sarathi.parivahan.gov.in",
+        "officialLinkLabel": "Open Sarathi Driving Licence Application",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Select Vehicle Classes & Driving School Certificate",
+        "description": "Choose the vehicle classes endorsed on your learner permit (e.g. Motorcycle with Gear - MCWG, Light Motor Vehicle - LMV). If you were trained at an accredited driver training institute (ADTC), upload your Form 5B certificate.",
+        "where": "Online Application Form",
+        "estimatedTime": "5 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Accredited Training School Exemption",
+        "calloutText": "Under Section 12 of the Motor Vehicles Act, candidates holding a Form 5B certificate from a recognized Accredited Driver Training Centre are legally exempt from taking the practical driving test at the RTO.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Pay Statutory Government Fees Online",
+        "description": "Pay the statutory government fee of \u20b9200 for DL issue, \u20b9200 for smart card printing, and \u20b9300 per vehicle class test fee (Total \u20b9700 for single class, \u20b91,000 for dual class MCWG + LMV) via Bharatkosh or state payment gateway.",
+        "where": "Integrated Payment Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Book Practical Driving Test Appointment Slot",
+        "description": "Select your designated RTO or Automated Driving Test Track (ADTT) and pick an available date and time slot. Download and print the Appointment Slip.",
+        "where": "Sarathi Slot Booking System",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Appear for the Practical Driving Test at RTO Track",
+        "description": "Arrive at the RTO test track 30 minutes before your slot with a vehicle corresponding to your application category. For two-wheelers, demonstrate figure-of-eight (8) balancing and sudden stopping. For four-wheelers, pass the H-track reverse parking, parallel parking, and gradient hill restart without rolling backwards.",
+        "where": "RTO Driving Test Track / ADTT Center",
+        "estimatedTime": "1-2 hours",
+        "calloutType": "important",
+        "calloutTitle": "Bring Vehicle Documents",
+        "calloutText": "The vehicle you bring for the test must have valid physical registration certificate (RC), active insurance policy, and valid Pollution Under Control (PUC) certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Test Results and Biometric Data Verification",
+        "description": "If you pass the test, the testing officer signs your inspection sheet or the automated track sensors submit an instant electronic pass report. Your digital photo and signature are verified.",
+        "where": "RTO Biometrics Counter",
+        "estimatedTime": "15 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Receive Driving Licence via Speed Post & DigiLocker",
+        "description": "Your permanent driving licence number is generated within 24-48 hours and available on DigiLocker and mParivahan. The physical chip-based Smart Card licence is printed and dispatched to your residential address via India Post Speed Post.",
+        "where": "Postal Delivery / Digital Download",
+        "estimatedTime": "7-15 working days for physical card",
+        "calloutType": "success",
+        "calloutTitle": "Immediate Digital Legality",
+        "calloutText": "As soon as your DL number is generated, your digital driving licence in DigiLocker or mParivahan is legally valid across India under IT Act Section 4 and Rule 139 of CMVR.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Original Learner's Licence (LLR)",
+        "description": "Valid physical or electronic learner licence certificate issued at least 30 days prior.",
+        "requirementType": "required",
+        "copiesHint": "Original required for verification",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Application Form 2 Printout",
+        "description": "Auto-generated completed application form downloaded from Sarathi Parivahan portal.",
+        "requirementType": "required",
+        "copiesHint": "1 signed printed copy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "name": "Fee Payment Receipt and Appointment Slip",
+        "description": "Printed e-receipt confirming government fee payment and booked test slot.",
+        "requirementType": "required",
+        "copiesHint": "1 copy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "name": "Test Vehicle Documents (RC, Insurance, PUC)",
+        "description": "Valid registration certificate, insurance paper, and pollution certificate for the vehicle brought for testing.",
+        "requirementType": "required",
+        "copiesHint": "Original documents for inspection",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Form 5B Driving School Training Certificate",
+        "description": "Certificate from an accredited driving school exempting candidate from physical driving test.",
+        "requirementType": "conditional",
+        "copiesHint": "Original certificate",
+        "appliesWhen": {
+          "trainedAtAccreditedSchool": true
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Form 1A Medical Fitness Certificate",
+        "description": "Doctor signed medical certificate mandatory for candidates 40+ years old or commercial categories.",
+        "requirementType": "conditional",
+        "copiesHint": "Original signed copy",
+        "appliesWhen": {
+          "or": [
+            {
+              "applicantAge": {
+                "gte": 40
+              }
+            },
+            {
+              "licenceCategory": "commercial_transport"
+            }
+          ]
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Issue of Driving Licence",
+        "amount": 200,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Central Motor Vehicles Rules (CMVR) Rule 32",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Driving Test Fee (Single Vehicle Class)",
+        "amount": 300,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Central Motor Vehicles Rules (CMVR) Rule 32",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Smart Card Driving Licence Specification Fee",
+        "amount": 200,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Central Motor Vehicles Rules (CMVR) Rule 32",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "officialLinks": [
+      {
+        "label": "Sarathi Parivahan Official Portal",
+        "url": "https://sarathi.parivahan.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Road Transport and Highways (MoRTH)",
+        "portalName": "Sarathi Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "When can I apply for a permanent driving licence after getting a learner's licence?",
+        "answer": "You can apply exactly 30 days after the date your learner licence was issued. You have up to 180 days (6 months) from the LL issuance date to pass the driving test and obtain your permanent licence.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What happens if I fail the practical driving test?",
+        "answer": "If you fail the test, you can re-appear for a re-test after a mandatory 7-day practice period. You will need to log into Sarathi Parivahan, pay a re-test fee of \u20b9300, and book a new appointment slot.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Can I take the driving test in an automatic transmission car?",
+        "answer": "Yes! You can bring either a manual or an automatic transmission vehicle for your test. However, you must arrange the vehicle yourself; RTOs do not provide test vehicles.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "question": "What is the validity period of a permanent driving licence in India?",
+        "answer": "For non-transport (private) vehicles, a driving licence is valid for 20 years from the date of issue or until the holder reaches 40 years of age, whichever comes earlier. For persons aged 40 to 50, it is issued for 10 years; for persons aged 50 to 55, it is valid up to the age of 60; and above 55 years of age, validity is granted for 5-year periods.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Applying Before 30-Day Mandatory Waiting Period",
+        "description": "Attempting to book a permanent DL test slot when less than 30 days have elapsed since the learner licence was approved.",
+        "solution": "Wait until day 31 from the date printed on your Learner Licence Form 3 before scheduling.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Expired Test Vehicle Documentation",
+        "description": "Bringing a vehicle to the test track with expired third-party insurance or expired PUC certificate leads to immediate test cancellation.",
+        "solution": "Check mParivahan on your phone to verify the vehicle's fitness, insurance, and PUC are active before visiting the track.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "title": "Failure on Automated Sensor Tracks (Touching Yellow Lines)",
+        "description": "Automated sensor tracks register a fail if vehicle tyres cross boundary lines or exceed allowed forward-reverse maneuvers.",
+        "solution": "Practice parallel parking and reverse H-parking beforehand without crossing side curbs.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Motor Vehicles Act, 1988 (as amended in 2019)",
+        "actOrRuleNumber": "Section 9 & Section 12",
+        "issuingAuthority": "Parliament of India / MoRTH",
+        "url": "https://morth.nic.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Permanent Driving Licence Fee Calculator",
+      "description": "Calculate statutory fees based on vehicle classes and postal dispatch.",
+      "baseFee": 700,
+      "baseFeeLabel": "Single Class (Issue \u20b9200 + Test \u20b9300 + Smart Card \u20b9200)",
+      "rulesReference": "CMVR 1989 Rule 32",
+      "officialSourceUrl": "https://parivahan.gov.in",
+      "officialSourceLabel": "Parivahan Sarathi Fee Schedule",
+      "options": [
+        {
+          "id": "vehicle_classes",
+          "label": "Vehicle Categories Applied",
+          "type": "classes",
+          "defaultChoiceId": "single_class",
+          "choices": [
+            {
+              "id": "single_class",
+              "label": "Single Class (Motorcycle or Car)",
+              "amount": 0,
+              "description": "Standard issue and single driving test"
+            },
+            {
+              "id": "two_classes",
+              "label": "Two Classes (Motorcycle MCWG + Car LMV)",
+              "amount": 300,
+              "description": "Includes additional practical driving test (+\u20b9300)"
+            }
+          ]
+        },
+        {
+          "id": "delivery",
+          "label": "Postal Dispatch & SMS Tracking",
+          "type": "delivery",
+          "defaultChoiceId": "speedpost",
+          "choices": [
+            {
+              "id": "speedpost",
+              "label": "Speed Post Smart Card Delivery",
+              "amount": 0,
+              "description": "Included in smart card fee"
+            },
+            {
+              "id": "sms_alert",
+              "label": "Speed Post + SMS Status Notifications",
+              "amount": 50,
+              "description": "Optional SMS dispatch notifications (+\u20b950)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Get a Permanent Driving Licence in Gujarat (2026)",
+      "summary": "Gujarat operates 100% sensor-based Automated Driving Test Tracks (ADTT) across all major RTOs including Subhash Bridge Ahmedabad, Surat, Rajkot, and Vadodara. Official Gujarat fee schedule and slot booking details.",
+      "estimatedTime": "10-20 days",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Complete 30-Day Mandatory LLR Waiting Period in Gujarat",
+          "description": "Wait at least 30 days after your Gujarat Learner Licence issuance date before booking a permanent licence test track slot.",
+          "where": "Eligibility",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Book Automated Test Track (ADTT) Slot via Sarathi Portal",
+          "description": "Log into sarathi.parivahan.gov.in, select Gujarat, and book a test slot at your local RTO Automated Driving Test Track (e.g. GJ-01 Subhash Bridge Ahmedabad, GJ-27 Vastral, GJ-05 Surat). In Gujarat, morning appointment quotas open daily at 10:00 AM IST.",
+          "where": "Sarathi Gujarat Slot Portal",
+          "estimatedTime": "5 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Gujarat Slot Opening Time",
+          "calloutText": "Slots in high-volume Gujarat RTOs (Ahmedabad, Surat, Vadodara) fill rapidly. Log in precisely at 10:00 AM IST for new opening slots.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pay Gujarat Statutory Fee (\u20b9700 for single class)",
+          "description": "Pay the statutory fee: \u20b9200 for DL issue, \u20b9200 for smart card, and \u20b9300 per class test fee via online payment on the Sarathi portal.",
+          "where": "Online Payment Gateway",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Appear for Sensor-Based Automated Driving Test in Gujarat",
+          "description": "Arrive at the Gujarat Automated Driving Test Track (ADTT) with your vehicle. For two-wheelers, navigate the 8-shaped sensor track without putting feet down. For four-wheelers, complete H-track reverse parking and gradient hill climb within the computerized camera time limit.",
+          "where": "Gujarat RTO Automated Driving Test Track",
+          "estimatedTime": "1 hour",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Receive Driving Licence via Speed Post in Gujarat",
+          "description": "Once the sensor report uploads, the Gujarat Transport Department prints the Smart Card DL and dispatches it via India Post Speed Post. Digital DL is immediately available on DigiLocker.",
+          "where": "Delivered to Residence across Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "label": "Sarathi Parivahan Gujarat Portal",
+          "url": "https://sarathi.parivahan.gov.in",
+          "isPrimary": true,
+          "department": "Commissioner of Transport, Government of Gujarat",
+          "portalName": "Sarathi Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "label": "Digital Gujarat Citizen Services",
+          "url": "https://www.digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://www.digitalgujarat.gov.in"
+        }
+      ]
+    }
+  }
+}

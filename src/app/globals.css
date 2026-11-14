@@ -1,26 +1,189 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #ffffff;
+  --color-surface: #f7f9fc;
+  --color-surface-alt: #eef3fb;
+  --color-border: #e2e8f0;
+  --color-text: #0f172a;
+  --color-muted: #475569;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-soft: #eaf1ff;
+  --color-accent: #f59e0b;
+  --color-accent-soft: #fff4db;
+  --color-success: #15803d;
+  --color-success-soft: #e8f7ee;
+  --color-warning: #b45309;
+  --color-warning-soft: #fff7e6;
+  --color-danger: #b91c1c;
+  --color-danger-soft: #fdecec;
+
+  --radius-card: 12px;
+  --radius-input: 10px;
+  --radius-chip: 999px;
+
+  --shadow-soft-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-soft-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+  --shadow-soft-md: 0 4px 6px -1px rgba(15, 23, 42, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-soft-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.06), 0 4px 6px -4px rgba(15, 23, 42, 0.03);
+
+  --font-sans:
+    var(--font-inter), var(--font-noto-devanagari), var(--font-noto-gujarati), system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
 :root {
+  color-scheme: light;
   --background: #ffffff;
-  --foreground: #171717;
+  --surface: #f7f9fc;
+  --surface-alt: #eef3fb;
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --muted: #475569;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-soft: #eaf1ff;
+  --accent: #f59e0b;
+  --accent-soft: #fff4db;
+  --success: #15803d;
+  --success-soft: #e8f7ee;
+  --warning: #b45309;
+  --warning-soft: #fff7e6;
+  --danger: #b91c1c;
+  --danger-soft: #fdecec;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Force light theme across all devices */
+:root,
+html,
+body {
+  color-scheme: light !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html,
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 28px;
+  min-height: 100%;
+}
+
+/* Precise Typography Scale */
+.text-h1 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+@media (min-width: 640px) {
+  .text-h1 {
+    font-size: 36px;
+    line-height: 44px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.text-h2 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.text-h3 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.text-body {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+/* Line length limit for optimal reading comfort (WCAG & ergonomic standard) */
+.max-w-reading {
+  max-width: 70ch;
+}
+
+/* Subtle, confetti-free completion celebration animation */
+@keyframes completion-glow {
+  0% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(21, 128, 61, 0.25);
+  }
+  50% {
+    transform: scale(1.008);
+    box-shadow: 0 0 0 8px rgba(21, 128, 61, 0.08);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(21, 128, 61, 0);
+  }
+}
+
+.animate-completion-subtle {
+  animation: completion-glow 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Print Stylesheet (PROMPT 63) */
+@media print {
+  @page {
+    margin: 12mm 15mm;
+    size: A4 portrait;
+  }
+
+  /* Reset layout for clean paper printing */
+  html,
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Remove header, footer, ads, navbars, and interactive controls */
+  header,
+  footer,
+  aside,
+  nav,
+  button,
+  form,
+  .no-print,
+  .ad-slot,
+  [role="dialog"],
+  [data-print-hide] {
+    display: none !important;
+  }
+
+  /* Ensure page breaks don't fracture compact sections */
+  .break-inside-avoid {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Ensure official links show their exact full URLs */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #333333;
+    font-family: monospace;
+    word-break: break-all;
+  }
+
+  /* Disable URL suffix for navigation or logo anchors */
+  .no-print-url a::after,
+  a[href^="/"]::after,
+  a[href^="#"]::after {
+    content: "" !important;
+  }
 }

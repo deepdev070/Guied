@@ -1,25 +1,55 @@
 {
-  "name": "temp-app",
+  "name": "india-paperwork-guide",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --no-warnings --experimental-strip-types --test tests/**/*.test.ts",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run content:validate && npm run content:gate",
+    "content:stale": "node --no-warnings --experimental-strip-types scripts/check-stale-content.ts",
+    "content:validate": "node --no-warnings --experimental-strip-types scripts/validate-content.ts",
+    "content:gate": "node --no-warnings --experimental-strip-types scripts/check-thin-content.ts",
+    "seo:orphans": "node --no-warnings --experimental-strip-types scripts/detect-orphan-pages.ts",
+    "seo:audit": "node --no-warnings --experimental-strip-types scripts/seo-audit.ts",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "db:seed": "prisma db seed",
+    "postinstall": "prisma generate"
+  },
+  "prisma": {
+    "seed": "node --experimental-strip-types prisma/seed.ts"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "@react-pdf/renderer": "^4.9.0",
+    "fuse.js": "^7.5.0",
+    "lucide-react": "^1.72.0",
     "next": "16.4.6",
+    "next-intl": "^4.15.1",
+    "qrcode": "^1.5.4",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@tailwindcss/turbopack": "4.3.3",
     "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "prisma": "^6.19.3",
     "tailwindcss": "4.3.3",
     "typescript": "^5"
   }

@@ -1,0 +1,385 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ContentStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+model Category {
+  id           String   @id @default(cuid())
+  slug         String   @unique
+  name         String
+  description  String?
+  icon         String   @default("Folder")
+  bgColor      String   @default("bg-surface-alt")
+  textColor    String   @default("text-muted")
+  displayOrder Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  tasks Task[]
+
+  @@index([slug])
+  @@index([displayOrder])
+}
+
+model Task {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?
+  categoryId  String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  category Category      @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  variants TaskVariant[]
+
+  @@index([slug])
+  @@index([categoryId])
+}
+
+model State {
+  id               String   @id @default(cuid())
+  code             String   @unique // 2-letter code: "GJ", "MH", "DL"
+  slug             String   @unique // lowercase slug: "gujarat", "maharashtra"
+  name             String // e.g. "Gujarat"
+  nativeName       String? // e.g. "ગુજરાત"
+  primaryLanguages String[] @default(["en", "hi"]) // e.g. ["gu", "en", "hi"]
+  launchState      Boolean  @default(false) // true for Gujarat launch state
+  portalName       String? // e.g. "Digital Gujarat"
+  portalUrl        String? // official state portal URL ("to be verified")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  variants TaskVariant[]
+
+  @@index([code])
+  @@index([slug])
+  @@index([launchState])
+}
+
+model TaskVariant {
+  id             String        @id @default(cuid())
+  taskId         String
+  stateId        String? // Nullable for national default variant
+  title          String
+  summary        String
+  estimatedTime  String? // e.g. "15-30 days"
+  difficulty     String?       @default("medium") // easy | medium | hard
+  status         ContentStatus @default(DRAFT)
+  lastVerifiedAt DateTime      @default(now())
+  verifiedBy     String?
+  sourceUrl      String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  task  Task   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  state State? @relation(fields: [stateId], references: [id], onDelete: SetNull)
+
+  steps                Step[]
+  documentRequirements DocumentRequirement[]
+  fees                 Fee[]
+  officialLinks        OfficialLink[]
+  faqItems             FaqItem[]
+  rejectionReasons     RejectionReason[]
+  sourceRefs           SourceRef[]
+  revisions            ContentRevision[]
+  errorReports         ErrorReport[]
+  translations         TaskVariantTranslation[]
+
+  @@unique([taskId, stateId])
+  @@index([taskId])
+  @@index([stateId])
+  @@index([status])
+  @@index([lastVerifiedAt])
+}
+
+model Step {
+  id                String        @id @default(cuid())
+  variantId         String
+  stepNumber        Int
+  title             String
+  description       String
+  where             String? // e.g. "Online (Parivahan Portal)" or "Physical RTO"
+  estimatedTime     String? // e.g. "15 minutes"
+  status            ContentStatus @default(PUBLISHED)
+  lastVerifiedAt    DateTime      @default(now())
+  verifiedBy        String?
+  sourceUrl         String?
+  officialLinkUrl   String?
+  officialLinkLabel String?
+  calloutType       String? // tip | important | warning | success
+  calloutTitle      String?
+  calloutText       String?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId, stepNumber])
+}
+
+model DocumentRequirement {
+  id              String        @id @default(cuid())
+  variantId       String
+  name            String
+  description     String?
+  requirementType String        @default("required") // required | optional | conditional
+  copiesHint      String? // e.g. "Original + 1 self-attested photocopy"
+  appliesWhen     Json? // e.g. {"applicantAge": {"lt": 18}}
+  status          ContentStatus @default(PUBLISHED)
+  lastVerifiedAt  DateTime      @default(now())
+  verifiedBy      String?
+  sourceUrl       String?
+  displayOrder    Int           @default(0)
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+  @@index([requirementType])
+}
+
+model Fee {
+  id             String        @id @default(cuid())
+  variantId      String
+  label          String // e.g. "Application Fee" or "Test Fee"
+  amount         Int           @default(0) // In Indian Rupees (INR)
+  currency       String        @default("INR")
+  isOptional     Boolean       @default(false)
+  paymentMode    String        @default("both") // online | counter | both
+  rulesReference String? // e.g. "CMVR Rule 32"
+  status         ContentStatus @default(PUBLISHED)
+  lastVerifiedAt DateTime      @default(now())
+  verifiedBy     String?
+  sourceUrl      String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+}
+
+model OfficialLink {
+  id             String        @id @default(cuid())
+  variantId      String
+  label          String // e.g. "Apply on Sarathi Parivahan"
+  url            String
+  isPrimary      Boolean       @default(false)
+  department     String? // e.g. "Ministry of Road Transport and Highways"
+  portalName     String? // e.g. "Parivahan Sewa"
+  status         ContentStatus @default(PUBLISHED)
+  lastVerifiedAt DateTime      @default(now())
+  verifiedBy     String?
+  sourceUrl      String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+  @@index([isPrimary])
+}
+
+model FaqItem {
+  id             String        @id @default(cuid())
+  variantId      String
+  question       String
+  answer         String
+  displayOrder   Int           @default(0)
+  status         ContentStatus @default(PUBLISHED)
+  lastVerifiedAt DateTime      @default(now())
+  verifiedBy     String?
+  sourceUrl      String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+  @@index([displayOrder])
+}
+
+model RejectionReason {
+  id             String        @id @default(cuid())
+  variantId      String
+  title          String // e.g. "Name Mismatch Between Aadhaar and Marksheet"
+  description    String // Why it gets rejected
+  solution       String // What to do to prevent/resolve
+  status         ContentStatus @default(PUBLISHED)
+  lastVerifiedAt DateTime      @default(now())
+  verifiedBy     String?
+  sourceUrl      String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+}
+
+model SourceRef {
+  id               String        @id @default(cuid())
+  variantId        String
+  title            String // e.g. "Central Motor Vehicles Rules, 1989"
+  actOrRuleNumber  String? // e.g. "Rule 32"
+  issuingAuthority String? // e.g. "MoRTH, Government of India"
+  publishedDate    DateTime?
+  url              String?
+  status           ContentStatus @default(PUBLISHED)
+  lastVerifiedAt   DateTime      @default(now())
+  verifiedBy       String?
+  sourceUrl        String?
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+}
+
+model ContentRevision {
+  id               String   @id @default(cuid())
+  variantId        String
+  revisionNumber   Int      @default(1)
+  author           String // e.g. "Editorial Team", "Civic Researcher"
+  summaryOfChanges String
+  payload          Json // Complete snapshot of variant data
+  createdAt        DateTime @default(now())
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@index([variantId])
+  @@index([createdAt])
+}
+
+model ErrorReport {
+  id                 String    @id @default(cuid())
+  variantId          String?
+  taskSlug           String?
+  stateCode          String?
+  reporterEmail      String?
+  issueType          String // outdated_fee | wrong_document | broken_link | procedure_changed | other
+  description        String
+  proposedCorrection String?
+  status             String    @default("NEW") // NEW | VERIFIED | RESOLVED | DISMISSED
+  resolvedBy         String?
+  resolvedAt         DateTime?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  variant TaskVariant? @relation(fields: [variantId], references: [id], onDelete: SetNull)
+
+  @@index([variantId])
+  @@index([taskSlug])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model MissingPage {
+  id        String   @id @default(cuid())
+  url       String
+  referrer  String?
+  userAgent String?
+  count     Int      @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([url])
+  @@index([createdAt])
+}
+
+model PageFeedback {
+  id            String   @id @default(cuid())
+  taskSlug      String
+  stateSlug     String?
+  pageUrl       String?
+  isHelpful     Boolean
+  missingReason String? // missing_document | fee_mismatch | broken_link | outdated_steps | hard_to_understand | other
+  details       String?
+  status        String   @default("NEW") // NEW | REVIEWED | ACTIONED
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([taskSlug])
+  @@index([isHelpful])
+  @@index([missingReason])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model SponsoredProvider {
+  id          String   @id @default(cuid())
+  name        String
+  category    String   // "notary" | "ca" | "typing_centre" | "legal_writer"
+  city        String
+  stateSlug   String
+  phone       String
+  address     String?
+  services    String[] @default([])
+  startDate   DateTime
+  endDate     DateTime
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([stateSlug, isActive])
+  @@index([startDate, endDate])
+}
+
+model TaskVariantTranslation {
+  id                  String   @id @default(cuid())
+  variantId           String
+  locale              String   // "en", "hi", "gu"
+  title               String
+  summary             String
+  isMachineTranslated Boolean  @default(true)
+  isReviewed          Boolean  @default(false)
+  reviewedBy          String?
+  reviewedAt          DateTime?
+  translatedSteps     Json?    // Array of translated step items
+  translatedDocs      Json?    // Array of translated document names/descriptions
+  translatedFaqs      Json?    // Array of translated FAQ items
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  variant TaskVariant @relation(fields: [variantId], references: [id], onDelete: Cascade)
+
+  @@unique([variantId, locale])
+  @@index([locale])
+  @@index([locale, isReviewed])
+}
+
+model ContentTranslation {
+  id                  String   @id @default(cuid())
+  entityType          String   // "category" | "glossary" | "state"
+  entityId            String   // unique identifier for the entity
+  locale              String   // "en", "hi", "gu"
+  field               String   // "name", "description", "definition"
+  translation         String   @db.Text
+  isMachineTranslated Boolean  @default(true)
+  isReviewed          Boolean  @default(false)
+  reviewedBy          String?
+  reviewedAt          DateTime?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@unique([entityType, entityId, locale, field])
+  @@index([entityType, entityId, locale])
+  @@index([locale, isReviewed])
+}
