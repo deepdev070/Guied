@@ -12,7 +12,8 @@ export function EmptyIllustration({ className, ...props }: IllustrationProps) {
       viewBox="0 0 280 200"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={cn("h-auto w-full max-w-xs", className)}
+      className={cn("civic-illustration h-auto w-full max-w-xs", className)}
+      data-illustration="true"
       role="img"
       aria-label="Illustration indicating no search results found"
       {...props}

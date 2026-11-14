@@ -4,6 +4,8 @@ import * as React from "react";
 import Link from "next/link";
 import { siteConfig } from "@/lib/site";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { TextSizeControl } from "./TextSizeControl";
+import { LiteModeToggle } from "./LiteModeToggle";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 
 export interface MobileNavProps {
@@ -114,6 +116,19 @@ export function MobileNav({
                 Language / ભાષા / भाषा
               </span>
               <LanguageSwitcher variant="mobile" />
+            </div>
+
+            {/* Text Size Control (A- A A+) */}
+            <div>
+              <span className="text-muted mb-1.5 block text-xs font-semibold tracking-wider uppercase">
+                Text Size
+              </span>
+              <TextSizeControl variant="mobile" />
+            </div>
+
+            {/* Lite Mode (Data Saver) */}
+            <div>
+              <LiteModeToggle variant="mobile" />
             </div>
           </div>
 

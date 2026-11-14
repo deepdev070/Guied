@@ -49,3 +49,4 @@ export async function HomePageView({ locale = "en" }: HomePageViewProps) {
     </div>
   );
 }
+

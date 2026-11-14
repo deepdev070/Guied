@@ -41,6 +41,11 @@ export default function RootLayout({
   return (
     <html lang={siteConfig.defaultLocale} className={`${fontVariables} h-full antialiased`}>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var s=localStorage.getItem("civic_text_scale");if(s&&["100","115","130"].indexOf(s)!==-1){document.documentElement.setAttribute("data-text-scale",s);}var l=localStorage.getItem("civic_lite_mode");if(l==="true"){document.documentElement.setAttribute("data-lite-mode","true");}}catch(e){}})();`,
+          }}
+        />
         <JsonLd schema={[buildOrganizationSchema(), buildWebSiteSchema()]} />
       </head>
       <body className="bg-surface text-text flex min-h-full flex-col font-sans">

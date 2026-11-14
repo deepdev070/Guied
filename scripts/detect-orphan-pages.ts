@@ -23,3 +23,4 @@ if (report.orphanPages.length > 0) {
   );
   process.exit(0);
 }
+

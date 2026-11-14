@@ -16,7 +16,7 @@
       {
         "stepNumber": 1,
         "title": "Complete 30-Day Mandatory Waiting Period",
-        "description": "Ensure at least 30 days have elapsed since your Learner's Licence (LLR) was issued, and that your LLR has not expired (must be within 180 days of issue).",
+        "description": "Wait at least 30 days after your Learner's Licence (LLR) was issued. Make sure your LLR has not expired (valid for 180 days).",
         "where": "Eligibility Requirement",
         "estimatedTime": "30 days minimum wait",
         "status": "PUBLISHED",
@@ -43,7 +43,7 @@
         "estimatedTime": "5 minutes",
         "calloutType": "tip",
         "calloutTitle": "Accredited Training School Exemption",
-        "calloutText": "Under Section 12 of the Motor Vehicles Act, candidates holding a Form 5B certificate from a recognized Accredited Driver Training Centre are legally exempt from taking the practical driving test at the RTO.",
+        "calloutText": "Under Section 12 of the Motor Vehicles Act, candidates with a Form 5B certificate from an Accredited Driving School skip the practical RTO driving test.",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
@@ -51,7 +51,7 @@
       {
         "stepNumber": 4,
         "title": "Pay Statutory Government Fees Online",
-        "description": "Pay the statutory government fee of \u20b9200 for DL issue, \u20b9200 for smart card printing, and \u20b9300 per vehicle class test fee (Total \u20b9700 for single class, \u20b91,000 for dual class MCWG + LMV) via Bharatkosh or state payment gateway.",
+        "description": "Pay ₹200 for DL issue, ₹200 for smart card printing, and ₹300 per vehicle class test fee. Total is ₹700 for single class or ₹1,000 for dual class.",
         "where": "Integrated Payment Gateway",
         "estimatedTime": "5 minutes",
         "status": "PUBLISHED",
@@ -99,7 +99,7 @@
         "estimatedTime": "7-15 working days for physical card",
         "calloutType": "success",
         "calloutTitle": "Immediate Digital Legality",
-        "calloutText": "As soon as your DL number is generated, your digital driving licence in DigiLocker or mParivahan is legally valid across India under IT Act Section 4 and Rule 139 of CMVR.",
+        "calloutText": "Once your DL number is generated, your digital driving licence in DigiLocker or mParivahan is legally valid across India under CMVR Rule 139.",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
@@ -244,7 +244,7 @@
       },
       {
         "question": "What is the validity period of a permanent driving licence in India?",
-        "answer": "For non-transport (private) vehicles, a driving licence is valid for 20 years from the date of issue or until the holder reaches 40 years of age, whichever comes earlier. For persons aged 40 to 50, it is issued for 10 years; for persons aged 50 to 55, it is valid up to the age of 60; and above 55 years of age, validity is granted for 5-year periods.",
+        "answer": "For private vehicles, a driving licence is valid for 20 years or until age 40, whichever is earlier. For ages 40 to 50, it is valid for 10 years. For ages 50 to 55, it is valid until age 60. Above age 55, it is renewed every 5 years.",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
@@ -358,7 +358,7 @@
         {
           "stepNumber": 2,
           "title": "Book Automated Test Track (ADTT) Slot via Sarathi Portal",
-          "description": "Log into sarathi.parivahan.gov.in, select Gujarat, and book a test slot at your local RTO Automated Driving Test Track (e.g. GJ-01 Subhash Bridge Ahmedabad, GJ-27 Vastral, GJ-05 Surat). In Gujarat, morning appointment quotas open daily at 10:00 AM IST.",
+          "description": "Log into sarathi.parivahan.gov.in, select Gujarat, and book an RTO test track slot. Popular tracks include GJ-01 Ahmedabad, GJ-27 Vastral, and GJ-05 Surat. In Gujarat, morning appointment quotas open daily at 10:00 AM IST.",
           "where": "Sarathi Gujarat Slot Portal",
           "estimatedTime": "5 minutes",
           "calloutType": "tip",

@@ -20,6 +20,7 @@ import { TaskJourney } from "./TaskJourney";
 import { RelatedTasks } from "./RelatedTasks";
 import { TaskSidebar } from "./TaskSidebar";
 import { ShareButtonGroup } from "./ShareButtonGroup";
+import { ListenButton } from "./ListenButton";
 import { AdSlot } from "@/components/ads/AdSlot";
 import { MobileAnchorAd } from "@/components/ads/MobileAnchorAd";
 import { AD_PLACEMENTS } from "@/components/ads/placements";
@@ -252,6 +253,16 @@ export function TaskPageView({
 
               {/* Summary description */}
               <p className="text-body text-muted leading-relaxed">{pageSummary}</p>
+
+              {/* Voice-friendly Audio Reader (Prompt 102) */}
+              <div className="pt-1">
+                <ListenButton
+                  title={pageTitle}
+                  summary={pageSummary}
+                  documents={variant.documentRequirements}
+                  locale={locale}
+                />
+              </div>
             </div>
 
             {/* 4. At a glance summary box */}

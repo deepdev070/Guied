@@ -35,6 +35,7 @@
 
 :root {
   color-scheme: light;
+  --text-scale: 1;
   --background: #ffffff;
   --surface: #f7f9fc;
   --surface-alt: #eef3fb;
@@ -54,6 +55,46 @@
   --danger-soft: #fdecec;
 }
 
+/* User Text Size Scaling (Prompt 100) */
+html[data-text-scale="100"] {
+  --text-scale: 1;
+}
+
+html[data-text-scale="115"] {
+  --text-scale: 1.15;
+}
+
+html[data-text-scale="130"] {
+  --text-scale: 1.3;
+}
+
+/* Prompt 101: Low-Bandwidth & Old-Phone Lite Mode */
+html[data-lite-mode="true"] .civic-illustration,
+html[data-lite-mode="true"] [data-illustration="true"] {
+  display: none !important;
+}
+
+html[data-lite-mode="true"] *,
+html[data-lite-mode="true"] *::before,
+html[data-lite-mode="true"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+
+html[data-lite-mode="true"] {
+  --shadow-soft-xs: none;
+  --shadow-soft-sm: none;
+  --shadow-soft-md: none;
+  --shadow-soft-lg: none;
+}
+
+html[data-lite-mode="true"] .backdrop-blur-md,
+html[data-lite-mode="true"] .backdrop-blur-xs {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
 /* Force light theme across all devices */
 :root,
 html,
@@ -66,47 +107,47 @@ body {
   background-color: var(--background);
   color: var(--text);
   font-family: var(--font-sans);
-  font-size: 17px;
-  line-height: 28px;
+  font-size: calc(17px * var(--text-scale, 1));
+  line-height: calc(28px * var(--text-scale, 1));
   min-height: 100%;
 }
 
 /* Precise Typography Scale */
 .text-h1 {
-  font-size: 28px;
-  line-height: 36px;
+  font-size: calc(28px * var(--text-scale, 1));
+  line-height: calc(36px * var(--text-scale, 1));
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 @media (min-width: 640px) {
   .text-h1 {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: calc(36px * var(--text-scale, 1));
+    line-height: calc(44px * var(--text-scale, 1));
   }
 }
 
 .text-h2 {
-  font-size: 28px;
-  line-height: 36px;
+  font-size: calc(28px * var(--text-scale, 1));
+  line-height: calc(36px * var(--text-scale, 1));
   font-weight: 700;
   letter-spacing: -0.01em;
 }
 
 .text-h3 {
-  font-size: 22px;
-  line-height: 30px;
+  font-size: calc(22px * var(--text-scale, 1));
+  line-height: calc(30px * var(--text-scale, 1));
   font-weight: 600;
 }
 
 .text-body {
-  font-size: 17px;
-  line-height: 28px;
+  font-size: calc(17px * var(--text-scale, 1));
+  line-height: calc(28px * var(--text-scale, 1));
   font-weight: 400;
 }
 
 .text-small {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: calc(14px * var(--text-scale, 1));
+  line-height: calc(22px * var(--text-scale, 1));
   font-weight: 400;
 }
 

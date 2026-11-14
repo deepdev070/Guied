@@ -15,7 +15,8 @@ export function HeroIllustration({ className, ...props }: IllustrationProps) {
       viewBox="0 0 400 300"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={cn("h-auto w-full max-w-md", className)}
+      className={cn("civic-illustration h-auto w-full max-w-md", className)}
+      data-illustration="true"
       role="img"
       aria-label="Illustration of citizen paperwork checklist and verified government procedures"
       {...props}

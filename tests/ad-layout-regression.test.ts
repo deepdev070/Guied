@@ -132,3 +132,4 @@ describe("Prompt 94: Ad Layout Regression Tests across 360px, 768px, and 1280px"
     }
   });
 });
+

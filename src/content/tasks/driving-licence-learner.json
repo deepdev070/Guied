@@ -192,7 +192,7 @@
       },
       {
         "question": "Can I drive alone on public roads with a Learner's Licence?",
-        "answer": "No. You must be accompanied by an instructor or an individual who holds a valid permanent driving licence for that vehicle category, and your vehicle must display red 'L' plates on front and back.",
+        "answer": "No. You must be accompanied by someone who holds a valid permanent driving licence for that vehicle. Also, your vehicle must display red 'L' plates on front and back.",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
@@ -206,7 +206,7 @@
       },
       {
         "question": "When can I apply for a permanent driving licence after getting my learner licence?",
-        "answer": "You are eligible to apply for a permanent driving licence (DL) after 30 days from the date of issue of your Learner Licence, provided you apply within 180 days (6 months) before the learner licence expires.",
+        "answer": "You can apply for a permanent driving licence after 30 days from your Learner Licence issue date. You must apply within 180 days (6 months) before the learner licence expires.",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"

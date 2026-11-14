@@ -16,6 +16,7 @@
     "content:stale": "node --no-warnings --experimental-strip-types scripts/check-stale-content.ts",
     "content:validate": "node --no-warnings --experimental-strip-types scripts/validate-content.ts",
     "content:gate": "node --no-warnings --experimental-strip-types scripts/check-thin-content.ts",
+    "content:plain-language": "node --no-warnings --experimental-strip-types scripts/check-plain-language.ts",
     "i18n:export": "node --no-warnings --experimental-strip-types scripts/export-translations.ts",
     "i18n:import": "node --no-warnings --experimental-strip-types scripts/import-translations.ts",
     "seo:orphans": "node --no-warnings --experimental-strip-types scripts/detect-orphan-pages.ts",

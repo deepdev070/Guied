@@ -9,6 +9,8 @@ import { StateSelectModal } from "./StateSelectModal";
 import { MobileNav } from "./MobileNav";
 import { SearchAutocomplete } from "@/components/search/SearchAutocomplete";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { TextSizeControl } from "./TextSizeControl";
+import { LiteModeToggle } from "./LiteModeToggle";
 
 export interface HeaderProps {
   /**
@@ -148,6 +150,12 @@ export function Header({ showTopAd = false, className }: HeaderProps) {
                 <polyline points="6 9 12 15 18 9" />
               </svg>
             </button>
+
+            {/* Text Size Control (A- A A+ up to 130% - Prompt 100) */}
+            <TextSizeControl variant="header" className="hidden md:inline-flex" />
+
+            {/* Lite Mode Toggle (3G / Data saver - Prompt 101) */}
+            <LiteModeToggle variant="header" className="hidden lg:flex" />
 
             {/* Language Switcher Dropdown (Desktop - Prompt 97) */}
             <LanguageSwitcher variant="header" className="hidden sm:block" />

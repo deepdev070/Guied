@@ -6,6 +6,7 @@ import { siteConfig } from "@/lib/site";
 import { useReportMistake } from "@/context/ReportMistakeContext";
 import { useConsent } from "@/context/ConsentContext";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { LiteModeToggle } from "./LiteModeToggle";
 import { cn } from "@/lib/utils";
 
 export interface FooterProps {
@@ -202,6 +203,11 @@ export function Footer({ className }: FooterProps) {
                 Language / ભાષા / भाषा
               </span>
               <LanguageSwitcher variant="footer" />
+            </div>
+
+            {/* Lite Mode Data Saver (Prompt 101) */}
+            <div className="border-border/60 mt-4 border-t pt-3">
+              <LiteModeToggle variant="footer" />
             </div>
           </div>
         </div>

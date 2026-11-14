@@ -19,3 +19,4 @@ export const metadata: Metadata = {
 export default async function GujaratiHomePage() {
   return <HomePageView locale="gu" />;
 }
+
