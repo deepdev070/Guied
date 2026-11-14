@@ -3,15 +3,14 @@
 import * as React from "react";
 import Link from "next/link";
 import { siteConfig } from "@/lib/site";
-import { cn } from "@/lib/utils";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 
 export interface MobileNavProps {
   isOpen: boolean;
   onClose: () => void;
   currentState: string;
   onSelectState: (state: string) => void;
-  currentLocale: string;
-  onSelectLocale: (locale: string) => void;
   navLinks: { name: string; href: string }[];
 }
 
@@ -20,20 +19,13 @@ export function MobileNav({
   onClose,
   currentState,
   onSelectState,
-  currentLocale,
-  onSelectLocale,
   navLinks,
 }: MobileNavProps) {
-  // Close on ESC key
-  React.useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape" && isOpen) {
-        onClose();
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onClose]);
+  const drawerRef = useFocusTrap<HTMLDivElement>({
+    isOpen,
+    onClose,
+    returnFocus: true,
+  });
 
   // Lock body scroll when mobile drawer is open
   React.useEffect(() => {
@@ -51,6 +43,7 @@ export function MobileNav({
 
   return (
     <div
+      ref={drawerRef}
       className="fixed inset-0 z-50 lg:hidden"
       role="dialog"
       aria-modal="true"
@@ -117,29 +110,10 @@ export function MobileNav({
             </div>
 
             <div>
-              <label
-                htmlFor="mobile-lang-select"
-                className="text-muted mb-1.5 block text-xs font-semibold tracking-wider uppercase"
-              >
+              <span className="text-muted mb-1.5 block text-xs font-semibold tracking-wider uppercase">
                 Language / ભાષા / भाषा
-              </label>
-              <div className="grid grid-cols-3 gap-1.5">
-                {siteConfig.supportedLocales.map((loc) => (
-                  <button
-                    key={loc.code}
-                    type="button"
-                    onClick={() => onSelectLocale(loc.code)}
-                    className={cn(
-                      "flex min-h-[40px] items-center justify-center rounded-lg border text-sm font-medium transition-colors",
-                      currentLocale === loc.code
-                        ? "border-primary bg-primary font-semibold text-white"
-                        : "border-border text-muted hover:text-text bg-white"
-                    )}
-                  >
-                    {loc.nativeLabel}
-                  </button>
-                ))}
-              </div>
+              </span>
+              <LanguageSwitcher variant="mobile" />
             </div>
           </div>
 

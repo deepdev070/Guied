@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import { Button } from "@/components/ui/Button";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 
 export interface ResetConfirmationModalProps {
   isOpen: boolean;
@@ -16,20 +17,17 @@ export function ResetConfirmationModal({
   onConfirm,
   completedCount,
 }: ResetConfirmationModalProps) {
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape" && isOpen) {
-        onClose();
-      }
-    }
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onClose]);
+  const modalRef = useFocusTrap<HTMLDivElement>({
+    isOpen,
+    onClose,
+    returnFocus: true,
+  });
 
   if (!isOpen) return null;
 
   return (
     <div
+      ref={modalRef}
       role="dialog"
       aria-modal="true"
       aria-labelledby="reset-modal-title"

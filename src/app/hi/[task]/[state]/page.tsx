@@ -1,0 +1,99 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import {
+  getTaskBySlug,
+  getTaskVariant,
+  getRelatedTasks,
+  getPopularTasks,
+  loadAllTaskFiles,
+} from "@/lib/queries";
+import { getStateBySlugOrCode } from "@/lib/state-preference";
+import { TaskPageView } from "@/components/task/TaskPageView";
+import { getTaskTranslation } from "@/lib/i18n/content-translations";
+import { siteConfig } from "@/lib/site";
+
+export const revalidate = 86400; // 24 hours ISR
+export const dynamicParams = true;
+
+interface TaskStatePageProps {
+  params: Promise<{
+    task: string;
+    state: string;
+  }>;
+}
+
+export async function generateStaticParams() {
+  const allTasks = loadAllTaskFiles();
+  // Pre-render launch state Gujarat for each task
+  return allTasks.map((t) => ({
+    task: t.slug,
+    state: "gujarat",
+  }));
+}
+
+export async function generateMetadata({ params }: TaskStatePageProps): Promise<Metadata> {
+  const { task: taskSlug, state: stateSlug } = await params;
+  const task = await getTaskBySlug(taskSlug);
+  const state = getStateBySlugOrCode(stateSlug);
+
+  if (!task || !state) {
+    return {
+      title: "मार्गदर्शिका नहीं मिली",
+    };
+  }
+
+  const translation = await getTaskTranslation(taskSlug, "hi");
+  const isReviewed = translation?.isReviewed ?? false;
+
+  return {
+    title: `${task.name} (${state.name}): आवश्यक दस्तावेज़, सरकारी शुल्क एवं प्रक्रिया (2026)`,
+    description: `${state.name} में ${task.name} के लिए आवश्यक दस्तावेज़, आधिकारिक .gov.in पोर्टल लिंक और काउंटर प्रक्रिया।`,
+    alternates: {
+      canonical: `${siteConfig.baseUrl}/hi/${task.slug}/${state.slug}`,
+      languages: {
+        en: `${siteConfig.baseUrl}/${task.slug}/${state.slug}`,
+        hi: `${siteConfig.baseUrl}/hi/${task.slug}/${state.slug}`,
+        gu: `${siteConfig.baseUrl}/gu/${task.slug}/${state.slug}`,
+      },
+    },
+    // Prompt 96: Unreviewed pages stay noindex
+    robots: {
+      index: isReviewed,
+      follow: true,
+    },
+  };
+}
+
+export default async function HindiTaskStatePage({ params }: TaskStatePageProps) {
+  const { task: taskSlug, state: stateSlug } = await params;
+  const task = await getTaskBySlug(taskSlug);
+  const state = getStateBySlugOrCode(stateSlug);
+
+  if (!task || !state) {
+    notFound();
+  }
+
+  const [variant, relatedTasks, popularTasks, translation] = await Promise.all([
+    getTaskVariant(taskSlug, state.slug),
+    getRelatedTasks(task.slug, task.categorySlug, 4),
+    getPopularTasks(4),
+    getTaskTranslation(taskSlug, "hi"),
+  ]);
+
+  if (!variant) {
+    notFound();
+  }
+
+  return (
+    <TaskPageView
+      task={task}
+      variant={variant}
+      relatedTasks={relatedTasks}
+      popularTasks={popularTasks}
+      state={state}
+      isStatePage={true}
+      locale="hi"
+      translation={translation}
+    />
+  );
+}

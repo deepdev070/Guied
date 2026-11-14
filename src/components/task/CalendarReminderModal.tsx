@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Calendar, X, Bell, CheckCircle2, Download } from "lucide-react";
 import { generateIcsCalendar, downloadIcsFile } from "@/lib/calendar";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 import type { DocumentRequirement } from "@/types/content";
 
 export interface CalendarReminderModalProps {
@@ -37,16 +38,11 @@ export function CalendarReminderModal({
   const [location, setLocation] = useState("");
   const [isDownloaded, setIsDownloaded] = useState(false);
 
-  // Close on Escape key
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-    };
-    if (isOpen) {
-      window.addEventListener("keydown", handleKeyDown);
-    }
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onClose]);
+  const modalRef = useFocusTrap<HTMLDivElement>({
+    isOpen,
+    onClose,
+    returnFocus: true,
+  });
 
   if (!isOpen) return null;
 
@@ -77,6 +73,7 @@ export function CalendarReminderModal({
 
   return (
     <div
+      ref={modalRef}
       role="dialog"
       aria-modal="true"
       aria-labelledby="calendar-modal-title"

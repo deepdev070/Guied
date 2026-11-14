@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState, useMemo, useEffect, useRef } from "react";
+import React, { useState, useMemo, useRef } from "react";
 import { STATES_SEED_DATA, type StateSeedData } from "../../../prisma/data/states";
 import { useUserState } from "@/context/StatePreferenceContext";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { cn } from "@/lib/utils";
 
 export interface StateSelectModalProps {
@@ -16,23 +17,17 @@ export function StateSelectModal({ isOpen, onClose, onSelectState }: StateSelect
   const [searchTerm, setSearchTerm] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Focus input when modal opens
-  useEffect(() => {
-    if (isOpen) {
-      inputRef.current?.focus();
-    }
-  }, [isOpen]);
+  const handleClose = () => {
+    setSearchTerm("");
+    onClose();
+  };
 
-  // Handle ESC key
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape" && isOpen) {
-        onClose();
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onClose]);
+  const modalRef = useFocusTrap<HTMLDivElement>({
+    isOpen,
+    onClose: handleClose,
+    initialFocusRef: inputRef,
+    returnFocus: true,
+  });
 
   // Search filter
   const filteredStates = useMemo(() => {
@@ -56,11 +51,6 @@ export function StateSelectModal({ isOpen, onClose, onSelectState }: StateSelect
     return { featuredState: featured, otherStates: others };
   }, [filteredStates]);
 
-  const handleClose = () => {
-    setSearchTerm("");
-    onClose();
-  };
-
   const handleSelect = (state: StateSeedData) => {
     setSelectedState(state.slug);
     setSearchTerm("");
@@ -72,11 +62,15 @@ export function StateSelectModal({ isOpen, onClose, onSelectState }: StateSelect
 
   return (
     <div
+      ref={modalRef}
       role="dialog"
       aria-modal="true"
       aria-labelledby="state-select-title"
       className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6"
     >
+      <div className="sr-only" aria-live="polite">
+        {filteredStates.length} states found.
+      </div>
       {/* Backdrop */}
       <div
         className="fixed inset-0 bg-black/40 backdrop-blur-xs transition-opacity"

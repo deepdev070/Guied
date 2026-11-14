@@ -131,7 +131,7 @@ export function HelpfulFeedbackWidget({
 
       {/* 2. Positive Feedback Thank-You */}
       {state === "helpful_submitted" && (
-        <div className="flex items-center gap-3 text-left">
+        <div role="status" aria-live="polite" className="flex items-center gap-3 text-left">
           <CheckCircle2 className="text-success h-6 w-6 shrink-0" aria-hidden="true" />
           <div>
             <h4 className="text-text text-sm font-bold">Thank you for your feedback!</h4>
@@ -204,7 +204,7 @@ export function HelpfulFeedbackWidget({
 
       {/* 4. Detailed Feedback Thank-You */}
       {state === "details_submitted" && (
-        <div className="flex items-center gap-3 text-left">
+        <div role="status" aria-live="polite" className="flex items-center gap-3 text-left">
           <CheckCircle2 className="text-success h-6 w-6 shrink-0" aria-hidden="true" />
           <div>
             <h4 className="text-text text-sm font-bold">Thank you for helping us improve!</h4>

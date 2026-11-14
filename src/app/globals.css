@@ -187,3 +187,21 @@ body {
     content: "" !important;
   }
 }
+
+/* WCAG 2.2 AA: Respect prefers-reduced-motion for vestibular comfort */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* WCAG 2.2 AA Focus Appearance: 3px primary ring at 40% opacity with 2px offset */
+:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.4) !important;
+  outline-offset: 2px !important;
+}

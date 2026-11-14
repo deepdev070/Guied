@@ -116,6 +116,10 @@ export function DocumentSection({
 
         {/* Progress Ring & Reset Controls */}
         <div className="flex shrink-0 items-center gap-4">
+          <div className="sr-only" aria-live="polite" aria-atomic="true">
+            {readyCount} of {totalCount} documents ready
+            {isAllReady ? " — All required documents are gathered!" : ""}
+          </div>
           <div className="flex items-center gap-3">
             <ProgressRing value={readyCount} max={totalCount} size={52} strokeWidth={4.5} />
             <div className="flex flex-col">

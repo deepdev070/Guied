@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { SuccessIllustration } from "@/components/illustrations";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { cn } from "@/lib/utils";
 
 export interface ReportMistakeModalProps {
@@ -36,17 +37,6 @@ export function ReportMistakeModal({
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [isSuccess, setIsSuccess] = useState(false);
 
-  // Close on Escape key
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape" && isOpen) {
-        onClose();
-      }
-    }
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onClose]);
-
   // Reset form when modal closes
   const handleClose = () => {
     onClose();
@@ -59,6 +49,12 @@ export function ReportMistakeModal({
       setIsSuccess(false);
     }, 200);
   };
+
+  const modalRef = useFocusTrap<HTMLDivElement>({
+    isOpen,
+    onClose: handleClose,
+    returnFocus: true,
+  });
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -102,6 +98,7 @@ export function ReportMistakeModal({
 
   return (
     <div
+      ref={modalRef}
       role="dialog"
       aria-modal="true"
       aria-labelledby="report-mistake-title"
@@ -135,7 +132,7 @@ export function ReportMistakeModal({
 
         {isSuccess ? (
           /* Thank You State */
-          <div className="py-6 text-center">
+          <div role="status" aria-live="polite" className="py-6 text-center">
             <div className="mx-auto mb-4 max-w-[140px]">
               <SuccessIllustration />
             </div>
@@ -168,7 +165,12 @@ export function ReportMistakeModal({
             </div>
 
             {errorMessage && (
-              <div className="border-danger/30 bg-danger-soft text-danger mb-4 rounded-lg border p-3 text-xs font-medium">
+              <div
+                id="report-mistake-error"
+                role="alert"
+                aria-live="assertive"
+                className="border-danger/30 bg-danger-soft text-danger mb-4 rounded-lg border p-3 text-xs font-medium"
+              >
                 {errorMessage}
               </div>
             )}
@@ -213,6 +215,8 @@ export function ReportMistakeModal({
                 required
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
+                aria-invalid={errorMessage ? true : undefined}
+                aria-describedby={errorMessage ? "report-mistake-error" : undefined}
                 placeholder="E.g., The learner licence test fee in Gujarat was revised from ₹150 to ₹200 on Sarathi portal..."
                 className="rounded-input text-text placeholder:text-muted/70 focus-visible:border-primary focus-visible:ring-primary/40 border-border bg-surface-alt/30 w-full border p-3 text-sm transition-colors focus-visible:bg-white focus-visible:ring-2 focus-visible:outline-none"
               />

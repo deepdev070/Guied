@@ -16,6 +16,8 @@
     "content:stale": "node --no-warnings --experimental-strip-types scripts/check-stale-content.ts",
     "content:validate": "node --no-warnings --experimental-strip-types scripts/validate-content.ts",
     "content:gate": "node --no-warnings --experimental-strip-types scripts/check-thin-content.ts",
+    "i18n:export": "node --no-warnings --experimental-strip-types scripts/export-translations.ts",
+    "i18n:import": "node --no-warnings --experimental-strip-types scripts/import-translations.ts",
     "seo:orphans": "node --no-warnings --experimental-strip-types scripts/detect-orphan-pages.ts",
     "seo:audit": "node --no-warnings --experimental-strip-types scripts/seo-audit.ts",
     "db:migrate": "prisma migrate dev",
@@ -39,12 +41,14 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.65.1",
     "@tailwindcss/turbopack": "4.3.3",
     "@types/node": "^20",
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "axe-core": "^4.14.0",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
     "prettier": "^3.5.3",

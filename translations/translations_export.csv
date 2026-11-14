@@ -1,0 +1,341 @@
+entity_type,entity_id,locale,field,source_en,current_translation,is_reviewed
+ui,common.siteTitle,hi,label,India Paperwork Guide,भारत कागजी कार्रवाई गाइड,true
+ui,common.siteTagline,hi,label,"Verified citizen document checklists, fees, and government procedures","सत्यापित नागरिक दस्तावेज़ चेकलिस्ट, सरकारी शुल्क और आवेदन प्रक्रिया",true
+ui,common.officialGovPortal,hi,label,Official Government Portal,आधिकारिक सरकारी पोर्टल,true
+ui,common.lastVerified,hi,label,Last verified,अंतिम सत्यापन,true
+ui,common.estimatedTime,hi,label,Estimated time,अनुमानित समय,true
+ui,common.statutoryFees,hi,label,Statutory fees,सरकारी शुल्क,true
+ui,common.difficulty,hi,label,Difficulty,कठिनाई स्तर,true
+ui,common.easy,hi,label,Easy,सरल,true
+ui,common.medium,hi,label,Moderate,मध्यम,true
+ui,common.hard,hi,label,Complex,जटिल,true
+ui,common.backToTop,hi,label,Back to top,ऊपर जाएं,true
+ui,common.share,hi,label,Share,शेयर करें,true
+ui,common.print,hi,label,Print checklist,चेकलिस्ट प्रिंट करें,true
+ui,common.downloadPdf,hi,label,Download PDF,पीडीएफ डाउनलोड करें,true
+ui,common.reportMistake,hi,label,Report mistake,गलती की रिपोर्ट करें,true
+ui,common.advertisement,hi,label,Advertisement,विज्ञापन,true
+ui,common.sponsored,hi,label,Sponsored,प्रायोजित,true
+ui,common.civicResource,hi,label,Civic Resource,नागरिक सुविधा,true
+ui,common.close,hi,label,Close,बंद करें,true
+ui,common.cancel,hi,label,Cancel,रद्द करें,true
+ui,common.save,hi,label,Save,सहेजें,true
+ui,common.loading,hi,label,Loading...,लोड हो रहा है...,true
+ui,common.free,hi,label,Free (₹0),निःशुल्क (₹0),true
+ui,common.viewGuide,hi,label,View Guide,गाइड देखें,true
+ui,common.allRightsReserved,hi,label,All rights reserved,सर्वाधिकार सुरक्षित,true
+ui,common.verifiedNotice,hi,label,All statutory fees and procedure steps verified against official .gov.in portals.,सभी सरकारी शुल्क और प्रक्रियाएं आधिकारिक .gov.in पोर्टल्स से सत्यापित हैं।,true
+ui,nav.home,hi,label,Home,होम,true
+ui,nav.guides,hi,label,All Guides,सभी गाइड,true
+ui,nav.myChecklists,hi,label,My Checklists,मेरी चेकलिस्ट,true
+ui,nav.glossary,hi,label,Civic Glossary,शब्दावली,true
+ui,nav.selectState,hi,label,Select State,राज्य चुनें,true
+ui,nav.allIndia,hi,label,National (All India),राष्ट्रीय (अखिल भारतीय),true
+ui,nav.searchPlaceholder,hi,label,"Search 100+ documents, e.g. driving licence, passport renewal...","100+ दस्तावेज़ खोजें, जैसे ड्राइविंग लाइसेंस, पासपोर्ट नवीनीकरण...",true
+ui,nav.searchAction,hi,label,Search,खोजें,true
+ui,nav.clearSearch,hi,label,Clear search,खोज साफ करें,true
+ui,nav.switchLanguage,hi,label,Switch Language,भाषा बदलें,true
+ui,task.atAGlance,hi,label,At a Glance,एक नज़र में,true
+ui,task.requiredDocuments,hi,label,Required Documents Checklist,आवश्यक दस्तावेज़ चेकलिस्ट,true
+ui,task.documentsCount,hi,label,{count} Documents Required,{count} दस्तावेज़ आवश्यक,true
+ui,task.originalRequired,hi,label,Original Required,मूल प्रति आवश्यक,true
+ui,task.photocopyRequired,hi,label,Photocopy Required,फोटोकॉपी आवश्यक,true
+ui,task.stepByStep,hi,label,Step-by-Step Procedure,कदम-दर-कदम प्रक्रिया,true
+ui,task.stepsCount,hi,label,{count} Steps to Complete,{count} आसान चरण,true
+ui,task.feesSection,hi,label,Official Statutory Fees,आधिकारिक सरकारी शुल्क,true
+ui,task.feeCalculator,hi,label,Interactive Fee Calculator,शुल्क कैलकुलेटर,true
+ui,task.officialLinks,hi,label,Direct Official Portals (.gov.in),सीधे आधिकारिक सरकारी पोर्टल (.gov.in),true
+ui,task.faqs,hi,label,Frequently Asked Questions,अक्सर पूछे जाने वाले सवाल (FAQs),true
+ui,task.commonMistakes,hi,label,Common Mistakes to Avoid,सामान्य गलतियों से बचें,true
+ui,task.beforeYouGo,hi,label,Smart 'Before You Go' Checklist,जाने से पहले की स्मार्ट चेकलिस्ट,true
+ui,task.whatPeopleDoNext,hi,label,What People Usually Do Next,इसके बाद लोग आमतौर पर क्या करते हैं,true
+ui,task.calendarReminder,hi,label,Add to Calendar,कैलेंडर में जोड़ें,true
+ui,task.personalizedFor,hi,label,Personalized for {state},{state} के लिए विशेष गाइड,true
+ui,task.nationalGuideline,hi,label,National Guideline (Applicable across India),राष्ट्रीय दिशानिर्देश (पूरे भारत के लिए मान्य),true
+ui,task.stateVariantPrompt,hi,label,Are you applying in a specific state? State rules and fees may vary.,क्या आप किसी विशिष्ट राज्य में आवेदन कर रहे हैं? नियम और शुल्क अलग हो सकते हैं।,true
+ui,task.switchState,hi,label,Change State,राज्य बदलें,true
+ui,checklist.title,hi,label,Document Preparation Progress,दस्तावेज़ तैयारी प्रगति,true
+ui,checklist.progressText,hi,label,{completed} of {total} documents ready,{total} में से {completed} दस्तावेज़ तैयार हैं,true
+ui,checklist.markCompleted,hi,label,Mark as ready,तैयार चिह्नित करें,true
+ui,checklist.completed,hi,label,Ready,तैयार,true
+ui,checklist.reset,hi,label,Reset checklist,चेकलिस्ट रीसेट करें,true
+ui,checklist.allDoneTitle,hi,label,All documents ready!,सभी दस्तावेज़ तैयार हैं!,true
+ui,checklist.allDoneDesc,hi,label,You have gathered all required paperwork. Review the 'Before You Go' checklist before your appointment.,आपने सभी आवश्यक दस्तावेज़ एकत्र कर लिए हैं। जाने से पहले एक बार 'स्मार्ट चेकलिस्ट' अवश्य जांच लें।,true
+ui,search.title,hi,label,Search Paperwork Guides,दस्तावेज़ गाइड खोजें,true
+ui,search.resultsCount,hi,label,"Found {count} results for ""{query}""","""{query}"" के लिए {count} परिणाम मिले",true
+ui,search.noResults,hi,label,No guides found matching your query,आपकी खोज से मेल खाता कोई परिणाम नहीं मिला,true
+ui,search.popularSearches,hi,label,Popular paperwork searches,लोकप्रिय खोजें,true
+ui,search.trySearching,hi,label,"Try searching for driving licence, passport renewal, or birth certificate.","ड्राइविंग लाइसेंस, नया पासपोर्ट या जन्म प्रमाण पत्र खोजकर देखें।",true
+ui,consent.bannerTitle,hi,label,Your privacy and choices,आपकी गोपनीयता और विकल्प,true
+ui,consent.bannerDesc,hi,label,We use local storage to save your checklist progress and light cookies for privacy-friendly analytics and non-intrusive advertisements to keep this service free.,हम आपकी चेकलिस्ट प्रगति को सहेजने के लिए स्थानीय मेमोरी और इस सेवा को निःशुल्क रखने के लिए सीमित कुकीज़ का उपयोग करते हैं।,true
+ui,consent.acceptAll,hi,label,Accept all,सभी स्वीकार करें,true
+ui,consent.rejectNonEssential,hi,label,Reject non-essential,गैर-जरूरी अस्वीकार करें,true
+ui,consent.manageChoices,hi,label,Manage choices,विकल्प प्रबंधित करें,true
+ui,consent.essentialTitle,hi,label,Strictly Essential,अनिवार्य कुकीज़,true
+ui,consent.essentialDesc,hi,label,Required for checklist progress and state preferences.,चेकलिस्ट प्रगति और राज्य प्राथमिकता के लिए आवश्यक।,true
+ui,consent.analyticsTitle,hi,label,Privacy Analytics,गोपनीय एनालिटिक्स,true
+ui,consent.analyticsDesc,hi,label,Anonymous metrics to understand which paperwork guides are most helpful.,अनाम आंकड़े ताकि हम जान सकें कौन सी गाइड सबसे उपयोगी है।,true
+ui,consent.advertisingTitle,hi,label,Advertisements,विज्ञापन,true
+ui,consent.advertisingDesc,hi,label,Relevant civic services and partner cards that fund this free guide.,प्रासंगिक सेवाएं जो इस निःशुल्क गाइड का संचालन करती हैं।,true
+ui,consent.privacyChoices,hi,label,Privacy choices,गोपनीयता विकल्प,true
+ui,translation.machineNotice,hi,label,Machine translated — not yet reviewed by a civic expert.,मशीन अनुवादित — नागरिक विशेषज्ञ द्वारा अभी पूरी तरह समीक्षित नहीं।,true
+ui,translation.reviewHelp,hi,label,Notice an error? Help review this translation.,कोई त्रुटि दिखी? इस अनुवाद की समीक्षा में सहायता करें।,true
+ui,translation.reviewedBadge,hi,label,Human Reviewed & Verified,विशेषज्ञ द्वारा सत्यापित,true
+ui,footer.aboutUs,hi,label,About Us,हमारे बारे में,true
+ui,footer.howWeVerify,hi,label,How We Verify,हम कैसे सत्यापित करते हैं,true
+ui,footer.termsOfUse,hi,label,Terms of Use,उपयोग की शर्तें,true
+ui,footer.privacyPolicy,hi,label,Privacy Policy,गोपनीयता नीति,true
+ui,footer.disclaimer,hi,label,Disclaimer,अस्वीकरण,true
+ui,footer.disclaimerNotice,hi,label,India Paperwork Guide is an independent civic portal. We are not affiliated with or endorsed by any government department. All information is verified directly from official .gov.in and .nic.in portals.,भारत कागजी कार्रवाई गाइड एक स्वतंत्र नागरिक पोर्टल है। हम किसी भी सरकारी विभाग से संबद्ध नहीं हैं। सभी जानकारी सीधे आधिकारिक .gov.in और .nic.in पोर्टल्स से सत्यापित है।,true
+ui,common.siteTitle,gu,label,India Paperwork Guide,ભારત દસ્તાવેજ માર્ગદર્શિકા,true
+ui,common.siteTagline,gu,label,"Verified citizen document checklists, fees, and government procedures","ચકાસાયેલ નાગરિક દસ્તાવેજ ચેકલિસ્ટ, સરકારી ફી અને અરજી પ્રક્રિયા",true
+ui,common.officialGovPortal,gu,label,Official Government Portal,સત્તાવાર સરકારી પોર્ટલ,true
+ui,common.lastVerified,gu,label,Last verified,છેલ્લી ચકાસણી,true
+ui,common.estimatedTime,gu,label,Estimated time,અંદાજિત સમય,true
+ui,common.statutoryFees,gu,label,Statutory fees,સરકારી ફી,true
+ui,common.difficulty,gu,label,Difficulty,સરળતા સ્તર,true
+ui,common.easy,gu,label,Easy,સરળ,true
+ui,common.medium,gu,label,Moderate,મધ્યમ,true
+ui,common.hard,gu,label,Complex,જટિલ,true
+ui,common.backToTop,gu,label,Back to top,ઉપર જાઓ,true
+ui,common.share,gu,label,Share,શેર કરો,true
+ui,common.print,gu,label,Print checklist,ચેકલિસ્ટ પ્રિન્ટ કરો,true
+ui,common.downloadPdf,gu,label,Download PDF,પીડીએફ ડાઉનલોડ કરો,true
+ui,common.reportMistake,gu,label,Report mistake,ભૂલ જણાવો,true
+ui,common.advertisement,gu,label,Advertisement,જાહેરાત,true
+ui,common.sponsored,gu,label,Sponsored,પ્રાયોજિત,true
+ui,common.civicResource,gu,label,Civic Resource,નાગરિક સુવિધા,true
+ui,common.close,gu,label,Close,બંધ કરો,true
+ui,common.cancel,gu,label,Cancel,રદ કરો,true
+ui,common.save,gu,label,Save,સાચવો,true
+ui,common.loading,gu,label,Loading...,લોડ થઈ રહ્યું છે...,true
+ui,common.free,gu,label,Free (₹0),મફત (₹0),true
+ui,common.viewGuide,gu,label,View Guide,માર્ગદર્શિકા જુઓ,true
+ui,common.allRightsReserved,gu,label,All rights reserved,સર્વાધિકાર સુરક્ષિત,true
+ui,common.verifiedNotice,gu,label,All statutory fees and procedure steps verified against official .gov.in portals.,તમામ સરકારી ફી અને પ્રક્રિયાઓ સત્તાવાર .gov.in પોર્ટલ પરથી ચકાસાયેલ છે.,true
+ui,nav.home,gu,label,Home,હોમ,true
+ui,nav.guides,gu,label,All Guides,બધી માર્ગદર્શિકાઓ,true
+ui,nav.myChecklists,gu,label,My Checklists,મારી ચેકલિસ્ટ,true
+ui,nav.glossary,gu,label,Civic Glossary,શબ્દકોષ,true
+ui,nav.selectState,gu,label,Select State,રાજ્ય પસંદ કરો,true
+ui,nav.allIndia,gu,label,National (All India),રાષ્ટ્રીય (સમગ્ર ભારત),true
+ui,nav.searchPlaceholder,gu,label,"Search 100+ documents, e.g. driving licence, passport renewal...","100+ દસ્તાવેજો શોધો, દા.ત. ડ્રાઇવિંગ લાઇસન્સ, પાસપોર્ટ...",true
+ui,nav.searchAction,gu,label,Search,શોધો,true
+ui,nav.clearSearch,gu,label,Clear search,શોધ સાફ કરો,true
+ui,nav.switchLanguage,gu,label,Switch Language,ભાષા બદલો,true
+ui,task.atAGlance,gu,label,At a Glance,એક નજરમાં,true
+ui,task.requiredDocuments,gu,label,Required Documents Checklist,જરૂરી દસ્તાવેજોની ચેકલિસ્ટ,true
+ui,task.documentsCount,gu,label,{count} Documents Required,{count} જરૂરી દસ્તાવેજો,true
+ui,task.originalRequired,gu,label,Original Required,અસલ નકલ જરૂરી,true
+ui,task.photocopyRequired,gu,label,Photocopy Required,ઝેરોક્ષ જરૂરી,true
+ui,task.stepByStep,gu,label,Step-by-Step Procedure,પગલાંવાર પ્રક્રિયા,true
+ui,task.stepsCount,gu,label,{count} Steps to Complete,{count} સરળ પગલાં,true
+ui,task.feesSection,gu,label,Official Statutory Fees,સત્તાવાર સરકારી ફી,true
+ui,task.feeCalculator,gu,label,Interactive Fee Calculator,ફી કેલ્ક્યુલેટર,true
+ui,task.officialLinks,gu,label,Direct Official Portals (.gov.in),સીધી સત્તાવાર સરકારી લિંક્સ (.gov.in),true
+ui,task.faqs,gu,label,Frequently Asked Questions,વારંવાર પૂછાતા પ્રશ્નો (FAQs),true
+ui,task.commonMistakes,gu,label,Common Mistakes to Avoid,સામાન્ય ભૂલોથી બચો,true
+ui,task.beforeYouGo,gu,label,Smart 'Before You Go' Checklist,જતાં પહેલાંની સ્માર્ટ ચેકલિસ્ટ,true
+ui,task.whatPeopleDoNext,gu,label,What People Usually Do Next,આ પછી લોકો સામાન્ય રીતે શું કરે છે,true
+ui,task.calendarReminder,gu,label,Add to Calendar,કૅલેન્ડરમાં ઉમેરો,true
+ui,task.personalizedFor,gu,label,Personalized for {state},{state} માટે વિશેષ માર્ગદર્શિકા,true
+ui,task.nationalGuideline,gu,label,National Guideline (Applicable across India),રાષ્ટ્રીય માર્ગદર્શિકા (સમગ્ર ભારતમાં માન્ય),true
+ui,task.stateVariantPrompt,gu,label,Are you applying in a specific state? State rules and fees may vary.,શું તમે ચોક્કસ રાજ્યમાં અરજી કરી રહ્યા છો? નિયમો અને ફી અલગ હોઈ શકે છે.,true
+ui,task.switchState,gu,label,Change State,રાજ્ય બદલો,true
+ui,checklist.title,gu,label,Document Preparation Progress,દસ્તાવેજ તૈયારી પ્રગતિ,true
+ui,checklist.progressText,gu,label,{completed} of {total} documents ready,{total} માંથી {completed} દસ્તાવેજો તૈયાર છે,true
+ui,checklist.markCompleted,gu,label,Mark as ready,તૈયાર તરીકે ચિહ્નિત કરો,true
+ui,checklist.completed,gu,label,Ready,તૈયાર,true
+ui,checklist.reset,gu,label,Reset checklist,ચેકલિસ્ટ ફરી શરૂ કરો,true
+ui,checklist.allDoneTitle,gu,label,All documents ready!,બધા દસ્તાવેજો તૈયાર છે!,true
+ui,checklist.allDoneDesc,gu,label,You have gathered all required paperwork. Review the 'Before You Go' checklist before your appointment.,તમે બધા જરૂરી કાગળો એકત્રિત કરી લીધા છે. ઑફિસ જતાં પહેલાં 'સ્માર્ટ ચેકલિસ્ટ' અવશ્ય ચકાસી લો.,true
+ui,search.title,gu,label,Search Paperwork Guides,દસ્તાવેજ માર્ગદર્શિકાઓ શોધો,true
+ui,search.resultsCount,gu,label,"Found {count} results for ""{query}""","""{query}"" માટે {count} પરિણામો મળ્યાં",true
+ui,search.noResults,gu,label,No guides found matching your query,કોઈ પરિણામ મળ્યું નથી,true
+ui,search.popularSearches,gu,label,Popular paperwork searches,લોકપ્રિય શોધો,true
+ui,search.trySearching,gu,label,"Try searching for driving licence, passport renewal, or birth certificate.","ડ્રાઇવિંગ લાઇસન્સ, નવો પાસપોર્ટ અથવા જન્મ પ્રમાણપત્ર શોધી જુઓ.",true
+ui,consent.bannerTitle,gu,label,Your privacy and choices,તમારી ગોપનીયતા અને પસંદગીઓ,true
+ui,consent.bannerDesc,gu,label,We use local storage to save your checklist progress and light cookies for privacy-friendly analytics and non-intrusive advertisements to keep this service free.,અમે તમારી ચેકલિસ્ટ પ્રગતિ સાચવવા અને આ સેવા મફત રાખવા માટે મર્યાદિત કૂકીઝનો ઉપયોગ કરીએ છીએ.,true
+ui,consent.acceptAll,gu,label,Accept all,બધું સ્વીકારો,true
+ui,consent.rejectNonEssential,gu,label,Reject non-essential,બિન-જરૂરી નકારો,true
+ui,consent.manageChoices,gu,label,Manage choices,પસંદગીઓનું સંચાલન કરો,true
+ui,consent.essentialTitle,gu,label,Strictly Essential,અનિવાર્ય કૂકીઝ,true
+ui,consent.essentialDesc,gu,label,Required for checklist progress and state preferences.,ચેકલિસ્ટ પ્રગતિ અને રાજ્ય પસંદગી માટે જરૂરી.,true
+ui,consent.analyticsTitle,gu,label,Privacy Analytics,ગોપનીય એનાલિટિક્સ,true
+ui,consent.analyticsDesc,gu,label,Anonymous metrics to understand which paperwork guides are most helpful.,અનામી આંકડા જેથી અમે જાણી શકીએ કઈ માર્ગદર્શિકા સૌથી વધુ ઉપયોગી છે.,true
+ui,consent.advertisingTitle,gu,label,Advertisements,જાહેરાતો,true
+ui,consent.advertisingDesc,gu,label,Relevant civic services and partner cards that fund this free guide.,સુસંગત સેવાઓ જે આ મફત પોર્ટલને ચલાવવામાં મદદ કરે છે.,true
+ui,consent.privacyChoices,gu,label,Privacy choices,ગોપનીયતા પસંદગીઓ,true
+ui,translation.machineNotice,gu,label,Machine translated — not yet reviewed by a civic expert.,મશીન અનુવાદિત — નાગરિક નિષ્ણાત દ્વારા હજુ સંપૂર્ણ સમીક્ષા થયેલ નથી.,true
+ui,translation.reviewHelp,gu,label,Notice an error? Help review this translation.,કોઈ ભૂલ જણાય? આ અનુવાદની સમીક્ષામાં મદદ કરો.,true
+ui,translation.reviewedBadge,gu,label,Human Reviewed & Verified,નિષ્ણાત દ્વારા ચકાસાયેલ,true
+ui,footer.aboutUs,gu,label,About Us,અમારા વિશે,true
+ui,footer.howWeVerify,gu,label,How We Verify,અમે કેવી રીતે ચકાસીએ છીએ,true
+ui,footer.termsOfUse,gu,label,Terms of Use,ઉપયોગની શરતો,true
+ui,footer.privacyPolicy,gu,label,Privacy Policy,ગોપનીયતા નીતિ,true
+ui,footer.disclaimer,gu,label,Disclaimer,ડિસ્ક્લેમર,true
+ui,footer.disclaimerNotice,gu,label,India Paperwork Guide is an independent civic portal. We are not affiliated with or endorsed by any government department. All information is verified directly from official .gov.in and .nic.in portals.,ભારત દસ્તાવેજ માર્ગદર્શિકા એક સ્વતંત્ર નાગરિક પોર્ટલ છે. અમે કોઈપણ સરકારી વિભાગ સાથે સંકળાયેલા નથી. બધી માહિતી સીધી સત્તાવાર .gov.in અને .nic.in પોર્ટલ પરથી ચકાસાયેલ છે.,true
+task,driving-licence-learner,hi,title,How to Get a Learner's Licence in India (2026),भारत में लर्नर लाइसेंस कैसे प्राप्त करें (2026),false
+task,driving-licence-learner,hi,summary,"Complete document checklist, ₹200 official statutory fee breakdown, and step-by-step application instructions for Learner Licence across all Indian states.","पूरी दस्तावेज़ चेकलिस्ट, ₹200 आधिकारिक सरकारी शुल्क विवरण, और सभी भारतीय राज्यों के लिए लर्नर लाइसेंस आवेदन के चरण-दर-चरण निर्देश।",false
+step,driving-licence-learner:step:1,hi,title,Submit Form 2 on the Sarathi Parivahan Portal,सारथी परिवहन पोर्टल पर फॉर्म 2 जमा करें,false
+step,driving-licence-learner:step:1,hi,description,"Go to parivahan.gov.in, choose your State, and select 'Apply for Learner Licence'. Fill out your applicant details, address, and select vehicle class (MCWG for geared motorcycle, LMV for car).","parivahan.gov.in पर जाएं, अपना राज्य चुनें और 'Apply for Learner Licence' चुनें।",false
+step,driving-licence-learner:step:2,hi,title,Upload Required Documents & Photo,आवश्यक दस्तावेज़ और फोटो अपलोड करें,false
+step,driving-licence-learner:step:2,hi,description,"Upload scanned copies of Proof of Age, Proof of Address, and Form 1 (Self-declaration of physical fitness). If not using Aadhaar e-KYC, upload your signature and passport-size photograph.","आयु प्रमाण, पते का प्रमाण और फॉर्म 1 (शारीरिक फिटनेस घोषणा) की स्कैन की गई प्रतियां अपलोड करें।",false
+step,driving-licence-learner:step:3,hi,title,Pay Government Fee (₹200),सरकारी शुल्क (₹200) का भुगतान करें,false
+step,driving-licence-learner:step:3,hi,description,"Pay the statutory fee of ₹150 for application processing plus ₹50 for computerized test fee via net banking, debit card, or UPI. Download and print payment receipt Form 2.","नेट बैंकिंग, डेबिट कार्ड या यूपीआई के माध्यम से ₹150 आवेदन शुल्क + ₹50 कंप्यूटर टेस्ट शुल्क का भुगतान करें।",false
+step,driving-licence-learner:step:4,hi,title,Take the Computerized Learner Test (LL Test),कंप्यूटरीकृत लर्नर टेस्ट (LL Test) दें,false
+step,driving-licence-learner:step:4,hi,description,"Take the 15-question test on traffic signs and road safety. You have 30 seconds per question; score at least 11/15 (60%) to pass. On passing, your digital learner licence (Form 3) is generated instantly.",यातायात संकेतों और सड़क सुरक्षा पर 15 प्रश्नों का परीक्षण दें। पास होने के लिए कम से कम 11/15 (60%) अंक प्राप्त करें।,false
+step,driving-licence-learner:step:5,hi,title,Download & Print Your Digital Learner Licence (Form 3),डिजिटल लर्नर लाइसेंस (फॉर्म 3) डाउनलोड करें,false
+step,driving-licence-learner:step:5,hi,description,"Immediately upon scoring 11 or higher on the online test, your digital Learner Licence in Form 3 is generated with a verifiable QR code. Download the PDF and keep a physical printout while practicing driving with an instructor.",टेस्ट पास करने के तुरंत बाद अपना डिजिटल लर्नर लाइसेंस पीडीएफ डाउनलोड करें। यह 6 महीने के लिए वैध है।,false
+document,driving-licence-learner:doc:Proof of Age (Aadhaar / 10th Marksheet / Birth Certificate),hi,name,Proof of Age (Aadhaar / 10th Marksheet / Birth Certificate),,false
+document,driving-licence-learner:doc:Proof of Current Residential Address,hi,name,Proof of Current Residential Address,,false
+document,driving-licence-learner:doc:Form 1 Physical Fitness Self-Declaration,hi,name,Form 1 Physical Fitness Self-Declaration,,false
+document,driving-licence-learner:doc:Applicant Signature & Photo Digital Scan,hi,name,Applicant Signature & Photo Digital Scan,,false
+document,driving-licence-learner:doc:Form 1A Medical Fitness Certificate,hi,name,Form 1A Medical Fitness Certificate,,false
+faq,driving-licence-learner:faq:1,hi,question,How long is a Learner's Licence valid in India?,लर्नर लाइसेंस के लिए न्यूनतम आयु क्या है?,false
+faq,driving-licence-learner:faq:2,hi,question,Can I drive alone on public roads with a Learner's Licence?,लर्नर लाइसेंस कितने समय के लिए वैध होता है?,false
+faq,driving-licence-learner:faq:3,hi,question,What is the passing mark for the online Learner Licence test in India?,,false
+faq,driving-licence-learner:faq:4,hi,question,When can I apply for a permanent driving licence after getting my learner licence?,,false
+task,driving-licence-learner,gu,title,How to Get a Learner's Licence in India (2026),ભારતમાં લર્નર લાયસન્સ કેવી રીતે મેળવવું (2026),false
+task,driving-licence-learner,gu,summary,"Complete document checklist, ₹200 official statutory fee breakdown, and step-by-step application instructions for Learner Licence across all Indian states.","સંપૂર્ણ દસ્તાવેજ ચેકલિસ્ટ, ₹200 સત્તાવાર સરકારી ફી વિગતો અને લર્નર લાયસન્સ અરજી માટેના પગલાંવાર માર્ગદર્શન.",false
+step,driving-licence-learner:step:1,gu,title,Submit Form 2 on the Sarathi Parivahan Portal,સારથી પરિવહન પોર્ટલ પર ફોર્મ 2 સબમિટ કરો,false
+step,driving-licence-learner:step:1,gu,description,"Go to parivahan.gov.in, choose your State, and select 'Apply for Learner Licence'. Fill out your applicant details, address, and select vehicle class (MCWG for geared motorcycle, LMV for car).","parivahan.gov.in પર જાઓ, તમારું રાજ્ય પસંદ કરો અને 'Apply for Learner Licence' પસંદ કરો.",false
+step,driving-licence-learner:step:2,gu,title,Upload Required Documents & Photo,જરૂરી દસ્તાવેજો અને ફોટો અપલોડ કરો,false
+step,driving-licence-learner:step:2,gu,description,"Upload scanned copies of Proof of Age, Proof of Address, and Form 1 (Self-declaration of physical fitness). If not using Aadhaar e-KYC, upload your signature and passport-size photograph.","ઉંમરનો પુરાવો, સરનામાનો પુરાવો અને ફોર્મ 1 અપલોડ કરો.",false
+step,driving-licence-learner:step:3,gu,title,Pay Government Fee (₹200),સરકારી ફી (₹200) ભરો,false
+step,driving-licence-learner:step:3,gu,description,"Pay the statutory fee of ₹150 for application processing plus ₹50 for computerized test fee via net banking, debit card, or UPI. Download and print payment receipt Form 2.","નેટ બેંકિંગ, ડેબિટ કાર્ડ અથવા યુપીઆઇ દ્વારા ₹150 પ્રોસેસિંગ ફી + ₹50 કોમ્પ્યુટર ટેસ્ટ ફી ચૂકવો.",false
+step,driving-licence-learner:step:4,gu,title,Take the Computerized Learner Test (LL Test),કોમ્પ્યુટરાઇઝ્ડ લર્નર ટેસ્ટ આપો,false
+step,driving-licence-learner:step:4,gu,description,"Take the 15-question test on traffic signs and road safety. You have 30 seconds per question; score at least 11/15 (60%) to pass. On passing, your digital learner licence (Form 3) is generated instantly.",ટ્રાફિક સંકેતો અને માર્ગ સલામતી પરના 15 પ્રશ્નોની કસોટી આપો. પાસ થવા માટે ઓછામાં ઓછા 11/15 ગુણ જરૂરી છે.,false
+step,driving-licence-learner:step:5,gu,title,Download & Print Your Digital Learner Licence (Form 3),ડિજિટલ લર્નર લાયસન્સ (ફોર્મ 3) ડાઉનલોડ કરો,false
+step,driving-licence-learner:step:5,gu,description,"Immediately upon scoring 11 or higher on the online test, your digital Learner Licence in Form 3 is generated with a verifiable QR code. Download the PDF and keep a physical printout while practicing driving with an instructor.",ટેસ્ટ પાસ કર્યા પછી તરત જ તમારું લર્નર લાયસન્સ ડાઉનલોડ કરો. આ 6 મહિના માટે માન્ય છે.,false
+document,driving-licence-learner:doc:Proof of Age (Aadhaar / 10th Marksheet / Birth Certificate),gu,name,Proof of Age (Aadhaar / 10th Marksheet / Birth Certificate),,false
+document,driving-licence-learner:doc:Proof of Current Residential Address,gu,name,Proof of Current Residential Address,,false
+document,driving-licence-learner:doc:Form 1 Physical Fitness Self-Declaration,gu,name,Form 1 Physical Fitness Self-Declaration,,false
+document,driving-licence-learner:doc:Applicant Signature & Photo Digital Scan,gu,name,Applicant Signature & Photo Digital Scan,,false
+document,driving-licence-learner:doc:Form 1A Medical Fitness Certificate,gu,name,Form 1A Medical Fitness Certificate,,false
+faq,driving-licence-learner:faq:1,gu,question,How long is a Learner's Licence valid in India?,લર્નર લાયસન્સ માટે લઘુત્તમ ઉંમર કેટલી હોવી જોઈએ?,false
+faq,driving-licence-learner:faq:2,gu,question,Can I drive alone on public roads with a Learner's Licence?,લર્નર લાયસન્સ કેટલા સમય માટે માન્ય રહે છે?,false
+faq,driving-licence-learner:faq:3,gu,question,What is the passing mark for the online Learner Licence test in India?,,false
+faq,driving-licence-learner:faq:4,gu,question,When can I apply for a permanent driving licence after getting my learner licence?,,false
+task,driving-licence-new,hi,title,How to Apply for a Permanent Driving Licence in India (2026),स्थायी ड्राइविंग लाइसेंस कैसे प्राप्त करें (2026),false
+task,driving-licence-new,hi,summary,"Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (₹700), and driving test rules.","लर्नर लाइसेंस के बाद भारत में स्थायी ड्राइविंग लाइसेंस के लिए आधिकारिक प्रक्रिया, आरटीओ टेस्ट स्लॉट बुकिंग और शुल्क विवरण।",false
+step,driving-licence-new:step:1,hi,title,Complete 30-Day Mandatory Waiting Period,,false
+step,driving-licence-new:step:1,hi,description,"Ensure at least 30 days have elapsed since your Learner's Licence (LLR) was issued, and that your LLR has not expired (must be within 180 days of issue).",,false
+step,driving-licence-new:step:2,hi,title,Submit Form 2 Application on Sarathi Parivahan,,false
+step,driving-licence-new:step:2,hi,description,"Visit sarathi.parivahan.gov.in, select your State, and click 'Apply for Driving Licence'. Enter your Learner's Licence number and date of birth to load your details automatically.",,false
+step,driving-licence-new:step:3,hi,title,Select Vehicle Classes & Driving School Certificate,,false
+step,driving-licence-new:step:3,hi,description,"Choose the vehicle classes endorsed on your learner permit (e.g. Motorcycle with Gear - MCWG, Light Motor Vehicle - LMV). If you were trained at an accredited driver training institute (ADTC), upload your Form 5B certificate.",,false
+step,driving-licence-new:step:4,hi,title,Pay Statutory Government Fees Online,,false
+step,driving-licence-new:step:4,hi,description,"Pay the statutory government fee of ₹200 for DL issue, ₹200 for smart card printing, and ₹300 per vehicle class test fee (Total ₹700 for single class, ₹1,000 for dual class MCWG + LMV) via Bharatkosh or state payment gateway.",,false
+step,driving-licence-new:step:5,hi,title,Book Practical Driving Test Appointment Slot,,false
+step,driving-licence-new:step:5,hi,description,Select your designated RTO or Automated Driving Test Track (ADTT) and pick an available date and time slot. Download and print the Appointment Slip.,,false
+step,driving-licence-new:step:6,hi,title,Appear for the Practical Driving Test at RTO Track,,false
+step,driving-licence-new:step:6,hi,description,"Arrive at the RTO test track 30 minutes before your slot with a vehicle corresponding to your application category. For two-wheelers, demonstrate figure-of-eight (8) balancing and sudden stopping. For four-wheelers, pass the H-track reverse parking, parallel parking, and gradient hill restart without rolling backwards.",,false
+step,driving-licence-new:step:7,hi,title,Test Results and Biometric Data Verification,,false
+step,driving-licence-new:step:7,hi,description,"If you pass the test, the testing officer signs your inspection sheet or the automated track sensors submit an instant electronic pass report. Your digital photo and signature are verified.",,false
+step,driving-licence-new:step:8,hi,title,Receive Driving Licence via Speed Post & DigiLocker,,false
+step,driving-licence-new:step:8,hi,description,Your permanent driving licence number is generated within 24-48 hours and available on DigiLocker and mParivahan. The physical chip-based Smart Card licence is printed and dispatched to your residential address via India Post Speed Post.,,false
+document,driving-licence-new:doc:Original Learner's Licence (LLR),hi,name,Original Learner's Licence (LLR),,false
+document,driving-licence-new:doc:Application Form 2 Printout,hi,name,Application Form 2 Printout,,false
+document,driving-licence-new:doc:Fee Payment Receipt and Appointment Slip,hi,name,Fee Payment Receipt and Appointment Slip,,false
+document,"driving-licence-new:doc:Test Vehicle Documents (RC, Insurance, PUC)",hi,name,"Test Vehicle Documents (RC, Insurance, PUC)",,false
+document,driving-licence-new:doc:Form 5B Driving School Training Certificate,hi,name,Form 5B Driving School Training Certificate,,false
+document,driving-licence-new:doc:Form 1A Medical Fitness Certificate,hi,name,Form 1A Medical Fitness Certificate,,false
+faq,driving-licence-new:faq:1,hi,question,When can I apply for a permanent driving licence after getting a learner's licence?,,false
+faq,driving-licence-new:faq:2,hi,question,What happens if I fail the practical driving test?,,false
+faq,driving-licence-new:faq:3,hi,question,Can I take the driving test in an automatic transmission car?,,false
+faq,driving-licence-new:faq:4,hi,question,What is the validity period of a permanent driving licence in India?,,false
+task,driving-licence-new,gu,title,How to Apply for a Permanent Driving Licence in India (2026),કાયમી ડ્રાઇવિંગ લાયસન્સ કેવી રીતે મેળવવું (2026),false
+task,driving-licence-new,gu,summary,"Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (₹700), and driving test rules.","લર્નર લાયસન્સ પછી ભારતમાં કાયમી ડ્રાઇવિંગ લાયસન્સ માટેની સત્તાવાર પ્રક્રિયા, આરટીઓ ટેસ્ટ સ્લોટ બુકિંગ અને સરકારી ફી.",false
+step,driving-licence-new:step:1,gu,title,Complete 30-Day Mandatory Waiting Period,,false
+step,driving-licence-new:step:1,gu,description,"Ensure at least 30 days have elapsed since your Learner's Licence (LLR) was issued, and that your LLR has not expired (must be within 180 days of issue).",,false
+step,driving-licence-new:step:2,gu,title,Submit Form 2 Application on Sarathi Parivahan,,false
+step,driving-licence-new:step:2,gu,description,"Visit sarathi.parivahan.gov.in, select your State, and click 'Apply for Driving Licence'. Enter your Learner's Licence number and date of birth to load your details automatically.",,false
+step,driving-licence-new:step:3,gu,title,Select Vehicle Classes & Driving School Certificate,,false
+step,driving-licence-new:step:3,gu,description,"Choose the vehicle classes endorsed on your learner permit (e.g. Motorcycle with Gear - MCWG, Light Motor Vehicle - LMV). If you were trained at an accredited driver training institute (ADTC), upload your Form 5B certificate.",,false
+step,driving-licence-new:step:4,gu,title,Pay Statutory Government Fees Online,,false
+step,driving-licence-new:step:4,gu,description,"Pay the statutory government fee of ₹200 for DL issue, ₹200 for smart card printing, and ₹300 per vehicle class test fee (Total ₹700 for single class, ₹1,000 for dual class MCWG + LMV) via Bharatkosh or state payment gateway.",,false
+step,driving-licence-new:step:5,gu,title,Book Practical Driving Test Appointment Slot,,false
+step,driving-licence-new:step:5,gu,description,Select your designated RTO or Automated Driving Test Track (ADTT) and pick an available date and time slot. Download and print the Appointment Slip.,,false
+step,driving-licence-new:step:6,gu,title,Appear for the Practical Driving Test at RTO Track,,false
+step,driving-licence-new:step:6,gu,description,"Arrive at the RTO test track 30 minutes before your slot with a vehicle corresponding to your application category. For two-wheelers, demonstrate figure-of-eight (8) balancing and sudden stopping. For four-wheelers, pass the H-track reverse parking, parallel parking, and gradient hill restart without rolling backwards.",,false
+step,driving-licence-new:step:7,gu,title,Test Results and Biometric Data Verification,,false
+step,driving-licence-new:step:7,gu,description,"If you pass the test, the testing officer signs your inspection sheet or the automated track sensors submit an instant electronic pass report. Your digital photo and signature are verified.",,false
+step,driving-licence-new:step:8,gu,title,Receive Driving Licence via Speed Post & DigiLocker,,false
+step,driving-licence-new:step:8,gu,description,Your permanent driving licence number is generated within 24-48 hours and available on DigiLocker and mParivahan. The physical chip-based Smart Card licence is printed and dispatched to your residential address via India Post Speed Post.,,false
+document,driving-licence-new:doc:Original Learner's Licence (LLR),gu,name,Original Learner's Licence (LLR),,false
+document,driving-licence-new:doc:Application Form 2 Printout,gu,name,Application Form 2 Printout,,false
+document,driving-licence-new:doc:Fee Payment Receipt and Appointment Slip,gu,name,Fee Payment Receipt and Appointment Slip,,false
+document,"driving-licence-new:doc:Test Vehicle Documents (RC, Insurance, PUC)",gu,name,"Test Vehicle Documents (RC, Insurance, PUC)",,false
+document,driving-licence-new:doc:Form 5B Driving School Training Certificate,gu,name,Form 5B Driving School Training Certificate,,false
+document,driving-licence-new:doc:Form 1A Medical Fitness Certificate,gu,name,Form 1A Medical Fitness Certificate,,false
+faq,driving-licence-new:faq:1,gu,question,When can I apply for a permanent driving licence after getting a learner's licence?,,false
+faq,driving-licence-new:faq:2,gu,question,What happens if I fail the practical driving test?,,false
+faq,driving-licence-new:faq:3,gu,question,Can I take the driving test in an automatic transmission car?,,false
+faq,driving-licence-new:faq:4,gu,question,What is the validity period of a permanent driving licence in India?,,false
+task,passport-renewal,hi,title,"How to Renew Your Indian Passport: Documents, Fees, and Steps (2026)",भारतीय पासपोर्ट का नवीनीकरण कैसे करें (2026),false
+task,passport-renewal,hi,summary,"Step-by-step procedure to re-issue an expired or expiring Indian passport online through the official Passport Seva portal. Verified fees (₹1,500 normal, ₹3,500 tatkaal) and document rules.","पासपोर्ट सेवा केंद्र (PSK) अपॉइंटमेंट, आवश्यक दस्तावेज़, ₹1,500 सरकारी शुल्क और पुलिस सत्यापन के चरण।",false
+step,passport-renewal:step:1,hi,title,Register or Log In to Official Passport Seva Portal,,false
+step,passport-renewal:step:1,hi,description,"Visit passportindia.gov.in, select your residential Passport Office based on your current city, and register a new account or log in with your existing Passport Seva credentials.",,false
+step,passport-renewal:step:2,hi,title,Select 'Apply for Fresh Passport / Re-issue of Passport',,false
+step,passport-renewal:step:2,hi,description,"Click 'Apply for Fresh Passport / Re-issue of Passport' from the user dashboard. Select 'Re-issue of Passport', choose reason (Validity Expired within 3 years / Due to Expire), select booklet size (36 pages standard or 60 pages jumbo), and scheme (Normal or Tatkaal).",,false
+step,passport-renewal:step:3,hi,title,Fill the Online Application Form Details,,false
+step,passport-renewal:step:3,hi,description,"Enter your applicant details, family details (father, mother, spouse), current residential address, emergency contact, and existing passport number, issue date, and expiry date. Provide details of two local references residing in your neighbourhood.",,false
+step,passport-renewal:step:4,hi,title,Pay Government Statutory Fee Online,,false
+step,passport-renewal:step:4,hi,description,"Click 'Pay and Schedule Appointment'. Pay ₹1,500 (for standard 36-page normal booklet) or ₹2,000 (for 60-page jumbo booklet) via SBI ePay, Internet Banking, Credit/Debit card, or UPI. Payment is mandatory to book an appointment slot.",,false
+step,passport-renewal:step:5,hi,title,Schedule Appointment at Nearest PSK or POPSK,,false
+step,passport-renewal:step:5,hi,description,Select your nearest Passport Seva Kendra (PSK) or Post Office Passport Seva Kendra (POPSK) and choose an available date and time slot. Print or download the Application Receipt showing your ARN and appointment batch time.,,false
+step,passport-renewal:step:6,hi,title,Visit the PSK with Original Documents,,false
+step,passport-renewal:step:6,hi,description,"Arrive 15 minutes before your scheduled appointment time. You will proceed through three internal counters: Counter A (token generation, biometric fingerprint scan, and digital photo capture), Counter B (document verification by government verifying officer), and Counter C (granting officer approval).",,false
+step,passport-renewal:step:7,hi,title,Undergo Local Police Verification,,false
+step,passport-renewal:step:7,hi,description,"If current address has changed, local police station conducts in-person physical address verification. The police officer visits your residence to check original address proof and verify your two local references.",,false
+step,passport-renewal:step:8,hi,title,Receive Renewed Passport via Speed Post,,false
+step,passport-renewal:step:8,hi,description,"Once police verification report (PVR) is cleared, your passport is printed at the India Security Press and dispatched via India Post Speed Post. You will receive an SMS with the Speed Post tracking consignment number.",,false
+document,passport-renewal:doc:Recent Passport-Sized Photograph (For POPSK / Minors),hi,name,Recent Passport-Sized Photograph (For POPSK / Minors),,false
+document,passport-renewal:doc:Original Old Passport,hi,name,Original Old Passport,,false
+document,passport-renewal:doc:Self-Attested Photocopy of Old Passport,hi,name,Self-Attested Photocopy of Old Passport,,false
+document,passport-renewal:doc:Proof of Current Address,hi,name,Proof of Current Address,,false
+document,passport-renewal:doc:Proof of Non-ECR Category (10th Marksheet or Degree Certificate),hi,name,Proof of Non-ECR Category (10th Marksheet or Degree Certificate),,false
+document,passport-renewal:doc:Marriage Certificate / Spouse Proof,hi,name,Marriage Certificate / Spouse Proof,,false
+document,passport-renewal:doc:Annexure E / Tatkaal Verification Proof,hi,name,Annexure E / Tatkaal Verification Proof,,false
+faq,passport-renewal:faq:1,hi,question,How early before expiry can I apply for passport renewal in India?,,false
+faq,passport-renewal:faq:2,hi,question,What happens to valid visas inside my old cancelled passport?,,false
+faq,passport-renewal:faq:3,hi,question,Is police verification mandatory for every passport renewal?,,false
+faq,passport-renewal:faq:4,hi,question,Can I renew my passport under Tatkaal scheme?,,false
+faq,passport-renewal:faq:5,hi,question,What if my passport has already expired for more than 3 years?,,false
+faq,passport-renewal:faq:6,hi,question,How do I add my spouse's name upon renewal?,,false
+faq,passport-renewal:faq:7,hi,question,Do I need to carry passport-size photos to the PSK?,,false
+faq,passport-renewal:faq:8,hi,question,How can I track the delivery status of my new passport?,,false
+task,passport-renewal,gu,title,"How to Renew Your Indian Passport: Documents, Fees, and Steps (2026)",ભારતીય પાસપોર્ટનું રીન્યુઅલ કેવી રીતે કરવું (2026),false
+task,passport-renewal,gu,summary,"Step-by-step procedure to re-issue an expired or expiring Indian passport online through the official Passport Seva portal. Verified fees (₹1,500 normal, ₹3,500 tatkaal) and document rules.","પાસપોર્ટ સેવા કેન્દ્ર (PSK) એપોઇન્ટમેન્ટ, જરૂરી દસ્તાવેજો, ₹1,500 સરકારી ફી અને પોલીસ વેરિફિકેશન પ્રક્રિયા.",false
+step,passport-renewal:step:1,gu,title,Register or Log In to Official Passport Seva Portal,,false
+step,passport-renewal:step:1,gu,description,"Visit passportindia.gov.in, select your residential Passport Office based on your current city, and register a new account or log in with your existing Passport Seva credentials.",,false
+step,passport-renewal:step:2,gu,title,Select 'Apply for Fresh Passport / Re-issue of Passport',,false
+step,passport-renewal:step:2,gu,description,"Click 'Apply for Fresh Passport / Re-issue of Passport' from the user dashboard. Select 'Re-issue of Passport', choose reason (Validity Expired within 3 years / Due to Expire), select booklet size (36 pages standard or 60 pages jumbo), and scheme (Normal or Tatkaal).",,false
+step,passport-renewal:step:3,gu,title,Fill the Online Application Form Details,,false
+step,passport-renewal:step:3,gu,description,"Enter your applicant details, family details (father, mother, spouse), current residential address, emergency contact, and existing passport number, issue date, and expiry date. Provide details of two local references residing in your neighbourhood.",,false
+step,passport-renewal:step:4,gu,title,Pay Government Statutory Fee Online,,false
+step,passport-renewal:step:4,gu,description,"Click 'Pay and Schedule Appointment'. Pay ₹1,500 (for standard 36-page normal booklet) or ₹2,000 (for 60-page jumbo booklet) via SBI ePay, Internet Banking, Credit/Debit card, or UPI. Payment is mandatory to book an appointment slot.",,false
+step,passport-renewal:step:5,gu,title,Schedule Appointment at Nearest PSK or POPSK,,false
+step,passport-renewal:step:5,gu,description,Select your nearest Passport Seva Kendra (PSK) or Post Office Passport Seva Kendra (POPSK) and choose an available date and time slot. Print or download the Application Receipt showing your ARN and appointment batch time.,,false
+step,passport-renewal:step:6,gu,title,Visit the PSK with Original Documents,,false
+step,passport-renewal:step:6,gu,description,"Arrive 15 minutes before your scheduled appointment time. You will proceed through three internal counters: Counter A (token generation, biometric fingerprint scan, and digital photo capture), Counter B (document verification by government verifying officer), and Counter C (granting officer approval).",,false
+step,passport-renewal:step:7,gu,title,Undergo Local Police Verification,,false
+step,passport-renewal:step:7,gu,description,"If current address has changed, local police station conducts in-person physical address verification. The police officer visits your residence to check original address proof and verify your two local references.",,false
+step,passport-renewal:step:8,gu,title,Receive Renewed Passport via Speed Post,,false
+step,passport-renewal:step:8,gu,description,"Once police verification report (PVR) is cleared, your passport is printed at the India Security Press and dispatched via India Post Speed Post. You will receive an SMS with the Speed Post tracking consignment number.",,false
+document,passport-renewal:doc:Recent Passport-Sized Photograph (For POPSK / Minors),gu,name,Recent Passport-Sized Photograph (For POPSK / Minors),,false
+document,passport-renewal:doc:Original Old Passport,gu,name,Original Old Passport,,false
+document,passport-renewal:doc:Self-Attested Photocopy of Old Passport,gu,name,Self-Attested Photocopy of Old Passport,,false
+document,passport-renewal:doc:Proof of Current Address,gu,name,Proof of Current Address,,false
+document,passport-renewal:doc:Proof of Non-ECR Category (10th Marksheet or Degree Certificate),gu,name,Proof of Non-ECR Category (10th Marksheet or Degree Certificate),,false
+document,passport-renewal:doc:Marriage Certificate / Spouse Proof,gu,name,Marriage Certificate / Spouse Proof,,false
+document,passport-renewal:doc:Annexure E / Tatkaal Verification Proof,gu,name,Annexure E / Tatkaal Verification Proof,,false
+faq,passport-renewal:faq:1,gu,question,How early before expiry can I apply for passport renewal in India?,,false
+faq,passport-renewal:faq:2,gu,question,What happens to valid visas inside my old cancelled passport?,,false
+faq,passport-renewal:faq:3,gu,question,Is police verification mandatory for every passport renewal?,,false
+faq,passport-renewal:faq:4,gu,question,Can I renew my passport under Tatkaal scheme?,,false
+faq,passport-renewal:faq:5,gu,question,What if my passport has already expired for more than 3 years?,,false
+faq,passport-renewal:faq:6,gu,question,How do I add my spouse's name upon renewal?,,false
+faq,passport-renewal:faq:7,gu,question,Do I need to carry passport-size photos to the PSK?,,false
+faq,passport-renewal:faq:8,gu,question,How can I track the delivery status of my new passport?,,false

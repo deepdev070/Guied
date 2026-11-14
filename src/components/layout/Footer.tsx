@@ -5,6 +5,7 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/site";
 import { useReportMistake } from "@/context/ReportMistakeContext";
 import { useConsent } from "@/context/ConsentContext";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { cn } from "@/lib/utils";
 
 export interface FooterProps {
@@ -15,7 +16,6 @@ export function Footer({ className }: FooterProps) {
   const currentYear = 2026;
   const { openReportMistake } = useReportMistake();
   const { openConsentManager } = useConsent();
-  const [selectedLocale, setSelectedLocale] = React.useState<string>(siteConfig.defaultLocale);
 
   const popularTasks = [
     { name: "Learner's Licence (LLR)", href: "/driving-licence-learner" },
@@ -196,28 +196,12 @@ export function Footer({ className }: FooterProps) {
               </li>
             </ul>
 
-            {/* Language Switcher in Footer */}
+            {/* Language Switcher in Footer (Prompt 97) */}
             <div className="border-border/60 mt-5 border-t pt-4">
               <span className="text-muted mb-2 block text-xs font-semibold tracking-wider uppercase">
                 Language / ભાષા / भाषा
               </span>
-              <div className="flex flex-wrap gap-1.5">
-                {siteConfig.supportedLocales.map((loc) => (
-                  <button
-                    key={loc.code}
-                    type="button"
-                    onClick={() => setSelectedLocale(loc.code)}
-                    className={cn(
-                      "focus-visible:ring-primary/40 rounded-lg border px-2.5 py-1 text-xs font-medium transition-colors focus-visible:ring-2 focus-visible:outline-none",
-                      selectedLocale === loc.code
-                        ? "border-primary bg-primary font-semibold text-white"
-                        : "border-border text-muted hover:text-text bg-white"
-                    )}
-                  >
-                    {loc.nativeLabel}
-                  </button>
-                ))}
-              </div>
+              <LanguageSwitcher variant="footer" />
             </div>
           </div>
         </div>

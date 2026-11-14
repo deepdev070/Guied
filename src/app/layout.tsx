@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { StatePreferenceProvider } from "@/context/StatePreferenceContext";
 import { ReportMistakeProvider } from "@/context/ReportMistakeContext";
 import { ConsentProvider } from "@/context/ConsentContext";
+import { LanguageProvider } from "@/context/LanguageContext";
 import { ConsentBanner } from "@/components/consent/ConsentBanner";
 import { siteConfig } from "@/lib/site";
 import { fontVariables } from "@/lib/fonts";
@@ -53,20 +54,22 @@ export default function RootLayout({
             Skip to main content
           </a>
 
-          <StatePreferenceProvider>
-            <ReportMistakeProvider>
-              {/* Global Header */}
-              <Header />
+          <LanguageProvider>
+            <StatePreferenceProvider>
+              <ReportMistakeProvider>
+                {/* Global Header */}
+                <Header />
 
-              {/* Main Content Area */}
-              <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
-                {children}
-              </main>
+                {/* Main Content Area */}
+                <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
+                  {children}
+                </main>
 
-              {/* Global Footer */}
-              <Footer />
-            </ReportMistakeProvider>
-          </StatePreferenceProvider>
+                {/* Global Footer */}
+                <Footer />
+              </ReportMistakeProvider>
+            </StatePreferenceProvider>
+          </LanguageProvider>
 
           {/* Privacy & Cookie Consent Banner (Prompt 88) */}
           <ConsentBanner />

@@ -63,7 +63,7 @@ export function ReportMistakeStandaloneForm() {
 
   if (isSuccess) {
     return (
-      <div className="py-8 text-center">
+      <div role="status" aria-live="polite" className="py-8 text-center">
         <div className="mx-auto mb-4 max-w-[160px]">
           <SuccessIllustration />
         </div>
@@ -87,7 +87,12 @@ export function ReportMistakeStandaloneForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
       {errorMessage && (
-        <div className="border-danger/30 bg-danger-soft text-danger rounded-lg border p-3 text-xs font-medium">
+        <div
+          id="standalone-report-error"
+          role="alert"
+          aria-live="assertive"
+          className="border-danger/30 bg-danger-soft text-danger rounded-lg border p-3 text-xs font-medium"
+        >
           {errorMessage}
         </div>
       )}
@@ -129,6 +134,8 @@ export function ReportMistakeStandaloneForm() {
           required
           value={description}
           onChange={(e) => setDescription(e.target.value)}
+          aria-invalid={errorMessage ? true : undefined}
+          aria-describedby={errorMessage ? "standalone-report-error" : undefined}
           placeholder="E.g., The learner licence test fee in Gujarat was revised from ₹150 to ₹200 on Sarathi portal..."
           className="rounded-input text-text placeholder:text-muted/70 focus-visible:border-primary focus-visible:ring-primary/40 border-border bg-surface-alt/30 w-full border p-3 text-sm transition-colors focus-visible:bg-white focus-visible:ring-2 focus-visible:outline-none"
         />

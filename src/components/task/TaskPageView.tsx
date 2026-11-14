@@ -55,6 +55,9 @@ import {
 import type { MergedTaskVariant, TaskSummary } from "@/lib/queries";
 import type { TaskContent } from "@/types/content";
 import type { StateSeedData } from "../../../prisma/data/states";
+import type { Locale } from "@/i18n";
+import type { TaskTranslationData } from "@/lib/i18n/content-translations";
+import { TranslationNotice } from "@/components/i18n/TranslationNotice";
 
 export interface TaskPageViewProps {
   task: TaskContent;
@@ -63,6 +66,8 @@ export interface TaskPageViewProps {
   popularTasks?: TaskSummary[];
   state?: StateSeedData;
   isStatePage?: boolean;
+  locale?: Locale;
+  translation?: TaskTranslationData | null;
 }
 
 export function TaskPageView({
@@ -72,6 +77,8 @@ export function TaskPageView({
   popularTasks,
   state,
   isStatePage = false,
+  locale = "en",
+  translation,
 }: TaskPageViewProps) {
   const currentYear = 2026;
 
@@ -153,9 +160,12 @@ export function TaskPageView({
         : "both";
 
   const pageTitle =
-    isStatePage && state
+    translation?.title ||
+    (isStatePage && state
       ? `${task.name} in ${state.name}: documents, fees and steps (${currentYear})`
-      : `${task.name}: documents, fees and steps (${currentYear})`;
+      : `${task.name}: documents, fees and steps (${currentYear})`);
+
+  const pageSummary = translation?.summary || variant.summary;
 
   // Build structured data schemas (only for visible content)
   const canonicalUrl = `https://indiapaperworkguide.in/${task.slug}${isStatePage && state ? `/${state.slug}` : ""}`;
@@ -235,8 +245,13 @@ export function TaskPageView({
               {/* 2. H1 */}
               <h1 className="text-h1 text-text font-bold tracking-tight">{pageTitle}</h1>
 
+              {/* Machine Translation Notice (Prompt 96) */}
+              {locale !== "en" && (
+                <TranslationNotice locale={locale} isReviewed={translation?.isReviewed} />
+              )}
+
               {/* Summary description */}
-              <p className="text-body text-muted leading-relaxed">{variant.summary}</p>
+              <p className="text-body text-muted leading-relaxed">{pageSummary}</p>
             </div>
 
             {/* 4. At a glance summary box */}

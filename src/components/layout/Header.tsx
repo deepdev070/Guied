@@ -8,6 +8,7 @@ import { useUserState } from "@/context/StatePreferenceContext";
 import { StateSelectModal } from "./StateSelectModal";
 import { MobileNav } from "./MobileNav";
 import { SearchAutocomplete } from "@/components/search/SearchAutocomplete";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export interface HeaderProps {
   /**
@@ -23,8 +24,6 @@ export function Header({ showTopAd = false, className }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = React.useState(false);
   const [stateModalOpen, setStateModalOpen] = React.useState(false);
-  const [currentLocale, setCurrentLocale] = React.useState<string>(siteConfig.defaultLocale);
-  const [langDropdownOpen, setLangDropdownOpen] = React.useState(false);
 
   const navLinks = [
     { name: "My Checklists", href: "/my-checklists" },
@@ -150,70 +149,8 @@ export function Header({ showTopAd = false, className }: HeaderProps) {
               </svg>
             </button>
 
-            {/* Language Switcher Dropdown (Desktop) */}
-            <div className="relative hidden sm:block">
-              <button
-                type="button"
-                onClick={() => setLangDropdownOpen((prev) => !prev)}
-                className="rounded-chip border-border bg-surface text-text hover:border-primary hover:bg-surface-alt focus-visible:ring-primary/40 flex min-h-[40px] items-center gap-1.5 border px-2.5 py-1 text-xs font-semibold shadow-xs transition-colors focus-visible:ring-3 focus-visible:outline-none"
-                aria-expanded={langDropdownOpen}
-                aria-haspopup="listbox"
-                aria-label="Select language"
-              >
-                <span className="text-muted text-xs font-bold">文A</span>
-                <span className="uppercase">{currentLocale}</span>
-                <svg
-                  className={cn(
-                    "text-muted h-3 w-3 transition-transform",
-                    langDropdownOpen && "rotate-180"
-                  )}
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <polyline points="6 9 12 15 18 9" />
-                </svg>
-              </button>
-
-              {langDropdownOpen && (
-                <>
-                  <div
-                    className="fixed inset-0 z-40"
-                    onClick={() => setLangDropdownOpen(false)}
-                    aria-hidden="true"
-                  />
-                  <div
-                    role="listbox"
-                    className="border-border absolute right-0 z-50 mt-2 w-36 rounded-xl border bg-white py-1.5 shadow-md"
-                  >
-                    {siteConfig.supportedLocales.map((loc) => (
-                      <button
-                        key={loc.code}
-                        type="button"
-                        role="option"
-                        aria-selected={currentLocale === loc.code}
-                        onClick={() => {
-                          setCurrentLocale(loc.code);
-                          setLangDropdownOpen(false);
-                        }}
-                        className={cn(
-                          "flex w-full items-center justify-between px-3 py-1.5 text-left text-xs font-medium transition-colors",
-                          currentLocale === loc.code
-                            ? "bg-primary-soft text-primary font-semibold"
-                            : "text-text hover:bg-surface"
-                        )}
-                      >
-                        <span>{loc.nativeLabel}</span>
-                        {currentLocale === loc.code && (
-                          <span className="text-primary font-bold">✓</span>
-                        )}
-                      </button>
-                    ))}
-                  </div>
-                </>
-              )}
-            </div>
+            {/* Language Switcher Dropdown (Desktop - Prompt 97) */}
+            <LanguageSwitcher variant="header" className="hidden sm:block" />
 
             {/* Mobile Hamburger Button */}
             <button
@@ -257,8 +194,6 @@ export function Header({ showTopAd = false, className }: HeaderProps) {
         onClose={() => setMobileMenuOpen(false)}
         currentState={stateData?.name || "Gujarat"}
         onSelectState={(st) => setSelectedState(st)}
-        currentLocale={currentLocale}
-        onSelectLocale={(loc) => setCurrentLocale(loc)}
         navLinks={navLinks}
       />
 

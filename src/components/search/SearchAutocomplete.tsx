@@ -248,6 +248,15 @@ export function SearchAutocomplete({
         )}
       </form>
 
+      {/* Screen reader live region for search results */}
+      <div className="sr-only" aria-live="polite" aria-atomic="true">
+        {isDropdownVisible
+          ? showSuggestions
+            ? `${suggestions.length} suggestion${suggestions.length === 1 ? "" : "s"} found. Use up and down arrows to review.`
+            : `${recentSearches.length} recent search${recentSearches.length === 1 ? "" : "es"}.`
+          : ""}
+      </div>
+
       {/* Autocomplete Dropdown Listbox */}
       {isDropdownVisible && (
         <div

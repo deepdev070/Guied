@@ -1,0 +1,271 @@
+import { prisma } from "../db.ts";
+import { type Locale, DEFAULT_LOCALE } from "../../i18n/config.ts";
+
+export interface TranslatedStep {
+  stepNumber: number;
+  title: string;
+  description: string;
+  where?: string;
+}
+
+export interface TranslatedDoc {
+  name: string;
+  description?: string;
+}
+
+export interface TranslatedFaq {
+  question: string;
+  answer: string;
+}
+
+export interface TaskTranslationData {
+  title: string;
+  summary: string;
+  locale: Locale;
+  isMachineTranslated: boolean;
+  isReviewed: boolean;
+  reviewedBy?: string | null;
+  reviewedAt?: string | null;
+  steps?: TranslatedStep[];
+  documents?: TranslatedDoc[];
+  faqs?: TranslatedFaq[];
+}
+
+/**
+ * Static baseline translations for core launch tasks.
+ * Serves as resilient fallback when database connection is unavailable in CI/build environments.
+ */
+export const STATIC_TASK_TRANSLATIONS: Record<
+  string,
+  Partial<Record<Locale, TaskTranslationData>>
+> = {
+  "driving-licence-learner": {
+    hi: {
+      title: "भारत में लर्नर लाइसेंस कैसे प्राप्त करें (2026)",
+      summary:
+        "पूरी दस्तावेज़ चेकलिस्ट, ₹200 आधिकारिक सरकारी शुल्क विवरण, और सभी भारतीय राज्यों के लिए लर्नर लाइसेंस आवेदन के चरण-दर-चरण निर्देश।",
+      locale: "hi",
+      isMachineTranslated: true,
+      isReviewed: false,
+      steps: [
+        {
+          stepNumber: 1,
+          title: "सारथी परिवहन पोर्टल पर फॉर्म 2 जमा करें",
+          description: "parivahan.gov.in पर जाएं, अपना राज्य चुनें और 'Apply for Learner Licence' चुनें।",
+          where: "आधिकारिक सारथी पोर्टल (parivahan.gov.in)",
+        },
+        {
+          stepNumber: 2,
+          title: "आवश्यक दस्तावेज़ और फोटो अपलोड करें",
+          description:
+            "आयु प्रमाण, पते का प्रमाण और फॉर्म 1 (शारीरिक फिटनेस घोषणा) की स्कैन की गई प्रतियां अपलोड करें।",
+          where: "ऑनलाइन पोर्टल",
+        },
+        {
+          stepNumber: 3,
+          title: "सरकारी शुल्क (₹200) का भुगतान करें",
+          description:
+            "नेट बैंकिंग, डेबिट कार्ड या यूपीआई के माध्यम से ₹150 आवेदन शुल्क + ₹50 कंप्यूटर टेस्ट शुल्क का भुगतान करें।",
+          where: "भारतकोश / राज्य भुगतान गेटवे",
+        },
+        {
+          stepNumber: 4,
+          title: "कंप्यूटरीकृत लर्नर टेस्ट (LL Test) दें",
+          description:
+            "यातायात संकेतों और सड़क सुरक्षा पर 15 प्रश्नों का परीक्षण दें। पास होने के लिए कम से कम 11/15 (60%) अंक प्राप्त करें।",
+          where: "घर से ऑनलाइन या आरटीओ उप-केंद्र पर",
+        },
+        {
+          stepNumber: 5,
+          title: "डिजिटल लर्नर लाइसेंस (फॉर्म 3) डाउनलोड करें",
+          description:
+            "टेस्ट पास करने के तुरंत बाद अपना डिजिटल लर्नर लाइसेंस पीडीएफ डाउनलोड करें। यह 6 महीने के लिए वैध है।",
+          where: "सारथी पोर्टल / डिजिलॉकर",
+        },
+      ],
+      documents: [
+        {
+          name: "आयु प्रमाण पत्र",
+          description: "10वीं कक्षा का प्रमाण पत्र, जन्म प्रमाण पत्र, पैन कार्ड या पासपोर्ट।",
+        },
+        {
+          name: "वर्तमान निवास प्रमाण पत्र",
+          description: "आधार कार्ड, मतदाता पहचान पत्र, बिजली बिल या पंजीकृत किराया समझौता।",
+        },
+        {
+          name: "फॉर्म 1 (शारीरिक फिटनेस स्व-घोषणा)",
+          description: "40 वर्ष से कम आयु के आवेदकों के लिए ऑनलाइन हस्ताक्षरित घोषणा।",
+        },
+      ],
+      faqs: [
+        {
+          question: "लर्नर लाइसेंस के लिए न्यूनतम आयु क्या है?",
+          answer:
+            "बिना गियर वाले दोपहिया वाहन के लिए न्यूनतम आयु 16 वर्ष है (अभिभावक की सहमति आवश्यक)। गियर वाले वाहन और कार (LMV) के लिए न्यूनतम आयु 18 वर्ष है।",
+        },
+        {
+          question: "लर्नर लाइसेंस कितने समय के लिए वैध होता है?",
+          answer:
+            "लर्नर लाइसेंस जारी होने की तिथि से 6 महीने के लिए वैध होता है। आप 30 दिन बाद स्थायी लाइसेंस के लिए आवेदन कर सकते हैं।",
+        },
+      ],
+    },
+    gu: {
+      title: "ભારતમાં લર્નર લાયસન્સ કેવી રીતે મેળવવું (2026)",
+      summary:
+        "સંપૂર્ણ દસ્તાવેજ ચેકલિસ્ટ, ₹200 સત્તાવાર સરકારી ફી વિગતો અને લર્નર લાયસન્સ અરજી માટેના પગલાંવાર માર્ગદર્શન.",
+      locale: "gu",
+      isMachineTranslated: true,
+      isReviewed: false,
+      steps: [
+        {
+          stepNumber: 1,
+          title: "સારથી પરિવહન પોર્ટલ પર ફોર્મ 2 સબમિટ કરો",
+          description:
+            "parivahan.gov.in પર જાઓ, તમારું રાજ્ય પસંદ કરો અને 'Apply for Learner Licence' પસંદ કરો.",
+          where: "સત્તાવાર સારથી પોર્ટલ (parivahan.gov.in)",
+        },
+        {
+          stepNumber: 2,
+          title: "જરૂરી દસ્તાવેજો અને ફોટો અપલોડ કરો",
+          description: "ઉંમરનો પુરાવો, સરનામાનો પુરાવો અને ફોર્મ 1 અપલોડ કરો.",
+          where: "ઓનલાઇન પોર્ટલ",
+        },
+        {
+          stepNumber: 3,
+          title: "સરકારી ફી (₹200) ભરો",
+          description:
+            "નેટ બેંકિંગ, ડેબિટ કાર્ડ અથવા યુપીઆઇ દ્વારા ₹150 પ્રોસેસિંગ ફી + ₹50 કોમ્પ્યુટર ટેસ્ટ ફી ચૂકવો.",
+          where: "ઓનલાઇન પેમેન્ટ ગેટવે",
+        },
+        {
+          stepNumber: 4,
+          title: "કોમ્પ્યુટરાઇઝ્ડ લર્નર ટેસ્ટ આપો",
+          description:
+            "ટ્રાફિક સંકેતો અને માર્ગ સલામતી પરના 15 પ્રશ્નોની કસોટી આપો. પાસ થવા માટે ઓછામાં ઓછા 11/15 ગુણ જરૂરી છે.",
+          where: "ઓનલાઇન ઘરેથી અથવા આરટીઓ કચેરીએ",
+        },
+        {
+          stepNumber: 5,
+          title: "ડિજિટલ લર્નર લાયસન્સ (ફોર્મ 3) ડાઉનલોડ કરો",
+          description: "ટેસ્ટ પાસ કર્યા પછી તરત જ તમારું લર્નર લાયસન્સ ડાઉનલોડ કરો. આ 6 મહિના માટે માન્ય છે.",
+          where: "સારથી પોર્ટલ / ડિઝિલોકર",
+        },
+      ],
+      documents: [
+        {
+          name: "ઉંમરનો પુરાવો",
+          description: "10મા ધોરણનું પ્રમાણપત્ર, જન્મ પ્રમાણપત્ર, પાન કાર્ડ અથવા પાસપોર્ટ.",
+        },
+        {
+          name: "સરનામાનો પુરાવો",
+          description: "આધાર કાર્ડ, ચૂંટણી કાર્ડ, લાઈટ બિલ અથવા ભાડા કરાર.",
+        },
+        {
+          name: "ફોર્મ 1 (શારીરિક ક્ષમતાની સ્વ-ઘોષણા)",
+          description: "40 વર્ષથી ઓછી ઉંમરના અરજદારો માટે ઓનલાઇન સબમિટ કરવાનું ફોર્મ.",
+        },
+      ],
+      faqs: [
+        {
+          question: "લર્નર લાયસન્સ માટે લઘુત્તમ ઉંમર કેટલી હોવી જોઈએ?",
+          answer:
+            "ગીયર વગરના ટુ-વ્હીલર માટે 16 વર્ષ (વાલીની સંમતિ જરૂરી). કાર અને ગીયર વાળા વાહન માટે 18 વર્ષ હોવા જરૂરી છે.",
+        },
+        {
+          question: "લર્નર લાયસન્સ કેટલા સમય માટે માન્ય રહે છે?",
+          answer:
+            "લર્નર લાયસન્સ ઇશ્યૂ થયાની તારીખથી 6 મહિના સુધી માન્ય રહે છે. 30 દિવસ પછી તમે કાયમી લાયસન્સ માટે અરજી કરી શકો છો.",
+        },
+      ],
+    },
+  },
+  "driving-licence-new": {
+    hi: {
+      title: "स्थायी ड्राइविंग लाइसेंस कैसे प्राप्त करें (2026)",
+      summary:
+        "लर्नर लाइसेंस के बाद भारत में स्थायी ड्राइविंग लाइसेंस के लिए आधिकारिक प्रक्रिया, आरटीओ टेस्ट स्लॉट बुकिंग और शुल्क विवरण।",
+      locale: "hi",
+      isMachineTranslated: true,
+      isReviewed: false,
+    },
+    gu: {
+      title: "કાયમી ડ્રાઇવિંગ લાયસન્સ કેવી રીતે મેળવવું (2026)",
+      summary:
+        "લર્નર લાયસન્સ પછી ભારતમાં કાયમી ડ્રાઇવિંગ લાયસન્સ માટેની સત્તાવાર પ્રક્રિયા, આરટીઓ ટેસ્ટ સ્લોટ બુકિંગ અને સરકારી ફી.",
+      locale: "gu",
+      isMachineTranslated: true,
+      isReviewed: false,
+    },
+  },
+  "passport-renewal": {
+    hi: {
+      title: "भारतीय पासपोर्ट का नवीनीकरण कैसे करें (2026)",
+      summary:
+        "पासपोर्ट सेवा केंद्र (PSK) अपॉइंटमेंट, आवश्यक दस्तावेज़, ₹1,500 सरकारी शुल्क और पुलिस सत्यापन के चरण।",
+      locale: "hi",
+      isMachineTranslated: true,
+      isReviewed: false,
+    },
+    gu: {
+      title: "ભારતીય પાસપોર્ટનું રીન્યુઅલ કેવી રીતે કરવું (2026)",
+      summary:
+        "પાસપોર્ટ સેવા કેન્દ્ર (PSK) એપોઇન્ટમેન્ટ, જરૂરી દસ્તાવેજો, ₹1,500 સરકારી ફી અને પોલીસ વેરિફિકેશન પ્રક્રિયા.",
+      locale: "gu",
+      isMachineTranslated: true,
+      isReviewed: false,
+    },
+  },
+};
+
+/**
+ * Fetches content translation for a task variant and locale.
+ * Checks database first; falls back to static seed data.
+ */
+export async function getTaskTranslation(
+  taskSlug: string,
+  locale: Locale
+): Promise<TaskTranslationData | null> {
+  if (locale === DEFAULT_LOCALE) {
+    return null;
+  }
+
+  // 1. Try fetching from Prisma database
+  try {
+    const task = await prisma.task.findUnique({
+      where: { slug: taskSlug },
+      include: {
+        variants: {
+          where: { stateId: null },
+          include: {
+            translations: {
+              where: { locale },
+            },
+          },
+        },
+      },
+    });
+
+    const translation = task?.variants?.[0]?.translations?.[0];
+    if (translation) {
+      return {
+        title: translation.title,
+        summary: translation.summary,
+        locale: translation.locale as Locale,
+        isMachineTranslated: translation.isMachineTranslated,
+        isReviewed: translation.isReviewed,
+        reviewedBy: translation.reviewedBy,
+        reviewedAt: translation.reviewedAt?.toISOString() || null,
+        steps: translation.translatedSteps as unknown as TranslatedStep[] | undefined,
+        documents: translation.translatedDocs as unknown as TranslatedDoc[] | undefined,
+        faqs: translation.translatedFaqs as unknown as TranslatedFaq[] | undefined,
+      };
+    }
+  } catch {
+    // Database unavailable or model query skipped in test/build
+  }
+
+  // 2. Fall back to static dataset
+  const staticData = STATIC_TASK_TRANSLATIONS[taskSlug]?.[locale];
+  return staticData || null;
+}
