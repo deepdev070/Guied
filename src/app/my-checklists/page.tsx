@@ -23,6 +23,7 @@ import {
 } from "@/lib/checklist-storage";
 import { ProgressRing } from "@/components/checklist/ProgressRing";
 import { InstallAppCard } from "@/components/pwa/InstallAppCard";
+import { OfflineIndicator } from "@/components/pwa/OfflineIndicator";
 import { cn } from "@/lib/utils";
 
 const emptySubscribe = () => () => {};
@@ -163,7 +164,7 @@ export default function MyChecklistsPage() {
       </div>
 
       {/* 2. Privacy Trust Callout */}
-      <div className="rounded-card border-border bg-surface-alt/70 mb-8 flex items-start gap-3 border p-4 text-xs text-slate-700">
+      <div className="rounded-card border-border bg-surface-alt/70 mb-6 flex items-start gap-3 border p-4 text-xs text-slate-700">
         <ShieldCheck className="text-success mt-0.5 h-5 w-5 shrink-0" aria-hidden="true" />
         <p className="leading-relaxed">
           <strong>100% Private & Device-Local:</strong> Your ticked documents are saved locally in
@@ -172,6 +173,12 @@ export default function MyChecklistsPage() {
           family member&apos;s phone or a new computer.
         </p>
       </div>
+
+      {/* Gentle Install Card (Prompt 113) */}
+      {isMounted && checklists.length > 0 && <InstallAppCard className="mb-6" />}
+
+      {/* Offline Status Notice (Prompt 114) */}
+      <OfflineIndicator className="mb-6" />
 
       {/* 3. Checklists Listing */}
       {!isMounted ? (

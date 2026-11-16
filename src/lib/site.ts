@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "India Paperwork Guide",
   shortName: "Paperwork Guide",
+  version: "0.1.0",
   tagline: "Clear, step-by-step paperwork help for Indian citizens",
   description:
     "Find exact document checklists, honest fee breakdowns, step-by-step instructions, and direct official portal links for everyday government services across all Indian states.",

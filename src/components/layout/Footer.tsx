@@ -235,11 +235,20 @@ export function Footer({ className }: FooterProps) {
           </div>
         </div>
 
-        {/* Bottom Bar: Copyright & Attribution */}
+        {/* Bottom Bar: Copyright, Version Label & Attribution */}
         <div className="border-border text-muted mt-8 flex flex-col items-center justify-between gap-4 border-t pt-6 text-xs sm:flex-row">
-          <p>
-            © {currentYear} {siteConfig.name}. Built for Indian citizens. Light colours only.
-          </p>
+          <div className="flex flex-wrap items-center gap-2">
+            <p>
+              © {currentYear} {siteConfig.name}. Built for Indian citizens. Light colours only.
+            </p>
+            <span
+              className="border-border/80 bg-surface text-muted inline-flex items-center rounded-full border px-2 py-0.5 font-mono text-[11px] font-semibold"
+              title="Application version for citizen support"
+              aria-label={`Application Version ${siteConfig.version || "0.1.0"}`}
+            >
+              v{siteConfig.version || "0.1.0"}
+            </span>
+          </div>
           <div className="flex items-center gap-4">
             <button
               type="button"

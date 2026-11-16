@@ -7,6 +7,7 @@ import { ChecklistCompletionBanner } from "@/components/checklist/ChecklistCompl
 import { ResetConfirmationModal } from "@/components/checklist/ResetConfirmationModal";
 import { PersonalizationWizard } from "@/components/checklist/PersonalizationWizard";
 import { InstallAppCard } from "@/components/pwa/InstallAppCard";
+import { OfflineIndicator } from "@/components/pwa/OfflineIndicator";
 import { evaluate, type Rule } from "@/lib/rule-evaluator";
 import type { DocumentRequirement } from "@/types/content";
 import { RotateCcw, Printer, FileDown, Calendar } from "lucide-react";
@@ -97,6 +98,9 @@ export function DocumentSection({
 
   return (
     <section id="documents" aria-labelledby="documents-heading" className="my-10 scroll-mt-28">
+      {/* Offline Status Notice */}
+      <OfflineIndicator className="mb-4" />
+
       {/* Section Header with Circular Progress Ring & Interactive Stats */}
       <div className="border-border/80 mb-6 flex flex-col justify-between gap-4 border-b pb-4 sm:flex-row sm:items-center">
         <div>

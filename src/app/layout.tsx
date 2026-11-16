@@ -11,6 +11,7 @@ import { fontVariables } from "@/lib/fonts";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { AnalyticsScript } from "@/components/analytics/AnalyticsScript";
 import { ServiceWorkerRegister } from "@/components/pwa/ServiceWorkerRegister";
+import { UpdateAvailableToast } from "@/components/pwa/UpdateAvailableToast";
 import { buildOrganizationSchema, buildWebSiteSchema } from "@/lib/jsonld";
 import "./globals.css";
 
@@ -100,6 +101,9 @@ export default function RootLayout({
 
           {/* Privacy & Cookie Consent Banner (Prompt 88) */}
           <ConsentBanner />
+
+          {/* Service Worker Update Toast (Prompt 115) */}
+          <UpdateAvailableToast />
         </ConsentProvider>
       </body>
     </html>
