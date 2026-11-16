@@ -8,8 +8,16 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-nati
 export default function MoreScreen() {
   const menuItems = [
     { title: "Selected State", value: "Gujarat (GJ)", desc: "Change your default state portal" },
-    { title: "App Language", value: "English", desc: "Available: English, Hindi (हिंदी), Gujarati (ગુજરાતી)" },
-    { title: "How We Verify Guides", value: "Class 8 Standard", desc: "Zero unverified content, 100% .gov.in sources" },
+    {
+      title: "App Language",
+      value: "English",
+      desc: "Available: English, Hindi (हिंदी), Gujarati (ગુજરાતી)",
+    },
+    {
+      title: "How We Verify Guides",
+      value: "Class 8 Standard",
+      desc: "Zero unverified content, 100% .gov.in sources",
+    },
     { title: "App Version", value: "v0.1.0", desc: "Light theme only • Offline first" },
   ];
 
@@ -19,10 +27,7 @@ export default function MoreScreen() {
         {menuItems.map((item, index) => (
           <TouchableOpacity
             key={item.title}
-            style={[
-              styles.row,
-              index < menuItems.length - 1 && styles.rowBorder,
-            ]}
+            style={[styles.row, index < menuItems.length - 1 && styles.rowBorder]}
             accessibilityRole="button"
           >
             <View style={styles.rowTextContainer}>

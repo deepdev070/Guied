@@ -1,8 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { ComponentType, ReactNode } from "react";
 
 declare module "react-native" {
-  export interface StyleProp<T = any> {
+  export interface StyleProp<_T = any> {
     [key: string]: any;
   }
 
@@ -12,7 +11,7 @@ declare module "react-native" {
 
   export interface ViewProps {
     style?: any;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
     accessibilityRole?: string;
     accessibilityLabel?: string;
     testID?: string;
@@ -21,7 +20,7 @@ declare module "react-native" {
 
   export interface TextProps {
     style?: any;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
     numberOfLines?: number;
     accessibilityRole?: string;
     accessibilityLabel?: string;
@@ -31,13 +30,13 @@ declare module "react-native" {
 
   export interface TouchableOpacityProps {
     style?: any;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
     onPress?: () => void;
     activeOpacity?: number;
     disabled?: boolean;
     accessibilityRole?: string;
     accessibilityLabel?: string;
-    accessibilityState?: { disabled?: boolean; selected?: boolean };
+    accessibilityState?: { disabled?: boolean; selected?: boolean; checked?: boolean | "mixed" };
     testID?: string;
     [key: string]: any;
   }
@@ -54,6 +53,8 @@ declare module "react-native" {
     autoCorrect?: boolean;
     returnKeyType?: "done" | "go" | "next" | "search" | "send";
     editable?: boolean;
+    multiline?: boolean;
+    numberOfLines?: number;
     accessibilityLabel?: string;
     testID?: string;
     [key: string]: any;
@@ -62,8 +63,8 @@ declare module "react-native" {
   export interface ScrollViewProps {
     style?: any;
     contentContainerStyle?: any;
-    children?: ReactNode;
-    refreshControl?: ReactNode;
+    children?: import("react").ReactNode;
+    refreshControl?: import("react").ReactNode;
     showsVerticalScrollIndicator?: boolean;
     showsHorizontalScrollIndicator?: boolean;
     keyboardShouldPersistTaps?: "always" | "never" | "handled";
@@ -79,42 +80,58 @@ declare module "react-native" {
     [key: string]: any;
   }
 
-  export const View: ComponentType<ViewProps>;
-  export const Text: ComponentType<TextProps>;
-  export const TouchableOpacity: ComponentType<TouchableOpacityProps>;
-  export const TextInput: ComponentType<TextInputProps>;
-  export const ScrollView: ComponentType<ScrollViewProps>;
-  export const RefreshControl: ComponentType<RefreshControlProps>;
-  export const ActivityIndicator: ComponentType<{
+  export const View: import("react").ComponentType<ViewProps>;
+  export const Text: import("react").ComponentType<TextProps>;
+  export const TouchableOpacity: import("react").ComponentType<TouchableOpacityProps>;
+  export const TextInput: import("react").ComponentType<TextInputProps>;
+  export const ScrollView: import("react").ComponentType<ScrollViewProps>;
+  export const RefreshControl: import("react").ComponentType<RefreshControlProps>;
+  export const ActivityIndicator: import("react").ComponentType<{
     size?: "small" | "large" | number;
     color?: string;
     style?: any;
   }>;
-  export const Pressable: ComponentType<TouchableOpacityProps>;
-  export const Image: ComponentType<{
+  export const Pressable: import("react").ComponentType<TouchableOpacityProps>;
+  export const Image: import("react").ComponentType<{
     source: any;
     style?: any;
     resizeMode?: "cover" | "contain" | "stretch" | "repeat" | "center";
     accessibilityLabel?: string;
   }>;
-  export const Modal: ComponentType<{
+  export const Modal: import("react").ComponentType<{
     visible?: boolean;
     animationType?: "none" | "slide" | "fade";
     transparent?: boolean;
     onRequestClose?: () => void;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
   }>;
   export const Dimensions: {
-    get: (dim: "window" | "screen") => { width: number; height: number; scale: number; fontScale: number };
+    get: (dim: "window" | "screen") => {
+      width: number;
+      height: number;
+      scale: number;
+      fontScale: number;
+    };
   };
   export const Platform: {
     OS: "ios" | "android" | "web";
     select: <T>(specifics: { ios?: T; android?: T; default?: T }) => T;
   };
+  export const Share: {
+    share: (content: {
+      message: string;
+      title?: string;
+      url?: string;
+    }) => Promise<{ action: string }>;
+  };
+  export const Linking: {
+    openURL: (url: string) => Promise<boolean>;
+    canOpenURL: (url: string) => Promise<boolean>;
+  };
 }
 
 declare module "expo-status-bar" {
-  export const StatusBar: ComponentType<{
+  export const StatusBar: import("react").ComponentType<{
     style?: "auto" | "inverted" | "light" | "dark";
     backgroundColor?: string;
     translucent?: boolean;
@@ -123,30 +140,30 @@ declare module "expo-status-bar" {
 }
 
 declare module "expo-router" {
-  export const Stack: ComponentType<{
+  export const Stack: import("react").ComponentType<{
     screenOptions?: any;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
   }> & {
-    Screen: ComponentType<{
+    Screen: import("react").ComponentType<{
       name: string;
       options?: any;
     }>;
   };
 
-  export const Tabs: ComponentType<{
+  export const Tabs: import("react").ComponentType<{
     screenOptions?: any;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
   }> & {
-    Screen: ComponentType<{
+    Screen: import("react").ComponentType<{
       name: string;
       options?: any;
     }>;
   };
 
-  export const Link: ComponentType<{
+  export const Link: import("react").ComponentType<{
     href: string | { pathname: string; params?: Record<string, string> };
     asChild?: boolean;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
     style?: any;
   }>;
 
@@ -162,10 +179,77 @@ declare module "expo-router" {
 declare module "react-native-safe-area-context" {
   export interface SafeAreaViewProps {
     style?: any;
-    children?: ReactNode;
+    children?: import("react").ReactNode;
     edges?: Array<"top" | "right" | "bottom" | "left">;
   }
-  export const SafeAreaView: ComponentType<SafeAreaViewProps>;
-  export const SafeAreaProvider: ComponentType<{ children?: ReactNode }>;
-  export const useSafeAreaInsets: () => { top: number; right: number; bottom: number; left: number };
+  export const SafeAreaView: import("react").ComponentType<SafeAreaViewProps>;
+  export const SafeAreaProvider: import("react").ComponentType<{
+    children?: import("react").ReactNode;
+  }>;
+  export const useSafeAreaInsets: () => {
+    top: number;
+    right: number;
+    bottom: number;
+    left: number;
+  };
+}
+
+declare module "expo-print" {
+  export interface PrintToFileOptions {
+    html: string;
+    width?: number;
+    height?: number;
+    base64?: boolean;
+  }
+  export interface FilePrintResult {
+    uri: string;
+    numberOfPages?: number;
+    base64?: string;
+  }
+  export function printToFileAsync(options: PrintToFileOptions): Promise<FilePrintResult>;
+}
+
+declare module "expo-sharing" {
+  export interface SharingOptions {
+    mimeType?: string;
+    dialogTitle?: string;
+    UTI?: string;
+  }
+  export function isAvailableAsync(): Promise<boolean>;
+  export function shareAsync(url: string, options?: SharingOptions): Promise<void>;
+}
+
+declare module "expo-notifications" {
+  export interface NotificationPermissionsStatus {
+    status: "granted" | "undetermined" | "denied";
+    granted: boolean;
+    canAskAgain: boolean;
+    expires?: "never" | number;
+  }
+
+  export interface NotificationContentInput {
+    title: string;
+    body: string;
+    data?: Record<string, unknown>;
+    sound?: boolean | string;
+    badge?: number;
+  }
+
+  export interface NotificationTriggerInput {
+    date?: Date | number;
+    seconds?: number;
+    repeats?: boolean;
+    type?: string;
+  }
+
+  export function getPermissionsAsync(): Promise<NotificationPermissionsStatus>;
+  export function requestPermissionsAsync(): Promise<NotificationPermissionsStatus>;
+  export function scheduleNotificationAsync(request: {
+    content: NotificationContentInput;
+    trigger: NotificationTriggerInput | Date | number | null;
+  }): Promise<string>;
+  export function cancelScheduledNotificationAsync(identifier: string): Promise<void>;
+  export function getAllScheduledNotificationsAsync(): Promise<
+    Array<{ identifier: string; content: NotificationContentInput }>
+  >;
 }

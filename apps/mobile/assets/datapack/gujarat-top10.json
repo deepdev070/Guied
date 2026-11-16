@@ -1,0 +1,1046 @@
+{
+  "version": "2026.11.0",
+  "generatedAt": "2026-11-15T00:00:00.000Z",
+  "launchState": {
+    "code": "GJ",
+    "name": "Gujarat"
+  },
+  "guidesCount": 10,
+  "guides": [
+    {
+      "slug": "driving-licence-learner",
+      "title": "How to Apply for Learner Driving Licence (LLR) in Gujarat",
+      "summary": "Step-by-step procedure to apply for an Indian learner driving licence online via Sarathi Parivahan, take the computerised learner test, and obtain Form 2.",
+      "categorySlug": "vehicles-and-driving",
+      "categoryName": "Vehicles & Driving",
+      "department": "Ministry of Road Transport and Highways (MoRTH) & Gujarat Transport Dept",
+      "sourceUrl": "https://sarathi.parivahan.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "easy",
+      "estimatedTime": "1–3 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Learner Licence Application Fee (Form 2)", "amount": 150 },
+        { "label": "Computerized Online Driving Test Fee", "amount": 50 }
+      ],
+      "documents": [
+        {
+          "id": "doc-1",
+          "name": "Proof of Age (Aadhaar / Birth Certificate / 10th Marksheet)",
+          "description": "Official document proving applicant is at least 18 years old (16 for gearless 50cc).",
+          "isMandatory": true,
+          "instructions": ["Clear scan in PDF format", "Maximum file size: 200 KB"]
+        },
+        {
+          "id": "doc-2",
+          "name": "Proof of Address (Aadhaar / Electricity Bill / Voter ID)",
+          "description": "Must show current residential address matching Gujarat jurisdiction.",
+          "isMandatory": true,
+          "instructions": ["Address must match the selected RTO office"]
+        },
+        {
+          "id": "doc-3",
+          "name": "Form 1 Self-Declaration as to Physical Fitness",
+          "description": "Self-declaration of medical fitness filled directly inside Sarathi online form.",
+          "isMandatory": true
+        },
+        {
+          "id": "doc-4",
+          "name": "Form 1A Medical Certificate (if age > 40 or commercial transport)",
+          "description": "Signed and stamped certificate from a registered medical practitioner (MBBS).",
+          "isMandatory": false,
+          "instructions": ["Only required if applicant is over 40 years old or commercial transport"],
+          "appliesWhen": {
+            "or": [{ "applicantAge": { "gte": 40 } }, { "commercial": true }]
+          }
+        },
+        {
+          "id": "doc-5",
+          "name": "Recent Passport Size Photograph & Signature",
+          "description": "Digital photo and scanned signature on plain white paper with dark ink.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Submit Online Application on Sarathi Parivahan",
+          "description": "Visit sarathi.parivahan.gov.in, select Gujarat, and choose 'Apply for Learner Licence'. Authenticate using Aadhaar OTP.",
+          "estimatedTime": "15 mins",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Upload Required Documents & Photo",
+          "description": "Upload age proof, address proof, and signature. Aadhaar eKYC automatically auto-fills photo and address.",
+          "estimatedTime": "10 mins",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pay Statutory Government Fees (₹200)",
+          "description": "Pay ₹150 for licence issuance and ₹50 for test fee using UPI, Net Banking, or Debit Card.",
+          "estimatedTime": "5 mins",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Appear for Online Learner Test",
+          "description": "Take the 15-question multiple choice test on road traffic rules and signs from home or at RTO.",
+          "estimatedTime": "20 mins",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 5,
+          "title": "Download Learner Licence (Form 2)",
+          "description": "Upon passing with 60% or higher, immediately download your digital learner licence PDF from Sarathi.",
+          "estimatedTime": "5 mins",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Uploading Blurry Documents",
+          "description": "Unreadable scans will lead to application rejection by the RTO scrutinizer."
+        },
+        {
+          "title": "Waiting Beyond 6 Months to Apply for Permanent DL",
+          "description": "A Learner Licence expires permanently after 180 days. You must apply for a permanent DL between day 30 and day 180."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I take the learner licence test from home in Gujarat?",
+          "answer": "Yes, through Aadhaar-based authentication on Sarathi Parivahan, applicants in Gujarat can take the computerised exam from home with webcam proctoring."
+        },
+        {
+          "question": "What is the validity of a Learner Licence?",
+          "answer": "A Learner Licence is valid for 6 months (180 days) across all states in India."
+        },
+        {
+          "question": "Can I drive alone on a learner licence?",
+          "answer": "No. The Motor Vehicles Act requires an L-board on the vehicle and an instructor or permanent licence holder in the front passenger seat."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Sarathi Parivahan Gujarat Portal",
+          "url": "https://sarathi.parivahan.gov.in",
+          "description": "Official MoRTH portal for application submission, fee payment, and test scheduling."
+        }
+      ]
+    },
+    {
+      "slug": "driving-licence-new",
+      "title": "How to Get a Permanent Driving Licence (DL) in Gujarat",
+      "summary": "Complete procedure to book an automated driving test track slot in Gujarat, pass the physical skill test, and receive your Smart Card Driving Licence.",
+      "categorySlug": "vehicles-and-driving",
+      "categoryName": "Vehicles & Driving",
+      "department": "Gujarat Transport Department & MoRTH",
+      "sourceUrl": "https://sarathi.parivahan.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "medium",
+      "estimatedTime": "7–14 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Driving Test Fee (per vehicle class)", "amount": 300 },
+        { "label": "Smart Card DL Issuance Fee", "amount": 200 }
+      ],
+      "documents": [
+        {
+          "id": "dl-1",
+          "name": "Valid Learner Licence (Form 2)",
+          "description": "Must have held LLR for at least 30 days and within 180 days.",
+          "isMandatory": true
+        },
+        {
+          "id": "dl-2",
+          "name": "Form 5 Driving School Certificate (for transport vehicles)",
+          "description": "Training certificate from an accredited driving school.",
+          "isMandatory": false
+        },
+        {
+          "id": "dl-3",
+          "name": "Vehicle Registration Certificate (RC) & Valid PUC",
+          "description": "RC of the test vehicle and pollution certificate.",
+          "isMandatory": true
+        },
+        {
+          "id": "dl-4",
+          "name": "Valid Insurance Certificate of Test Vehicle",
+          "description": "Active motor insurance policy for test vehicle.",
+          "isMandatory": true
+        },
+        {
+          "id": "dl-5",
+          "name": "Slot Booking Appointment Slip",
+          "description": "Printout of the Sarathi test appointment slip.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply for New Driving Licence on Sarathi",
+          "description": "Fill Form 4 on sarathi.parivahan.gov.in referencing your active Learner Licence number.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Book Automated Test Track Appointment",
+          "description": "Select date and time slot for Gujarat RTO automated driving test track.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pay Statutory Fees (₹500 for single class)",
+          "description": "Pay ₹300 test fee + ₹200 smart card fee online.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Appear for Driving Skill Test at RTO",
+          "description": "Drive on sensor-monitored automated track (figure-8, reverse-S, up-gradient stop).",
+          "isOnline": false
+        },
+        {
+          "stepNumber": 5,
+          "title": "Smart Card DL Delivery via Speed Post",
+          "description": "RTO dispatches your PVC Smart Card DL to your residential address via India Post.",
+          "isOnline": false
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Arriving with Expired Vehicle PUC or Insurance",
+          "description": "The RTO track inspector inspects the test vehicle papers before allowing you on track."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use my own car or bike for the RTO driving test?",
+          "answer": "Yes, you must bring a roadworthy vehicle with valid RC, insurance, PUC, and an L-board."
+        },
+        {
+          "question": "How soon after getting LLR can I apply for permanent DL?",
+          "answer": "You must wait at least 30 days after LLR issue date, and apply before day 180."
+        },
+        {
+          "question": "What if I fail the driving test in Gujarat?",
+          "answer": "You can re-book a test appointment slot after 7 days by paying a ₹300 re-test fee."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Gujarat Transport Portal",
+          "url": "https://cot.gujarat.gov.in",
+          "description": "Official Gujarat transport commissioner guidelines and test track rules."
+        }
+      ]
+    },
+    {
+      "slug": "passport-renewal",
+      "title": "How to Re-issue / Renew an Indian Passport in Gujarat",
+      "summary": "Step-by-step citizen guide to renew an expiring or exhausted 36/60-page Indian passport via Passport Seva Kendra (PSK) in Ahmedabad, Surat, Rajkot, or Vadodara.",
+      "categorySlug": "identity-and-citizenship",
+      "categoryName": "Identity & Citizenship",
+      "department": "Consular, Passport & Visa (CPV) Division, Ministry of External Affairs",
+      "sourceUrl": "https://www.passportindia.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "medium",
+      "estimatedTime": "10–20 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Normal Scheme (36-page booklet, 10-year validity)", "amount": 1500 },
+        { "label": "Tatkaal Scheme Fast-track Surcharge", "amount": 2000, "isOptional": true }
+      ],
+      "documents": [
+        {
+          "id": "pass-1",
+          "name": "Original Old Passport (First 2 & Last 2 pages photocopy)",
+          "description": "Physical booklet of your current passport including ECR/Non-ECR page.",
+          "isMandatory": true
+        },
+        {
+          "id": "pass-2",
+          "name": "Aadhaar Card with matching current residential address",
+          "description": "Used as primary address and identity proof for police verification.",
+          "isMandatory": true
+        },
+        {
+          "id": "pass-3",
+          "name": "Proof of Date of Birth (Birth Certificate / School Leaving Certificate)",
+          "description": "Official record establishing your birth date.",
+          "isMandatory": true
+        },
+        {
+          "id": "pass-4",
+          "name": "Annexure E Affidavit (Mandatory for Tatkaal)",
+          "description": "Standard declaration for urgent processing under Tatkaal scheme.",
+          "isMandatory": false
+        },
+        {
+          "id": "pass-5",
+          "name": "Online Appointment Confirmation Receipt",
+          "description": "Printout of the PSK slot booking confirmation.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Passport Seva Portal",
+          "description": "Create an account on passportindia.gov.in and fill Form for Passport Re-issue.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pay Statutory Fee & Book PSK Slot",
+          "description": "Pay ₹1,500 online and choose your preferred PSK appointment date.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Visit Passport Seva Kendra (PSK / POPSK)",
+          "description": "Pass through Counters A (biometrics/photo), B (document verification), and C (granting).",
+          "isOnline": false
+        },
+        {
+          "stepNumber": 4,
+          "title": "Police Verification (mPassport Police App)",
+          "description": "Local police officer visits address or contacts applicant for verification.",
+          "isOnline": false
+        },
+        {
+          "stepNumber": 5,
+          "title": "Passport Delivery via India Post Speed Post",
+          "description": "Track booklet dispatch online; delivered with secure signature confirmation.",
+          "isOnline": false
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Discrepancy Between Old Passport Name and Aadhaar",
+          "description": "Any change in name spelling requires newspaper advertisement and gazette notification."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How early before passport expiry can I apply for renewal?",
+          "answer": "You can apply up to 1 year (12 months) before your current passport expires."
+        },
+        {
+          "question": "Is police verification required for every renewal?",
+          "answer": "If your address and personal particulars are unchanged, police verification may be post-dispatch or waived under MEA guidelines."
+        },
+        {
+          "question": "Can I renew an Indian passport under Tatkaal in Gujarat?",
+          "answer": "Yes, Tatkaal processing is available at PSK Ahmedabad, Surat, Rajkot, and Vadodara with ₹2,000 extra fee."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Official Passport Seva Portal",
+          "url": "https://www.passportindia.gov.in",
+          "description": "Ministry of External Affairs portal for appointments, fees, and tracking."
+        }
+      ]
+    },
+    {
+      "slug": "pan-card-new",
+      "title": "How to Apply for New PAN Card (Instant e-PAN & PVC) in Gujarat",
+      "summary": "Obtain an Indian Permanent Account Number (PAN) through Instant Paperless e-KYC on the Income Tax Portal in under 10 minutes or order a physical PVC card for ₹50.",
+      "categorySlug": "taxes-and-revenue",
+      "categoryName": "Taxes & Revenue",
+      "department": "Income Tax Department, Ministry of Finance & Protean / NSDL",
+      "sourceUrl": "https://www.incometax.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "easy",
+      "estimatedTime": "10 mins (Digital) / 10 days (Physical)",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Instant Digital e-PAN (Income Tax e-Filing)", "amount": 0 },
+        { "label": "Physical PVC Card Delivery Fee (Optional)", "amount": 50, "isOptional": true }
+      ],
+      "documents": [
+        {
+          "id": "pan-1",
+          "name": "Aadhaar Card with linked active mobile number",
+          "description": "Sole document required for instant OTP paperless e-KYC.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Visit Income Tax e-Filing Portal",
+          "description": "Go to incometax.gov.in and click 'Instant e-PAN'.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter 12-digit Aadhaar Number",
+          "description": "Input Aadhaar and confirm consent for demographic authentication.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Authenticate with Aadhaar OTP",
+          "description": "Enter 6-digit OTP received on UIDAI registered mobile.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Instant e-PAN Allotment & PDF Download",
+          "description": "Digitally signed e-PAN PDF is generated within 10 minutes for free.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 5,
+          "title": "Order Physical PVC Card (Optional)",
+          "description": "Visit Protean or UTIITSL reprint portal to request physical card delivery for ₹50.",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Applying with Mobile Not Linked to Aadhaar",
+          "description": "Instant e-PAN strictly requires an active mobile linked to UIDAI to receive the OTP."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is digital e-PAN legally valid for banking and government work?",
+          "answer": "Yes, CBDT Rule 114 clearly states that digitally signed e-PAN is 100% legally equivalent to physical PVC PAN."
+        },
+        {
+          "question": "What is the fee for Instant e-PAN?",
+          "answer": "Instant e-PAN on the Income Tax Department portal is completely free of charge (₹0)."
+        },
+        {
+          "question": "Can minors apply for instant e-PAN?",
+          "answer": "No. Instant e-PAN via Aadhaar e-KYC is restricted to adult citizens (18+). Minors must apply via Form 49A with parent signature."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Income Tax e-Filing Portal",
+          "url": "https://www.incometax.gov.in",
+          "description": "Official Income Tax Department portal for Instant e-PAN."
+        }
+      ]
+    },
+    {
+      "slug": "voter-id-new",
+      "title": "How to Register New Voter ID (Form 6) in Gujarat",
+      "summary": "Online voter registration process on Election Commission of India (ECI) Voters Portal to get your EPIC card and enrol in Gujarat electoral roll.",
+      "categorySlug": "identity-and-citizenship",
+      "categoryName": "Identity & Citizenship",
+      "department": "Election Commission of India (ECI) & Chief Electoral Officer Gujarat",
+      "sourceUrl": "https://voters.eci.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "easy",
+      "estimatedTime": "15–30 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Voter Registration (Form 6)", "amount": 0 },
+        { "label": "Color PVC EPIC Card Delivery", "amount": 0 }
+      ],
+      "documents": [
+        {
+          "id": "voter-1",
+          "name": "Proof of Age (Birth Certificate / Aadhaar / PAN / 10th Certificate)",
+          "description": "Applicant must be 18 years old on qualifying date.",
+          "isMandatory": true
+        },
+        {
+          "id": "voter-2",
+          "name": "Proof of Ordinary Residence in Gujarat",
+          "description": "Electricity bill, water bill, gas connection, or Aadhaar showing Gujarat address.",
+          "isMandatory": true
+        },
+        {
+          "id": "voter-3",
+          "name": "Passport Size Color Photograph",
+          "description": "Front-facing color photo with white background (max 2 MB).",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Create Account on ECI Voters Portal",
+          "description": "Visit voters.eci.gov.in and register using mobile number.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Online Form 6",
+          "description": "Fill personal details, Gujarat assembly constituency, and present address.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Age Proof & Residence Proof",
+          "description": "Attach scanned self-attested copies of age and residence proof.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Booth Level Officer (BLO) Physical Verification",
+          "description": "Local BLO visits your house to confirm residency and identity.",
+          "isOnline": false
+        },
+        {
+          "stepNumber": 5,
+          "title": "Download e-EPIC & Receive Physical Card",
+          "description": "Download digital e-EPIC PDF and receive physical card via Speed Post for free.",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Dual Enrolment in Two Constituencies",
+          "description": "Registering in two places is a punishable offence under Section 31 of RPA 1950. Always delete previous registration."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is there any statutory fee for Voter ID registration in India?",
+          "answer": "No. Voter registration on ECI portal is 100% free of charge (₹0)."
+        },
+        {
+          "question": "Can 17-year-olds apply in advance?",
+          "answer": "Yes, ECI permits citizens who have turned 17 to submit advance applications."
+        },
+        {
+          "question": "What is the official portal for Gujarat voter services?",
+          "answer": "Official services are at voters.eci.gov.in and ceo.gujarat.gov.in."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "ECI Voters Service Portal",
+          "url": "https://voters.eci.gov.in",
+          "description": "National portal for electoral registration and e-EPIC download."
+        }
+      ]
+    },
+    {
+      "slug": "ration-card-family",
+      "title": "How to Apply for New NFSA Family Ration Card in Gujarat",
+      "summary": "Procedure to apply for subsidized NFSA food security or Non-NFSA barcoded family ration card through Gujarat Digital Seva Setu portal.",
+      "categorySlug": "welfare-and-benefits",
+      "categoryName": "Welfare & Benefits",
+      "department": "Food, Civil Supplies and Consumer Affairs Dept, Government of Gujarat",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "medium",
+      "estimatedTime": "15–30 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Digital Seva Setu Application Fee", "amount": 20 },
+        { "label": "Barcoded Ration Card Booklet Fee", "amount": 30 }
+      ],
+      "documents": [
+        {
+          "id": "rc-1",
+          "name": "Aadhaar Card of all family members",
+          "description": "Mandatory for biometric seeding under One Nation One Ration Card.",
+          "isMandatory": true
+        },
+        {
+          "id": "rc-2",
+          "name": "Income Certificate / Proof of Income",
+          "description": "Income certificate issued by Talati / Mamlatdar.",
+          "isMandatory": true
+        },
+        {
+          "id": "rc-3",
+          "name": "Electricity Bill or Property Tax Receipt in Gujarat",
+          "description": "Residential address verification for Gujarat home.",
+          "isMandatory": true
+        },
+        {
+          "id": "rc-4",
+          "name": "Cancellation / Surrender Certificate (if moving from another address)",
+          "description": "Proof that member is not listed in any existing ration card.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat Portal",
+          "description": "Log in to digitalgujarat.gov.in using mobile number or Jan Seva Kendra.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill New Ration Card Application Form",
+          "description": "Enter Head of Family details, household member Aadhaar numbers, and annual income.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Scanned Documents & Family Photo",
+          "description": "Upload combined family photo, Aadhaar cards, and electricity bill.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Government Fee (₹50 total)",
+          "description": "Pay application and booklet charges via Cyber Treasury Gujarat.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 5,
+          "title": "Mamlatdar Scrutiny & Card Collection",
+          "description": "Supply inspector reviews eligibility; collect barcoded card from local Mamlatdar office.",
+          "isOnline": false
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Member Aadhaar Already Linked Elsewhere",
+          "description": "If any family member is registered on another ration card in India, the application will be rejected by the NFSA deduplication engine."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use my Gujarat ration card in other states?",
+          "answer": "Yes, under the One Nation One Ration Card (ONORC) scheme, NFSA cardholders can collect foodgrains from any Fair Price Shop across India."
+        },
+        {
+          "question": "What is the official portal for Gujarat ration cards?",
+          "answer": "Applications are submitted on digitalgujarat.gov.in and tracked on dcs-dof.gujarat.gov.in."
+        },
+        {
+          "question": "Who is eligible for priority NFSA card in Gujarat?",
+          "answer": "Households meeting Gujarat state rural or urban inclusion criteria with verified income certificates."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Digital Gujarat Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "description": "Official citizen portal for revenue and food civil supplies certificates."
+        }
+      ]
+    },
+    {
+      "slug": "income-certificate",
+      "title": "How to Obtain Revenue Income Certificate in Gujarat",
+      "summary": "Official process to obtain an authorized Income Certificate from Gujarat Revenue Department via Digital Gujarat portal or Talati mantri.",
+      "categorySlug": "certificates-and-records",
+      "categoryName": "Certificates & Records",
+      "department": "Revenue Department, Government of Gujarat",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "easy",
+      "estimatedTime": "3–7 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Digital Gujarat Application Fee", "amount": 20 }
+      ],
+      "documents": [
+        {
+          "id": "inc-1",
+          "name": "Applicant Aadhaar Card / Identity Proof",
+          "description": "Clear copy of Aadhaar card.",
+          "isMandatory": true
+        },
+        {
+          "id": "inc-2",
+          "name": "Gujarat Address Proof (Electricity bill / Ration card)",
+          "description": "Proof of residential address in Gujarat.",
+          "isMandatory": true
+        },
+        {
+          "id": "inc-3",
+          "name": "Income Proof (Salary Slip / Form 16 / ITR / Talati Panchnama)",
+          "description": "Documents proving family annual income.",
+          "isMandatory": true
+        },
+        {
+          "id": "inc-4",
+          "name": "Self-Declaration Affidavit",
+          "description": "Prescribed declaration form of family income.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Log in to Digital Gujarat Portal",
+          "description": "Navigate to Revenue Services -> Income Certificate.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Income & Family Particulars",
+          "description": "Provide occupational details, employer info, and annual earnings.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Documents & Self-Declaration",
+          "description": "Attach income proof, address proof, and applicant photo.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Government Fee (₹20)",
+          "description": "Pay ₹20 through online net banking, UPI, or debit card.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 5,
+          "title": "Download Digitally Signed Certificate",
+          "description": "Once Mamlatdar approves, download certificate with QR code directly from portal.",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Under-reporting Income Below Tax Returns",
+          "description": "The revenue department cross-verifies PAN/ITR records before issuing certificates."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the validity period of Gujarat Income Certificate?",
+          "answer": "In Gujarat, an Income Certificate is legally valid for 3 financial years from the date of issue."
+        },
+        {
+          "question": "Can I verify the authenticity of Gujarat Income Certificate online?",
+          "answer": "Yes, every certificate has a unique 14-digit application number and QR code verifiable on digitalgujarat.gov.in."
+        },
+        {
+          "question": "Who issues the Income Certificate in Gujarat?",
+          "answer": "The Mamlatdar or Taluk Development Officer (TDO) authorized by Gujarat Revenue Department."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Digital Gujarat Revenue Services",
+          "url": "https://digitalgujarat.gov.in",
+          "description": "Official portal for Gujarat income certificate application and verification."
+        }
+      ]
+    },
+    {
+      "slug": "domicile-certificate",
+      "title": "How to Get Gujarat Resident Domicile Certificate",
+      "summary": "Guide to obtain a Domicile Certificate proving continuous 10-year residency in Gujarat for education quota, NEET admissions, and state government jobs.",
+      "categorySlug": "certificates-and-records",
+      "categoryName": "Certificates & Records",
+      "department": "Home Department & Revenue Dept, Government of Gujarat",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "medium",
+      "estimatedTime": "7–15 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Digital Gujarat Domicile Service Fee", "amount": 20 }
+      ],
+      "documents": [
+        {
+          "id": "dom-1",
+          "name": "10-Year Continuous Residency Proof in Gujarat",
+          "description": "School Leaving Certificates, continuous electricity bills, or land records proving 10 years stay.",
+          "isMandatory": true
+        },
+        {
+          "id": "dom-2",
+          "name": "Aadhaar Card and Voter ID of Applicant/Parents",
+          "description": "Valid identity proof.",
+          "isMandatory": true
+        },
+        {
+          "id": "dom-3",
+          "name": "Birth Certificate proving birth in Gujarat",
+          "description": "Official civil birth certificate.",
+          "isMandatory": true
+        },
+        {
+          "id": "dom-4",
+          "name": "Affidavit on Non-Judicial Stamp Paper (₹50)",
+          "description": "Sworn affidavit of intention to reside permanently in Gujarat.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply Online on Digital Gujarat Portal",
+          "description": "Select Domicile Certificate service under Magisterial/Revenue section.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Upload 10-Year Stay Records & Proofs",
+          "description": "Attach school education records from 1st standard to 12th standard.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pay Government Fee (₹20)",
+          "description": "Pay service charges online.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Executive Magistrate / Mamlatdar Scrutiny",
+          "description": "Local enquiry by Talati to verify continuous 10-year physical stay.",
+          "isOnline": false
+        },
+        {
+          "stepNumber": 5,
+          "title": "Download Digitally Signed Domicile Certificate",
+          "description": "Download certificate from Digital Gujarat with official QR seal.",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Providing Less Than 10 Years Proof of Continuous Stay",
+          "description": "Gujarat rules require strict documentary proof of 10 consecutive years of residence."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the minimum residency requirement for Gujarat domicile?",
+          "answer": "An applicant or their parents must have resided continuously in Gujarat for at least 10 years."
+        },
+        {
+          "question": "What is the validity of Gujarat Domicile Certificate?",
+          "answer": "A Domicile Certificate has lifetime validity unless permanent residence changes."
+        },
+        {
+          "question": "Can I use school marksheets as stay proof?",
+          "answer": "Yes, continuous school attendance records from Gujarat schools are considered prime proof."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Digital Gujarat Citizen Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "description": "Official portal for domicile and certificate applications."
+        }
+      ]
+    },
+    {
+      "slug": "birth-certificate",
+      "title": "How to Obtain Official Birth Certificate in Gujarat",
+      "summary": "Procedure to search, download, or apply for institutional and home birth registration records via Civil Registration System (CRS) and e-Nagar Gujarat portal.",
+      "categorySlug": "certificates-and-records",
+      "categoryName": "Certificates & Records",
+      "department": "Civil Registration System (CRS), Office of the Registrar General of India & Gujarat Urban Development (e-Nagar)",
+      "sourceUrl": "https://enagar.gujarat.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "easy",
+      "estimatedTime": "1–5 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Registration within 21 days", "amount": 0 },
+        { "label": "Delayed Registration Fee (22–30 days)", "amount": 2, "isOptional": true },
+        { "label": "First Copy of Certificate", "amount": 0 }
+      ],
+      "documents": [
+        {
+          "id": "birth-1",
+          "name": "Hospital Discharge Card / Form 1 Birth Report",
+          "description": "Official institutional birth report issued by doctor.",
+          "isMandatory": true
+        },
+        {
+          "id": "birth-2",
+          "name": "Aadhaar Card of Mother and Father",
+          "description": "Identity and parentage proof.",
+          "isMandatory": true
+        },
+        {
+          "id": "birth-3",
+          "name": "Parents Marriage Certificate (if available)",
+          "description": "Record supporting parental registration.",
+          "isMandatory": false
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Hospital Notification to Local Registrar (within 21 days)",
+          "description": "Hospitals submit institutional birth record directly to municipal corporation or gram panchayat.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Record on e-Nagar Gujarat / CRS Portal",
+          "description": "Visit enagar.gujarat.gov.in, select municipality, and input child DOB and mother's name.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add Child Name (if not named at hospital)",
+          "description": "Parents can add baby name online within 1 year without any fee.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Download Digitally Signed Birth Certificate (Form 5)",
+          "description": "Download certificate featuring registrar QR code and security watermark.",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Missing the 21-day Free Registration Window",
+          "description": "Reporting after 30 days requires Sub-Divisional Magistrate (SDM) delayed registration order."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the fee for registering a birth within 21 days in Gujarat?",
+          "answer": "Registration of birth within 21 days is completely free (₹0) under the Registration of Births and Deaths Act."
+        },
+        {
+          "question": "Can I download Gujarat municipal birth certificates online?",
+          "answer": "Yes, certificates for Ahmedabad, Surat, Vadodara, Rajkot and other municipalities are available on enagar.gujarat.gov.in."
+        },
+        {
+          "question": "Is the digital QR code birth certificate valid for passport?",
+          "answer": "Yes, digitally signed CRS/e-Nagar certificates with QR codes are fully accepted by Passport Seva."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Gujarat e-Nagar Portal",
+          "url": "https://enagar.gujarat.gov.in",
+          "description": "Official municipal civic services portal for Gujarat."
+        }
+      ]
+    },
+    {
+      "slug": "caste-certificate",
+      "title": "How to Apply for SC / ST / SEBC / EWS Certificate in Gujarat",
+      "summary": "Step-by-step application procedure to obtain Socially & Educationally Backward Class (SEBC), SC, ST, or EWS certificate via Gujarat Digital Gujarat / e-Samaj Kalyan portal.",
+      "categorySlug": "certificates-and-records",
+      "categoryName": "Certificates & Records",
+      "department": "Social Justice & Empowerment Department, Government of Gujarat",
+      "sourceUrl": "https://esamajkalyan.gujarat.gov.in",
+      "lastVerifiedAt": "2026-11-15",
+      "difficulty": "medium",
+      "estimatedTime": "7–15 days",
+      "stateCode": "GJ",
+      "stateName": "Gujarat",
+      "isLaunchState": true,
+      "fees": [
+        { "label": "Digital Gujarat / E-Samaj Kalyan Application Fee", "amount": 20 }
+      ],
+      "documents": [
+        {
+          "id": "caste-1",
+          "name": "Father / Paternal Relative School Leaving Certificate showing Caste",
+          "description": "Prime evidence establishing genealogical caste record in Gujarat.",
+          "isMandatory": true
+        },
+        {
+          "id": "caste-2",
+          "name": "Applicant School Leaving Certificate",
+          "description": "Certificate showing applicant's school records.",
+          "isMandatory": true
+        },
+        {
+          "id": "caste-3",
+          "name": "Gujarat Address Proof (Aadhaar / Ration Card)",
+          "description": "Proof of residence in Gujarat.",
+          "isMandatory": true
+        },
+        {
+          "id": "caste-4",
+          "name": "Pedhinama (Genealogical Family Tree) issued by Talati",
+          "description": "Document linking applicant to paternal caste holder.",
+          "isMandatory": true
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat or e-Samaj Kalyan",
+          "description": "Create an account on digitalgujarat.gov.in or esamajkalyan.gujarat.gov.in.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Caste & Paternal Pedhinama Particulars",
+          "description": "Enter community details, sub-caste, and paternal pedigree.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Scanned Paternal Proofs & Pedhinama",
+          "description": "Upload father's leaving certificate and Talati panchnama.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Government Fee (₹20)",
+          "description": "Complete payment online.",
+          "isOnline": true
+        },
+        {
+          "stepNumber": 5,
+          "title": "Scrutiny by Mamlatdar / Social Welfare Officer",
+          "description": "After administrative verification, download digitally signed caste certificate.",
+          "isOnline": true
+        }
+      ],
+      "mistakes": [
+        {
+          "title": "Using Mother's Caste Documents Instead of Paternal Side",
+          "description": "Indian caste law strictly dictates that community certificates must trace through the paternal lineage."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the validity of a Caste Certificate in Gujarat?",
+          "answer": "SC, ST, and SEBC caste certificates have lifetime validity. Non-Creamy Layer (NCL) certificates for SEBC have a validity of 3 financial years."
+        },
+        {
+          "question": "What is Pedhinama and why is it needed?",
+          "answer": "Pedhinama is an official family tree certified by the village Talati proving relation to paternal ancestors holding caste records."
+        },
+        {
+          "question": "Can I download Gujarat caste certificates online?",
+          "answer": "Yes, certificates are issued with digital signatures and QR codes downloadable from digitalgujarat.gov.in."
+        }
+      ],
+      "officialLinks": [
+        {
+          "title": "Gujarat E-Samaj Kalyan Portal",
+          "url": "https://esamajkalyan.gujarat.gov.in",
+          "description": "Official welfare portal of Government of Gujarat."
+        }
+      ]
+    }
+  ]
+}

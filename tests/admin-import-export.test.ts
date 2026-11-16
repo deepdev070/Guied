@@ -1,5 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert";
+import fs from "node:fs";
+import path from "node:path";
 import {
   exportGuidesAsJson,
   exportGuidesAsCsv,
@@ -250,13 +252,19 @@ describe("Prompt 108: Bulk Import and Export of Civic Guides", () => {
   });
 
   it("7. Import Execution: successfully applies updates and creates audit records", async () => {
-    const existing = getTaskContent("driving-licence-learner");
-    assert.ok(existing, "Existing guide must be present");
+    const filePath = path.join(process.cwd(), "src/content/tasks/driving-licence-learner.json");
+    const originalRaw = fs.readFileSync(filePath, "utf-8");
+    try {
+      const existing = getTaskContent("driving-licence-learner");
+      assert.ok(existing, "Existing guide must be present");
 
-    const execResult = await executeImport([existing], "Admin Tester");
-    assert.strictEqual(execResult.success, true);
-    assert.strictEqual(execResult.updatedCount, 1);
-    assert.strictEqual(execResult.createdCount, 0);
-    assert.strictEqual(execResult.rejectedCount, 0);
+      const execResult = await executeImport([existing], "Admin Tester");
+      assert.strictEqual(execResult.success, true);
+      assert.strictEqual(execResult.updatedCount, 1);
+      assert.strictEqual(execResult.createdCount, 0);
+      assert.strictEqual(execResult.rejectedCount, 0);
+    } finally {
+      fs.writeFileSync(filePath, originalRaw, "utf-8");
+    }
   });
 });

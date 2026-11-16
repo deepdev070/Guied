@@ -9,6 +9,17 @@ package-lock.json
 .audit
 .reports
 .turbo
+apps/web/src
+apps/web/prisma
+apps/web/tests
+apps/web/scripts
+apps/web/e2e
+apps/web/public
+apps/web/next.config.ts
+apps/mobile/assets
+*.png
+*.jpg
+*.ico
 
 
 
