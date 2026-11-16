@@ -21,6 +21,7 @@
     "i18n:import": "node --no-warnings --experimental-strip-types scripts/import-translations.ts",
     "seo:orphans": "node --no-warnings --experimental-strip-types scripts/detect-orphan-pages.ts",
     "seo:audit": "node --no-warnings --experimental-strip-types scripts/seo-audit.ts",
+    "pwa:icons": "node --no-warnings --experimental-strip-types scripts/generate-pwa-icons.ts",
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
     "db:seed": "prisma db seed",

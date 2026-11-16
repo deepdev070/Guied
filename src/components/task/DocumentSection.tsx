@@ -6,6 +6,7 @@ import { ProgressRing } from "@/components/checklist/ProgressRing";
 import { ChecklistCompletionBanner } from "@/components/checklist/ChecklistCompletionBanner";
 import { ResetConfirmationModal } from "@/components/checklist/ResetConfirmationModal";
 import { PersonalizationWizard } from "@/components/checklist/PersonalizationWizard";
+import { InstallAppCard } from "@/components/pwa/InstallAppCard";
 import { evaluate, type Rule } from "@/lib/rule-evaluator";
 import type { DocumentRequirement } from "@/types/content";
 import { RotateCcw, Printer, FileDown, Calendar } from "lucide-react";
@@ -188,12 +189,13 @@ export function DocumentSection({
 
       {/* Confetti-Free Green Completion Banner when all items are ticked */}
       {isAllReady && (
-        <div className="mb-6">
+        <div className="mb-6 space-y-4">
           <ChecklistCompletionBanner
             totalCount={totalCount}
             taskTitle={taskTitle}
             onReset={onResetDocs ? () => setResetModalOpen(true) : undefined}
           />
+          <InstallAppCard />
         </div>
       )}
 

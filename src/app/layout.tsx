@@ -10,6 +10,7 @@ import { siteConfig } from "@/lib/site";
 import { fontVariables } from "@/lib/fonts";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { AnalyticsScript } from "@/components/analytics/AnalyticsScript";
+import { ServiceWorkerRegister } from "@/components/pwa/ServiceWorkerRegister";
 import { buildOrganizationSchema, buildWebSiteSchema } from "@/lib/jsonld";
 import "./globals.css";
 
@@ -23,6 +24,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "India Paperwork",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: [
+      {
+        url: "/icons/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
   verification: {
     google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
   },
@@ -30,7 +47,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: "light",
-  themeColor: "#FFFFFF",
+  themeColor: "#2563EB",
 };
 
 export default function RootLayout({
@@ -41,6 +58,10 @@ export default function RootLayout({
   return (
     <html lang={siteConfig.defaultLocale} className={`${fontVariables} h-full antialiased`}>
       <head>
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="India Paperwork" />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var s=localStorage.getItem("civic_text_scale");if(s&&["100","115","130"].indexOf(s)!==-1){document.documentElement.setAttribute("data-text-scale",s);}var l=localStorage.getItem("civic_lite_mode");if(l==="true"){document.documentElement.setAttribute("data-lite-mode","true");}}catch(e){}})();`,
@@ -51,6 +72,7 @@ export default function RootLayout({
       <body className="bg-surface text-text flex min-h-full flex-col font-sans">
         <ConsentProvider>
           <AnalyticsScript />
+          <ServiceWorkerRegister />
           {/* WCAG AA Skip-to-content Link */}
           <a
             href="#main-content"

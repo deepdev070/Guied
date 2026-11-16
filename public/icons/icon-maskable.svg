@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="mBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="mCheckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+    <filter id="mShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Full 100% Bleed Background (Maskable requirement) -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#mBgGrad)"/>
+
+  <!-- Centered Scaled Artwork in Safe Zone (central 64%) -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Document Sheet with Folded Corner -->
+    <g filter="url(#mShadow)">
+      <path d="M 144 112 
+               L 304 112 
+               L 368 176 
+               L 368 392 
+               A 16 16 0 0 1 352 408 
+               L 160 408 
+               A 16 16 0 0 1 144 392 
+               Z" 
+            fill="#FFFFFF"/>
+      
+      <!-- Folded Corner Flap -->
+      <path d="M 304 112 
+               L 304 168 
+               A 8 8 0 0 0 312 176 
+               L 368 176 
+               Z" 
+            fill="#E2E8F0"/>
+      <path d="M 304 176 L 368 176" stroke="#CBD5E1" stroke-width="2"/>
+      
+      <!-- Document Content Checklist Lines -->
+      <rect x="180" y="168" width="96" height="14" rx="7" fill="#003366"/>
+      <rect x="180" y="212" width="22" height="22" rx="5" fill="#DBEAFE"/>
+      <rect x="216" y="217" width="124" height="12" rx="6" fill="#94A3B8"/>
+      <rect x="180" y="252" width="22" height="22" rx="5" fill="#DBEAFE"/>
+      <rect x="216" y="257" width="112" height="12" rx="6" fill="#94A3B8"/>
+      <rect x="180" y="292" width="22" height="22" rx="5" fill="#DBEAFE"/>
+      <rect x="216" y="297" width="96" height="12" rx="6" fill="#94A3B8"/>
+    </g>
+
+    <!-- Circular Verification Badge -->
+    <g filter="url(#mShadow)">
+      <circle cx="344" cy="352" r="56" fill="url(#mCheckGrad)" stroke="#FFFFFF" stroke-width="8"/>
+      <path d="M 320 352 L 338 370 L 372 334" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="12" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

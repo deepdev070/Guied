@@ -1,6 +1,6 @@
 [
   {
-    "id": "rep_1794658440930_5k9w2",
+    "id": "rep_1794808613372_kubb7",
     "taskSlug": "driving-licence-learner",
     "stateCode": "gj",
     "reporterEmail": "new.citizen@test.gov.in",
@@ -8,8 +8,68 @@
     "description": "Document checklist should clarify Form 1A age threshold.",
     "proposedCorrection": "Form 1A is only for age 40+.",
     "status": "NEW",
+    "createdAt": "2026-11-16T05:56:53.372Z",
+    "updatedAt": "2026-11-16T05:56:53.372Z"
+  },
+  {
+    "id": "rep_1794808561670_cybep",
+    "taskSlug": "driving-licence-learner",
+    "stateCode": "gj",
+    "reporterEmail": "new.citizen@test.gov.in",
+    "issueType": "wrong_document",
+    "description": "Document checklist should clarify Form 1A age threshold.",
+    "proposedCorrection": "Form 1A is only for age 40+.",
+    "status": "NOT_AN_ISSUE",
+    "createdAt": "2026-11-16T05:56:01.670Z",
+    "updatedAt": "2026-11-16T05:56:53.320Z",
+    "adminNotes": "Official rule unchanged under Section 8.",
+    "resolvedBy": "Lead Editor",
+    "resolvedAt": "2026-11-16T05:56:53.320Z"
+  },
+  {
+    "id": "rep_1794808385531_83iz5",
+    "taskSlug": "driving-licence-learner",
+    "stateCode": "gj",
+    "reporterEmail": "new.citizen@test.gov.in",
+    "issueType": "wrong_document",
+    "description": "Document checklist should clarify Form 1A age threshold.",
+    "proposedCorrection": "Form 1A is only for age 40+.",
+    "status": "NOT_AN_ISSUE",
+    "createdAt": "2026-11-16T05:53:05.531Z",
+    "updatedAt": "2026-11-16T05:56:01.628Z",
+    "adminNotes": "Official rule unchanged under Section 8.",
+    "resolvedBy": "Lead Editor",
+    "resolvedAt": "2026-11-16T05:56:01.628Z"
+  },
+  {
+    "id": "rep_1794808320557_z4ud4",
+    "taskSlug": "driving-licence-learner",
+    "stateCode": "gj",
+    "reporterEmail": "new.citizen@test.gov.in",
+    "issueType": "wrong_document",
+    "description": "Document checklist should clarify Form 1A age threshold.",
+    "proposedCorrection": "Form 1A is only for age 40+.",
+    "status": "NOT_AN_ISSUE",
+    "createdAt": "2026-11-16T05:52:00.557Z",
+    "updatedAt": "2026-11-16T05:53:05.485Z",
+    "adminNotes": "Official rule unchanged under Section 8.",
+    "resolvedBy": "Lead Editor",
+    "resolvedAt": "2026-11-16T05:53:05.485Z"
+  },
+  {
+    "id": "rep_1794658440930_5k9w2",
+    "taskSlug": "driving-licence-learner",
+    "stateCode": "gj",
+    "reporterEmail": "new.citizen@test.gov.in",
+    "issueType": "wrong_document",
+    "description": "Document checklist should clarify Form 1A age threshold.",
+    "proposedCorrection": "Form 1A is only for age 40+.",
+    "status": "NOT_AN_ISSUE",
     "createdAt": "2026-11-14T12:14:00.930Z",
-    "updatedAt": "2026-11-14T12:14:00.930Z"
+    "updatedAt": "2026-11-16T05:52:00.487Z",
+    "adminNotes": "Official rule unchanged under Section 8.",
+    "resolvedBy": "Lead Editor",
+    "resolvedAt": "2026-11-16T05:52:00.487Z"
   },
   {
     "id": "rep_1794658147403_pjjd4",

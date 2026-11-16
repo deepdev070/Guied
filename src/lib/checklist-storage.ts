@@ -66,6 +66,19 @@ export function saveStoredCompletedDocs(
         lastUpdated: new Date().toISOString(),
       });
     }
+
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(
+        new CustomEvent("civic-checklist-saved", {
+          detail: {
+            taskSlug,
+            stateSlug: stateSlug || "national",
+            completedCount: docIds.length,
+            totalCount: meta?.totalCount,
+          },
+        })
+      );
+    }
   } catch {
     // Graceful fallback for storage limits
   }

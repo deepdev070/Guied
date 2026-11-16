@@ -22,6 +22,7 @@ import {
   type ChecklistIndexEntry,
 } from "@/lib/checklist-storage";
 import { ProgressRing } from "@/components/checklist/ProgressRing";
+import { InstallAppCard } from "@/components/pwa/InstallAppCard";
 import { cn } from "@/lib/utils";
 
 const emptySubscribe = () => () => {};
