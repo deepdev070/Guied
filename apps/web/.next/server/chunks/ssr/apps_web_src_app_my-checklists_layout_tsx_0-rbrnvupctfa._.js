@@ -1,0 +1,3 @@
+module.exports=[37275,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsx)(b.Fragment,{children:a})},"metadata",0,{title:"My Checklists & Progress",description:"Track and manage your verified Indian citizen paperwork checklists offline.",robots:{index:!1,follow:!0}}])},85642,function(a){a.n(a.i(37275))}];
+
+//# sourceMappingURL=apps_web_src_app_my-checklists_layout_tsx_0-rbrnvupctfa._.js.map

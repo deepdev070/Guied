@@ -1,0 +1,3 @@
+module.exports=[34571,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsx)(b.Fragment,{children:a})},"metadata",0,{title:"Design System Showcase | India Paperwork Guide",description:"Internal visual catalog of all light-only design tokens, typography, civic components, and illustrations.",robots:{index:!1,follow:!1,nocache:!0}}])},34523,function(a){a.n(a.i(34571))}];
+
+//# sourceMappingURL=apps_web_src_app_design_layout_tsx_1e2x8j8dv0x81._.js.map

@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/gu/layout,_N_T_/gu/[task]/layout,_N_T_/gu/[task]/[state]/layout,_N_T_/gu/[task]/[state]/page,_N_T_/gu/passport-renewal/gujarat"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/gu/$d$task/$d$state/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 96,
+                "slots": {
+                  "children": {
+                    "hints": 160,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/fc4eb59dd125925871afe24ae76086444069ca1097d2911ee4e2b1e65997f925/$/gu/passport-renewal/gujarat",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/gu/[task]/[state]/page"
+    },
+    "isFallback": false
+  }
+}

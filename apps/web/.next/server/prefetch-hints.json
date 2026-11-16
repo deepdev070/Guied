@@ -1,0 +1,406 @@
+{
+  "/_global-error": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 160,
+        "slots": null
+      }
+    }
+  },
+  "/_not-found": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/[task]/[state]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/[task]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/category/[slug]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/design": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/disclaimer": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/glossary/[term]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/glossary": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/gu/[task]/[state]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 96,
+                "slots": {
+                  "children": {
+                    "hints": 160,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/gu/[task]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/gu": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/guides": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/hi/[task]/[state]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 96,
+                "slots": {
+                  "children": {
+                    "hints": 160,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/hi/[task]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/hi": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/how-we-verify": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/my-checklists": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/offline": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 128,
+        "slots": null
+      }
+    }
+  },
+  "/privacy-policy": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/report-mistake": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/state/[slug]": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/terms": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/typography": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  }
+}

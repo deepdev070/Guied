@@ -1,0 +1,6039 @@
+{
+  "version": 4,
+  "routes": {
+    "/": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 152331,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 3600,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_global-error": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 9460,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_global-error",
+      "dataRoute": "/_global-error.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_not-found": {
+      "initialStatus": 404,
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 87969,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/about": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 88015,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/business-and-licences": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72497,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/business-and-licences.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/education-and-scholarships": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72601,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/education-and-scholarships.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/family-and-certificates": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72489,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/family-and-certificates.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/health-and-welfare": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72374,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/health-and-welfare.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/identity": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80597,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/identity.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/jobs-and-pension": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72372,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/jobs-and-pension.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/money-and-tax": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 73531,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/money-and-tax.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/property-and-land": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72320,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/property-and-land.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/utilities-and-connections": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72504,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/utilities-and-connections.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/category/vehicles": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 76115,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/category/[slug]",
+      "dataRoute": "/category/vehicles.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/design": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 154077,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/design",
+      "dataRoute": "/design.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/disclaimer": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 79871,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/disclaimer",
+      "dataRoute": "/disclaimer.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 249111,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]",
+      "dataRoute": "/driving-licence-learner.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/andaman-and-nicobar-islands": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252294,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/andaman-and-nicobar-islands.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/andhra-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252241,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/andhra-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/arunachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250675,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/arunachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/assam": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252560,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/assam.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/bihar": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250777,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/bihar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/chandigarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250178,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/chandigarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/chhattisgarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 253005,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/chhattisgarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/dadra-and-nagar-haveli-and-daman-and-diu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 254853,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/dadra-and-nagar-haveli-and-daman-and-diu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/delhi": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 251707,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/delhi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/goa": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 249789,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/goa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250388,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/haryana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252753,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/haryana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/himachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252395,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/himachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/jammu-and-kashmir": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 251555,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/jammu-and-kashmir.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/jharkhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 251055,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/jharkhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/karnataka": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252834,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/karnataka.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/kerala": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250856,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/kerala.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/ladakh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 249995,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/ladakh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/lakshadweep": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250249,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/lakshadweep.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/madhya-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252240,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/madhya-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/maharashtra": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252923,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/maharashtra.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/manipur": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250913,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/manipur.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/meghalaya": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 249243,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/meghalaya.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/mizoram": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250893,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/mizoram.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/nagaland": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250971,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/nagaland.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/odisha": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252652,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/odisha.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/puducherry": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 251101,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/puducherry.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/punjab": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252660,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/punjab.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/rajasthan": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252858,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/rajasthan.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/sikkim": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 249978,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/sikkim.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/tamil-nadu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 251983,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/tamil-nadu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/telangana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 251083,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/telangana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/tripura": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 250033,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/tripura.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/uttar-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 253077,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/uttar-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/uttarakhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252936,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/uttarakhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-learner/west-bengal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 252047,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-learner/west-bengal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 276472,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]",
+      "dataRoute": "/driving-licence-new.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/andaman-and-nicobar-islands": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279730,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/andaman-and-nicobar-islands.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/andhra-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279670,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/andhra-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/arunachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278103,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/arunachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/assam": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279904,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/assam.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/bihar": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278129,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/bihar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/chandigarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 277615,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/chandigarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/chhattisgarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280436,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/chhattisgarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/dadra-and-nagar-haveli-and-daman-and-diu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 282320,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/dadra-and-nagar-haveli-and-daman-and-diu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/delhi": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279055,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/delhi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/goa": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 277103,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/goa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 265742,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/haryana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280103,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/haryana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/himachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279818,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/himachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/jammu-and-kashmir": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278979,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/jammu-and-kashmir.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/jharkhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278419,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/jharkhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/karnataka": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280190,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/karnataka.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/kerala": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278211,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/kerala.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/ladakh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 277354,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/ladakh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/lakshadweep": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 277689,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/lakshadweep.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/madhya-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279669,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/madhya-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/maharashtra": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280351,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/maharashtra.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/manipur": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278271,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/manipur.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/meghalaya": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 276615,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/meghalaya.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/mizoram": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278251,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/mizoram.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/nagaland": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278332,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/nagaland.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/odisha": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279999,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/odisha.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/puducherry": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278534,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/puducherry.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/punjab": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280007,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/punjab.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/rajasthan": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280214,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/rajasthan.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/sikkim": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 277337,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/sikkim.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/tamil-nadu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279412,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/tamil-nadu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/telangana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 278447,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/telangana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/tripura": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 277395,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/tripura.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/uttar-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280505,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/uttar-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/uttarakhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 280364,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/uttarakhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/driving-licence-new/west-bengal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279479,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/driving-licence-new/west-bengal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "routeType": "route",
+      "response": "complete",
+      "compute": "static",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 118550,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary",
+      "dataRoute": "/glossary.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/affidavit": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 86000,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/affidavit.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/annexure": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 84706,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/annexure.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/challan": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 84346,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/challan.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/domicile": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 86328,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/domicile.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/gazette": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 85824,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/gazette.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/noc": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 85758,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/noc.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/notary": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 85602,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/notary.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/self-attested": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 85965,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/self-attested.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/tatkal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 84168,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/glossary/[term]",
+      "dataRoute": "/glossary/tatkal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 155101,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 3600,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu",
+      "dataRoute": "/gu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/driving-licence-learner": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 255963,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu/[task]",
+      "dataRoute": "/gu/driving-licence-learner.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/driving-licence-learner/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 257055,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu/[task]/[state]",
+      "dataRoute": "/gu/driving-licence-learner/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/driving-licence-new": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279842,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu/[task]",
+      "dataRoute": "/gu/driving-licence-new.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/driving-licence-new/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 268769,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu/[task]/[state]",
+      "dataRoute": "/gu/driving-licence-new/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/passport-renewal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328659,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu/[task]",
+      "dataRoute": "/gu/passport-renewal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/passport-renewal/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 330373,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/gu/[task]/[state]",
+      "dataRoute": "/gu/passport-renewal/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/guides": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 204401,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/guides",
+      "dataRoute": "/guides.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 155250,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 3600,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi",
+      "dataRoute": "/hi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/driving-licence-learner": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 256834,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi/[task]",
+      "dataRoute": "/hi/driving-licence-learner.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/driving-licence-learner/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 257776,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi/[task]/[state]",
+      "dataRoute": "/hi/driving-licence-learner/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/driving-licence-new": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 279996,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi/[task]",
+      "dataRoute": "/hi/driving-licence-new.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/driving-licence-new/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 269007,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi/[task]/[state]",
+      "dataRoute": "/hi/driving-licence-new/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/passport-renewal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328389,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi/[task]",
+      "dataRoute": "/hi/passport-renewal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/passport-renewal/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 330505,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/hi/[task]/[state]",
+      "dataRoute": "/hi/passport-renewal/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/how-we-verify": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 93066,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/how-we-verify",
+      "dataRoute": "/how-we-verify.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/manifest.webmanifest": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "application/manifest+json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/manifest.webmanifest/layout,_N_T_/manifest.webmanifest/route,_N_T_/manifest.webmanifest"
+      },
+      "routeType": "route",
+      "response": "complete",
+      "compute": "static",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/manifest.webmanifest",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/my-checklists": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 69630,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/my-checklists",
+      "dataRoute": "/my-checklists.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/offline": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 73113,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/offline",
+      "dataRoute": "/offline.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/opengraph-image": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/png",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/opengraph-image/layout,_N_T_/opengraph-image/route,_N_T_/opengraph-image"
+      },
+      "routeType": "route",
+      "response": "complete",
+      "compute": "static",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/opengraph-image",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 325534,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]",
+      "dataRoute": "/passport-renewal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/andaman-and-nicobar-islands": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328740,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/andaman-and-nicobar-islands.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/andhra-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328642,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/andhra-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/arunachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327096,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/arunachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/assam": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328972,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/assam.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/bihar": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327203,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/bihar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/chandigarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 326651,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/chandigarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/chhattisgarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329395,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/chhattisgarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/dadra-and-nagar-haveli-and-daman-and-diu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 331311,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/dadra-and-nagar-haveli-and-daman-and-diu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/delhi": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328126,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/delhi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/goa": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 326182,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/goa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327447,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/haryana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329133,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/haryana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/himachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328800,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/himachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/jammu-and-kashmir": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327969,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/jammu-and-kashmir.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/jharkhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327453,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/jharkhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/karnataka": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329218,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/karnataka.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/kerala": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327248,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/kerala.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/ladakh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 326394,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/ladakh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/lakshadweep": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 326724,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/lakshadweep.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/madhya-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328641,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/madhya-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/maharashtra": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329377,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/maharashtra.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/manipur": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327307,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/manipur.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/meghalaya": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 325655,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/meghalaya.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/mizoram": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327287,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/mizoram.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/nagaland": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327367,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/nagaland.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/odisha": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329030,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/odisha.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/puducherry": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327567,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/puducherry.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/punjab": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329038,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/punjab.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/rajasthan": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329242,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/rajasthan.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/sikkim": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 326377,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/sikkim.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/tamil-nadu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328442,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/tamil-nadu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/telangana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 327481,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/telangana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/tripura": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 326434,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/tripura.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/uttar-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329469,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/uttar-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/uttarakhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 329390,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/uttarakhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/passport-renewal/west-bengal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 328508,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/[task]/[state]",
+      "dataRoute": "/passport-renewal/west-bengal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/privacy-policy": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 82618,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/privacy-policy",
+      "dataRoute": "/privacy-policy.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/report-mistake": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 72150,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/report-mistake",
+      "dataRoute": "/report-mistake.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/robots.txt": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/plain",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt"
+      },
+      "routeType": "route",
+      "response": "complete",
+      "compute": "static",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/robots.txt",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sitemap.xml": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "application/xml",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml"
+      },
+      "routeType": "route",
+      "response": "complete",
+      "compute": "static",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sitemap.xml",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/andaman-and-nicobar-islands": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 81357,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/andaman-and-nicobar-islands.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/andhra-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80852,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/andhra-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/arunachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80981,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/arunachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/assam": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80533,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/assam.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/bihar": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80530,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/bihar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/chandigarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80737,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/chandigarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/chhattisgarh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80797,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/chhattisgarh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/dadra-and-nagar-haveli-and-daman-and-diu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 81801,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/dadra-and-nagar-haveli-and-daman-and-diu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/delhi": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80581,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/delhi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/goa": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80477,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/goa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/gujarat": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 95976,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/gujarat.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/haryana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80644,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/haryana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/himachal-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80940,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/himachal-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/jammu-and-kashmir": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80948,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/jammu-and-kashmir.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/jharkhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80676,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/jharkhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/karnataka": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80675,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/karnataka.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/kerala": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80582,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/kerala.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/ladakh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80588,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/ladakh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/lakshadweep": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80769,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/lakshadweep.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/madhya-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80847,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/madhya-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/maharashtra": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80764,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/maharashtra.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/manipur": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80622,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/manipur.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/meghalaya": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80662,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/meghalaya.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/mizoram": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80604,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/mizoram.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/nagaland": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80627,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/nagaland.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/odisha": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80588,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/odisha.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/puducherry": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80751,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/puducherry.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/punjab": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80576,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/punjab.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/rajasthan": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80693,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/rajasthan.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/sikkim": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80605,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/sikkim.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/tamil-nadu": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80732,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/tamil-nadu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/telangana": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80694,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/telangana.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/tripura": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80633,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/tripura.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/uttar-pradesh": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80836,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/uttar-pradesh.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/uttarakhand": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80763,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/uttarakhand.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/west-bengal": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 80789,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/state/[slug]",
+      "dataRoute": "/state/west-bengal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/terms": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 78240,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/terms",
+      "dataRoute": "/terms.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/typography": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 135525,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/typography",
+      "dataRoute": "/typography.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/category/[slug]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/category/([^/]+?)(?:/)?$",
+      "dataRoute": "/category/[slug].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/category/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/glossary/[term]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/glossary/([^/]+?)(?:/)?$",
+      "dataRoute": "/glossary/[term].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/glossary/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/[task]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/gu/([^/]+?)(?:/)?$",
+      "dataRoute": "/gu/[task].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/gu/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/gu/[task]/[state]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/gu/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/gu/[task]/[state].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/gu/([^/]+?)/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/[task]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/hi/([^/]+?)(?:/)?$",
+      "dataRoute": "/hi/[task].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/hi/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/[task]/[state]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/hi/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/hi/[task]/[state].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/hi/([^/]+?)/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/state/[slug]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/state/([^/]+?)(?:/)?$",
+      "dataRoute": "/state/[slug].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/state/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/[task]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/([^/]+?)(?:/)?$",
+      "dataRoute": "/[task].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/[task]/[state]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/[task]/[state].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/([^/]+?)/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "20bc9130ebf9453cb66c169c54a6a363",
+    "previewModeSigningKey": "8f9ba7e282dd0ab1c2fb2ce73bf00852558e3cf66ce6cc63bc3a5054aa3f86d5",
+    "previewModeEncryptionKey": "c69dcb9602264b51fe13fbb2a90bdf712e2299cff021532431602cd81ea5b0aa"
+  }
+}

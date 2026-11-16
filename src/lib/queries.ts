@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { CATEGORIES_SEED_DATA, type CategorySeedData } from "../../prisma/data/categories.ts";
 import { STATES_SEED_DATA, type StateSeedData } from "../../prisma/data/states.ts";
+export type { StateSeedData };
 import { TaskContentSchema, type TaskContent, type TaskVariant } from "../types/content.ts";
 
 type AsyncFn<T> = () => Promise<T>;
@@ -47,7 +48,7 @@ export interface TaskSummary {
   availableStates: string[];
 }
 
-function formatTaskCost(fees: { amount: number; isOptional?: boolean }[]): string {
+export function formatTaskCost(fees: { amount: number; isOptional?: boolean }[]): string {
   if (!fees || fees.length === 0) return "Free (₹0)";
   const mandatory = fees.filter((f) => !f.isOptional);
   const targetFees = mandatory.length > 0 ? mandatory : fees;

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/gu/layout,_N_T_/gu/[task]/layout,_N_T_/gu/[task]/page,_N_T_/gu/passport-renewal"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/gu/$d$task/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/e12672a70fa5dfce21b411e7a7bab4635ba74146f164a43c161a3550c8a1cb6c/$/gu/passport-renewal",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/gu/[task]/page"
+    },
+    "isFallback": false
+  }
+}

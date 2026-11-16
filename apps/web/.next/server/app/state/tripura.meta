@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/state/layout,_N_T_/state/[slug]/layout,_N_T_/state/[slug]/page,_N_T_/state/tripura"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/state/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/13df00e380f9533d37da28a63a98b80c1d3ceb033e672aec4faa9c3d7fbda5a5/$/state/tripura",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/state/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

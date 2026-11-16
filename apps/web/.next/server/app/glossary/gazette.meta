@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/glossary/layout,_N_T_/glossary/[term]/layout,_N_T_/glossary/[term]/page,_N_T_/glossary/gazette"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/glossary/$d$term/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/d6fc85682ea969724c449c5cdc29ba57d153e282c420ac8f3759b4adf1437d8d/$/glossary/gazette",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/glossary/[term]/page"
+    },
+    "isFallback": false
+  }
+}

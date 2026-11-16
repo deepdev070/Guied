@@ -1,0 +1,3 @@
+{
+  "/api/admin/csrf/route": "app/api/admin/csrf/route.js"
+}

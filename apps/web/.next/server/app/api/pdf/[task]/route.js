@@ -1,0 +1,12 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/pdf/[task]/route.js")
+R.c("server/chunks/[root-of-the-server]__0df5tgwjbxmoj._.js")
+R.c("server/chunks/src_types_content_ts_0uoziqdvvkql3._.js")
+R.c("server/chunks/node_modules_next_1n-fgeqx2dkas._.js")
+R.c("server/chunks/src_lib_queries_ts_12lvvy00m5pxl._.js")
+R.c("server/chunks/node_modules_next_1utulzw9q9p3v._.js")
+R.c("server/chunks/[root-of-the-server]__1402or90kzcqc._.js")
+R.c("server/chunks/[root-of-the-server]__1z1pxxj2kv3yg._.js")
+R.c("server/chunks/node_modules_zod_v3_external_0df35h1kjggjw.js")
+R.c("server/chunks/apps_web__next-internal_server_app_api_pdf_[task]_route_actions_20nm-eqho5ixf.js")
+R.m(67373)
+module.exports=R.m(67373).exports

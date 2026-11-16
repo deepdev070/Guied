@@ -37,4 +37,3 @@ export function resetInstallPromptDismissal(): void {
     // Ignore storage errors
   }
 }
-

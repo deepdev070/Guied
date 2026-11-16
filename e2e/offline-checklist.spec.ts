@@ -80,4 +80,3 @@ test.describe("Prompt 114: Offline Checklists Usability and Zero-Sync Invariant"
     });
   });
 });
-

@@ -1,0 +1,13 @@
+var R=require("../../chunks/[turbopack]_runtime.js")("server/app/sitemap.xml/route.js")
+R.c("server/chunks/[root-of-the-server]__0_znecwbu9l8a._.js")
+R.c("server/chunks/node_modules_next_dist_16uekqf-emgzs._.js")
+R.c("server/chunks/src_lib_queries_ts_12lvvy00m5pxl._.js")
+R.c("server/chunks/src_types_content_ts_0uoziqdvvkql3._.js")
+R.c("server/chunks/node_modules_next_1utulzw9q9p3v._.js")
+R.c("server/chunks/_14lrcq2c4qtfh._.js")
+R.c("server/chunks/node_modules_next_1n-fgeqx2dkas._.js")
+R.c("server/chunks/[root-of-the-server]__1z1pxxj2kv3yg._.js")
+R.c("server/chunks/node_modules_zod_v3_external_0df35h1kjggjw.js")
+R.c("server/chunks/apps_web__next-internal_server_app_sitemap_xml_route_actions_1z-i42-cdyo7o.js")
+R.m(48917)
+module.exports=R.m(48917).exports

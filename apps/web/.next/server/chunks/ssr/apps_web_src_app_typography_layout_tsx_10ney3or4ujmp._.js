@@ -1,0 +1,3 @@
+module.exports=[92031,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"UI Components & Typography Showcase",description:"Design system type scale verification and UI components: Button, TextInput, Select, SearchField, Card, Badge, and Chip."}])},9674,function(a){a.n(a.i(92031))}];
+
+//# sourceMappingURL=apps_web_src_app_typography_layout_tsx_10ney3or4ujmp._.js.map

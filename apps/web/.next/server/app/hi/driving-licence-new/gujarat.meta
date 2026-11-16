@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/hi/layout,_N_T_/hi/[task]/layout,_N_T_/hi/[task]/[state]/layout,_N_T_/hi/[task]/[state]/page,_N_T_/hi/driving-licence-new/gujarat"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/hi/$d$task/$d$state/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 96,
+                "slots": {
+                  "children": {
+                    "hints": 160,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/5b7503210bb673e23236136fb815a2fe2a2d98b43fbf1a86726bde1d9c548ec0/$/hi/driving-licence-new/gujarat",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/hi/[task]/[state]/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/glossary/layout,_N_T_/glossary/page,_N_T_/glossary"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/glossary/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/edea9c896f1c9f30bff838e35721844d7ff38548111db324bf17acbe1d757693/$/glossary",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/glossary/page"
+    },
+    "isFallback": false
+  }
+}

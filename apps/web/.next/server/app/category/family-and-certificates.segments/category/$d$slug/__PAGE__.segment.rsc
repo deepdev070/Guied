@@ -1,0 +1,34 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/3qfy96eoyh-ek.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+c:"/_next/static/chunks/168vskshy7i4l.js"
+d:"/_next/static/chunks/3jn7d6-95ljdz.js"
+e:"/_next/static/chunks/36fwx-pkpy8y9.js"
+f:"/_next/static/chunks/2ylc9m2wogk8q.js"
+10:"/_next/static/chunks/09elk_04-ro0u.js"
+11:"CategoryPageView"
+12:I[91670,["$c","$d","$e","$f","$10"],"$11"]
+13:I[97367,["$3"],"OutletBoundary"]
+14:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$3"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$3"],"$19"]
+1b:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","$L12",null,{"category":{"slug":"family-and-certificates","name":"Family and Certificates","description":"Birth, death, and marriage registration, legal name change Gazette, and caste certificates.","icon":"Users","bgColor":"bg-[#FCE7F3]","textColor":"text-[#BE185D]","displayOrder":5},"tasks":[]}],[["$","script","script-0",{"src":"/_next/static/chunks/09elk_04-ro0u.js","async":true}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],"p":"$@16","v":null,"s":"$8"}}]]
+9:[["children",{"s":{"n":"slug","t":"d","k":"family-and-certificates","s":[]},"h":96,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@a","v":"$7","s":"$8"},"c":"$Qb"}]]
+1:[["children",{"s":"category","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":20,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#2563EB"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Family and Certificates Paperwork Guides: Documents, Fees & Steps (2026) | India Paperwork Guide"}],["$","meta","1",{"name":"description","content":"Birth, death, and marriage registration, legal name change Gazette, and caste certificates."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"http://localhost:3000/category/family-and-certificates"}],["$","meta","4",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","5",{"name":"apple-mobile-web-app-title","content":"India Paperwork"}],["$","meta","6",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","meta","7",{"property":"og:title","content":"Family and Certificates Paperwork Guides (2026)"}],["$","meta","8",{"property":"og:description","content":"Birth, death, and marriage registration, legal name change Gazette, and caste certificates."}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Family and Certificates Paperwork Guides (2026)"}],["$","meta","12",{"name":"twitter:description","content":"Birth, death, and marriage registration, legal name change Gazette, and caste certificates."}],["$","link","13",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L1b","16",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1c","v":null,"s":"$8"}},"a":"$@1d","u":"$@1e","b":"rypB_wQqYBb-ulmN0YJXR"}
+15:null
+1e:true
+8:300
+8:C
+1d:0
+a:"$undefined"
+6:"$undefined"
+1c:"$undefined"
+16:"$undefined"

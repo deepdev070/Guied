@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/hi/layout,_N_T_/hi/[task]/layout,_N_T_/hi/[task]/page,_N_T_/hi/driving-licence-learner"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/hi/$d$task/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/c88f1dd4863f6c05e0fb1d4aba559c3902fea3c75832beab3b4c421c6d7f4be0/$/hi/driving-licence-learner",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/hi/[task]/page"
+    },
+    "isFallback": false
+  }
+}

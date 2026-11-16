@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[task]/layout,_N_T_/[task]/[state]/layout,_N_T_/[task]/[state]/page,_N_T_/driving-licence-learner/jharkhand"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/$d$task/$d$state/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/dd2b9d62da75ea287d2725e9da70a5b15c8951d8ee3c2b126fe50939312f4b5f/$/driving-licence-learner/jharkhand",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[task]/[state]/page"
+    },
+    "isFallback": false
+  }
+}

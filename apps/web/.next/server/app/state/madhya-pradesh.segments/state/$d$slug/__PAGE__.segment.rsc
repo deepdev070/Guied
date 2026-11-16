@@ -1,0 +1,33 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/3qfy96eoyh-ek.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+c:"/_next/static/chunks/168vskshy7i4l.js"
+d:"/_next/static/chunks/3jn7d6-95ljdz.js"
+e:"/_next/static/chunks/36fwx-pkpy8y9.js"
+f:"/_next/static/chunks/2ylc9m2wogk8q.js"
+10:"/_next/static/chunks/21dkax26f-kmo.js"
+11:I[54430,["$c","$d","$e","$f","$10"],"StatePageView"]
+12:I[97367,["$3"],"OutletBoundary"]
+13:"$Sreact.suspense"
+16:"ViewportBoundary"
+17:I[97367,["$3"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$3"],"$18"]
+1a:I[27201,["$3"],"IconMark"]
+7:X
+7:C
+8:X
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","$L11",null,{"state":{"name":"Madhya Pradesh","nativeName":"मध्य प्रदेश","slug":"madhya-pradesh","code":"MP","primaryLanguages":["hi"],"portalName":"MP e-District","portalUrl":""},"specificTasks":[],"generalTasks":[{"slug":"driving-licence-learner","name":"Learner's Licence Application","description":"Complete document checklist, ₹200 official statutory fee breakdown, and step-by-step application instructions for Learner Licence across all Indian states.","categorySlug":"vehicles","categoryName":"Vehicles and Driving","difficulty":"easy","estimatedTime":"15-30 days","cost":"₹200","availableStates":["GJ"]},{"slug":"driving-licence-new","name":"Permanent Driving Licence Application","description":"Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (₹700), and driving test rules.","categorySlug":"vehicles","categoryName":"Vehicles and Driving","difficulty":"medium","estimatedTime":"15-30 days after driving test","cost":"₹700","availableStates":["GJ"]},{"slug":"passport-renewal","name":"Passport Renewal (Re-issue)","description":"Step-by-step procedure to re-issue an expired or expiring Indian passport online through the official Passport Seva portal. Verified fees (₹1,500 normal, ₹3,500 tatkaal) and document rules.","categorySlug":"identity","categoryName":"Identity Documents","difficulty":"medium","estimatedTime":"7-14 working days (Normal) / 1-3 days (Tatkaal)","cost":"₹3,500","availableStates":[]}],"sponsoredProviders":[]}],[["$","script","script-0",{"src":"/_next/static/chunks/21dkax26f-kmo.js","async":true}]],["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}],"p":"$@15","v":null,"s":"$8"}}]]
+9:[["children",{"s":{"n":"slug","t":"d","k":"madhya-pradesh","s":[]},"h":96,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@a","v":"$7","s":"$8"},"c":"$Qb"}]]
+1:[["children",{"s":"state","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":20,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#2563EB"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Madhya Pradesh Government Paperwork Guides (2026) | India Paperwork Guide"}],["$","meta","1",{"name":"description","content":"Verified citizen document checklists, statutory fees, and official portal links for Madhya Pradesh."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"http://localhost:3000/state/madhya-pradesh"}],["$","meta","4",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","5",{"name":"apple-mobile-web-app-title","content":"India Paperwork"}],["$","meta","6",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","meta","7",{"property":"og:title","content":"Madhya Pradesh Paperwork Guides (2026)"}],["$","meta","8",{"property":"og:description","content":"Verified citizen checklists and official portal links for Madhya Pradesh."}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Madhya Pradesh Paperwork Guides (2026)"}],["$","meta","12",{"name":"twitter:description","content":"Verified citizen checklists and official portal links for Madhya Pradesh."}],["$","link","13",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/icons/apple-touch-icon.png","sizes":"180x180","type":"image/png"}],["$","$L1a","16",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1b","v":null,"s":"$8"}},"a":"$@1c","u":"$@1d","b":"rypB_wQqYBb-ulmN0YJXR"}
+14:null
+1d:true
+8:300
+8:C
+1c:0
+a:"$undefined"
+6:"$undefined"
+1b:"$undefined"
+15:"$undefined"

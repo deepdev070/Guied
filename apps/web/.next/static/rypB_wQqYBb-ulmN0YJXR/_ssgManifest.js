@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[task]","\u002F[task]\u002F[state]","\u002Fcategory\u002F[slug]","\u002Fglossary\u002F[term]","\u002Fgu\u002F[task]","\u002Fgu\u002F[task]\u002F[state]","\u002Fhi\u002F[task]","\u002Fhi\u002F[task]\u002F[state]","\u002Fstate\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

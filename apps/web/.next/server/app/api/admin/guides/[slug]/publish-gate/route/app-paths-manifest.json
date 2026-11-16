@@ -1,0 +1,3 @@
+{
+  "/api/admin/guides/[slug]/publish-gate/route": "app/api/admin/guides/[slug]/publish-gate/route.js"
+}

@@ -1,16 +1,22 @@
 {
-  "name": "india-paperwork-guide",
+  "name": "india-paperwork-guide-monorepo",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@10.9.8",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
     "start": "next start",
-    "lint": "eslint .",
+    "lint": "turbo run lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "turbo run typecheck",
     "test": "node --no-warnings --experimental-strip-types --test tests/**/*.test.ts",
+    "test:turbo": "turbo run test",
     "test:e2e": "playwright test",
     "check": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run content:validate && npm run content:gate",
     "content:stale": "node --no-warnings --experimental-strip-types scripts/check-stale-content.ts",
@@ -31,6 +37,8 @@
     "seed": "node --experimental-strip-types prisma/seed.ts"
   },
   "dependencies": {
+    "@civic/types": "*",
+    "@civic/utils": "*",
     "@prisma/client": "^6.19.3",
     "@react-pdf/renderer": "^4.9.0",
     "bcryptjs": "^3.0.3",
@@ -59,6 +67,7 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "prisma": "^6.19.3",
     "tailwindcss": "4.3.3",
+    "turbo": "^2.11.11",
     "typescript": "^5"
   }
 }
