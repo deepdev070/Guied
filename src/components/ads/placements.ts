@@ -160,4 +160,3 @@ export function canRenderAdPlacement(options: {
 
   return true;
 }
-

@@ -73,4 +73,3 @@ export function findGlossaryMatches(text: string): TermSegment[] {
 
   return segments;
 }
-

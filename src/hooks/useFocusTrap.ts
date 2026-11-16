@@ -114,4 +114,3 @@ export function useFocusTrap<T extends HTMLElement = HTMLDivElement>({
 
   return containerRef;
 }
-

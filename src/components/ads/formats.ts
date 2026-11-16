@@ -58,4 +58,3 @@ export const AD_FORMAT_CONFIGS: Record<AdFormat, AdFormatConfig> = {
     minHeightPx: 50,
   },
 };
-

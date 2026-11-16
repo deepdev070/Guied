@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
-import { db } from "@/lib/db";
 import { checkRateLimit } from "@/lib/rate-limiter";
+import { createErrorReport } from "@/lib/admin/reports";
 
 const ReportMistakeSchema = z.object({
   taskSlug: z.string().max(100).optional().nullable(),
@@ -61,24 +61,20 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true });
     }
 
-    // 4. Save into database ErrorReport table
+    // 4. Save into database & file system ErrorReport storage
     try {
-      const report = await db.errorReport.create({
-        data: {
-          taskSlug: taskSlug || null,
-          stateCode: stateCode || null,
-          issueType,
-          description: description.trim(),
-          proposedCorrection: proposedCorrection?.trim() || null,
-          reporterEmail: reporterEmail?.trim() || null,
-          status: "NEW",
-        },
+      const report = await createErrorReport({
+        taskSlug,
+        stateCode,
+        issueType,
+        description,
+        proposedCorrection,
+        reporterEmail,
       });
 
       return NextResponse.json({ success: true, id: report.id });
-    } catch (dbErr) {
-      // Graceful fallback if database is offline or running in mock environment
-      console.warn("[ErrorReport] Database error recording error report:", dbErr);
+    } catch (err) {
+      console.warn("[ErrorReport] Error recording report:", err);
       return NextResponse.json({ success: true, mocked: true });
     }
   } catch (err) {

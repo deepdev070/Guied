@@ -27,4 +27,3 @@ test.describe("Prompt 98: WCAG 2.2 AA Automated Accessibility Audit via axe-core
     });
   }
 });
-

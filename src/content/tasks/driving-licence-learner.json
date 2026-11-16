@@ -5,7 +5,7 @@
   "categorySlug": "vehicles",
   "national": {
     "title": "How to Get a Learner's Licence in India (2026)",
-    "summary": "Complete document checklist, \u20b9200 official statutory fee breakdown, and step-by-step application instructions for Learner Licence across all Indian states.",
+    "summary": "Complete document checklist, ₹200 official statutory fee breakdown, and step-by-step application instructions for Learner Licence across all Indian states.",
     "estimatedTime": "15-30 days",
     "difficulty": "easy",
     "status": "PUBLISHED",
@@ -40,8 +40,8 @@
       },
       {
         "stepNumber": 3,
-        "title": "Pay Government Fee (\u20b9200)",
-        "description": "Pay the statutory fee of \u20b9150 for application processing plus \u20b950 for computerized test fee via net banking, debit card, or UPI. Download and print payment receipt Form 2.",
+        "title": "Pay Government Fee (₹200)",
+        "description": "Pay the statutory fee of ₹150 for application processing plus ₹50 for computerized test fee via net banking, debit card, or UPI. Download and print payment receipt Form 2.",
         "where": "Integrated Bharatkosh / State Payment Gateway",
         "estimatedTime": "5 minutes",
         "calloutType": "warning",
@@ -83,7 +83,8 @@
         "copiesHint": "Original + 1 self-attested photocopy",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://morth.nic.in"
+        "sourceUrl": "https://morth.nic.in",
+        "displayOrder": 0
       },
       {
         "name": "Proof of Current Residential Address",
@@ -92,7 +93,8 @@
         "copiesHint": "Original + 1 photocopy",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://morth.nic.in"
+        "sourceUrl": "https://morth.nic.in",
+        "displayOrder": 0
       },
       {
         "name": "Form 1 Physical Fitness Self-Declaration",
@@ -101,7 +103,8 @@
         "copiesHint": "Filled online during application",
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://sarathi.parivahan.gov.in"
+        "sourceUrl": "https://sarathi.parivahan.gov.in",
+        "displayOrder": 0
       },
       {
         "name": "Applicant Signature & Photo Digital Scan",
@@ -109,11 +112,14 @@
         "requirementType": "required",
         "copiesHint": "Scanned file upload (JPEG)",
         "specs": {
-          "dimensions": "256 \u00d7 64 pixels (4:1 signature ratio)",
+          "dimensions": "256 × 64 pixels (4:1 signature ratio)",
           "backgroundColor": "Plain white paper with dark blue or black ink",
           "maxFileSizeBytes": 20480,
           "maxFileSizeLabel": "10 KB to 20 KB",
-          "acceptedFormats": ["JPEG", "JPG"],
+          "acceptedFormats": [
+            "JPEG",
+            "JPG"
+          ],
           "diagramType": "signature",
           "guidanceUrl": "https://sarathi.parivahan.gov.in",
           "instructions": [
@@ -124,7 +130,8 @@
         },
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://sarathi.parivahan.gov.in"
+        "sourceUrl": "https://sarathi.parivahan.gov.in",
+        "displayOrder": 0
       },
       {
         "name": "Form 1A Medical Fitness Certificate",
@@ -145,7 +152,8 @@
         },
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://morth.nic.in"
+        "sourceUrl": "https://morth.nic.in",
+        "displayOrder": 0
       }
     ],
     "fees": [
@@ -153,6 +161,7 @@
         "label": "Learner's Licence Application Processing Fee",
         "amount": 150,
         "currency": "INR",
+        "isOptional": false,
         "paymentMode": "online",
         "rulesReference": "Central Motor Vehicles Rules (CMVR), Rule 32",
         "status": "PUBLISHED",
@@ -163,6 +172,7 @@
         "label": "Computerized LL Test Fee",
         "amount": 50,
         "currency": "INR",
+        "isOptional": false,
         "paymentMode": "online",
         "rulesReference": "Central Motor Vehicles Rules (CMVR), Rule 32",
         "status": "PUBLISHED",
@@ -170,6 +180,57 @@
         "sourceUrl": "https://morth.nic.in"
       }
     ],
+    "feeCalculator": {
+      "title": "Learner's Licence Fee Calculator",
+      "description": "Calculate exact statutory fees based on the number of vehicle categories selected.",
+      "baseFee": 200,
+      "baseFeeLabel": "Single Vehicle Class (Form 2 ₹150 + Online Test ₹50)",
+      "options": [
+        {
+          "id": "vehicle_classes",
+          "label": "Vehicle Categories Applied",
+          "type": "classes",
+          "choices": [
+            {
+              "id": "single_class",
+              "label": "Single Class (Motorcycle or Car)",
+              "amount": 0,
+              "description": "₹150 application + ₹50 test"
+            },
+            {
+              "id": "two_classes",
+              "label": "Two Classes (Motorcycle MCWG + Car LMV)",
+              "amount": 150,
+              "description": "Combined test for both two-wheeler and four-wheeler"
+            }
+          ],
+          "defaultChoiceId": "single_class"
+        },
+        {
+          "id": "delivery",
+          "label": "Licence Issuance & Download",
+          "type": "delivery",
+          "choices": [
+            {
+              "id": "instant_download",
+              "label": "Direct Digital Download (e-Learner Licence)",
+              "amount": 0,
+              "description": "Instant valid digital download with QR code"
+            },
+            {
+              "id": "speed_post",
+              "label": "Speed Post Hardcopy Delivery (select RTOs)",
+              "amount": 50,
+              "description": "Optional physical dispatch to residence (+₹50)"
+            }
+          ],
+          "defaultChoiceId": "instant_download"
+        }
+      ],
+      "officialSourceUrl": "https://parivahan.gov.in",
+      "officialSourceLabel": "Parivahan Sarathi Fee Schedule",
+      "rulesReference": "CMVR 1989 Rule 32"
+    },
     "officialLinks": [
       {
         "label": "Sarathi Parivahan Citizen Portal",
@@ -186,6 +247,7 @@
       {
         "question": "How long is a Learner's Licence valid in India?",
         "answer": "A Learner's Licence is valid for exactly 6 months (180 days) from the date of issue across all states and Union Territories.",
+        "displayOrder": 0,
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
@@ -193,6 +255,7 @@
       {
         "question": "Can I drive alone on public roads with a Learner's Licence?",
         "answer": "No. You must be accompanied by someone who holds a valid permanent driving licence for that vehicle. Also, your vehicle must display red 'L' plates on front and back.",
+        "displayOrder": 0,
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
@@ -200,6 +263,7 @@
       {
         "question": "What is the passing mark for the online Learner Licence test in India?",
         "answer": "The computerized learner test consists of 15 multiple-choice questions covering Indian road signs, traffic signals, and fundamental driving regulations. You must answer at least 11 questions correctly (60% score) within the allotted 30 seconds per question to pass.",
+        "displayOrder": 0,
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
@@ -207,6 +271,7 @@
       {
         "question": "When can I apply for a permanent driving licence after getting my learner licence?",
         "answer": "You can apply for a permanent driving licence after 30 days from your Learner Licence issue date. You must apply within 180 days (6 months) before the learner licence expires.",
+        "displayOrder": 0,
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
@@ -231,58 +296,7 @@
         "status": "PUBLISHED",
         "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
       }
-    ],
-    "feeCalculator": {
-      "title": "Learner's Licence Fee Calculator",
-      "description": "Calculate exact statutory fees based on the number of vehicle categories selected.",
-      "baseFee": 200,
-      "baseFeeLabel": "Single Vehicle Class (Form 2 \u20b9150 + Online Test \u20b950)",
-      "rulesReference": "CMVR 1989 Rule 32",
-      "officialSourceUrl": "https://parivahan.gov.in",
-      "officialSourceLabel": "Parivahan Sarathi Fee Schedule",
-      "options": [
-        {
-          "id": "vehicle_classes",
-          "label": "Vehicle Categories Applied",
-          "type": "classes",
-          "defaultChoiceId": "single_class",
-          "choices": [
-            {
-              "id": "single_class",
-              "label": "Single Class (Motorcycle or Car)",
-              "amount": 0,
-              "description": "\u20b9150 application + \u20b950 test"
-            },
-            {
-              "id": "two_classes",
-              "label": "Two Classes (Motorcycle MCWG + Car LMV)",
-              "amount": 150,
-              "description": "Combined test for both two-wheeler and four-wheeler"
-            }
-          ]
-        },
-        {
-          "id": "delivery",
-          "label": "Licence Issuance & Download",
-          "type": "delivery",
-          "defaultChoiceId": "instant_download",
-          "choices": [
-            {
-              "id": "instant_download",
-              "label": "Direct Digital Download (e-Learner Licence)",
-              "amount": 0,
-              "description": "Instant valid digital download with QR code"
-            },
-            {
-              "id": "speed_post",
-              "label": "Speed Post Hardcopy Delivery (select RTOs)",
-              "amount": 50,
-              "description": "Optional physical dispatch to residence (+\u20b950)"
-            }
-          ]
-        }
-      ]
-    }
+    ]
   },
   "states": {
     "GJ": {

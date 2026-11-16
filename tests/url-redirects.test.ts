@@ -102,4 +102,3 @@ describe("Prompt 80: URL Structure, Redirects & SEO Documentation", () => {
     });
   });
 });
-

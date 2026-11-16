@@ -91,4 +91,3 @@ function runThinContentAudit() {
 }
 
 runThinContentAudit();
-

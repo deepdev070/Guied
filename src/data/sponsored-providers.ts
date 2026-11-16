@@ -68,4 +68,3 @@ export const SPONSORED_PROVIDERS_SEED: SponsoredProviderData[] = [
     isActive: true,
   },
 ];
-

@@ -12,7 +12,12 @@ const serverSchema = z.object({
     .email("ADMIN_EMAIL must be a valid email address")
     .optional()
     .or(z.literal("")),
+  ADMIN_USERNAME: z.string().optional().default("admin"),
   ADMIN_PASSWORD_HASH: z.string().optional().or(z.literal("")),
+  ADMIN_SESSION_SECRET: z
+    .string()
+    .optional()
+    .default("paperwork-guide-admin-session-secret-key-2026"),
   REVALIDATE_SECRET_TOKEN: z.string().optional().default("paperwork-revalidate-secret-token-2026"),
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
 });
@@ -37,7 +42,9 @@ const combinedSchema = isServer ? serverSchema.and(clientSchema) : clientSchema;
 const rawEnv = {
   DATABASE_URL: process.env.DATABASE_URL,
   ADMIN_EMAIL: process.env.ADMIN_EMAIL,
+  ADMIN_USERNAME: process.env.ADMIN_USERNAME,
   ADMIN_PASSWORD_HASH: process.env.ADMIN_PASSWORD_HASH,
+  ADMIN_SESSION_SECRET: process.env.ADMIN_SESSION_SECRET,
   REVALIDATE_SECRET_TOKEN: process.env.REVALIDATE_SECRET_TOKEN,
   NODE_ENV: process.env.NODE_ENV,
   NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,

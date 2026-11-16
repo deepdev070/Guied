@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
+import { requireAdminSession } from "@/lib/admin/server-auth";
 import { AD_PLACEMENTS, type AdPlacementKey } from "@/components/ads/placements";
 import { AD_FORMAT_CONFIGS } from "@/components/ads/formats";
 import {
@@ -109,7 +110,9 @@ const SAMPLE_PERFORMANCE_METRICS: Record<
   },
 };
 
-export default function AdPerformanceAdminPage() {
+export default async function AdPerformanceAdminPage() {
+  await requireAdminSession();
+
   const rows: PlacementPerformanceRow[] = Object.entries(AD_PLACEMENTS).map(([key, config]) => {
     const pKey = key as AdPlacementKey;
     const stats = SAMPLE_PERFORMANCE_METRICS[pKey];

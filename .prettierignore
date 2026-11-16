@@ -5,4 +5,9 @@ build
 coverage
 *.tsbuildinfo
 package-lock.json
+.revisions
+.audit
+.reports
+
+
 
