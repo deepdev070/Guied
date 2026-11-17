@@ -523,5 +523,12 @@
       ]
     }
   },
-  "states": {}
+  "states": {
+    "GJ": {
+      "title": "How to Renew Your Passport in Gujarat (2026)",
+      "summary": "Passport renewal procedure in Gujarat under Regional Passport Offices in Ahmedabad and Surat, plus Post Office Passport Seva Kendras.",
+      "estimatedTime": "7-14 working days (Normal) / 1-3 days (Tatkaal)",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
 }
