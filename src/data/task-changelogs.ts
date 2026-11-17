@@ -256,6 +256,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://nfsa.gov.in",
     },
   ],
+  "birth-certificate": [
+    {
+      id: "bc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Birth Certificate Registration Guide Published & Verified",
+      description:
+        "Full birth registration guide published with verified ₹0 statutory fee (within 21 days), delayed registration tiers under Section 13, and CRS portal steps.",
+      officialSourceLabel: "Civil Registration System (crsorgi.gov.in)",
+      officialSourceUrl: "https://crsorgi.gov.in",
+    },
+    {
+      id: "bc-2026-07-01-02",
+      date: "2026-07-01",
+      changeType: "rule",
+      changeTypeLabel: "2023 Amendment Act Single Document",
+      title: "Digital Birth Certificate Enforced as Single Proof of Date of Birth",
+      description:
+        "Registration of Births and Deaths (Amendment) Act, 2023 establishes the digital birth certificate as the single official proof for school admission, DL, and passport.",
+      officialSourceLabel: "Ministry of Home Affairs / ORGI",
+      officialSourceUrl: "https://censusindia.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

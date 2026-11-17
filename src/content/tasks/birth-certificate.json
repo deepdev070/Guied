@@ -1,0 +1,461 @@
+{
+  "slug": "birth-certificate",
+  "name": "Birth Certificate Registration & Application",
+  "description": "Complete guide to registering a birth and obtaining a birth certificate online or offline with verified statutory fees, timelines, and 2023 amendment rules.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Apply for a Birth Certificate in India (2026)",
+    "summary": "Step-by-step guide to registering a birth and obtaining an official birth certificate on the Civil Registration System portal. Verified statutory fee rules under the RBD Act, delayed registration steps, and document checklist.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://crsorgi.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Institutional Birth Intimation by Hospital to Registrar",
+        "description": "For hospital births, the hospital sends Form 1 directly to the local Registrar of Births and Deaths within 21 days.",
+        "where": "Hospital / Healthcare Facility (Form 1)",
+        "estimatedTime": "1 day",
+        "officialLinkUrl": "https://crsorgi.gov.in",
+        "officialLinkLabel": "Open Civil Registration System Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Free Registration Window",
+        "calloutText": "Birth registration within 21 days of birth is 100% free of charge under Section 13 of the RBD Act.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Create Account on Civil Registration System (crsorgi.gov.in)",
+        "description": "Sign up on crsorgi.gov.in or your municipal portal using your mobile number and email address to apply online.",
+        "where": "Official CRS Portal (crsorgi.gov.in) or State Portal",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Enter Child, Place, and Date of Birth Details",
+        "description": "Select date of birth, gender, child name (optional at birth), place of birth (hospital or home), and attending doctor.",
+        "where": "Online Birth Registration Form (Form 1)",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Name Can Be Added Later",
+        "calloutText": "Under Section 14, you can register birth without a name and add the child's name within one year free of cost.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Enter Father's and Mother's Details with Aadhaar",
+        "description": "Enter full legal names, education, occupation, and 12-digit Aadhaar numbers of both father and mother.",
+        "where": "Online Parent Details Tab",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Fill Address at Time of Birth and Permanent Address",
+        "description": "Enter the complete residential address where the mother was staying when the child was born and permanent address.",
+        "where": "Online Address Tab",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Hospital Discharge Slip and Identity Proofs",
+        "description": "Upload scanned copies of the hospital discharge summary and parents' Aadhaar cards in PDF format under 2 MB.",
+        "where": "Online Document Upload Gateway",
+        "estimatedTime": "5 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Verify Exact Dates",
+        "calloutText": "Ensure the date of birth on the discharge slip matches your entered date down to the exact minute.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Delayed Registration Fee (If Reported After 21 Days)",
+        "description": "Birth registration within 21 days is free. If applying after 21 days, pay the nominal statutory delayed fee of ₹2 to ₹20.",
+        "where": "Municipal Treasury / Online Payment Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Digitally Signed Certificate or Collect from Registrar",
+        "description": "Download the digitally signed QR-coded birth certificate from the portal or collect the physical embossed copy from the Registrar.",
+        "where": "CRS Portal / Municipal Civic Centre Counter",
+        "estimatedTime": "7-15 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Hospital Discharge Summary / Form 1 Birth Slip",
+        "description": "Official institutional birth report slip issued and stamped by the delivering government or private hospital.",
+        "requirementType": "required",
+        "copiesHint": "Original hospital slip + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "name": "Aadhaar Cards of Both Parents",
+        "description": "Identity and address proof of both father and mother with 12-digit Aadhaar numbers.",
+        "requirementType": "required",
+        "copiesHint": "Originals + self-attested photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Parents' Marriage Certificate",
+        "description": "Official registered marriage certificate required for home births or non-institutional birth verification.",
+        "requirementType": "conditional",
+        "copiesHint": "Original certificate + 1 photocopy",
+        "appliesWhen": {
+          "isHomeBirth": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Notarized Delay Affidavit by Parents (30 Days to 1 Year)",
+        "description": "Affidavit executed before a notary public stating the exact cause of delay in birth registration.",
+        "requirementType": "conditional",
+        "copiesHint": "Original notarized affidavit on stamp paper",
+        "appliesWhen": {
+          "isDelayedOver30Days": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Order of Executive Magistrate / SDM (Delayed Over 1 Year)",
+        "description": "Statutory magisterial order passed under Section 13(3) of the RBD Act after police inquiry for registration beyond one year.",
+        "requirementType": "conditional",
+        "copiesHint": "Original certified court order",
+        "appliesWhen": {
+          "isDelayedOver1Year": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Birth Registration and First Certificate (Within 21 Days)",
+        "amount": 0,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "RBD Act 1969 Section 12 & 13",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (21 to 30 Days)",
+        "amount": 2,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "RBD Act 1969 Section 13(1)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (30 Days to 1 Year)",
+        "amount": 5,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "RBD Act 1969 Section 13(2)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (After 1 Year with SDM Order)",
+        "amount": 10,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "RBD Act 1969 Section 13(3)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Birth Certificate Fee Calculator",
+      "description": "Calculate exact statutory fees based on registration timing and delay periods.",
+      "baseFee": 0,
+      "baseFeeLabel": "Registration within 21 Days (₹0 - Completely Free)",
+      "officialSourceUrl": "https://censusindia.gov.in",
+      "officialSourceLabel": "RBD Act Section 13 Fee Schedule",
+      "rulesReference": "Registration of Births and Deaths Act 1969",
+      "options": [
+        {
+          "id": "delay_period",
+          "label": "Registration Timeline",
+          "type": "timeline",
+          "defaultChoiceId": "on_time",
+          "choices": [
+            {
+              "id": "on_time",
+              "label": "Within 21 Days of Birth (Free)",
+              "amount": 0,
+              "description": "Completely free under Section 12 of RBD Act"
+            },
+            {
+              "id": "delay_30days",
+              "label": "Between 21 and 30 Days (+₹2)",
+              "amount": 2,
+              "description": "Nominal statutory late fee under Section 13(1)"
+            },
+            {
+              "id": "delay_1year",
+              "label": "Between 30 Days and 1 Year (+₹5)",
+              "amount": 5,
+              "description": "Late fee with Tehsildar permission under Section 13(2)"
+            },
+            {
+              "id": "delay_over1year",
+              "label": "Delayed Over 1 Year (+₹10)",
+              "amount": 10,
+              "description": "Late fee with Executive Magistrate order under Section 13(3)"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Civil Registration System (CRS)",
+        "url": "https://crsorgi.gov.in",
+        "isPrimary": true,
+        "department": "Office of the Registrar General & Census Commissioner, India",
+        "portalName": "CRS Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "label": "Office of the Registrar General of India",
+        "url": "https://censusindia.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of Home Affairs",
+        "portalName": "Census India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "National Government Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Name Spelling Mismatch on Parents' Documents",
+        "description": "Discrepancy between father's or mother's name on hospital records versus official Aadhaar cards causes registry rejection.",
+        "solution": "Ensure the hospital records exact legal spellings from parents' Aadhaar cards at the time of delivery.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Submitting After 1 Year Without Magistrate Order",
+        "description": "Attempting to register a birth after one year without an order from the Executive Magistrate violates Section 13(3).",
+        "solution": "File an application before the Sub-Divisional Magistrate (SDM) to obtain the statutory verification order.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Unregistered Home Birth Without Village Sarpanch Intimation",
+        "description": "A birth occurring at home without intimation to the local Asha worker, ANM, or village head cannot be verified.",
+        "solution": "Obtain an intimation certificate signed by the attending midwife and village Sarpanch within 21 days.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "title": "Discrepancy Between Hospital Record and Application Date",
+        "description": "Entering a date or time of birth different from the hospital discharge summary halts Registrar approval.",
+        "solution": "Cross-check the exact date and hour of birth from the institutional discharge summary before submitting.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "title": "Uploading Unclear or Altered Hospital Discharge Slip",
+        "description": "Scans with overwriting, corrections without doctor countersignature, or blurred stamps fail verification.",
+        "solution": "Obtain a fresh computerized discharge summary from the hospital administration if alterations exist.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Duplicate Application for Already Registered Birth",
+        "description": "Applying for a new registration when the hospital has already notified the Registrar creates an illegal duplicate entry.",
+        "solution": "Search existing records on the portal using mother's name and hospital registration number instead of re-registering.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Is birth registration free in India?",
+        "answer": "Yes. Registration within 21 days is 100% free, and the first certificate is provided free under Section 12.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "What is the deadline to register a birth in India?",
+        "answer": "Under the RBD Act 1969, a birth must be reported to the local Registrar within 21 days of occurrence.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "Can a birth certificate be issued without naming the child initially?",
+        "answer": "Yes. A birth certificate can be issued without a name, and parents can add the name later.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "Up to what age can the child's name be added to a birth certificate?",
+        "answer": "Parents can add the child's name within one year free of cost, and up to 15 years with a nominal fee.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "How can I register a birth after more than one year has passed?",
+        "answer": "You must obtain an inquiry order from an Executive Magistrate (SDM) under Section 13(3) of the Act.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "Can I download my birth certificate online?",
+        "answer": "Yes. If the birth was registered on the Civil Registration System, you can download the digitally signed certificate using OTP.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "question": "Is the birth certificate mandatory for school admission and passport?",
+        "answer": "Yes. Under the 2023 Amendment Act, the digital birth certificate serves as the single document proving date and place of birth.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "What is the process for registering a child born at home?",
+        "answer": "The family head must inform the local Registrar within 21 days with an intimation slip from the attending midwife.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Birth Certificate",
+      "subtitle": "5 final checks before submitting your birth registration",
+      "items": [
+        {
+          "id": "discharge_slip",
+          "title": "Hospital Discharge Summary Slip",
+          "description": "Have the official institutional birth record with hospital stamp and doctor signature ready.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "parents_aadhaar",
+          "title": "Both Parents' Aadhaar Cards",
+          "description": "Keep original Aadhaar cards of father and mother with accurate spellings ready.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "marriage_cert",
+          "title": "Marriage Certificate (For Home Births)",
+          "description": "Have marriage proof ready if registering a birth that occurred outside a medical hospital.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "magistrate_order",
+          "title": "SDM Order (If Delayed Over 1 Year)",
+          "description": "Carry original certified magistrate order if the birth occurred more than 365 days ago.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "app_ref_number",
+          "title": "Registration Reference Number",
+          "description": "Record your online application tracking ID to check issuance status at the ward office.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Registration of Births and Deaths Act, 1969",
+        "actOrRuleNumber": "Section 12, Section 13 & Section 14",
+        "issuingAuthority": "Parliament of India / Ministry of Home Affairs",
+        "url": "https://censusindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Registration of Births and Deaths (Amendment) Act, 2023",
+        "actOrRuleNumber": "Act No. 20 of 2023 (Digital National Database)",
+        "issuingAuthority": "Ministry of Law and Justice",
+        "url": "https://censusindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Get a Birth Certificate in Gujarat (2026)",
+      "summary": "In Gujarat, births are registered via e-Nagar in urban municipal areas and through Talati-cum-Mantri at Gram Panchayats. First copy is free within 21 days, and digital certificates are instantly verifiable with QR code on e-Nagar.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
