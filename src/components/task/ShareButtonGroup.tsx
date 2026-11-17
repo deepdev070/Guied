@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useSyncExternalStore } from "react";
-import { Copy, Check, Share2, Send } from "lucide-react";
+import { Copy, Check, Share2, Send, Download, Image as ImageIcon } from "lucide-react";
 import {
   buildWhatsAppShareUrl,
   buildTelegramShareUrl,
@@ -50,6 +50,12 @@ export function ShareButtonGroup({
   const whatsAppUrl = buildWhatsAppShareUrl(taskTitle, stateName, currentUrl);
   const telegramUrl = buildTelegramShareUrl(taskTitle, stateName, currentUrl);
   const copyTrackedUrl = buildShareUrl({ pageUrl: currentUrl, source: "copylink" });
+  const cardSlug = canonicalPath
+    ? canonicalPath
+        .replace(/^\/task\//, "")
+        .replace(/^\//, "")
+        .split("/")[0]
+    : null;
 
   const handleCopyLink = async () => {
     try {
@@ -121,7 +127,23 @@ export function ShareButtonGroup({
           <span>Telegram</span>
         </a>
 
-        {/* 3. Native Web Share API Button (Mobile browsers) */}
+        {/* 3. Social Status Card Download Button (PROMPT 142) */}
+        {cardSlug && (
+          <a
+            href={`/api/cards/${cardSlug}?download=true`}
+            target="_blank"
+            rel="noopener noreferrer"
+            download={`${cardSlug}-checklist-card.svg`}
+            aria-label="Download 1080x1350 checklist card for WhatsApp status and social media"
+            title="Download 1080x1350 Checklist Card for WhatsApp Status, Instagram & Pinterest"
+            className="rounded-input border-border/80 bg-surface-alt/70 hover:bg-surface-alt text-text flex h-9 min-w-[70px] flex-1 cursor-pointer items-center justify-center gap-1.5 border px-2.5 text-xs font-semibold transition-all active:scale-98"
+          >
+            <ImageIcon className="text-primary h-3.5 w-3.5" aria-hidden="true" />
+            <span>Card</span>
+          </a>
+        )}
+
+        {/* 4. Native Web Share API Button (Mobile browsers) */}
         {canWebShare && (
           <button
             type="button"

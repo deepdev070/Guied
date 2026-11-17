@@ -21,3 +21,5 @@ apps/mobile/assets
 *.jpg
 *.ico
 public/.well-known/apple-app-site-association
+backups
+

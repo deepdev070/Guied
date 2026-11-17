@@ -15,8 +15,11 @@ import {
   ArrowLeft,
   History,
   ShieldCheck,
+  Download,
+  ImageIcon,
 } from "lucide-react";
 import Link from "next/link";
+import { getChecklistCardDataFromTask, downloadChecklistCardImage } from "@/lib/checklist-card";
 import { DocumentsEditor } from "./DocumentsEditor";
 import { StepsEditor } from "./StepsEditor";
 import { FeesEditor } from "./FeesEditor";
@@ -52,6 +55,20 @@ export function GuideEditorForm({ initialTask, isNew = false }: GuideEditorFormP
   const [revisionsModalOpen, setRevisionsModalOpen] = useState(false);
   const [verifyModalOpen, setVerifyModalOpen] = useState(false);
   const [isPublishing, setIsPublishing] = useState(false);
+  const [downloadingCard, setDownloadingCard] = useState(false);
+
+  const handleDownloadCard = async () => {
+    try {
+      setDownloadingCard(true);
+      const cardData = getChecklistCardDataFromTask(task);
+      await downloadChecklistCardImage(cardData, task.slug || "guide");
+    } catch (err) {
+      console.error("Error downloading card:", err);
+      alert("Could not generate card image. Please try again.");
+    } finally {
+      setDownloadingCard(false);
+    }
+  };
 
   // SEO state
   const [seo, setSeo] = useState<SeoFields>({
@@ -314,6 +331,28 @@ export function GuideEditorForm({ initialTask, isNew = false }: GuideEditorFormP
                 <span>Verify Today</span>
               </button>
             )}
+
+            {/* 1080x1350 Checklist Card Download Button (PROMPT 142) */}
+            <button
+              type="button"
+              onClick={handleDownloadCard}
+              disabled={downloadingCard}
+              className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-[#E2E8F0] bg-white px-3.5 py-2 text-xs font-semibold text-[#1E293B] shadow-2xs transition-colors hover:bg-[#F8FAFC] disabled:opacity-50"
+              title="Download 1080x1350 checklist card for WhatsApp status, Instagram and Pinterest"
+            >
+              {downloadingCard ? (
+                <>
+                  <Loader2 className="h-3.5 w-3.5 animate-spin text-[#003366]" />
+                  <span>Generating Card...</span>
+                </>
+              ) : (
+                <>
+                  <ImageIcon className="h-3.5 w-3.5 text-[#003366]" />
+                  <span>Card (1080x1350)</span>
+                  <Download className="h-3 w-3 text-[#64748B]" />
+                </>
+              )}
+            </button>
 
             {/* Save Button */}
             <button
