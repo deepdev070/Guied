@@ -136,6 +136,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://parivahan.gov.in",
     },
   ],
+  "aadhaar-update": [
+    {
+      id: "aadh-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Aadhaar Update Guide Published & Verified",
+      description:
+        "Full Aadhaar demographic and biometric update procedure published with verified ₹50 demographic / ₹100 biometric fees, myAadhaar steps, and Kendra rules.",
+      officialSourceLabel: "UIDAI (uidai.gov.in)",
+      officialSourceUrl: "https://uidai.gov.in",
+    },
+    {
+      id: "aadh-2026-09-01-02",
+      date: "2026-09-01",
+      changeType: "portal",
+      changeTypeLabel: "Head of Family (HoF) Mode",
+      title: "Head of Family (HoF) Address Update Mode Standardized",
+      description:
+        "Citizens without address proof in their own name can update their address online using relationship proof and HoF OTP authentication.",
+      officialSourceLabel: "UIDAI myAadhaar Circular",
+      officialSourceUrl: "https://myaadhaar.uidai.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

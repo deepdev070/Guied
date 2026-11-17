@@ -1,0 +1,463 @@
+{
+  "slug": "aadhaar-update",
+  "name": "Aadhaar Demographic & Address Update",
+  "description": "Complete guide to updating your Aadhaar address online or updating name, date of birth, and mobile number at an Aadhaar Seva Kendra.",
+  "categorySlug": "identity",
+  "national": {
+    "title": "How to Update Aadhaar Card Address, Mobile Number, and Details (2026)",
+    "summary": "Step-by-step guide to updating your Aadhaar address online or updating mobile number and biometrics at an Aadhaar Seva Kendra. Verified UIDAI statutory fees of ₹50 for demographic updates and complete document guidelines.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://uidai.gov.in/en/my-aadhaar/about-your-aadhaar/updating-data-on-aadhaar.html",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Log in to myAadhaar Portal with OTP",
+        "description": "Visit myaadhaar.uidai.gov.in, enter your 12-digit Aadhaar number and captcha, and log in using the OTP sent to your linked phone.",
+        "where": "Official UIDAI myAadhaar Portal (myaadhaar.uidai.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://myaadhaar.uidai.gov.in",
+        "officialLinkLabel": "Open myAadhaar Citizen Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Active Mobile Number Needed",
+        "calloutText": "Online update requires receiving an authentication SMS on the phone number currently linked to your Aadhaar.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://myaadhaar.uidai.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Choose Update Type: Online Address or Kendra Appointment",
+        "description": "Select 'Address Update' for direct online paperless change. Select 'Book an Appointment' if updating mobile number, name, or biometrics.",
+        "where": "myAadhaar Dashboard / UIDAI Appointment Service",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://myaadhaar.uidai.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Enter New Residential Address Details",
+        "description": "Fill in house number, street, landmark, area, pin code, district, and state in English and your regional language.",
+        "where": "Online myAadhaar Update Form",
+        "estimatedTime": "10 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Check Regional Spelling",
+        "calloutText": "Ensure automated translation into the regional language matches your official local documentation.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Select and Upload Supporting Address Document",
+        "description": "Choose a valid document such as an electricity bill, bank passbook, or voter card. Upload a clear PDF or JPEG under 2 MB.",
+        "where": "Online Document Upload Screen",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Pay Government Demographic Update Fee Online",
+        "description": "Pay the statutory ₹50 fee online. Note that UIDAI occasionally offers free online address updates during promotional periods.",
+        "where": "Integrated Payment Gateway (UPI / Net Banking / Card)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Save Update Request Number (URN) for Tracking",
+        "description": "Download the PDF acknowledgment slip containing your 14-digit Update Request Number (URN) and transaction receipt.",
+        "where": "Acknowledgment Receipt Download",
+        "estimatedTime": "2 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Keep URN Safe",
+        "calloutText": "Use your 14-digit URN to check verification progress anytime on myaadhaar.uidai.gov.in.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://myaadhaar.uidai.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Visit Kendra with Token (Only for Mobile / Biometrics)",
+        "description": "If updating your mobile number, photo, or iris, visit the Kendra at your booked slot. No physical visit is needed for online address updates.",
+        "where": "Aadhaar Seva Kendra (ASK) / Enrolment Centre",
+        "estimatedTime": "30 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://appointments.uidai.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Updated e-Aadhaar After Approval",
+        "description": "Once UIDAI verification approves your request, download your password-protected digital e-Aadhaar or order a plastic PVC card.",
+        "where": "myAadhaar Portal / mAadhaar Mobile App",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://myaadhaar.uidai.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Valid Proof of Address (PoA)",
+        "description": "Electricity bill (less than 3 months old), water bill, gas connection bill, or bank passbook with photo and address.",
+        "requirementType": "required",
+        "copiesHint": "Clear color scan in PDF or JPEG format",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "name": "Valid Proof of Identity (PoI)",
+        "description": "PAN card, voter ID, passport, or driving licence required when updating name or personal identity details.",
+        "requirementType": "conditional",
+        "copiesHint": "Original document + clear scan",
+        "appliesWhen": {
+          "updateType": "name_or_identity"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "name": "Proof of Date of Birth (PoB)",
+        "description": "Birth certificate issued by municipal authority, school leaving certificate, or passport for date of birth correction.",
+        "requirementType": "conditional",
+        "copiesHint": "Original certificate + 1 photocopy",
+        "appliesWhen": {
+          "updateType": "dob_correction"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "name": "Head of Family (HoF) Consent Form",
+        "description": "Self-declaration by head of family along with proof of relationship when updating address without an independent document.",
+        "requirementType": "conditional",
+        "copiesHint": "Online OTP confirmation by HoF",
+        "appliesWhen": {
+          "verificationMethod": "hof_based"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "name": "Standard Certificate by Gazetted Officer",
+        "description": "Official UIDAI standard certificate template with photograph signed and stamped by an authorized group A gazetted officer.",
+        "requirementType": "conditional",
+        "copiesHint": "Original certificate signed within 3 months",
+        "appliesWhen": {
+          "hasStandardPoa": false
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "name": "Existing Aadhaar Card or Number",
+        "description": "Original physical Aadhaar letter, PVC card, or 12-digit Aadhaar number for authentication.",
+        "requirementType": "required",
+        "copiesHint": "12-digit Aadhaar number or physical card",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Online / Kendra Demographic Update Fee (Address, Name, DoB)",
+        "amount": 50,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Aadhaar Regulations 2016",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "label": "Biometric Update Fee (Photo, Fingerprints, Iris)",
+        "amount": 100,
+        "currency": "INR",
+        "paymentMode": "both",
+        "rulesReference": "Aadhaar Regulations 2016",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "label": "Aadhaar PVC Smart Card Reprint & Speed Post Delivery",
+        "amount": 50,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "UIDAI PVC Card Service",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Aadhaar Update Fee Calculator",
+      "description": "Calculate exact statutory UIDAI fees based on what details you need to change.",
+      "baseFee": 50,
+      "baseFeeLabel": "Demographic Update Fee (Address / Name / DoB)",
+      "officialSourceUrl": "https://uidai.gov.in",
+      "officialSourceLabel": "UIDAI Statutory Fee Schedule",
+      "rulesReference": "Aadhaar Regulations 2016",
+      "options": [
+        {
+          "id": "biometric_service",
+          "label": "Biometric Update Option",
+          "type": "biometric",
+          "defaultChoiceId": "no_biometrics",
+          "choices": [
+            {
+              "id": "no_biometrics",
+              "label": "Demographic Update Only (₹50)",
+              "amount": 0,
+              "description": "Address, name, or date of birth change"
+            },
+            {
+              "id": "with_biometrics",
+              "label": "Include Biometrics / Photo (+₹50)",
+              "amount": 50,
+              "description": "Update photograph, fingerprints, or iris at centre (total ₹100)"
+            }
+          ]
+        },
+        {
+          "id": "pvc_delivery",
+          "label": "Plastic PVC Card Order",
+          "type": "pvc_card",
+          "defaultChoiceId": "digital_only",
+          "choices": [
+            {
+              "id": "digital_only",
+              "label": "Digital e-Aadhaar Download Only",
+              "amount": 0,
+              "description": "Download free PDF version with digital signature"
+            },
+            {
+              "id": "order_pvc",
+              "label": "Order Physical PVC Card by Speed Post (+₹50)",
+              "amount": 50,
+              "description": "Pocket-sized weather-proof PVC card with QR code"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "UIDAI Official Portal",
+        "url": "https://uidai.gov.in",
+        "isPrimary": true,
+        "department": "Unique Identification Authority of India (UIDAI)",
+        "portalName": "UIDAI Main Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "label": "myAadhaar Citizen Self-Service Portal",
+        "url": "https://myaadhaar.uidai.gov.in",
+        "isPrimary": false,
+        "department": "UIDAI",
+        "portalName": "myAadhaar Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://myaadhaar.uidai.gov.in"
+      },
+      {
+        "label": "UIDAI Kendra Appointment Booking Portal",
+        "url": "https://appointments.uidai.gov.in",
+        "isPrimary": false,
+        "department": "UIDAI Enrolment Operations",
+        "portalName": "Aadhaar Appointment Service",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://appointments.uidai.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Blurry or Incomplete Proof of Address Document",
+        "description": "Uploading a cropped photo where the name, address, or issuing authority seal is obscured leads to rejection.",
+        "solution": "Scan the full original document in high contrast showing all four corners and official seals.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "title": "Name Mismatch Between Proof and Aadhaar",
+        "description": "If the name on your electricity bill or bank passbook differs substantially from your Aadhaar name, scrutiny fails.",
+        "solution": "Use a document where your full name matches Aadhaar exactly, or update your name first.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "title": "Utility Bill Older Than 3 Months",
+        "description": "UIDAI guidelines mandate that electricity, water, or telephone bills must be issued within the last ninety days.",
+        "solution": "Download the most recent monthly electricity or gas bill before uploading.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "title": "Submitting Unattested Rent Agreement",
+        "description": "An unregistered plain paper rent agreement or notarized copy without official stamp duty is not accepted by UIDAI.",
+        "solution": "Submit a registered rent agreement or choose another recognized address document.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "title": "Exceeding Lifetime Update Limits for Name or DoB",
+        "description": "UIDAI permits name change only twice and date of birth correction only once in a lifetime.",
+        "solution": "Visit a regional UIDAI office with gazetted notification if an exceptional correction is required.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "title": "Mismatch in Regional Language Transliteration",
+        "description": "Automated phonetic translation into the local state language may contain spelling errors that cause scrutiny rejection.",
+        "solution": "Carefully edit the regional language script on screen to ensure accurate spelling before submitting.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Can I update my Aadhaar address online without visiting a centre?",
+        "answer": "Yes. You can update your residential address completely online through the myAadhaar portal using OTP.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "Can I update my mobile number in Aadhaar online from home?",
+        "answer": "No. Mobile number updates require biometric authentication at a physical Aadhaar Seva Kendra or post office.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "How much does UIDAI charge to update an address or name?",
+        "answer": "The statutory government fee is ₹50 for demographic updates including address, name, gender, and date of birth.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "What is the fee for updating biometric details in Aadhaar?",
+        "answer": "The statutory fee is ₹100 for biometric updates, which includes photograph, fingerprints, and iris scans.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "Are mandatory biometric updates for children aged 5 and 15 free?",
+        "answer": "Yes. UIDAI provides mandatory biometric updates for children at ages 5 and 15 completely free of charge.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "How long does it take for Aadhaar details to get updated?",
+        "answer": "Most updates are processed within 7 to 15 days, and UIDAI sends an SMS confirmation upon completion.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "Can I update my Aadhaar address using my family head's documents?",
+        "answer": "Yes. UIDAI allows Head of Family (HoF) based address updates with relationship proof and OTP consent.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "How can I download my updated Aadhaar card after approval?",
+        "answer": "Visit myaadhaar.uidai.gov.in, select 'Download Aadhaar', enter your Aadhaar number, and verify with OTP.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://myaadhaar.uidai.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Start Your Aadhaar Update",
+      "subtitle": "5 final checks before submitting your demographic update",
+      "items": [
+        {
+          "id": "active_mobile",
+          "title": "Aadhaar-Linked Mobile Phone",
+          "description": "Keep your phone charged and available to receive the OTP for online authentication.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "recent_poa",
+          "title": "Recent Address Proof (Under 3 Months)",
+          "description": "Ensure your electricity bill or bank passbook has been issued within the last ninety days.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "color_scan",
+          "title": "Clear Color Document Scan",
+          "description": "Take a high-resolution color scan showing the complete document with all borders visible.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "appointment_token",
+          "title": "Appointment Token (If Visiting Kendra)",
+          "description": "Print or save the QR appointment slip on your mobile phone if updating biometrics.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "urn_tracking",
+          "title": "14-Digit URN Number Saved",
+          "description": "Record your Update Request Number after submission to check status on the portal.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016",
+        "actOrRuleNumber": "Section 28 & Section 31",
+        "issuingAuthority": "Parliament of India / Ministry of Electronics and Information Technology",
+        "url": "https://uidai.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Aadhaar (Enrolment and Update) Regulations, 2016",
+        "actOrRuleNumber": "Regulation 14 & Regulation 15",
+        "issuingAuthority": "Unique Identification Authority of India",
+        "url": "https://uidai.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Update Aadhaar Card in Gujarat (2026)",
+      "summary": "Gujarat citizens can access dedicated Aadhaar services at e-Gram centres, taluka Seva Sadans, and designated post offices across all 33 districts. Online address update remains 100% paperless on myAadhaar.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
