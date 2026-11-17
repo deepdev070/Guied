@@ -136,6 +136,19 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://www.passportindia.gov.in",
     },
   ],
+  "pcc-passport": [
+    {
+      id: "pcc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Police Clearance Certificate (PCC) Guide Published & Verified",
+      description:
+        "Full PCC procedure guide published with verified ₹500 statutory fee on Passport Seva, required documents, and police verification steps.",
+      officialSourceLabel: "Passport Seva Portal (passportindia.gov.in)",
+      officialSourceUrl: "https://www.passportindia.gov.in",
+    },
+  ],
 };
 
 /**
