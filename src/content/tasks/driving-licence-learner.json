@@ -5,104 +5,124 @@
   "categorySlug": "vehicles",
   "national": {
     "title": "How to Get a Learner's Licence in India (2026)",
-    "summary": "Complete document checklist, ₹200 official statutory fee breakdown, and step-by-step application instructions for Learner Licence across all Indian states.",
-    "estimatedTime": "15-30 days",
+    "summary": "Step-by-step guide to applying for a Learner Licence online on the Sarathi Parivahan portal. Verified statutory fee of ₹200, required documents, and computerized test instructions.",
+    "estimatedTime": "7-15 days",
     "difficulty": "easy",
     "status": "PUBLISHED",
-    "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
     "verifiedBy": "Civic Research Editorial Team",
     "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/learner-licence",
     "steps": [
       {
         "stepNumber": 1,
         "title": "Submit Form 2 on the Sarathi Parivahan Portal",
-        "description": "Go to parivahan.gov.in, choose your State, and select 'Apply for Learner Licence'. Fill out your applicant details, address, and select vehicle class (MCWG for geared motorcycle, LMV for car).",
+        "description": "Visit parivahan.gov.in and select your State. Click 'Apply for Learner Licence' and select your vehicle class.",
         "where": "Official Sarathi Portal (parivahan.gov.in)",
-        "estimatedTime": "15 minutes",
+        "estimatedTime": "10 minutes",
         "officialLinkUrl": "https://sarathi.parivahan.gov.in",
         "officialLinkLabel": "Open Sarathi Parivahan Application Portal",
         "calloutType": "tip",
         "calloutTitle": "Aadhaar e-KYC Tip",
-        "calloutText": "If your mobile number is linked to Aadhaar, choose 'Applicant with Aadhaar' for paperless online verification without an in-person RTO visit for document submission.",
+        "calloutText": "Choosing Aadhaar authentication allows paperless online verification without visiting an RTO office in most states.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
       },
       {
         "stepNumber": 2,
-        "title": "Upload Required Documents & Photo",
-        "description": "Upload scanned copies of Proof of Age, Proof of Address, and Form 1 (Self-declaration of physical fitness). If not using Aadhaar e-KYC, upload your signature and passport-size photograph.",
-        "where": "Online Portal",
-        "estimatedTime": "10 minutes",
+        "title": "Select Aadhaar Authentication Mode",
+        "description": "Choose 'Submit via Aadhaar Authentication' if your mobile is linked to Aadhaar. Otherwise, choose physical submission at your RTO.",
+        "where": "Online Authentication Gateway",
+        "estimatedTime": "5 minutes",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
       },
       {
         "stepNumber": 3,
-        "title": "Pay Government Fee (₹200)",
-        "description": "Pay the statutory fee of ₹150 for application processing plus ₹50 for computerized test fee via net banking, debit card, or UPI. Download and print payment receipt Form 2.",
+        "title": "Upload Required Documents and Photo",
+        "description": "Upload scanned age proof, address proof, and Form 1 fitness self-declaration. Non-Aadhaar applicants must also upload photograph and signature.",
+        "where": "Online Document Upload Portal",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Pay Government Fee Online (₹200)",
+        "description": "Pay the statutory fee of ₹150 for application processing and ₹50 for test fee. Pay via net banking, debit card, or UPI.",
         "where": "Integrated Bharatkosh / State Payment Gateway",
         "estimatedTime": "5 minutes",
         "calloutType": "warning",
         "calloutTitle": "Keep Payment Receipt Safe",
-        "calloutText": "Print the e-receipt immediately. The transaction reference number is required if payment status enters 'Pending'.",
+        "calloutText": "Print the e-receipt immediately. The transaction number is needed if payment status enters pending.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       },
       {
-        "stepNumber": 4,
-        "title": "Take the Computerized Learner Test (LL Test)",
-        "description": "Take the 15-question test on traffic signs and road safety. You have 30 seconds per question; score at least 11/15 (60%) to pass. On passing, your digital learner licence (Form 3) is generated instantly.",
-        "where": "Online from home (for Aadhaar e-KYC applicants) or at designated RTO Sub-Center",
-        "estimatedTime": "20 minutes",
+        "stepNumber": 5,
+        "title": "Watch the Mandatory Road Safety Tutorial Video",
+        "description": "Log in to Sarathi and watch the official road safety video tutorial. The computerized test unlocks only after watching this video.",
+        "where": "Parivahan Online Safety Desk",
+        "estimatedTime": "10 minutes",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
       },
       {
-        "stepNumber": 5,
-        "title": "Download & Print Your Digital Learner Licence (Form 3)",
-        "description": "Immediately upon scoring 11 or higher on the online test, your digital Learner Licence in Form 3 is generated with a verifiable QR code. Download the PDF and keep a physical printout while practicing driving with an instructor.",
+        "stepNumber": 6,
+        "title": "Take the Computerized Learner Test (LL Test)",
+        "description": "Answer 15 multiple-choice questions on road signs and traffic rules within 30 seconds each. You must score 11 out of 15 to pass.",
+        "where": "Online from Home (with webcam) or at RTO Lab",
+        "estimatedTime": "15 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Download and Print Your Digital Learner Licence (Form 3)",
+        "description": "Your digital Learner Licence in Form 3 is generated immediately upon passing. Download the PDF and keep a physical printout for driving practice.",
         "where": "Sarathi Parivahan Download Section",
         "estimatedTime": "5 minutes",
         "calloutType": "tip",
-        "calloutTitle": "Keep QR Code Legible",
-        "calloutText": "Traffic police and licensing authorities verify learner licences by scanning the QR code directly using their handheld mParivahan terminals.",
+        "calloutTitle": "Display L-Plates",
+        "calloutText": "Vehicles driven by learner licence holders must display red 'L' plates on front and back.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
       }
     ],
     "documentRequirements": [
       {
         "name": "Proof of Age (Aadhaar / 10th Marksheet / Birth Certificate)",
-        "description": "Any officially valid document displaying your full date of birth (DD/MM/YYYY).",
+        "description": "Official government document displaying your full date of birth (DD/MM/YYYY).",
         "requirementType": "required",
         "copiesHint": "Original + 1 self-attested photocopy",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in",
         "displayOrder": 0
       },
       {
-        "name": "Proof of Current Residential Address",
-        "description": "Aadhaar Card, Voter ID, Electricity Bill, or registered rent agreement in applicant's name.",
+        "name": "Proof of Address (Aadhaar / Electricity Bill / Rent Agreement)",
+        "description": "Valid document proving residential address in the selected licensing jurisdiction.",
         "requirementType": "required",
-        "copiesHint": "Original + 1 photocopy",
+        "copiesHint": "Original + 1 self-attested photocopy",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in",
         "displayOrder": 0
       },
       {
         "name": "Form 1 Physical Fitness Self-Declaration",
-        "description": "Online self-declaration form confirming you have no epilepsy, night blindness, or loss of limbs.",
+        "description": "Online self-declaration form confirming physical fitness, eyesight, and absence of color blindness.",
         "requirementType": "required",
         "copiesHint": "Filled online during application",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in",
         "displayOrder": 0
       },
@@ -116,7 +136,10 @@
           "backgroundColor": "Plain white paper with dark blue or black ink",
           "maxFileSizeBytes": 20480,
           "maxFileSizeLabel": "10 KB to 20 KB",
-          "acceptedFormats": ["JPEG", "JPG"],
+          "acceptedFormats": [
+            "JPEG",
+            "JPG"
+          ],
           "diagramType": "signature",
           "guidanceUrl": "https://sarathi.parivahan.gov.in",
           "instructions": [
@@ -126,7 +149,7 @@
           ]
         },
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in",
         "displayOrder": 0
       },
@@ -148,7 +171,7 @@
           ]
         },
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in",
         "displayOrder": 0
       }
@@ -158,39 +181,37 @@
         "label": "Learner's Licence Application Processing Fee",
         "amount": 150,
         "currency": "INR",
-        "isOptional": false,
         "paymentMode": "online",
         "rulesReference": "Central Motor Vehicles Rules (CMVR), Rule 32",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       },
       {
         "label": "Computerized LL Test Fee",
         "amount": 50,
         "currency": "INR",
-        "isOptional": false,
         "paymentMode": "online",
         "rulesReference": "Central Motor Vehicles Rules (CMVR), Rule 32",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       }
     ],
     "feeCalculator": {
-      "title": "Learner's Licence Fee Calculator",
-      "description": "Calculate exact statutory fees based on the number of vehicle categories selected.",
+      "title": "Learner Licence Total Fee Calculator",
+      "description": "Calculate total statutory fees for Learner Licence by vehicle category and delivery option.",
       "baseFee": 200,
-      "baseFeeLabel": "Single Vehicle Class (Form 2 ₹150 + Online Test ₹50)",
+      "baseFeeLabel": "Single Vehicle Class Statutory Fee",
       "options": [
         {
-          "id": "vehicle_classes",
-          "label": "Vehicle Categories Applied",
+          "id": "classes",
+          "label": "Vehicle Classes to Apply",
           "type": "classes",
           "choices": [
             {
               "id": "single_class",
-              "label": "Single Class (Motorcycle or Car)",
+              "label": "Single Class (Motorcycle MCWG or Car LMV)",
               "amount": 0,
               "description": "₹150 application + ₹50 test"
             },
@@ -236,41 +257,17 @@
         "department": "Ministry of Road Transport and Highways (MoRTH)",
         "portalName": "Parivahan Sewa",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://parivahan.gov.in"
-      }
-    ],
-    "faqItems": [
-      {
-        "question": "How long is a Learner's Licence valid in India?",
-        "answer": "A Learner's Licence is valid for exactly 6 months (180 days) from the date of issue across all states and Union Territories.",
-        "displayOrder": 0,
-        "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
       },
       {
-        "question": "Can I drive alone on public roads with a Learner's Licence?",
-        "answer": "No. You must be accompanied by someone who holds a valid permanent driving licence for that vehicle. Also, your vehicle must display red 'L' plates on front and back.",
-        "displayOrder": 0,
+        "label": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "MoRTH Portal",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://morth.nic.in"
-      },
-      {
-        "question": "What is the passing mark for the online Learner Licence test in India?",
-        "answer": "The computerized learner test consists of 15 multiple-choice questions covering Indian road signs, traffic signals, and fundamental driving regulations. You must answer at least 11 questions correctly (60% score) within the allotted 30 seconds per question to pass.",
-        "displayOrder": 0,
-        "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-        "sourceUrl": "https://sarathi.parivahan.gov.in"
-      },
-      {
-        "question": "When can I apply for a permanent driving licence after getting my learner licence?",
-        "answer": "You can apply for a permanent driving licence after 30 days from your Learner Licence issue date. You must apply within 180 days (6 months) before the learner licence expires.",
-        "displayOrder": 0,
-        "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       }
     ],
@@ -280,10 +277,152 @@
         "description": "If the name on your 10th marksheet or birth certificate does not match the name returned by Aadhaar e-KYC, the application is halted.",
         "solution": "Update your Aadhaar details first at an Aadhaar Seva Kendra, or apply via non-Aadhaar mode with physical document scrutiny at the RTO.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Failing the Computerized Road Signs and Rules Test",
+        "description": "Scoring below 11 out of 15 questions leads to test failure on the computerized exam.",
+        "solution": "Review traffic signs and road regulations on Sarathi practice tests, then book a re-test after paying ₹50.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Missing Form 1A Medical Certificate for Applicants Aged 40+",
+        "description": "Applicants aged 40 or older who submit without a registered doctor signed Form 1A are rejected at scrutiny.",
+        "solution": "Get Form 1A signed by a registered MBBS medical doctor with doctor registration stamp.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Missing Parent Consent for Minor Applicants Aged 16 to 18",
+        "description": "Minor applicants applying for non-gear vehicles without parent declaration will be rejected.",
+        "solution": "Have your parent or legal guardian sign the consent section on application Form 2.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Blurry or Incomplete Document Scans",
+        "description": "Uploading unreadable documents or cropped certificates leads to application rejection by the scrutiny clerk.",
+        "solution": "Re-scan the original documents clearly in PDF format under 200 KB before uploading.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Applying Outside Your Residential RTO Jurisdiction",
+        "description": "Selecting an RTO that does not cover your residential pin code leads to cancellation at document scrutiny.",
+        "solution": "Check your district RTO jurisdiction list and select the office matching your residential address.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
       }
     ],
+    "faqItems": [
+      {
+        "question": "What is the minimum age to apply for a Learner Licence in India?",
+        "answer": "The minimum age is 16 years for gearless two-wheelers up to 50cc. It is 18 years for geared motorcycles and cars.",
+        "displayOrder": 0,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Can I take the Learner Licence test from home?",
+        "answer": "Yes. States offering Aadhaar e-KYC allow you to take the computerized test from home using a webcam.",
+        "displayOrder": 1,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "question": "What is the passing mark for the computerized Learner test?",
+        "answer": "You must score at least 11 correct answers out of 15 questions to pass the computerized learner test.",
+        "displayOrder": 2,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "question": "How long is a Learner's Licence valid in India?",
+        "answer": "A Learner's Licence is valid for exactly 6 months (180 days) from the date of issue across all states and Union Territories.",
+        "displayOrder": 3,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "question": "Can I drive alone on public roads with a Learner's Licence?",
+        "answer": "No. You must be accompanied by someone who holds a valid permanent driving licence for that vehicle class.",
+        "displayOrder": 4,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What should I do if I fail the online Learner test?",
+        "answer": "You can pay a re-test fee of ₹50 on Sarathi and reappear for the test after 24 hours.",
+        "displayOrder": 5,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "question": "When can I apply for a permanent driving licence after getting my learner licence?",
+        "answer": "You can apply for a permanent driving licence after 30 days from your Learner Licence issue date.",
+        "displayOrder": 6,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What is the official statutory fee for a Learner Licence?",
+        "answer": "The statutory fee is ₹150 for application processing plus ₹50 for the test fee, totaling ₹200 for a single vehicle class.",
+        "displayOrder": 7,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Take Your Learner Licence Test",
+      "subtitle": "5 final checks before starting your computerized exam",
+      "items": [
+        {
+          "id": "device",
+          "title": "Working Webcam and Stable Internet",
+          "description": "Ensure your computer has an active camera with good lighting for facial recognition proctoring.",
+          "icon": "Camera"
+        },
+        {
+          "id": "application",
+          "title": "Application Number and Password",
+          "description": "Keep your Sarathi application number and SMS login password ready before launching the test.",
+          "icon": "FileText"
+        },
+        {
+          "id": "traffic_rules",
+          "title": "Review Road Signs and Rules",
+          "description": "Revise mandatory, cautionary, and informatory traffic signs before beginning the timed 15-question test.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "id_proof",
+          "title": "Original Aadhaar Card",
+          "description": "Keep your original physical Aadhaar card beside you for identity confirmation during testing.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "quiet_room",
+          "title": "Quiet Room with No Background Movement",
+          "description": "Sit alone in a quiet room because the proctoring camera flags any background persons or movement.",
+          "icon": "ShieldCheck"
+        }
+      ]
+    },
     "sourceRefs": [
       {
         "title": "The Motor Vehicles (Amendment) Act, 2019",
@@ -291,7 +430,15 @@
         "issuingAuthority": "Parliament of India / MoRTH",
         "url": "https://morth.nic.in",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Central Motor Vehicles Rules, 1989",
+        "actOrRuleNumber": "Rule 32 (Fee Table)",
+        "issuingAuthority": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
       }
     ]
   },
@@ -300,7 +447,7 @@
       "title": "How to Apply for Learner's Licence in Gujarat (2026)",
       "summary": "Gujarat offers 100% contactless online Learner Licence services with home-based computerized testing through Sarathi Parivahan and Digital Gujarat.",
       "estimatedTime": "7-15 days",
-      "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
     }
   }
 }
