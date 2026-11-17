@@ -1,7 +1,7 @@
 {
   "type": "CIVIC_DATABASE_SNAPSHOT",
   "version": 1,
-  "createdAt": "2026-11-17T10:10:18.528Z",
+  "createdAt": "2026-11-17T10:24:55.203Z",
   "tables": [
     "Category",
     "State",

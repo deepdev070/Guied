@@ -1,0 +1,3306 @@
+{
+  "version": 1,
+  "timestamp": "2026-11-17T10:21:09.031Z",
+  "metadata": {
+    "totalGuides": 5,
+    "totalCategories": 10,
+    "totalStates": 36,
+    "totalGlossaryTerms": 9
+  },
+  "data": {
+    "guides": [
+      {
+        "slug": "driving-licence-learner",
+        "name": "Learner's Licence Application",
+        "description": "How to apply for a learner driving licence (LLR) online or at an RTO in India.",
+        "categorySlug": "vehicles",
+        "national": {
+          "title": "How to Get a Learner's Licence in India (2026)",
+          "summary": "Step-by-step guide to applying for a Learner Licence online on the Sarathi Parivahan portal. Verified statutory fee of ₹200, required documents, and computerized test instructions.",
+          "estimatedTime": "7-15 days",
+          "difficulty": "easy",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+          "verifiedBy": "Civic Research Editorial Team",
+          "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/learner-licence",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "title": "Submit Form 2 on the Sarathi Parivahan Portal",
+              "description": "Visit parivahan.gov.in and select your State. Click 'Apply for Learner Licence' and select your vehicle class.",
+              "where": "Official Sarathi Portal (parivahan.gov.in)",
+              "estimatedTime": "10 minutes",
+              "officialLinkUrl": "https://sarathi.parivahan.gov.in",
+              "officialLinkLabel": "Open Sarathi Parivahan Application Portal",
+              "calloutType": "tip",
+              "calloutTitle": "Aadhaar e-KYC Tip",
+              "calloutText": "Choosing Aadhaar authentication allows paperless online verification without visiting an RTO office in most states.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 2,
+              "title": "Select Aadhaar Authentication Mode",
+              "description": "Choose 'Submit via Aadhaar Authentication' if your mobile is linked to Aadhaar. Otherwise, choose physical submission at your RTO.",
+              "where": "Online Authentication Gateway",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 3,
+              "title": "Upload Required Documents and Photo",
+              "description": "Upload scanned age proof, address proof, and Form 1 fitness self-declaration. Non-Aadhaar applicants must also upload photograph and signature.",
+              "where": "Online Document Upload Portal",
+              "estimatedTime": "10 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 4,
+              "title": "Pay Government Fee Online (₹200)",
+              "description": "Pay the statutory fee of ₹150 for application processing and ₹50 for test fee. Pay via net banking, debit card, or UPI.",
+              "where": "Integrated Bharatkosh / State Payment Gateway",
+              "estimatedTime": "5 minutes",
+              "calloutType": "warning",
+              "calloutTitle": "Keep Payment Receipt Safe",
+              "calloutText": "Print the e-receipt immediately. The transaction number is needed if payment status enters pending.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "stepNumber": 5,
+              "title": "Watch the Mandatory Road Safety Tutorial Video",
+              "description": "Log in to Sarathi and watch the official road safety video tutorial. The computerized test unlocks only after watching this video.",
+              "where": "Parivahan Online Safety Desk",
+              "estimatedTime": "10 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 6,
+              "title": "Take the Computerized Learner Test (LL Test)",
+              "description": "Answer 15 multiple-choice questions on road signs and traffic rules within 30 seconds each. You must score 11 out of 15 to pass.",
+              "where": "Online from Home (with webcam) or at RTO Lab",
+              "estimatedTime": "15 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 7,
+              "title": "Download and Print Your Digital Learner Licence (Form 3)",
+              "description": "Your digital Learner Licence in Form 3 is generated immediately upon passing. Download the PDF and keep a physical printout for driving practice.",
+              "where": "Sarathi Parivahan Download Section",
+              "estimatedTime": "5 minutes",
+              "calloutType": "tip",
+              "calloutTitle": "Display L-Plates",
+              "calloutText": "Vehicles driven by learner licence holders must display red 'L' plates on front and back.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            }
+          ],
+          "documentRequirements": [
+            {
+              "name": "Proof of Age (Aadhaar / 10th Marksheet / Birth Certificate)",
+              "description": "Official government document displaying your full date of birth (DD/MM/YYYY).",
+              "requirementType": "required",
+              "copiesHint": "Original + 1 self-attested photocopy",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Proof of Address (Aadhaar / Electricity Bill / Rent Agreement)",
+              "description": "Valid document proving residential address in the selected licensing jurisdiction.",
+              "requirementType": "required",
+              "copiesHint": "Original + 1 self-attested photocopy",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Form 1 Physical Fitness Self-Declaration",
+              "description": "Online self-declaration form confirming physical fitness, eyesight, and absence of color blindness.",
+              "requirementType": "required",
+              "copiesHint": "Filled online during application",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Applicant Signature & Photo Digital Scan",
+              "description": "Scanned signature and passport photograph uploaded to the Parivahan Sarathi portal for electronic licence issuance.",
+              "requirementType": "required",
+              "copiesHint": "Scanned file upload (JPEG)",
+              "specs": {
+                "dimensions": "256 × 64 pixels (4:1 signature ratio)",
+                "backgroundColor": "Plain white paper with dark blue or black ink",
+                "maxFileSizeBytes": 20480,
+                "maxFileSizeLabel": "10 KB to 20 KB",
+                "acceptedFormats": [
+                  "JPEG",
+                  "JPG"
+                ],
+                "diagramType": "signature",
+                "guidanceUrl": "https://sarathi.parivahan.gov.in",
+                "instructions": [
+                  "Sign with black or dark blue ballpoint pen inside a white rectangular box",
+                  "Crop neatly without harsh shadows or phone flash reflections",
+                  "Must be between 10 KB and 20 KB in JPEG format"
+                ]
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Form 1A Medical Fitness Certificate",
+              "description": "Medical certificate signed by a registered MBBS medical practitioner with doctor's registration seal.",
+              "requirementType": "conditional",
+              "copiesHint": "Original doctor signed copy",
+              "appliesWhen": {
+                "or": [
+                  {
+                    "applicantAge": {
+                      "gte": 40
+                    }
+                  },
+                  {
+                    "licenceCategory": "commercial_transport"
+                  }
+                ]
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            }
+          ],
+          "fees": [
+            {
+              "label": "Learner's Licence Application Processing Fee",
+              "amount": 150,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Central Motor Vehicles Rules (CMVR), Rule 32",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "label": "Computerized LL Test Fee",
+              "amount": 50,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Central Motor Vehicles Rules (CMVR), Rule 32",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            }
+          ],
+          "feeCalculator": {
+            "title": "Learner Licence Total Fee Calculator",
+            "description": "Calculate total statutory fees for Learner Licence by vehicle category and delivery option.",
+            "baseFee": 200,
+            "baseFeeLabel": "Single Vehicle Class Statutory Fee",
+            "options": [
+              {
+                "id": "classes",
+                "label": "Vehicle Classes to Apply",
+                "type": "classes",
+                "choices": [
+                  {
+                    "id": "single_class",
+                    "label": "Single Class (Motorcycle MCWG or Car LMV)",
+                    "amount": 0,
+                    "description": "₹150 application + ₹50 test"
+                  },
+                  {
+                    "id": "two_classes",
+                    "label": "Two Classes (Motorcycle MCWG + Car LMV)",
+                    "amount": 150,
+                    "description": "Combined test for both two-wheeler and four-wheeler"
+                  }
+                ],
+                "defaultChoiceId": "single_class"
+              },
+              {
+                "id": "delivery",
+                "label": "Licence Issuance & Download",
+                "type": "delivery",
+                "choices": [
+                  {
+                    "id": "instant_download",
+                    "label": "Direct Digital Download (e-Learner Licence)",
+                    "amount": 0,
+                    "description": "Instant valid digital download with QR code"
+                  },
+                  {
+                    "id": "speed_post",
+                    "label": "Speed Post Hardcopy Delivery (select RTOs)",
+                    "amount": 50,
+                    "description": "Optional physical dispatch to residence (+₹50)"
+                  }
+                ],
+                "defaultChoiceId": "instant_download"
+              }
+            ],
+            "officialSourceUrl": "https://parivahan.gov.in",
+            "officialSourceLabel": "Parivahan Sarathi Fee Schedule",
+            "rulesReference": "CMVR 1989 Rule 32"
+          },
+          "beforeYouGo": {
+            "title": "Before You Take Your Learner Licence Test",
+            "subtitle": "5 final checks before starting your computerized exam",
+            "items": [
+              {
+                "id": "device",
+                "title": "Working Webcam and Stable Internet",
+                "description": "Ensure your computer has an active camera with good lighting for facial recognition proctoring.",
+                "icon": "Camera"
+              },
+              {
+                "id": "application",
+                "title": "Application Number and Password",
+                "description": "Keep your Sarathi application number and SMS login password ready before launching the test.",
+                "icon": "FileText"
+              },
+              {
+                "id": "traffic_rules",
+                "title": "Review Road Signs and Rules",
+                "description": "Revise mandatory, cautionary, and informatory traffic signs before beginning the timed 15-question test.",
+                "icon": "CheckSquare"
+              },
+              {
+                "id": "id_proof",
+                "title": "Original Aadhaar Card",
+                "description": "Keep your original physical Aadhaar card beside you for identity confirmation during testing.",
+                "icon": "FolderCheck"
+              },
+              {
+                "id": "quiet_room",
+                "title": "Quiet Room with No Background Movement",
+                "description": "Sit alone in a quiet room because the proctoring camera flags any background persons or movement.",
+                "icon": "ShieldCheck"
+              }
+            ]
+          },
+          "officialLinks": [
+            {
+              "label": "Sarathi Parivahan Citizen Portal",
+              "url": "https://sarathi.parivahan.gov.in",
+              "isPrimary": true,
+              "department": "Ministry of Road Transport and Highways (MoRTH)",
+              "portalName": "Parivahan Sewa",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "label": "Ministry of Road Transport and Highways",
+              "url": "https://morth.nic.in",
+              "isPrimary": false,
+              "department": "Government of India",
+              "portalName": "MoRTH Portal",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            }
+          ],
+          "faqItems": [
+            {
+              "question": "What is the minimum age to apply for a Learner Licence in India?",
+              "answer": "The minimum age is 16 years for gearless two-wheelers up to 50cc. It is 18 years for geared motorcycles and cars.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "Can I take the Learner Licence test from home?",
+              "answer": "Yes. States offering Aadhaar e-KYC allow you to take the computerized test from home using a webcam.",
+              "displayOrder": 1,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "question": "What is the passing mark for the computerized Learner test?",
+              "answer": "You must score at least 11 correct answers out of 15 questions to pass the computerized learner test.",
+              "displayOrder": 2,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "question": "How long is a Learner's Licence valid in India?",
+              "answer": "A Learner's Licence is valid for exactly 6 months (180 days) from the date of issue across all states and Union Territories.",
+              "displayOrder": 3,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "question": "Can I drive alone on public roads with a Learner's Licence?",
+              "answer": "No. You must be accompanied by someone who holds a valid permanent driving licence for that vehicle class.",
+              "displayOrder": 4,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "What should I do if I fail the online Learner test?",
+              "answer": "You can pay a re-test fee of ₹50 on Sarathi and reappear for the test after 24 hours.",
+              "displayOrder": 5,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "question": "When can I apply for a permanent driving licence after getting my learner licence?",
+              "answer": "You can apply for a permanent driving licence after 30 days from your Learner Licence issue date.",
+              "displayOrder": 6,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "What is the official statutory fee for a Learner Licence?",
+              "answer": "The statutory fee is ₹150 for application processing plus ₹50 for the test fee, totaling ₹200 for a single vehicle class.",
+              "displayOrder": 7,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            }
+          ],
+          "rejectionReasons": [
+            {
+              "title": "Name or Date of Birth Mismatch on Aadhaar",
+              "description": "If the name on your 10th marksheet or birth certificate does not match the name returned by Aadhaar e-KYC, the application is halted.",
+              "solution": "Update your Aadhaar details first at an Aadhaar Seva Kendra, or apply via non-Aadhaar mode with physical document scrutiny at the RTO.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "title": "Failing the Computerized Road Signs and Rules Test",
+              "description": "Scoring below 11 out of 15 questions leads to test failure on the computerized exam.",
+              "solution": "Review traffic signs and road regulations on Sarathi practice tests, then book a re-test after paying ₹50.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "title": "Missing Form 1A Medical Certificate for Applicants Aged 40+",
+              "description": "Applicants aged 40 or older who submit without a registered doctor signed Form 1A are rejected at scrutiny.",
+              "solution": "Get Form 1A signed by a registered MBBS medical doctor with doctor registration stamp.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "title": "Missing Parent Consent for Minor Applicants Aged 16 to 18",
+              "description": "Minor applicants applying for non-gear vehicles without parent declaration will be rejected.",
+              "solution": "Have your parent or legal guardian sign the consent section on application Form 2.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "title": "Blurry or Incomplete Document Scans",
+              "description": "Uploading unreadable documents or cropped certificates leads to application rejection by the scrutiny clerk.",
+              "solution": "Re-scan the original documents clearly in PDF format under 200 KB before uploading.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "title": "Applying Outside Your Residential RTO Jurisdiction",
+              "description": "Selecting an RTO that does not cover your residential pin code leads to cancellation at document scrutiny.",
+              "solution": "Check your district RTO jurisdiction list and select the office matching your residential address.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            }
+          ],
+          "sourceRefs": [
+            {
+              "title": "The Motor Vehicles (Amendment) Act, 2019",
+              "actOrRuleNumber": "Section 8 and 9",
+              "issuingAuthority": "Parliament of India / MoRTH",
+              "url": "https://morth.nic.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+            },
+            {
+              "title": "Central Motor Vehicles Rules, 1989",
+              "actOrRuleNumber": "Rule 32 (Fee Table)",
+              "issuingAuthority": "Ministry of Road Transport and Highways",
+              "url": "https://morth.nic.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+            }
+          ]
+        },
+        "states": {
+          "GJ": {
+            "title": "How to Apply for Learner's Licence in Gujarat (2026)",
+            "summary": "Gujarat offers 100% contactless online Learner Licence services with home-based computerized testing through Sarathi Parivahan and Digital Gujarat.",
+            "estimatedTime": "7-15 days",
+            "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "slug": "driving-licence-new",
+        "name": "Permanent Driving Licence Application",
+        "description": "How to get a permanent driving licence in India after holding a learner permit, with automated test track steps and Gujarat state rules.",
+        "categorySlug": "vehicles",
+        "national": {
+          "title": "How to Apply for a Permanent Driving Licence in India (2026)",
+          "summary": "Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (₹700), and driving test rules.",
+          "estimatedTime": "15-30 days after driving test",
+          "difficulty": "medium",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+          "verifiedBy": "Civic Research Editorial Team",
+          "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/driving-licence-0",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "title": "Complete 30-Day Mandatory Waiting Period",
+              "description": "Wait at least 30 days after your Learner's Licence (LLR) was issued. Make sure your LLR has not expired (valid for 180 days).",
+              "where": "Eligibility Requirement",
+              "estimatedTime": "30 days minimum wait",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "stepNumber": 2,
+              "title": "Submit Form 2 Application on Sarathi Parivahan",
+              "description": "Visit sarathi.parivahan.gov.in, select your State, and click 'Apply for Driving Licence'. Enter your Learner's Licence number and date of birth to load your details automatically.",
+              "where": "Official Sarathi Portal (parivahan.gov.in)",
+              "estimatedTime": "10 minutes",
+              "officialLinkUrl": "https://sarathi.parivahan.gov.in",
+              "officialLinkLabel": "Open Sarathi Driving Licence Application",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 3,
+              "title": "Select Vehicle Classes & Driving School Certificate",
+              "description": "Choose the vehicle classes endorsed on your learner permit (e.g. Motorcycle with Gear - MCWG, Light Motor Vehicle - LMV). If you were trained at an accredited driver training institute (ADTC), upload your Form 5B certificate.",
+              "where": "Online Application Form",
+              "estimatedTime": "5 minutes",
+              "calloutType": "tip",
+              "calloutTitle": "Accredited Training School Exemption",
+              "calloutText": "Under Section 12 of the Motor Vehicles Act, candidates with a Form 5B certificate from an Accredited Driving School skip the practical RTO driving test.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "stepNumber": 4,
+              "title": "Pay Statutory Government Fees Online",
+              "description": "Pay ₹200 for DL issue, ₹200 for smart card printing, and ₹300 per vehicle class test fee. Total is ₹700 for single class or ₹1,000 for dual class.",
+              "where": "Integrated Payment Gateway",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "stepNumber": 5,
+              "title": "Book Practical Driving Test Appointment Slot",
+              "description": "Select your designated RTO or Automated Driving Test Track (ADTT) and pick an available date and time slot. Download and print the Appointment Slip.",
+              "where": "Sarathi Slot Booking System",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 6,
+              "title": "Appear for the Practical Driving Test at RTO Track",
+              "description": "Arrive at the RTO test track 30 minutes before your slot with a vehicle corresponding to your application category. For two-wheelers, demonstrate figure-of-eight (8) balancing and sudden stopping. For four-wheelers, pass the H-track reverse parking, parallel parking, and gradient hill restart without rolling backwards.",
+              "where": "RTO Driving Test Track / ADTT Center",
+              "estimatedTime": "1-2 hours",
+              "calloutType": "important",
+              "calloutTitle": "Bring Vehicle Documents",
+              "calloutText": "The vehicle you bring for the test must have valid physical registration certificate (RC), active insurance policy, and valid Pollution Under Control (PUC) certificate.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "stepNumber": 7,
+              "title": "Test Results and Biometric Data Verification",
+              "description": "If you pass the test, the testing officer signs your inspection sheet or the automated track sensors submit an instant electronic pass report. Your digital photo and signature are verified.",
+              "where": "RTO Biometrics Counter",
+              "estimatedTime": "15 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "stepNumber": 8,
+              "title": "Receive Driving Licence via Speed Post & DigiLocker",
+              "description": "Your permanent driving licence number is generated within 24-48 hours and available on DigiLocker and mParivahan. The physical chip-based Smart Card licence is printed and dispatched to your residential address via India Post Speed Post.",
+              "where": "Postal Delivery / Digital Download",
+              "estimatedTime": "7-15 working days for physical card",
+              "calloutType": "success",
+              "calloutTitle": "Immediate Digital Legality",
+              "calloutText": "Once your DL number is generated, your digital driving licence in DigiLocker or mParivahan is legally valid across India under CMVR Rule 139.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            }
+          ],
+          "documentRequirements": [
+            {
+              "name": "Original Learner's Licence (LLR)",
+              "description": "Valid physical or electronic learner licence certificate issued at least 30 days prior.",
+              "requirementType": "required",
+              "copiesHint": "Original required for verification",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Application Form 2 Printout",
+              "description": "Auto-generated completed application form downloaded from Sarathi Parivahan portal.",
+              "requirementType": "required",
+              "copiesHint": "1 signed printed copy",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Fee Payment Receipt and Appointment Slip",
+              "description": "Printed e-receipt confirming government fee payment and booked test slot.",
+              "requirementType": "required",
+              "copiesHint": "1 copy",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Test Vehicle Documents (RC, Insurance, PUC)",
+              "description": "Valid registration certificate, insurance paper, and pollution certificate for the vehicle brought for testing.",
+              "requirementType": "required",
+              "copiesHint": "Original documents for inspection",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Form 5B Driving School Training Certificate",
+              "description": "Certificate from an accredited driving school exempting candidate from physical driving test.",
+              "requirementType": "conditional",
+              "copiesHint": "Original certificate",
+              "appliesWhen": {
+                "trainedAtAccreditedSchool": true
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Form 1A Medical Fitness Certificate",
+              "description": "Doctor signed medical certificate mandatory for candidates 40+ years old or commercial categories.",
+              "requirementType": "conditional",
+              "copiesHint": "Original signed copy",
+              "appliesWhen": {
+                "or": [
+                  {
+                    "applicantAge": {
+                      "gte": 40
+                    }
+                  },
+                  {
+                    "licenceCategory": "commercial_transport"
+                  }
+                ]
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in",
+              "displayOrder": 0
+            }
+          ],
+          "fees": [
+            {
+              "label": "Issue of Driving Licence",
+              "amount": 200,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Central Motor Vehicles Rules (CMVR) Rule 32",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "label": "Driving Test Fee (Single Vehicle Class)",
+              "amount": 300,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Central Motor Vehicles Rules (CMVR) Rule 32",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "label": "Smart Card Driving Licence Specification Fee",
+              "amount": 200,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Central Motor Vehicles Rules (CMVR) Rule 32",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            }
+          ],
+          "feeCalculator": {
+            "title": "Permanent Driving Licence Fee Calculator",
+            "description": "Calculate statutory fees based on vehicle classes and postal dispatch.",
+            "baseFee": 700,
+            "baseFeeLabel": "Single Class (Issue ₹200 + Test ₹300 + Smart Card ₹200)",
+            "options": [
+              {
+                "id": "vehicle_classes",
+                "label": "Vehicle Categories Applied",
+                "type": "classes",
+                "choices": [
+                  {
+                    "id": "single_class",
+                    "label": "Single Class (Motorcycle or Car)",
+                    "amount": 0,
+                    "description": "Standard issue and single driving test"
+                  },
+                  {
+                    "id": "two_classes",
+                    "label": "Two Classes (Motorcycle MCWG + Car LMV)",
+                    "amount": 300,
+                    "description": "Includes additional practical driving test (+₹300)"
+                  }
+                ],
+                "defaultChoiceId": "single_class"
+              },
+              {
+                "id": "delivery",
+                "label": "Postal Dispatch & SMS Tracking",
+                "type": "delivery",
+                "choices": [
+                  {
+                    "id": "speedpost",
+                    "label": "Speed Post Smart Card Delivery",
+                    "amount": 0,
+                    "description": "Included in smart card fee"
+                  },
+                  {
+                    "id": "sms_alert",
+                    "label": "Speed Post + SMS Status Notifications",
+                    "amount": 50,
+                    "description": "Optional SMS dispatch notifications (+₹50)"
+                  }
+                ],
+                "defaultChoiceId": "speedpost"
+              }
+            ],
+            "officialSourceUrl": "https://parivahan.gov.in",
+            "officialSourceLabel": "Parivahan Sarathi Fee Schedule",
+            "rulesReference": "CMVR 1989 Rule 32"
+          },
+          "beforeYouGo": {
+            "title": "Before You Leave for the RTO Driving Test Track",
+            "subtitle": "5 final physical checks before heading out for your practical test slot",
+            "items": [
+              {
+                "id": "llr_printout",
+                "title": "Original Learner's Licence (LLR)",
+                "description": "Carry your physical LLR printout showing valid unexpired status and endorsed vehicle categories.",
+                "icon": "FileCheck"
+              },
+              {
+                "id": "vehicle_rc",
+                "title": "Vehicle Registration Certificate (RC)",
+                "description": "Carry original or DigiLocker vehicle RC corresponding to your test application class.",
+                "icon": "FolderCheck"
+              },
+              {
+                "id": "puc_insurance",
+                "title": "Valid PUC & Insurance Policy",
+                "description": "Ensure pollution certificate and third-party insurance papers are unexpired and printed.",
+                "icon": "CheckSquare"
+              },
+              {
+                "id": "appointment_slip",
+                "title": "Slot Booking Slip & Fee Receipt",
+                "description": "Printed Sarathi appointment slip and statutory fee payment receipt for entry gate verification.",
+                "icon": "FileText"
+              },
+              {
+                "id": "aadhaar_id",
+                "title": "Original Aadhaar Card",
+                "description": "Original photo identity card required for biometric fingerprint verification at track kiosk.",
+                "icon": "ShieldCheck"
+              }
+            ]
+          },
+          "officialLinks": [
+            {
+              "label": "Sarathi Parivahan Citizen Portal",
+              "url": "https://sarathi.parivahan.gov.in",
+              "isPrimary": true,
+              "department": "Ministry of Road Transport and Highways (MoRTH)",
+              "portalName": "Parivahan Sewa",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "label": "Ministry of Road Transport and Highways",
+              "url": "https://morth.nic.in",
+              "isPrimary": false,
+              "department": "Government of India",
+              "portalName": "MoRTH Portal",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            }
+          ],
+          "faqItems": [
+            {
+              "question": "When can I apply for a permanent driving licence after getting a learner's licence?",
+              "answer": "You can apply exactly 30 days after the date your learner licence was issued. You have up to 180 days from LL issuance to pass the test.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "What happens if I fail the practical driving test?",
+              "answer": "You can re-appear for a re-test after a 7-day practice period. Log into Sarathi Parivahan, pay ₹300 re-test fee, and book a new slot.",
+              "displayOrder": 1,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "Can I take the driving test in an automatic transmission car?",
+              "answer": "Yes. You can bring either a manual or automatic vehicle for your test. However, you must arrange the vehicle yourself as RTOs do not provide cars.",
+              "displayOrder": 2,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "question": "What is the validity period of a permanent driving licence in India?",
+              "answer": "For private vehicles, it is valid for 20 years or until age 40, whichever is earlier. Above age 50, it is renewed every 5 years.",
+              "displayOrder": 3,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "Can I drive someone else's car for the RTO driving test?",
+              "answer": "Yes. You can use any roadworthy vehicle with a valid RC, insurance, and PUC certificate. The car does not need to be in your name.",
+              "displayOrder": 4,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "question": "Is a driving school training certificate mandatory for private cars?",
+              "answer": "No. Driving school training is optional for private vehicles. However, holding a Form 5B certificate from an accredited institute exempts you from the RTO test.",
+              "displayOrder": 5,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "How do I download my digital driving licence on DigiLocker after passing?",
+              "answer": "Open DigiLocker, select Ministry of Road Transport and Highways, and enter your new DL number. The digital copy carries legal parity with the physical card.",
+              "displayOrder": 6,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            },
+            {
+              "question": "What is the official statutory fee for a permanent driving licence?",
+              "answer": "The statutory fee is ₹200 for licence issue, ₹300 for the driving test, and ₹200 for smart card printing, totaling ₹700.",
+              "displayOrder": 7,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://morth.nic.in"
+            }
+          ],
+          "rejectionReasons": [
+            {
+              "title": "Applying Before 30-Day Mandatory Waiting Period",
+              "description": "Attempting to book a permanent DL test slot when less than 30 days have elapsed since the learner licence was approved.",
+              "solution": "Wait until day 31 from the date printed on your Learner Licence Form 3 before scheduling.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "title": "Expired Test Vehicle Documentation",
+              "description": "Bringing a vehicle to the test track with expired third-party insurance or expired PUC certificate leads to immediate test cancellation.",
+              "solution": "Check mParivahan on your phone to verify the vehicle's fitness, insurance, and PUC are active before visiting the track.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "title": "Failure on Automated Sensor Tracks (Touching Yellow Lines)",
+              "description": "Automated sensor tracks register a fail if vehicle tyres cross boundary lines or exceed allowed forward-reverse maneuvers.",
+              "solution": "Practice parallel parking and reverse H-parking beforehand without crossing side curbs.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://parivahan.gov.in"
+            },
+            {
+              "title": "Rolling Backward on the Gradient Hill Restart",
+              "description": "Rolling backwards by more than 12 inches when restarting on the steep gradient track triggers automatic sensor failure.",
+              "solution": "Practice handbrake coordination on inclines to ensure the vehicle moves forward smoothly without rolling back.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "title": "Putting Feet Down or Crossing White Lines on the 8-Track",
+              "description": "Putting your feet down on the ground or brushing the boundary sensors on the figure-eight track fails the test.",
+              "solution": "Maintain smooth throttle control and balance at walking speed without touching your feet to the road surface.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            },
+            {
+              "title": "Expired Learner Licence at Time of Practical Test",
+              "description": "If your Learner Licence exceeds its 180-day validity before your test appointment date, you cannot appear for the driving test.",
+              "solution": "Apply for the practical test within 2 to 3 months of getting your LLR. Do not wait until the final weeks before expiry.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://sarathi.parivahan.gov.in"
+            }
+          ],
+          "sourceRefs": [
+            {
+              "title": "Motor Vehicles Act, 1988 (as amended in 2019)",
+              "actOrRuleNumber": "Section 9 & Section 12",
+              "issuingAuthority": "Parliament of India / MoRTH",
+              "url": "https://morth.nic.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
+            }
+          ]
+        },
+        "states": {
+          "GJ": {
+            "title": "How to Get a Permanent Driving Licence in Gujarat (2026)",
+            "summary": "Gujarat operates 100% sensor-based Automated Driving Test Tracks (ADTT) across all major RTOs including Subhash Bridge Ahmedabad, Surat, Rajkot, and Vadodara. Official Gujarat fee schedule and slot booking details.",
+            "estimatedTime": "10-20 days",
+            "status": "PUBLISHED",
+            "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+            "steps": [
+              {
+                "stepNumber": 1,
+                "title": "Complete 30-Day Mandatory LLR Waiting Period in Gujarat",
+                "description": "Wait at least 30 days after your Gujarat Learner Licence issuance date before booking a permanent licence test track slot.",
+                "where": "Eligibility",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://sarathi.parivahan.gov.in"
+              },
+              {
+                "stepNumber": 2,
+                "title": "Book Automated Test Track (ADTT) Slot via Sarathi Portal",
+                "description": "Log into sarathi.parivahan.gov.in, select Gujarat, and book an RTO test track slot. Popular tracks include GJ-01 Ahmedabad, GJ-27 Vastral, and GJ-05 Surat. In Gujarat, morning appointment quotas open daily at 10:00 AM IST.",
+                "where": "Sarathi Gujarat Slot Portal",
+                "estimatedTime": "5 minutes",
+                "calloutType": "tip",
+                "calloutTitle": "Gujarat Slot Opening Time",
+                "calloutText": "Slots in high-volume Gujarat RTOs (Ahmedabad, Surat, Vadodara) fill rapidly. Log in precisely at 10:00 AM IST for new opening slots.",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://sarathi.parivahan.gov.in"
+              },
+              {
+                "stepNumber": 3,
+                "title": "Pay Gujarat Statutory Fee (₹700 for single class)",
+                "description": "Pay the statutory fee: ₹200 for DL issue, ₹200 for smart card, and ₹300 per class test fee via online payment on the Sarathi portal.",
+                "where": "Online Payment Gateway",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://sarathi.parivahan.gov.in"
+              },
+              {
+                "stepNumber": 4,
+                "title": "Appear for Sensor-Based Automated Driving Test in Gujarat",
+                "description": "Arrive at the Gujarat Automated Driving Test Track (ADTT) with your vehicle. For two-wheelers, navigate the 8-shaped sensor track without putting feet down. For four-wheelers, complete H-track reverse parking and gradient hill climb within the computerized camera time limit.",
+                "where": "Gujarat RTO Automated Driving Test Track",
+                "estimatedTime": "1 hour",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://sarathi.parivahan.gov.in"
+              },
+              {
+                "stepNumber": 5,
+                "title": "Receive Driving Licence via Speed Post in Gujarat",
+                "description": "Once the sensor report uploads, the Gujarat Transport Department prints the Smart Card DL and dispatches it via India Post Speed Post. Digital DL is immediately available on DigiLocker.",
+                "where": "Delivered to Residence across Gujarat",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://sarathi.parivahan.gov.in"
+              }
+            ],
+            "officialLinks": [
+              {
+                "label": "Sarathi Parivahan Gujarat Portal",
+                "url": "https://sarathi.parivahan.gov.in",
+                "isPrimary": true,
+                "department": "Commissioner of Transport, Government of Gujarat",
+                "portalName": "Sarathi Gujarat",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://sarathi.parivahan.gov.in"
+              },
+              {
+                "label": "Digital Gujarat Citizen Services",
+                "url": "https://www.digitalgujarat.gov.in",
+                "isPrimary": false,
+                "department": "Government of Gujarat",
+                "portalName": "Digital Gujarat",
+                "status": "PUBLISHED",
+                "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+                "sourceUrl": "https://www.digitalgujarat.gov.in"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slug": "passport-fresh",
+        "name": "Fresh Passport Application",
+        "description": "Complete guide to applying for a first-time Indian ordinary passport online with verified fees, document checklist, and PSK appointment steps.",
+        "categorySlug": "identity",
+        "national": {
+          "title": "How to Apply for a Fresh Indian Passport: Documents, Fees, and Steps (2026)",
+          "summary": "Step-by-step guide to applying for a first-time Indian passport online on the Passport Seva portal. Verified fees (₹1,500 normal, ₹3,500 tatkaal) and complete document checklist.",
+          "estimatedTime": "10-20 working days (Normal) / 1-3 days (Tatkaal)",
+          "difficulty": "medium",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+          "verifiedBy": "Civic Research Editorial Team",
+          "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/faqServicesAvailable",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "title": "Register on the Official Passport Seva Portal",
+              "description": "Visit passportindia.gov.in and register a new user account. Choose your Passport Office based on your present residential address.",
+              "where": "Official Passport Seva Portal (passportindia.gov.in)",
+              "estimatedTime": "5 minutes",
+              "officialLinkUrl": "https://www.passportindia.gov.in",
+              "officialLinkLabel": "Open Official Passport Seva Portal",
+              "calloutType": "warning",
+              "calloutTitle": "Official Government Domain Warning",
+              "calloutText": "Only apply on passportindia.gov.in. Never use private commercial websites that mimic the portal and charge unauthorized fees.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 2,
+              "title": "Fill the Online Application for Fresh Passport",
+              "description": "Select 'Apply for Fresh Passport'. Choose between Normal or Tatkaal scheme and pick booklet size of 36 or 60 pages.",
+              "where": "Online Application Dashboard",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 3,
+              "title": "Enter Personal, Family, and Address Details",
+              "description": "Fill your full name, date of birth, and parents' names accurately. Enter your current residential address with correct pin code.",
+              "where": "Online Form (Form 1)",
+              "estimatedTime": "15 minutes",
+              "calloutType": "tip",
+              "calloutTitle": "Match Official School Records",
+              "calloutText": "Ensure spellings match your 10th marksheet or birth certificate exactly. Single letter mismatches cause delays at verification counters.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 4,
+              "title": "Declare Emigration Check Status (Non-ECR)",
+              "description": "Choose Non-ECR if you have passed 10th standard or hold a higher degree. This removes emigration clearance checks for overseas travel.",
+              "where": "Online Form",
+              "estimatedTime": "5 minutes",
+              "calloutType": "tip",
+              "calloutTitle": "Non-ECR Proof",
+              "calloutText": "Attach your 10th standard passing certificate to qualify for Non-ECR status automatically.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 5,
+              "title": "Pay the Statutory Government Fee Online",
+              "description": "Pay ₹1,500 for normal 36 pages or ₹3,500 for Tatkaal scheme. Payment is processed securely via SBI ePay with Net Banking, UPI, or cards.",
+              "where": "Integrated Bharatkosh / SBI ePay Gateway",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 6,
+              "title": "Schedule Appointment at Nearest PSK or POPSK",
+              "description": "Select your preferred Passport Seva Kendra or Post Office Passport Seva Kendra. Pick an available date and time slot, then download the receipt.",
+              "where": "Online Slot Booking System",
+              "estimatedTime": "5 minutes",
+              "calloutType": "important",
+              "calloutTitle": "Appointment Confirmation",
+              "calloutText": "The SMS confirmation on your mobile phone is officially accepted at the PSK entry gate.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 7,
+              "title": "Attend PSK Appointment for Biometrics and Verification",
+              "description": "Arrive 15 minutes before your batch time with all original documents. Complete photograph at Counter A, verification at Counter B, and approval at Counter C.",
+              "where": "Passport Seva Kendra (PSK / POPSK)",
+              "estimatedTime": "60-90 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 8,
+              "title": "Complete Local Police Verification and Receive Passport",
+              "description": "The local police station will verify your physical address and identity. After police clearance, India Post delivers your passport via Speed Post.",
+              "where": "Local Police Station & Registered Address",
+              "estimatedTime": "5-15 days",
+              "calloutType": "important",
+              "calloutTitle": "Be Present During Police Visit",
+              "calloutText": "Police verification requires applicant presence at home with original documents and two neighbourhood references.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "documentRequirements": [
+            {
+              "name": "Proof of Present Address",
+              "description": "Official proof showing your current residential address where you have lived for the past one year.",
+              "requirementType": "required",
+              "copiesHint": "Original + 2 self-attested photocopies",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/attachmentAdvisorInp",
+              "displayOrder": 0
+            },
+            {
+              "name": "Proof of Date of Birth (DOB)",
+              "description": "Birth certificate issued by Municipal Authority, School Leaving Certificate, PAN card, or Aadhaar card showing full birth date.",
+              "requirementType": "required",
+              "copiesHint": "Original + 2 self-attested photocopies",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/attachmentAdvisorInp",
+              "displayOrder": 0
+            },
+            {
+              "name": "Aadhaar Card / E-Aadhaar",
+              "description": "Original physical Aadhaar letter or downloaded e-Aadhaar showing verified digital signature and full date of birth.",
+              "requirementType": "required",
+              "copiesHint": "Original + 2 photocopies",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Proof of Non-ECR Category (10th Marksheet or Degree)",
+              "description": "Matriculation pass certificate (10th standard) or higher degree certificate from a recognized board or university.",
+              "requirementType": "conditional",
+              "copiesHint": "Original + 2 self-attested photocopies",
+              "appliesWhen": {
+                "applicantEducation": {
+                  "ne": "below_10th"
+                }
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Annexure D - Parent Consent Affidavit (Minors Only)",
+              "description": "Declaration by parents for issue of passport to minor child affirming parental consent and citizenship.",
+              "requirementType": "conditional",
+              "copiesHint": "Original declaration signed by both parents",
+              "appliesWhen": {
+                "applicantCategory": {
+                  "eq": "minor"
+                }
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Annexure E - Self-Declaration Affidavit",
+              "description": "Standard citizenship and clear criminal record declaration submitted on plain paper by the applicant.",
+              "requirementType": "required",
+              "copiesHint": "Original signed declaration on plain A4 sheet",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "3 Prescribed Documents for Tatkaal Scheme",
+              "description": "Three eligible government identity documents such as Aadhaar, PAN card, and Voter ID card for urgent processing.",
+              "requirementType": "conditional",
+              "copiesHint": "Originals + 2 sets of photocopies",
+              "appliesWhen": {
+                "scheme": {
+                  "eq": "tatkal"
+                }
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            }
+          ],
+          "fees": [
+            {
+              "label": "Fresh Passport Application Fee (Adult, 36 Pages, Normal)",
+              "amount": 1500,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passports Act 1967 & Passport Rules 1980 Schedule IV",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+            },
+            {
+              "label": "Fresh Passport Jumbo Booklet Fee (Adult, 60 Pages, Normal)",
+              "amount": 2000,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passport Rules 1980 Schedule IV",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+            },
+            {
+              "label": "Tatkaal Scheme Additional Urgent Fee",
+              "amount": 2000,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passport Rules 1980 Schedule IV",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+            },
+            {
+              "label": "Fresh Passport for Minor (Below 18 Years, 36 Pages)",
+              "amount": 1000,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passport Rules 1980 Schedule IV",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+            },
+            {
+              "label": "Optional Premium SMS Tracking Service",
+              "amount": 50,
+              "currency": "INR",
+              "isOptional": true,
+              "paymentMode": "counter",
+              "rulesReference": "Passport Seva Project Citizen Charter",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "feeCalculator": {
+            "title": "Fresh Passport Fee Calculator",
+            "description": "Calculate total statutory fees for fresh Indian passport based on scheme, booklet size, and age.",
+            "baseFee": 1500,
+            "baseFeeLabel": "Standard Adult Application Fee",
+            "options": [
+              {
+                "id": "scheme",
+                "label": "Processing Scheme",
+                "type": "scheme",
+                "choices": [
+                  {
+                    "id": "normal",
+                    "label": "Normal Scheme (10-20 business days)",
+                    "amount": 0,
+                    "description": "Standard processing at Passport Seva Kendra"
+                  },
+                  {
+                    "id": "tatkal",
+                    "label": "Tatkaal Scheme (Expedited 1-3 business days)",
+                    "amount": 2000,
+                    "description": "Urgent priority processing under Passports Act"
+                  }
+                ],
+                "defaultChoiceId": "normal"
+              },
+              {
+                "id": "pages",
+                "label": "Booklet Size",
+                "type": "pages",
+                "choices": [
+                  {
+                    "id": "pages36",
+                    "label": "36 Pages (Standard Booklet)",
+                    "amount": 0,
+                    "description": "Standard 10-year validity passport"
+                  },
+                  {
+                    "id": "pages60",
+                    "label": "60 Pages (Jumbo Booklet)",
+                    "amount": 500,
+                    "description": "Frequent flyer booklet (+₹500 gazette fee)"
+                  }
+                ],
+                "defaultChoiceId": "pages36"
+              },
+              {
+                "id": "applicant",
+                "label": "Applicant Category",
+                "type": "applicant",
+                "choices": [
+                  {
+                    "id": "adult",
+                    "label": "Adult (18 years and above)",
+                    "amount": 0,
+                    "description": "Standard 10-year validity booklet"
+                  },
+                  {
+                    "id": "minor",
+                    "label": "Minor (Below 18 years)",
+                    "amount": -500,
+                    "description": "5-year validity or until age 18 (₹1,000 base fee)"
+                  }
+                ],
+                "defaultChoiceId": "adult"
+              },
+              {
+                "id": "delivery",
+                "label": "Dispatch & Notifications",
+                "type": "delivery",
+                "choices": [
+                  {
+                    "id": "standard_post",
+                    "label": "Speed Post Delivery",
+                    "amount": 0,
+                    "description": "Included free by India Post and Ministry"
+                  },
+                  {
+                    "id": "sms_alert",
+                    "label": "Speed Post + Premium SMS Tracking",
+                    "amount": 50,
+                    "description": "Optional 9 SMS dispatch updates (+₹50)"
+                  }
+                ],
+                "defaultChoiceId": "standard_post"
+              }
+            ],
+            "officialSourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument",
+            "officialSourceLabel": "Passport Seva Official Fee Schedule",
+            "rulesReference": "Passport Rules 1980, Schedule IV"
+          },
+          "beforeYouGo": {
+            "title": "Before You Leave for Passport Seva Kendra",
+            "subtitle": "5 final physical checks before heading out for your PSK slot",
+            "items": [
+              {
+                "id": "originals",
+                "title": "Original Documents & Aadhaar",
+                "description": "Carry original Aadhaar, 10th standard certificate, and address proof for physical inspection at Counter B.",
+                "icon": "FolderCheck"
+              },
+              {
+                "id": "photocopies",
+                "title": "2 Self-Attested Photocopy Sets",
+                "description": "Bring two clean photocopies of every original document with your signature across the bottom margin.",
+                "icon": "Copy"
+              },
+              {
+                "id": "photos",
+                "title": "Photographs (Minors Below 4 Years Only)",
+                "description": "Minors below 4 years need two passport photos with white background. Adults are photographed live at the counter.",
+                "icon": "Camera"
+              },
+              {
+                "id": "payment",
+                "title": "Payment Receipt & Active UPI",
+                "description": "Carry your online payment receipt. Keep active UPI on phone in case you choose the SMS alert service.",
+                "icon": "CreditCard"
+              },
+              {
+                "id": "printout",
+                "title": "Application Receipt & SMS",
+                "description": "Keep your printed appointment receipt or appointment SMS on your phone ready for entry security at the gate.",
+                "icon": "FileText"
+              }
+            ]
+          },
+          "officialLinks": [
+            {
+              "label": "Passport Seva Official Portal",
+              "url": "https://www.passportindia.gov.in",
+              "isPrimary": true,
+              "department": "Ministry of External Affairs, Government of India",
+              "portalName": "Passport Seva",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "label": "Ministry of External Affairs India",
+              "url": "https://www.mea.gov.in",
+              "isPrimary": false,
+              "department": "Government of India",
+              "portalName": "MEA Portal",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.mea.gov.in"
+            }
+          ],
+          "faqItems": [
+            {
+              "question": "Who needs to apply for a Fresh Passport in India?",
+              "answer": "Any Indian citizen who has never held an Indian passport before must apply under the Fresh Passport category.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "What is the difference between Normal and Tatkaal passport schemes?",
+              "answer": "Normal processing takes 10 to 20 working days. Tatkaal processing issues the passport within 1 to 3 days for an extra fee.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "What does Non-ECR status mean on an Indian passport?",
+              "answer": "Non-ECR means Emigration Check Not Required. Citizens who passed 10th standard or hold higher degrees do not need clearance for employment abroad.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Can I apply for a fresh passport without a municipal birth certificate?",
+              "answer": "Yes. Applicants born on or after 26 January 1989 can use Aadhaar, PAN card, or School Leaving Certificate as proof of birth date.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Is an Aadhaar card compulsory to get a fresh passport?",
+              "answer": "Aadhaar is not strictly compulsory, but it is highly recommended. It serves as both identity and address proof and speeds up processing.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "How long does police verification take for a fresh passport?",
+              "answer": "Police verification typically takes 7 to 14 days depending on your local police station and district intelligence branch.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Do adult applicants need to bring printed photographs to the PSK?",
+              "answer": "No. Adult photographs and fingerprints are captured live at Counter A inside the PSK. Only minors below 4 years need physical photos.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "How can I track my fresh passport status after the appointment?",
+              "answer": "Log in to passportindia.gov.in and click 'Track Application Status'. Enter your 15-digit File Number and date of birth to check progress.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "rejectionReasons": [
+            {
+              "title": "Name or Date of Birth Mismatch on IDs",
+              "description": "If your name or date of birth differs between Aadhaar and your birth certificate, the counter officer will halt processing.",
+              "solution": "Update your Aadhaar details first at an Aadhaar Seva Kendra to match your educational certificate or legal birth record.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Address Verification Failure During Police Visit",
+              "description": "If the applicant does not reside at the address or neighbours fail to verify stay, the police file an adverse report.",
+              "solution": "Ensure you have lived at the declared address for at least one year and keep neighbours informed about your verification.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Failing to Declare Previous Application or Passport",
+              "description": "Suppressing information about an earlier passport application or file number leads to system match flags and penalties.",
+              "solution": "Always mention previous file numbers or passport details honestly in the application form.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Incomplete Minor Consent (Missing Annexure D)",
+              "description": "A minor passport requires signatures and passports of both parents unless supported by court custody order.",
+              "solution": "Submit Annexure D signed by both parents, or submit Annexure C if one parent is unavailable.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Applying for Tatkaal Without 3 Prescribed Documents",
+              "description": "Tatkaal scheme requires three specific photo ID documents. If one is missing, the application is converted to Normal scheme.",
+              "solution": "Check the official document advisor and carry Aadhaar, PAN card, and Voter ID or bank passbook.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Unclear or Torn Original Documents",
+              "description": "Laminated certificates with hidden seals or torn documents will be rejected by the Verifying Officer.",
+              "solution": "Carry clean, legible original documents without peeling lamination or obscured stamps.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Unresolved Criminal Case or Pending Court Order",
+              "description": "Section 6 of the Passports Act restricts passport issuance if criminal proceedings are pending before an Indian court.",
+              "solution": "Obtain formal permission from the concerned court to travel abroad and attach the certified court order.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "sourceRefs": [
+            {
+              "title": "The Passports Act, 1967",
+              "actOrRuleNumber": "Act No. 15 of 1967",
+              "issuingAuthority": "Parliament of India / Ministry of External Affairs",
+              "url": "https://www.mea.gov.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+            },
+            {
+              "title": "The Passport Rules, 1980",
+              "actOrRuleNumber": "Schedule IV (Fee Structure)",
+              "issuingAuthority": "Ministry of External Affairs, Government of India",
+              "url": "https://www.passportindia.gov.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+            }
+          ]
+        },
+        "states": {
+          "GJ": {
+            "title": "How to Apply for a Fresh Passport in Gujarat (2026)",
+            "summary": "Step-by-step guide to applying for a first-time passport in Gujarat. Covers Regional Passport Offices in Ahmedabad and Surat, plus Post Office Passport Seva Kendras.",
+            "estimatedTime": "10-20 working days (Normal) / 1-3 days (Tatkaal)",
+            "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "slug": "passport-renewal",
+        "name": "Passport Renewal (Re-issue)",
+        "description": "Complete guide to renewing or re-issuing an Indian passport online with verified fees, document checklist, and PSK appointment steps.",
+        "categorySlug": "identity",
+        "national": {
+          "title": "How to Renew Your Indian Passport: Documents, Fees, and Steps (2026)",
+          "summary": "Step-by-step procedure to re-issue an expired or expiring Indian passport online through the official Passport Seva portal. Verified fees (₹1,500 normal, ₹3,500 tatkaal) and document rules.",
+          "estimatedTime": "7-14 working days (Normal) / 1-3 days (Tatkaal)",
+          "difficulty": "medium",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "verifiedBy": "Civic Research Editorial Team",
+          "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/faqServicesAvailable",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "title": "Register or Log In to Official Passport Seva Portal",
+              "description": "Visit passportindia.gov.in and select your Passport Office based on your current city. Register a new account or log in with existing credentials.",
+              "where": "Official Passport Seva Portal (passportindia.gov.in)",
+              "estimatedTime": "5 minutes",
+              "officialLinkUrl": "https://www.passportindia.gov.in",
+              "officialLinkLabel": "Open Official Passport Seva Portal",
+              "calloutType": "warning",
+              "calloutTitle": "Official Domain Warning",
+              "calloutText": "Only apply on passportindia.gov.in. Never use unauthorized commercial websites that mimic the portal and charge illegitimate consulting fees.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 2,
+              "title": "Select 'Apply for Fresh Passport / Re-issue of Passport'",
+              "description": "Click 'Apply for Fresh Passport / Re-issue of Passport'. Select 'Re-issue', choose your reason, and pick booklet size (36 or 60 pages) and scheme.",
+              "where": "Online Application Dashboard",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 3,
+              "title": "Fill the Online Application Form Details",
+              "description": "Enter your applicant details, family details (father, mother, spouse), current residential address, emergency contact, and existing passport number, issue date, and expiry date. Provide details of two local references residing in your neighbourhood.",
+              "where": "Online Form (Form 1)",
+              "estimatedTime": "20 minutes",
+              "calloutType": "tip",
+              "calloutTitle": "Non-ECR Category Eligibility",
+              "calloutText": "If you passed 10th standard or hold a degree, select Non-ECR. This avoids emigration check restrictions when travelling overseas.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 4,
+              "title": "Pay Government Statutory Fee Online",
+              "description": "Click 'Pay and Schedule Appointment'. Pay ₹1,500 (36 pages) or ₹2,000 (60 pages) online via Net Banking, Card, or UPI. Payment is mandatory to book a slot.",
+              "where": "Integrated SBI ePay Gateway",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 5,
+              "title": "Schedule Appointment at Nearest PSK or POPSK",
+              "description": "Select your nearest Passport Seva Kendra (PSK) or Post Office Passport Seva Kendra (POPSK) and choose an available date and time slot. Print or download the Application Receipt showing your ARN and appointment batch time.",
+              "where": "Online Slot Booking System",
+              "estimatedTime": "5 minutes",
+              "calloutType": "important",
+              "calloutTitle": "SMS on Mobile Is Valid",
+              "calloutText": "Carrying an SMS appointment confirmation on your mobile phone with ARN is officially accepted at the PSK entrance gate in lieu of a paper printout.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 6,
+              "title": "Visit the PSK with Original Documents",
+              "description": "Arrive 15 minutes before your appointment time. You will visit Counter A for biometrics, Counter B for document verification, and Counter C for approval.",
+              "where": "Designated Passport Seva Kendra (Physical Visit)",
+              "estimatedTime": "45-90 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 7,
+              "title": "Undergo Local Police Verification",
+              "description": "If current address has changed, local police station conducts in-person physical address verification. The police officer visits your residence to check original address proof and verify your two local references.",
+              "where": "Applicant Residence / Local Police Station",
+              "estimatedTime": "3-7 working days",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 8,
+              "title": "Receive Renewed Passport via Speed Post",
+              "description": "Once police verification report (PVR) is cleared, your passport is printed at the India Security Press and dispatched via India Post Speed Post. You will receive an SMS with the Speed Post tracking consignment number.",
+              "where": "Delivered to Current Residential Address",
+              "estimatedTime": "2-4 working days after printing",
+              "calloutType": "success",
+              "calloutTitle": "Old Passport Retention",
+              "calloutText": "Your old passport will be physically cancelled by the PSK officer (corners clipped) and handed back to you at Counter C. Any valid unexpired visas inside remain legally valid.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "documentRequirements": [
+            {
+              "name": "Recent Passport-Sized Photograph (For POPSK / Minors)",
+              "description": "Required when visiting a Post Office Passport Seva Kendra (POPSK) or uploading photos for minor applicants. Must strictly follow International Civil Aviation Organization (ICAO) biometric photo standards.",
+              "requirementType": "optional",
+              "copiesHint": "2 identical physical color prints",
+              "specs": {
+                "dimensions": "35mm × 45mm (80% face coverage)",
+                "backgroundColor": "Plain white background without shadows",
+                "maxFileSizeBytes": 204800,
+                "maxFileSizeLabel": "20 KB to 200 KB",
+                "acceptedFormats": [
+                  "JPEG",
+                  "JPG"
+                ],
+                "diagramType": "photo",
+                "guidanceUrl": "https://www.passportindia.gov.in",
+                "instructions": [
+                  "Face should take up 70% to 80% of the vertical frame",
+                  "Frontal pose with eyes open and neutral expression (no teeth showing)",
+                  "Both ears must be clearly visible without hair covering them",
+                  "Spectacles with thick frames or tinted glasses are strictly disallowed"
+                ]
+              },
+              "appliesWhen": {
+                "isMinor": true
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Original Old Passport",
+              "description": "Existing physical passport book in original condition. The passport will be cancelled and returned to the applicant.",
+              "requirementType": "required",
+              "copiesHint": "Original required for physical cancellation",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Self-Attested Photocopy of Old Passport",
+              "description": "Clear photocopies of the first two pages (bio-data), last two pages (address), ECR/Non-ECR page, and any observation page.",
+              "requirementType": "required",
+              "copiesHint": "1 self-attested set",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Proof of Current Address",
+              "description": "Required if current residential address differs from the address printed on the old passport. Accepted proofs: Aadhaar Card, Electricity Bill (not older than 3 months), Water Bill, Bank Passbook with photo, or registered rent agreement.",
+              "requirementType": "conditional",
+              "copiesHint": "Original + 1 self-attested photocopy",
+              "appliesWhen": {
+                "addressChanged": true
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Proof of Non-ECR Category (10th Marksheet or Degree Certificate)",
+              "description": "Educational certificate showing completion of 10th standard (Matriculation) or higher qualification to claim Emigration Check Not Required status.",
+              "requirementType": "conditional",
+              "copiesHint": "Original + 1 self-attested photocopy",
+              "appliesWhen": {
+                "nonEcrEligible": true
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Marriage Certificate / Spouse Proof",
+              "description": "Required only if adding spouse name for the first time or requesting surname change after marriage.",
+              "requirementType": "conditional",
+              "copiesHint": "Original + 1 self-attested photocopy",
+              "appliesWhen": {
+                "addSpouse": true
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Annexure E / Tatkaal Verification Proof",
+              "description": "Standard self-declaration in format Annexure E required specifically for expedited Tatkaal passport processing.",
+              "requirementType": "conditional",
+              "copiesHint": "Original signed printout",
+              "appliesWhen": {
+                "scheme": "tatkaal"
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            }
+          ],
+          "fees": [
+            {
+              "label": "Normal Re-issue Fee (36 Pages Booklet, 10-Year Validity)",
+              "amount": 1500,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passports Rules, 1980 (Schedule IV)",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "label": "Jumbo Re-issue Fee (60 Pages Booklet, 10-Year Validity)",
+              "amount": 2000,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passports Rules, 1980 (Schedule IV)",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "label": "Tatkaal Scheme Additional Surcharge (Expedited 1-3 Day Processing)",
+              "amount": 2000,
+              "currency": "INR",
+              "isOptional": true,
+              "paymentMode": "online",
+              "rulesReference": "Passports Rules, 1980 (Schedule IV)",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "label": "Minor Passport Re-issue Fee (Below 18 Years, 5-Year Validity)",
+              "amount": 1000,
+              "currency": "INR",
+              "isOptional": true,
+              "paymentMode": "online",
+              "rulesReference": "Passports Rules, 1980 (Schedule IV)",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "feeCalculator": {
+            "title": "Passport Re-issue Fee Calculator",
+            "description": "Select application urgency (Normal vs Tatkaal), booklet pages (36 vs 60), and applicant age to see your live statutory total.",
+            "baseFee": 1500,
+            "baseFeeLabel": "Base Statutory Fee (36 Pages Booklet, Adult)",
+            "options": [
+              {
+                "id": "scheme",
+                "label": "Processing Scheme",
+                "type": "scheme",
+                "choices": [
+                  {
+                    "id": "normal",
+                    "label": "Normal Scheme (10–15 business days)",
+                    "amount": 0,
+                    "description": "Standard processing at Passport Seva Kendra"
+                  },
+                  {
+                    "id": "tatkal",
+                    "label": "Tatkaal Scheme (Expedited 1–3 business days)",
+                    "amount": 2000,
+                    "description": "Urgent priority processing under Passports Act"
+                  }
+                ],
+                "defaultChoiceId": "normal"
+              },
+              {
+                "id": "pages",
+                "label": "Booklet Size",
+                "type": "pages",
+                "choices": [
+                  {
+                    "id": "pages36",
+                    "label": "36 Pages (Standard Booklet)",
+                    "amount": 0,
+                    "description": "Recommended for standard travellers (10-year validity)"
+                  },
+                  {
+                    "id": "pages60",
+                    "label": "60 Pages (Jumbo Booklet)",
+                    "amount": 500,
+                    "description": "Frequent flyer booklet (+₹500 gazette fee)"
+                  }
+                ],
+                "defaultChoiceId": "pages36"
+              },
+              {
+                "id": "applicant",
+                "label": "Applicant Category",
+                "type": "applicant",
+                "choices": [
+                  {
+                    "id": "adult",
+                    "label": "Adult (18 years and above)",
+                    "amount": 0,
+                    "description": "Standard 10-year validity booklet"
+                  },
+                  {
+                    "id": "minor",
+                    "label": "Minor (Below 18 years)",
+                    "amount": -500,
+                    "description": "5-year validity or until age 18 (₹1,000 base fee)"
+                  }
+                ],
+                "defaultChoiceId": "adult"
+              },
+              {
+                "id": "delivery",
+                "label": "Dispatch & Notifications",
+                "type": "delivery",
+                "choices": [
+                  {
+                    "id": "standard_post",
+                    "label": "Speed Post Delivery",
+                    "amount": 0,
+                    "description": "Included free by India Post & Ministry"
+                  },
+                  {
+                    "id": "sms_alert",
+                    "label": "Speed Post + Premium SMS Tracking",
+                    "amount": 50,
+                    "description": "Optional 9 SMS dispatch updates (+₹50)"
+                  }
+                ],
+                "defaultChoiceId": "standard_post"
+              }
+            ],
+            "officialSourceUrl": "https://passportindia.gov.in/AppOnlineProject/fee/feeSchedule",
+            "officialSourceLabel": "Ministry of External Affairs Fee Schedule",
+            "rulesReference": "Passports Rules 1980 Schedule IV"
+          },
+          "beforeYouGo": {
+            "title": "Before You Leave for Passport Seva Kendra",
+            "subtitle": "5 final physical checks before heading out for your PSK slot",
+            "items": [
+              {
+                "id": "originals",
+                "title": "Original Old Passport & Aadhaar",
+                "description": "Carry physical original expired/expiring passport and original Aadhaar card for Biometric Counter A verification.",
+                "icon": "FolderCheck"
+              },
+              {
+                "id": "photocopies",
+                "title": "2 Self-Attested Photocopy Sets",
+                "description": "First 2 and last 2 pages of passport + address proof, signed across blank margin in dark blue or black ink.",
+                "icon": "Copy"
+              },
+              {
+                "id": "photos",
+                "title": "Photographs (Minors Only)",
+                "description": "Minors below 4 years require 2 physical passport photos (35x45mm white background); adults are photographed live at counter.",
+                "icon": "Camera"
+              },
+              {
+                "id": "payment",
+                "title": "Fee Receipt / Active UPI",
+                "description": "Online payment receipt (already paid on portal) + carry UPI on phone in case SMS alert service or Tatkal upgrade is needed.",
+                "icon": "CreditCard"
+              },
+              {
+                "id": "printout",
+                "title": "Application Receipt & Appointment SMS",
+                "description": "Printed ARN appointment receipt with bar code + appointment SMS on phone required for CISF security entry at gate.",
+                "icon": "FileText"
+              }
+            ]
+          },
+          "officialLinks": [
+            {
+              "label": "Passport Seva Official Portal",
+              "url": "https://www.passportindia.gov.in",
+              "isPrimary": true,
+              "department": "Consular, Passport and Visa (CPV) Division, Ministry of External Affairs",
+              "portalName": "Passport Seva Project",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "label": "Passport Fee Calculator (Official)",
+              "url": "https://www.passportindia.gov.in/AppOnlineProject/fee/feeInput",
+              "isPrimary": false,
+              "department": "Ministry of External Affairs",
+              "portalName": "Fee Calculator",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "faqItems": [
+            {
+              "question": "How early before expiry can I apply for passport renewal in India?",
+              "answer": "You can apply up to 1 year before your passport expires. We recommend applying 6 to 9 months before expiry because many countries require 6 months validity.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "What happens to valid visas inside my old cancelled passport?",
+              "answer": "Your valid visas remain completely valid! The passport officer will only cancel the passport booklet itself by punching holes in the corners, leaving intact any pages containing active visas. When travelling abroad, simply carry both your new passport and the old cancelled passport containing the valid visa.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Is police verification mandatory for every passport renewal?",
+              "answer": "Not always. If you apply within 3 years of expiry with no address change, police verification is usually waived or done post-issuance. If your address changed, pre-verification is required.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Can I renew my passport under Tatkaal scheme?",
+              "answer": "Yes! Tatkaal renewal is available for urgent travel needs with an additional fee of ₹2,000. Tatkaal passports are dispatched within 1 to 3 working days from the date of application at the PSK. However, Tatkaal is not permitted if the passport has been expired for more than 3 years, lost, damaged, or if major name changes are requested.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "What if my passport has already expired for more than 3 years?",
+              "answer": "If your passport expired more than 3 years ago, renewal is still permitted but requires mandatory pre-issuance police verification. You will also be asked to provide an explanation letter stating the reason for late renewal.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "How do I add my spouse's name upon renewal?",
+              "answer": "In the online application form, select 'Add/Change Spouse Name' and enter your spouse's name. You must carry your Marriage Certificate or an unexpired passport of your spouse showing your name as spouse.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Do I need to carry passport-size photos to the PSK?",
+              "answer": "For adults and children above 4 years of age, physical photos are NOT required. Your digital photograph and biometric fingerprints are captured live at Counter A inside the PSK. Only for infants and children under 4 years of age, parents must carry one recent passport-size color photograph with a plain white background.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "How can I track the delivery status of my new passport?",
+              "answer": "You can track your application online on passportindia.gov.in using your 15-digit File Number / ARN. Once dispatched, an India Post Speed Post tracking number (Consignment Number) will be sent via SMS and displayed on the status page.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "rejectionReasons": [
+            {
+              "title": "Address Mismatch Between Document Proof and Application",
+              "description": "Entering an address in the form that does not match your proof document will cause verification rejection. Always use an exact matching address document.",
+              "solution": "Ensure the current address typed into the form matches character-by-character with the utility bill or Aadhaar card submitted.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Unclear or Missing Pages in Old Passport Photocopy",
+              "description": "Failing to photocopy both the first two pages and the last two pages, or submitting illegible blurred copies.",
+              "solution": "Make clear, legible photocopies of pages 1, 2, 35, and 36, and self-attest each sheet with your signature.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Failed Police Verification Due to Absence from Residence",
+              "description": "When the local beat police officer visits your residence and neighbours report that you do not reside there or you cannot be contacted.",
+              "solution": "Provide active mobile numbers and ensure your two neighbourhood references are aware and available to verify your physical residence.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Applying Under Tatkaal Without Meeting Eligibility Criteria",
+              "description": "Tatkaal applications where the applicant has had major name changes, or whose previous passport was damaged or lost.",
+              "solution": "Check the official Tatkaal eligibility checklist on Passport Seva before choosing the Tatkaal scheme; otherwise apply under Normal.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Undisclosed Criminal Proceedings or Pending Court Cases",
+              "description": "Suppressing information regarding pending FIRs or criminal court summons violates Section 12 of the Passports Act 1967.",
+              "solution": "Always disclose pending matters and obtain an explicit No Objection Certificate (NOC) or court order permitting passport re-issue.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Failure to Attend Rescheduled Appointments within 1 Year",
+              "description": "Missing scheduled appointment dates without attending a PSK within the 1-year application fee validity window leads to fee forfeiture.",
+              "solution": "Reschedule your appointment online if unable to attend. You are permitted up to 3 appointment reschedules within 12 months from payment date.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "sourceRefs": [
+            {
+              "title": "The Passports Act, 1967",
+              "actOrRuleNumber": "Act No. 15 of 1967",
+              "issuingAuthority": "Parliament of India",
+              "url": "https://www.passportindia.gov.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
+            },
+            {
+              "title": "The Passports Rules, 1980",
+              "actOrRuleNumber": "GSR 286(E) Schedule IV (Fees)",
+              "issuingAuthority": "Ministry of External Affairs, Government of India",
+              "url": "https://www.passportindia.gov.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-14T00:00:00.000Z"
+            }
+          ]
+        },
+        "states": {
+          "GJ": {
+            "title": "How to Renew Your Passport in Gujarat (2026)",
+            "summary": "Passport renewal procedure in Gujarat under Regional Passport Offices in Ahmedabad and Surat, plus Post Office Passport Seva Kendras.",
+            "estimatedTime": "7-14 working days (Normal) / 1-3 days (Tatkaal)",
+            "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "slug": "pcc-passport",
+        "name": "Police Clearance Certificate (PCC) for Abroad",
+        "description": "Complete guide to obtaining a Police Clearance Certificate (PCC) from Passport Seva for foreign employment, study, or immigration visas.",
+        "categorySlug": "identity",
+        "national": {
+          "title": "How to Get Police Clearance Certificate (PCC) for Abroad: Steps & Fees (2026)",
+          "summary": "Step-by-step guide to applying for a Police Clearance Certificate (PCC) online through Passport Seva. Verified statutory fee of ₹500, required documents, and police verification steps.",
+          "estimatedTime": "7-15 working days",
+          "difficulty": "easy",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+          "verifiedBy": "Civic Research Editorial Team",
+          "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/faqServicesAvailable",
+          "steps": [
+            {
+              "stepNumber": 1,
+              "title": "Log In to the Official Passport Seva Portal",
+              "description": "Visit passportindia.gov.in and log in with your existing account. If you do not have an account, complete user registration.",
+              "where": "Official Passport Seva Portal (passportindia.gov.in)",
+              "estimatedTime": "5 minutes",
+              "officialLinkUrl": "https://www.passportindia.gov.in",
+              "officialLinkLabel": "Open Official Passport Seva Portal",
+              "calloutType": "warning",
+              "calloutTitle": "Official Portal Only",
+              "calloutText": "Only apply on passportindia.gov.in. Commercial intermediary sites charge extra fees without official authorization.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 2,
+              "title": "Select 'Apply for Police Clearance Certificate'",
+              "description": "Click 'Apply for Police Clearance Certificate'. Enter your valid Indian passport number, issue date, and passport expiry date.",
+              "where": "Online Application Dashboard",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 3,
+              "title": "Fill Country and Visa Purpose Details",
+              "description": "Select the destination country and specify your visa category. Common categories include employment, immigration, long-term stay, or overseas student visa.",
+              "where": "Online Form (PCC Form)",
+              "estimatedTime": "10 minutes",
+              "calloutType": "tip",
+              "calloutTitle": "Tourist Visas Do Not Need PCC",
+              "calloutText": "PCC is strictly for long-term stay, study, or work visas. Regular short tourist visits do not require a PCC.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 4,
+              "title": "Pay the Statutory Government Fee of ₹500",
+              "description": "Pay the mandatory ₹500 statutory fee online through SBI ePay. You can use UPI, debit cards, or net banking.",
+              "where": "Integrated Bharatkosh / SBI ePay Gateway",
+              "estimatedTime": "5 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+            },
+            {
+              "stepNumber": 5,
+              "title": "Schedule Appointment at Nearest PSK or POPSK",
+              "description": "Choose an available date and time slot at your nearest Passport Seva Kendra or Post Office PSK. Download your appointment receipt.",
+              "where": "Online Appointment Booking",
+              "estimatedTime": "5 minutes",
+              "calloutType": "important",
+              "calloutTitle": "Appointment SMS Accepted",
+              "calloutText": "The official SMS received on your registered mobile number is accepted for entry at the PSK security gate.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 6,
+              "title": "Visit PSK for Physical Document Scrutiny",
+              "description": "Visit the PSK with your original passport and self-attested photocopies. The officer verifies your passport authenticity and takes digital biometric acknowledgement.",
+              "where": "Passport Seva Kendra (PSK / POPSK)",
+              "estimatedTime": "30-45 minutes",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 7,
+              "title": "Undergo Verification at Local Police Station",
+              "description": "Your local jurisdiction police station receives the electronic enquiry. An officer conducts physical address verification and background criminal records check.",
+              "where": "Local Police Station & Residential Address",
+              "estimatedTime": "5-10 days",
+              "calloutType": "important",
+              "calloutTitle": "Neighbour Witnesses Needed",
+              "calloutText": "Police verification officers typically request two local neighbourhood references to confirm your residential stay.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "stepNumber": 8,
+              "title": "Collect Issued Police Clearance Certificate",
+              "description": "Once clear police report uploads, your PCC certificate is issued. You will receive an SMS to collect the physical certificate or track Speed Post delivery.",
+              "where": "Passport Seva Kendra or Delivered via Speed Post",
+              "estimatedTime": "2-4 days",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "documentRequirements": [
+            {
+              "name": "Original Valid Indian Passport",
+              "description": "Original valid passport with at least 6 months validity remaining and self-attested copies of first and last pages.",
+              "requirementType": "required",
+              "copiesHint": "Original + 2 self-attested photocopies",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/pccInp",
+              "displayOrder": 0
+            },
+            {
+              "name": "Proof of Present Residential Address",
+              "description": "Aadhaar Card, utility bill, or bank passbook if your present address differs from the address printed on your passport.",
+              "requirementType": "conditional",
+              "copiesHint": "Original + 2 self-attested photocopies",
+              "appliesWhen": {
+                "addressChanged": {
+                  "eq": true
+                }
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/pccInp",
+              "displayOrder": 0
+            },
+            {
+              "name": "Document Justifying Visa or PCC Requirement",
+              "description": "Employment offer letter, foreign university admission letter, or visa application letter requiring police clearance.",
+              "requirementType": "conditional",
+              "copiesHint": "Original + 1 clear photocopy",
+              "appliesWhen": {
+                "hasVisaLetter": {
+                  "eq": true
+                }
+              },
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Self-Declaration on Criminal Proceedings",
+              "description": "Signed self-declaration stating applicant has no pending criminal cases or court warrants across India.",
+              "requirementType": "required",
+              "copiesHint": "Original signed statement on plain A4 paper",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            },
+            {
+              "name": "Aadhaar Card with Linked Mobile Number",
+              "description": "Original Aadhaar card used for instant digital identity confirmation at the Passport Seva Kendra entrance.",
+              "requirementType": "required",
+              "copiesHint": "Original + 1 photocopy",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in",
+              "displayOrder": 0
+            }
+          ],
+          "fees": [
+            {
+              "label": "Police Clearance Certificate (PCC) Statutory Fee",
+              "amount": 500,
+              "currency": "INR",
+              "isOptional": false,
+              "paymentMode": "online",
+              "rulesReference": "Passports Act 1967 & Passport Rules Schedule IV",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+            },
+            {
+              "label": "Optional Premium SMS Status Alerts",
+              "amount": 50,
+              "currency": "INR",
+              "isOptional": true,
+              "paymentMode": "counter",
+              "rulesReference": "Passport Seva Citizen Charter",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "feeCalculator": {
+            "title": "PCC Cost Calculator",
+            "description": "Calculate total statutory charges for Police Clearance Certificate.",
+            "baseFee": 500,
+            "baseFeeLabel": "Statutory PCC Fee",
+            "options": [
+              {
+                "id": "delivery",
+                "label": "Notification & Tracking Mode",
+                "type": "delivery",
+                "choices": [
+                  {
+                    "id": "standard",
+                    "label": "Online Web Tracking (Free)",
+                    "amount": 0,
+                    "description": "Standard portal tracking using application file number"
+                  },
+                  {
+                    "id": "sms_alert",
+                    "label": "Direct SMS Alerts (+₹50)",
+                    "amount": 50,
+                    "description": "Live SMS updates at each verification stage"
+                  }
+                ],
+                "defaultChoiceId": "standard"
+              }
+            ],
+            "officialSourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument",
+            "officialSourceLabel": "Official Passport Seva Fee Schedule",
+            "rulesReference": "Passport Rules Schedule IV"
+          },
+          "beforeYouGo": {
+            "title": "Before You Leave for Passport Seva Kendra",
+            "subtitle": "5 final physical checks before heading out for your PCC slot",
+            "items": [
+              {
+                "id": "passport",
+                "title": "Original Valid Passport",
+                "description": "Carry your physical passport with at least 6 months validity remaining.",
+                "icon": "FolderCheck"
+              },
+              {
+                "id": "photocopies",
+                "title": "2 Self-Attested Photocopy Sets",
+                "description": "Bring two clean photocopies of passport first two and last two pages with your signature.",
+                "icon": "Copy"
+              },
+              {
+                "id": "address_proof",
+                "title": "Current Address Proof (If Changed)",
+                "description": "Carry original Aadhaar or utility bill if living at a different address than in passport.",
+                "icon": "FileCheck"
+              },
+              {
+                "id": "visa_letter",
+                "title": "Visa or Employment Document",
+                "description": "Bring your foreign offer letter or university letter proving why PCC is required.",
+                "icon": "FileText"
+              },
+              {
+                "id": "receipt",
+                "title": "Appointment Receipt or SMS",
+                "description": "Keep printed receipt or mobile SMS ready for security gate entry at PSK.",
+                "icon": "CheckSquare"
+              }
+            ]
+          },
+          "officialLinks": [
+            {
+              "label": "Passport Seva Online Portal",
+              "url": "https://www.passportindia.gov.in",
+              "isPrimary": true,
+              "department": "Ministry of External Affairs, Government of India",
+              "portalName": "Passport Seva",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "label": "Ministry of External Affairs Guidelines",
+              "url": "https://www.mea.gov.in",
+              "isPrimary": false,
+              "department": "Government of India",
+              "portalName": "MEA Portal",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.mea.gov.in"
+            }
+          ],
+          "faqItems": [
+            {
+              "question": "What is a Police Clearance Certificate (PCC) from Passport Seva?",
+              "answer": "A PCC is an official document issued by the Ministry of External Affairs certifying that an Indian citizen has no adverse criminal record.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Who needs to apply for a Police Clearance Certificate?",
+              "answer": "Indian citizens moving abroad for employment, long-term immigration, permanent residency, or higher education require a PCC.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Can I obtain a PCC if my Indian passport has expired?",
+              "answer": "No. You must renew your expired passport first before applying for a Police Clearance Certificate.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "What is the official statutory fee for a PCC?",
+              "answer": "The statutory fee is ₹500 paid online through the official Passport Seva portal.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "How long is an Indian Police Clearance Certificate valid?",
+              "answer": "The certificate is generally valid for 6 months from the date of issue for most foreign embassy visa applications.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Do tourists going abroad on vacation need a PCC?",
+              "answer": "No. Short tourist visa holders do not require a Police Clearance Certificate.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Is there a Tatkaal urgent scheme for PCC issuance?",
+              "answer": "No. PCC applications must undergo mandatory local police verification, so no Tatkaal quota is available.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "question": "Can I apply if my current address differs from my passport address?",
+              "answer": "Yes. Provide valid proof of your current address, such as an Aadhaar Card or utility bill, when filling out the form.",
+              "displayOrder": 0,
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "rejectionReasons": [
+            {
+              "title": "Pending Criminal Case or Active Court Warrant",
+              "description": "If an active FIR, chargesheet, or court summon exists in your name, the local police will issue an adverse report.",
+              "solution": "Obtain formal clearance from the concerned court before applying for foreign clearance.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Address Mismatch with Police Station Jurisdiction",
+              "description": "Selecting a police station that does not have administrative jurisdiction over your actual residence results in file return.",
+              "solution": "Verify your exact local police station limits with neighbours or local municipality before submitting Form 1.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Applying with an Expired Passport",
+              "description": "PCC can only be issued against an active, valid Indian passport. Expired passports are rejected immediately.",
+              "solution": "Apply for passport renewal first. Once your renewed passport is issued, apply for your PCC.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Applicant Not Found During Police Visit",
+              "description": "If the verification officer visits and finds the house locked or neighbours deny knowing the applicant, the report is marked adverse.",
+              "solution": "Keep your phone reachable, stay present in town, and inform family members to facilitate the verification.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Mutilated or Damaged Physical Passport",
+              "description": "A passport with torn pages or damaged biographical laminate will be rejected during PSK counter verification.",
+              "solution": "Apply for passport re-issue under 'Damaged Passport' category before seeking a police certificate.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            },
+            {
+              "title": "Failing to Provide Supporting Visa Reason",
+              "description": "The Ministry requires a valid purpose for issuing a PCC. Vague or undeclared travel plans will delay clearance.",
+              "solution": "Attach your job contract, university admission letter, or visa checklist with your application.",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+              "sourceUrl": "https://www.passportindia.gov.in"
+            }
+          ],
+          "sourceRefs": [
+            {
+              "title": "The Passports Act, 1967",
+              "actOrRuleNumber": "Section 4 and 10",
+              "issuingAuthority": "Parliament of India / Ministry of External Affairs",
+              "url": "https://www.mea.gov.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+            },
+            {
+              "title": "Passport Rules, 1980 - Schedule IV",
+              "actOrRuleNumber": "Fee for Miscellaneous Passport Services",
+              "issuingAuthority": "Ministry of External Affairs, Government of India",
+              "url": "https://www.passportindia.gov.in",
+              "status": "PUBLISHED",
+              "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+            }
+          ]
+        },
+        "states": {
+          "GJ": {
+            "title": "How to Get Police Clearance Certificate (PCC) in Gujarat (2026)",
+            "summary": "Step-by-step PCC application procedure for Gujarat residents. Covers RPO Ahmedabad and RPO Surat jurisdictions, city commissionerates, and district SP verification.",
+            "estimatedTime": "7-15 working days",
+            "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+          }
+        }
+      }
+    ],
+    "categories": [
+      {
+        "slug": "identity",
+        "name": "Identity Documents",
+        "description": "Aadhaar card updates, Voter ID (EPIC), PAN cards, and Indian passport procedures.",
+        "icon": "IdCard",
+        "bgColor": "bg-primary-soft",
+        "textColor": "text-primary",
+        "displayOrder": 1
+      },
+      {
+        "slug": "vehicles",
+        "name": "Vehicles and Driving",
+        "description": "Learner permits, permanent driving licences, renewal, and vehicle RC ownership transfer.",
+        "icon": "Car",
+        "bgColor": "bg-accent-soft",
+        "textColor": "text-accent",
+        "displayOrder": 2
+      },
+      {
+        "slug": "money-and-tax",
+        "name": "Money and Tax",
+        "description": "PAN-Aadhaar linking, income tax e-filing guidance, income certificates, and bank affidavits.",
+        "icon": "Coins",
+        "bgColor": "bg-success-soft",
+        "textColor": "text-success",
+        "displayOrder": 3
+      },
+      {
+        "slug": "property-and-land",
+        "name": "Property and Land",
+        "description": "Sale deed registration, 7/12 land records, encumbrance certificates, and mutation.",
+        "icon": "Home",
+        "bgColor": "bg-[#E0F2FE]",
+        "textColor": "text-[#0284C7]",
+        "displayOrder": 4
+      },
+      {
+        "slug": "family-and-certificates",
+        "name": "Family and Certificates",
+        "description": "Birth, death, and marriage registration, legal name change Gazette, and caste certificates.",
+        "icon": "Users",
+        "bgColor": "bg-[#FCE7F3]",
+        "textColor": "text-[#BE185D]",
+        "displayOrder": 5
+      },
+      {
+        "slug": "business-and-licences",
+        "name": "Business and Licences",
+        "description": "GST registration, Udyam MSME certificate, Gumasta Shop & Establishment, and trade licences.",
+        "icon": "Briefcase",
+        "bgColor": "bg-[#F3E8FF]",
+        "textColor": "text-[#7E22CE]",
+        "displayOrder": 6
+      },
+      {
+        "slug": "education-and-scholarships",
+        "name": "Education and Scholarships",
+        "description": "Post-matric scholarships, fee reimbursement, caste validity for college, and duplicate marksheets.",
+        "icon": "GraduationCap",
+        "bgColor": "bg-[#FEF3C7]",
+        "textColor": "text-[#D97706]",
+        "displayOrder": 7
+      },
+      {
+        "slug": "health-and-welfare",
+        "name": "Health and Welfare",
+        "description": "Ayushman Bharat (PM-JAY) Golden Card, disability UDID cards, and state health schemes.",
+        "icon": "HeartPulse",
+        "bgColor": "bg-[#DCFCE7]",
+        "textColor": "text-[#15803D]",
+        "displayOrder": 8
+      },
+      {
+        "slug": "jobs-and-pension",
+        "name": "Jobs and Pension",
+        "description": "EPF advance withdrawal, EPS pension claims, employment exchange, and Senior Citizen Cards.",
+        "icon": "FileText",
+        "bgColor": "bg-[#E0E7FF]",
+        "textColor": "text-[#4338CA]",
+        "displayOrder": 9
+      },
+      {
+        "slug": "utilities-and-connections",
+        "name": "Utilities and Connections",
+        "description": "New domestic electricity connections, meter transfer, LPG gas cylinders, and water lines.",
+        "icon": "Zap",
+        "bgColor": "bg-[#CFFAFE]",
+        "textColor": "text-[#0E7490]",
+        "displayOrder": 10
+      }
+    ],
+    "states": [
+      {
+        "name": "Andhra Pradesh",
+        "nativeName": "ఆంధ్రప్రదేశ్",
+        "slug": "andhra-pradesh",
+        "code": "AP",
+        "primaryLanguages": [
+          "te",
+          "en"
+        ],
+        "portalName": "Meeseva",
+        "portalUrl": ""
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "nativeName": "अरुणाचल प्रदेश",
+        "slug": "arunachal-pradesh",
+        "code": "AR",
+        "primaryLanguages": [
+          "en",
+          "hi"
+        ],
+        "portalName": "ServicePlus Arunachal",
+        "portalUrl": ""
+      },
+      {
+        "name": "Assam",
+        "nativeName": "অসম",
+        "slug": "assam",
+        "code": "AS",
+        "primaryLanguages": [
+          "as",
+          "en"
+        ],
+        "portalName": "SewaSetu Assam",
+        "portalUrl": ""
+      },
+      {
+        "name": "Bihar",
+        "nativeName": "बिहार",
+        "slug": "bihar",
+        "code": "BR",
+        "primaryLanguages": [
+          "hi"
+        ],
+        "portalName": "RTPS Bihar",
+        "portalUrl": ""
+      },
+      {
+        "name": "Chhattisgarh",
+        "nativeName": "छत्तीसगढ़",
+        "slug": "chhattisgarh",
+        "code": "CG",
+        "primaryLanguages": [
+          "hi"
+        ],
+        "portalName": "e-District Chhattisgarh",
+        "portalUrl": ""
+      },
+      {
+        "name": "Goa",
+        "nativeName": "गोंय",
+        "slug": "goa",
+        "code": "GA",
+        "primaryLanguages": [
+          "kok",
+          "en",
+          "mr"
+        ],
+        "portalName": "Goa Online",
+        "portalUrl": ""
+      },
+      {
+        "name": "Gujarat",
+        "nativeName": "ગુજરાત",
+        "slug": "gujarat",
+        "code": "GJ",
+        "primaryLanguages": [
+          "gu",
+          "en",
+          "hi"
+        ],
+        "launchState": true,
+        "portalName": "Digital Gujarat",
+        "portalUrl": ""
+      },
+      {
+        "name": "Haryana",
+        "nativeName": "हरियाणा",
+        "slug": "haryana",
+        "code": "HR",
+        "primaryLanguages": [
+          "hi",
+          "en",
+          "pa"
+        ],
+        "portalName": "Antyodaya Saral Haryana",
+        "portalUrl": ""
+      },
+      {
+        "name": "Himachal Pradesh",
+        "nativeName": "हिमाचल प्रदेश",
+        "slug": "himachal-pradesh",
+        "code": "HP",
+        "primaryLanguages": [
+          "hi",
+          "en"
+        ],
+        "portalName": "e-District Himachal",
+        "portalUrl": ""
+      },
+      {
+        "name": "Jharkhand",
+        "nativeName": "झारखंड",
+        "slug": "jharkhand",
+        "code": "JH",
+        "primaryLanguages": [
+          "hi"
+        ],
+        "portalName": "JharSewa Jharkhand",
+        "portalUrl": ""
+      },
+      {
+        "name": "Karnataka",
+        "nativeName": "ಕರ್ನಾಟಕ",
+        "slug": "karnataka",
+        "code": "KA",
+        "primaryLanguages": [
+          "kn",
+          "en"
+        ],
+        "portalName": "Seva Sindhu",
+        "portalUrl": ""
+      },
+      {
+        "name": "Kerala",
+        "nativeName": "കേരളം",
+        "slug": "kerala",
+        "code": "KL",
+        "primaryLanguages": [
+          "ml",
+          "en"
+        ],
+        "portalName": "e-District Kerala",
+        "portalUrl": ""
+      },
+      {
+        "name": "Madhya Pradesh",
+        "nativeName": "मध्य प्रदेश",
+        "slug": "madhya-pradesh",
+        "code": "MP",
+        "primaryLanguages": [
+          "hi"
+        ],
+        "portalName": "MP e-District",
+        "portalUrl": ""
+      },
+      {
+        "name": "Maharashtra",
+        "nativeName": "महाराष्ट्र",
+        "slug": "maharashtra",
+        "code": "MH",
+        "primaryLanguages": [
+          "mr",
+          "en",
+          "hi"
+        ],
+        "portalName": "Aaple Sarkar",
+        "portalUrl": ""
+      },
+      {
+        "name": "Manipur",
+        "nativeName": "মণিপুর",
+        "slug": "manipur",
+        "code": "MN",
+        "primaryLanguages": [
+          "mni",
+          "en"
+        ],
+        "portalName": "e-District Manipur",
+        "portalUrl": ""
+      },
+      {
+        "name": "Meghalaya",
+        "nativeName": "Meghalaya",
+        "slug": "meghalaya",
+        "code": "ML",
+        "primaryLanguages": [
+          "en"
+        ],
+        "portalName": "e-District Meghalaya",
+        "portalUrl": ""
+      },
+      {
+        "name": "Mizoram",
+        "nativeName": "Mizoram",
+        "slug": "mizoram",
+        "code": "MZ",
+        "primaryLanguages": [
+          "lus",
+          "en"
+        ],
+        "portalName": "Mizoram State Portal",
+        "portalUrl": ""
+      },
+      {
+        "name": "Nagaland",
+        "nativeName": "Nagaland",
+        "slug": "nagaland",
+        "code": "NL",
+        "primaryLanguages": [
+          "en"
+        ],
+        "portalName": "e-District Nagaland",
+        "portalUrl": ""
+      },
+      {
+        "name": "Odisha",
+        "nativeName": "ଓଡ଼ିଶା",
+        "slug": "odisha",
+        "code": "OD",
+        "primaryLanguages": [
+          "or",
+          "en"
+        ],
+        "portalName": "Odisha e-District",
+        "portalUrl": ""
+      },
+      {
+        "name": "Punjab",
+        "nativeName": "ਪੰਜਾਬ",
+        "slug": "punjab",
+        "code": "PB",
+        "primaryLanguages": [
+          "pa",
+          "en"
+        ],
+        "portalName": "Connect Punjab",
+        "portalUrl": ""
+      },
+      {
+        "name": "Rajasthan",
+        "nativeName": "राजस्थान",
+        "slug": "rajasthan",
+        "code": "RJ",
+        "primaryLanguages": [
+          "hi",
+          "en"
+        ],
+        "portalName": "e-Mitra Rajasthan",
+        "portalUrl": ""
+      },
+      {
+        "name": "Sikkim",
+        "nativeName": "सिक्किम",
+        "slug": "sikkim",
+        "code": "SK",
+        "primaryLanguages": [
+          "ne",
+          "en",
+          "hi"
+        ],
+        "portalName": "Sikkim State Portal",
+        "portalUrl": ""
+      },
+      {
+        "name": "Tamil Nadu",
+        "nativeName": "தமிழ்நாடு",
+        "slug": "tamil-nadu",
+        "code": "TN",
+        "primaryLanguages": [
+          "ta",
+          "en"
+        ],
+        "portalName": "e-Sevai Tamil Nadu",
+        "portalUrl": ""
+      },
+      {
+        "name": "Telangana",
+        "nativeName": "తెలంగాణ",
+        "slug": "telangana",
+        "code": "TG",
+        "primaryLanguages": [
+          "te",
+          "en",
+          "ur"
+        ],
+        "portalName": "MeeSeva Telangana",
+        "portalUrl": ""
+      },
+      {
+        "name": "Tripura",
+        "nativeName": "ত্রিপুরা",
+        "slug": "tripura",
+        "code": "TR",
+        "primaryLanguages": [
+          "bn",
+          "en"
+        ],
+        "portalName": "e-District Tripura",
+        "portalUrl": ""
+      },
+      {
+        "name": "Uttar Pradesh",
+        "nativeName": "उत्तर प्रदेश",
+        "slug": "uttar-pradesh",
+        "code": "UP",
+        "primaryLanguages": [
+          "hi",
+          "ur",
+          "en"
+        ],
+        "portalName": "e-District UP",
+        "portalUrl": ""
+      },
+      {
+        "name": "Uttarakhand",
+        "nativeName": "उत्तराखंड",
+        "slug": "uttarakhand",
+        "code": "UK",
+        "primaryLanguages": [
+          "hi",
+          "en"
+        ],
+        "portalName": "e-Sewa Uttarakhand",
+        "portalUrl": ""
+      },
+      {
+        "name": "West Bengal",
+        "nativeName": "পশ্চিমবঙ্গ",
+        "slug": "west-bengal",
+        "code": "WB",
+        "primaryLanguages": [
+          "bn",
+          "en"
+        ],
+        "portalName": "Banglarbhumi / e-District WB",
+        "portalUrl": ""
+      },
+      {
+        "name": "Andaman and Nicobar Islands",
+        "nativeName": "अंडमान और निकोबार द्वीप समूह",
+        "slug": "andaman-and-nicobar-islands",
+        "code": "AN",
+        "primaryLanguages": [
+          "en",
+          "hi"
+        ],
+        "portalName": "e-District Andaman",
+        "portalUrl": ""
+      },
+      {
+        "name": "Chandigarh",
+        "nativeName": "ਚੰਡੀਗੜ੍ਹ",
+        "slug": "chandigarh",
+        "code": "CH",
+        "primaryLanguages": [
+          "en",
+          "pa",
+          "hi"
+        ],
+        "portalName": "e-Sampark Chandigarh",
+        "portalUrl": ""
+      },
+      {
+        "name": "Dadra and Nagar Haveli and Daman and Diu",
+        "nativeName": "દાદરા અને નગર હવેલી અને દમણ અને દીવ",
+        "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
+        "code": "DN",
+        "primaryLanguages": [
+          "gu",
+          "hi",
+          "en"
+        ],
+        "portalName": "e-District Daman Diu",
+        "portalUrl": ""
+      },
+      {
+        "name": "Delhi",
+        "nativeName": "दिल्ली (NCR)",
+        "slug": "delhi",
+        "code": "DL",
+        "primaryLanguages": [
+          "hi",
+          "en",
+          "pa",
+          "ur"
+        ],
+        "portalName": "e-District Delhi",
+        "portalUrl": ""
+      },
+      {
+        "name": "Jammu and Kashmir",
+        "nativeName": "جموں و کشمیر",
+        "slug": "jammu-and-kashmir",
+        "code": "JK",
+        "primaryLanguages": [
+          "ks",
+          "ur",
+          "en",
+          "hi"
+        ],
+        "portalName": "e-UNNAT J&K",
+        "portalUrl": ""
+      },
+      {
+        "name": "Ladakh",
+        "nativeName": "ལ་དྭགས",
+        "slug": "ladakh",
+        "code": "LA",
+        "primaryLanguages": [
+          "en",
+          "hi"
+        ],
+        "portalName": "e-District Ladakh",
+        "portalUrl": ""
+      },
+      {
+        "name": "Lakshadweep",
+        "nativeName": "ലക്ഷദ്വീപ്",
+        "slug": "lakshadweep",
+        "code": "LD",
+        "primaryLanguages": [
+          "ml",
+          "en"
+        ],
+        "portalName": "Lakshadweep Portal",
+        "portalUrl": ""
+      },
+      {
+        "name": "Puducherry",
+        "nativeName": "புதுச்சேரி",
+        "slug": "puducherry",
+        "code": "PY",
+        "primaryLanguages": [
+          "ta",
+          "en",
+          "fr"
+        ],
+        "portalName": "e-District Puducherry",
+        "portalUrl": ""
+      }
+    ],
+    "glossary": [
+      {
+        "slug": "affidavit",
+        "termEn": "Affidavit",
+        "termHi": "शपथ पत्र (Affidavit)",
+        "termGu": "સોગંદનામું (Affidavit)",
+        "aliases": [
+          "affidavit",
+          "affidavits",
+          "sworn statement",
+          "शपथ पत्र",
+          "સોગંદનામું"
+        ],
+        "defEn": "A written statement sworn before an authorized notary or magistrate. It legally confirms that the facts stated by you are 100% true. Making a false affidavit is a criminal offense.",
+        "defHi": "नोटरी या मजिस्ट्रेट के सामने शपथ लेकर दिया गया लिखित बयान। यह कानूनी रूप से पुष्टि करता है कि आपके द्वारा दी गई जानकारी सच है।",
+        "defGu": "નોટરી અથવા મેજિસ્ટ્રેટ સમક્ષ સોગંદપૂર્વક કરાયેલું લેખિત નિવેદન, જે કાયદેસર રીતે સાબિત કરે છે કે તમારી માહિતી સંપૂર્ણપણે સાચી છે.",
+        "whoIssues": "Drafted on non-judicial stamp paper and signed before an Executive Magistrate or Notary Public.",
+        "commonCost": "₹50 or ₹100 stamp paper + ₹50 notary attestation fee.",
+        "whereUsed": [
+          "Name change",
+          "Address proof mismatch",
+          "Lost passport declaration",
+          "Vehicle transfer"
+        ],
+        "tips": "Always check the required stamp paper denomination (e.g., ₹50 vs ₹100) before buying."
+      },
+      {
+        "slug": "notary",
+        "termEn": "Notary / Notarised",
+        "termHi": "नोटरी (Notary)",
+        "termGu": "નોટરી (Notary)",
+        "aliases": [
+          "notary",
+          "notarized",
+          "notarised",
+          "notary public",
+          "नोटरी"
+        ],
+        "defEn": "A government-appointed legal officer (advocate) authorized to verify your identity, witness your signature, and place an official seal and stamp on legal declarations.",
+        "defHi": "सरकार द्वारा अधिकृत वकील जो आपकी पहचान की पुष्टि करता है, आपके हस्ताक्षर देखता है और दस्तावेजों पर आधिकारिक मुहर लगाता है।",
+        "defGu": "સરકાર દ્વારા અધિકૃત વકીલ જે તમારી અસલ ઓળખ ચકાસીને તમારા દસ્તાવેજ પર સહી તથા સત્તાવાર સિક્કો મારે છે.",
+        "whoIssues": "Advocates appointed as Notaries by the Central or State Law Department.",
+        "commonCost": "₹30 – ₹50 per signature/seal.",
+        "whereUsed": [
+          "Affidavits",
+          "Rent agreements",
+          "Power of attorney",
+          "Annexures"
+        ],
+        "tips": "Ensure the notary writes their registration number and expiry date next to their seal."
+      },
+      {
+        "slug": "gazette",
+        "termEn": "Gazette (Rajpatra)",
+        "termHi": "राजपत्र (Gazette)",
+        "termGu": "રાજપત્ર (Gazette)",
+        "aliases": [
+          "gazette",
+          "official gazette",
+          "rajpatra",
+          "राजपत्र",
+          "રાજપત્ર"
+        ],
+        "defEn": "The official government publication where new statutes, statutory fee revisions, and legal name changes are published to make them legally recognized across India.",
+        "defHi": "सरकार का आधिकारिक प्रकाशन जहां नए कानून, सरकारी फीस और नाम बदलने की सूचनाएं कानूनी रूप से प्रकाशित होती हैं।",
+        "defGu": "સરકારનું સત્તાવાર પ્રકાશન જેમાં નવા કાયદા, સરકારી ફી અને નામ બદલવાની જાહેરાતો કાયદેસર રીતે જાહેર થાય છે.",
+        "whoIssues": "Department of Publication, Government of India (Central Gazette) or State Government Printing Press.",
+        "commonCost": "₹1,100 – ₹1,500 for legal name change notification.",
+        "whereUsed": [
+          "Adult name change",
+          "Religion change",
+          "Gender change on official records",
+          "Statutory fees verification"
+        ],
+        "tips": "Download digital e-Gazette copies directly from egazette.gov.in free of cost."
+      },
+      {
+        "slug": "self-attested",
+        "termEn": "Self-Attested",
+        "termHi": "स्व-प्रमाणित (Self-Attested)",
+        "termGu": "સ્વ-પ્રમાણિત (Self-Attested)",
+        "aliases": [
+          "self-attested",
+          "self attested",
+          "self attestation",
+          "स्व-प्रमाणित",
+          "સ્વ-પ્રમાણિત"
+        ],
+        "defEn": "Writing 'Self-Attested' on a photocopy, followed by your regular signature and the current date. It certifies that the photocopy is a true copy of your original document. No gazetted officer or seal is required.",
+        "defHi": "फोटोकॉपी पर 'Self-Attested' लिखकर अपने खुद के हस्ताक्षर और तारीख डालना। इसके लिए किसी सरकारी अफसर की मुहर की जरूरत नहीं होती।",
+        "defGu": "ઝેરોક્ષ કોપી પર 'Self-Attested' લખીને તમારી પોતાની સહી અને તારીખ કરવી. આ માટે કોઈ સરકારી અધિકારીની સહીની જરૂર નથી હોતી.",
+        "whoIssues": "Done directly by you (the applicant).",
+        "commonCost": "Free (₹0).",
+        "whereUsed": [
+          "Passport application",
+          "Driving licence",
+          "Aadhaar update",
+          "PAN card"
+        ],
+        "tips": "Sign across the blank margin without obscuring vital document details or photo."
+      },
+      {
+        "slug": "domicile",
+        "termEn": "Domicile Certificate",
+        "termHi": "मूल निवास प्रमाण पत्र (Domicile)",
+        "termGu": "રહેઠાણ પ્રમાણપત્ર (Domicile)",
+        "aliases": [
+          "domicile",
+          "domicile certificate",
+          "residence certificate",
+          "मूल निवास",
+          "રહેઠાણ પ્રમાણપત્ર"
+        ],
+        "defEn": "An official certificate issued by the state revenue department certifying that a person has been residing permanently in that particular state for a specified duration (usually 10 to 15 years).",
+        "defHi": "राज्य के राजस्व विभाग द्वारा जारी प्रमाण पत्र जो यह साबित करता है कि आप उस राज्य के स्थायी निवासी हैं।",
+        "defGu": "મહેસૂલ વિભાગ દ્વારા અપાતું પ્રમાણપત્ર જે સાબિત કરે છે કે તમે ઘણા વર્ષોથી રાજ્યમાં કાયમી રહેવાસી છો.",
+        "whoIssues": "Tehsildar, Sub-Divisional Magistrate (SDM), or Mamlatdar.",
+        "commonCost": "₹20 – ₹50 statutory fee on state citizen portal.",
+        "whereUsed": [
+          "State government jobs",
+          "College admissions & quota",
+          "State scholarships",
+          "Ration card"
+        ],
+        "tips": "Electricity bills, school leaving certificates, and parent's voter ID are commonly accepted proofs."
+      },
+      {
+        "slug": "noc",
+        "termEn": "No Objection Certificate (NOC)",
+        "termHi": "अनापत्ति प्रमाण पत्र (NOC)",
+        "termGu": "વાંધા પ્રમાણપત્ર મુક્તિ (NOC)",
+        "aliases": [
+          "noc",
+          "no objection certificate",
+          "no-objection certificate",
+          "अनापत्ति प्रमाण पत्र"
+        ],
+        "defEn": "An official document issued by a government authority, employer, or financer stating that they have zero objection to a requested transaction or application.",
+        "defHi": "संबंधित विभाग या बैंक द्वारा जारी दस्तावेज जिसमें लिखा होता है कि आपके आवेदन या ट्रांसफर से उन्हें कोई आपत्ति नहीं है।",
+        "defGu": "સંબંધિત વિભાગ કે બેંક દ્વારા અપાતો દસ્તાવેજ જેમાં દર્શાવાય છે કે તમારી અરજી સામે તેમને કોઈ વાંધો નથી.",
+        "whoIssues": "RTO (Form 28 for vehicle transfer), Police department, or financing bank.",
+        "commonCost": "₹100 (Form 28 at RTO).",
+        "whereUsed": [
+          "Vehicle transfer to another state",
+          "Government employees applying for passport",
+          "Bank loan closure"
+        ],
+        "tips": "Ensure vehicle NOC from RTO is used within its validity period (usually 6 months)."
+      },
+      {
+        "slug": "tatkal",
+        "termEn": "Tatkaal Scheme",
+        "termHi": "तत्काल सेवा (Tatkal)",
+        "termGu": "તત્કાલ યોજના (Tatkal)",
+        "aliases": [
+          "tatkal",
+          "tatkaal",
+          "urgent processing",
+          "तत्काल",
+          "તત્કાલ"
+        ],
+        "defEn": "An official expedited fast-track government scheme that delivers passports or public services in 1 to 3 business days for an additional gazetted surcharge.",
+        "defHi": "आपातकालीन त्वरित सेवा जो अतिरिक्त सरकारी शुल्क लेकर 1 से 3 दिनों में पासपोर्ट या दस्तावेज तैयार करती है।",
+        "defGu": "સરકારી કટોકટી સેવા જે વધારાની સરકારી ફી લઈને ૧ થી ૩ દિવસમાં પાસપોર્ટ કે દસ્તાવેજ આપવાની સુવિધા આપે છે.",
+        "whoIssues": "Passport Seva Kendra (Ministry of External Affairs).",
+        "commonCost": "₹2,000 additional statutory surcharge for passport.",
+        "whereUsed": [
+          "Urgent international travel",
+          "Medical emergency passport renewal"
+        ],
+        "tips": "Police verification for Tatkaal passports happens after dispatch (Post-police verification)."
+      },
+      {
+        "slug": "annexure",
+        "termEn": "Annexure",
+        "termHi": "अनुलग्नक (Annexure)",
+        "termGu": "જોડાણ (Annexure)",
+        "aliases": [
+          "annexure",
+          "annexures",
+          "annexure e",
+          "अनुलग्नक",
+          "જોડાણ"
+        ],
+        "defEn": "A standardized affidavit or declaration form attached to a government application to certify specific circumstances (such as citizenship declaration, spouse details, or lost document explanation).",
+        "defHi": "आवेदन के साथ लगने वाला आधिकारिक हलफनामा या घोषणा पत्र प्रारूप (जैसे पासपोर्ट के लिए Annexure E)।",
+        "defGu": "અરજી સાથે જોડવાનું સત્તાવાર સોગંદનામું કે બાંયધરી ફોર્મ (જેમ કે પાસપોર્ટ માટે Annexure E).",
+        "whoIssues": "Official format downloaded from the government portal and filled by the applicant.",
+        "commonCost": "Free download; printed on plain paper or stamp paper as specified.",
+        "whereUsed": [
+          "Passport applications (Annexure E, D, F)",
+          "OCI applications",
+          "Government pension"
+        ],
+        "tips": "Most passport annexures now only require self-declaration on plain paper rather than expensive stamp paper."
+      },
+      {
+        "slug": "challan",
+        "termEn": "Challan / E-Challan",
+        "termHi": "चालान (Challan)",
+        "termGu": "ચલણ (Challan)",
+        "aliases": [
+          "challan",
+          "e-challan",
+          "echallan",
+          "चालान",
+          "ચલણ"
+        ],
+        "defEn": "An official computerized receipt or payment demand note used to deposit statutory fees or penalties directly into the government treasury.",
+        "defHi": "सरकारी खजाने में फीस या जुर्माना जमा करने की आधिकारिक रसीદ।",
+        "defGu": "સરકારી તિજોરીમાં ફી અથવા દંડ જમા કરાવવાની સત્તાવાર કોમ્પ્યુટરાઈઝ્ડ રસીદ.",
+        "whoIssues": "State treasury department, traffic police, or Parivahan portal.",
+        "commonCost": "Matches the exact statutory fee or penalty.",
+        "whereUsed": [
+          "Driving licence application fees",
+          "Court fee deposit",
+          "Traffic penalty settlement"
+        ],
+        "tips": "Always preserve the 16-digit Challan Reference Number (CIN / GRN) for payment tracking."
+      }
+    ]
+  },
+  "checksum": "72d323bcfcea4f8ae74792fd66048deb71f7a10e46904df27d5b7b67417875a0"
+}
