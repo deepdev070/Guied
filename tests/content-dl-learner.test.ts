@@ -172,7 +172,7 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     assert.ok(task.states?.GJ, "Must contain Gujarat state details");
-    assert.ok(task.states.GJ.title.includes("Gujarat"));
+    assert.ok(task.states.GJ.title && task.states.GJ.title.includes("Gujarat"));
     assert.ok(task.states.GJ.lastVerifiedAt);
   });
 });

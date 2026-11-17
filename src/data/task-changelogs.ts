@@ -88,6 +88,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://sarathi.parivahan.gov.in",
     },
   ],
+  "driving-licence-renewal": [
+    {
+      id: "dlr-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Driving Licence Renewal Guide Published & Verified",
+      description:
+        "Full DL renewal procedure guide published with verified ₹400 statutory fee (₹200 renewal + ₹200 smart card), Form 1A age 40+ rules, and contactless steps.",
+      officialSourceLabel: "Parivahan Sarathi (sarathi.parivahan.gov.in)",
+      officialSourceUrl: "https://sarathi.parivahan.gov.in",
+    },
+    {
+      id: "dlr-2026-10-01-02",
+      date: "2026-10-01",
+      changeType: "fee",
+      changeTypeLabel: "Late Fee Clarification",
+      title: "Late Fee Grace Period and Surcharge Rules Confirmed",
+      description:
+        "Under Section 15 of the Motor Vehicles Act, renewal up to 1 year after expiry carries zero penalty. Beyond 1 year, a late fee of ₹300 per year applies.",
+      officialSourceLabel: "Ministry of Road Transport and Highways (MoRTH)",
+      officialSourceUrl: "https://morth.nic.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

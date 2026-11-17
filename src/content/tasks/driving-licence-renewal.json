@@ -1,0 +1,455 @@
+{
+  "slug": "driving-licence-renewal",
+  "name": "Driving Licence Renewal",
+  "description": "Complete guide to renewing an expiring or expired Indian driving licence online with verified statutory fees, medical certificate rules, and contactless steps.",
+  "categorySlug": "vehicles",
+  "national": {
+    "title": "How to Renew Your Driving Licence Online in India (2026)",
+    "summary": "Step-by-step guide to renewing an expiring or expired driving licence on the Sarathi Parivahan portal. Verified statutory fees of ₹400, medical Form 1A rules, and late penalty exemptions.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/driving-licence-0",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Open Sarathi Parivahan and Choose Your State",
+        "description": "Visit sarathi.parivahan.gov.in and select the state where you currently reside.",
+        "where": "Official Sarathi Portal (parivahan.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://sarathi.parivahan.gov.in",
+        "officialLinkLabel": "Open Sarathi Parivahan Citizen Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Apply Before Expiry",
+        "calloutText": "You can apply for renewal up to one year before your driving licence expires without penalty.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Select 'Apply for DL Renewal' from Services",
+        "description": "Click 'Services on Driving Licence' and choose 'Apply for DL Renewal' from the list of services.",
+        "where": "Online DL Services Menu",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Enter Driving Licence Number and Date of Birth",
+        "description": "Type your current driving licence number and date of birth to fetch your licence records from the national database.",
+        "where": "Online Verification Screen",
+        "estimatedTime": "5 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Exact Number Format",
+        "calloutText": "Enter your DL number with exact spaces and state code as printed on your plastic card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Confirm Address Details and Select Renewal",
+        "description": "Verify your personal details. If your address has changed, check 'Change of Address' to update your records simultaneously.",
+        "where": "Online Application Form (Form 9)",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Upload Form 1A Medical Certificate and Old DL",
+        "description": "Upload a scanned copy of your old driving licence. If aged 40 or above, upload Form 1A signed by a registered doctor.",
+        "where": "Online Document Upload Portal",
+        "estimatedTime": "10 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Doctor Seal Mandatory",
+        "calloutText": "Form 1A must contain the doctor's state medical council registration number and official rubber stamp.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Pay Statutory Government Renewal Fee Online",
+        "description": "Pay ₹200 for renewal and ₹200 for smart card printing. Pay via net banking, debit card, or UPI.",
+        "where": "Integrated Bharatkosh / State Payment Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Submit via Aadhaar e-KYC for Faceless Processing",
+        "description": "Authenticate using Aadhaar OTP to complete paperless submission. No physical visit to the RTO is required in contactless states.",
+        "where": "Online e-KYC Verification Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Receive Renewed Smart Card DL via Speed Post",
+        "description": "Once approved, your renewed driving licence card is printed and sent via Speed Post. Digital DL updates on DigiLocker immediately.",
+        "where": "Delivered to Residence & Available on DigiLocker",
+        "estimatedTime": "7-15 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Original Expiring or Expired Driving Licence",
+        "description": "Physical driving licence card or booklet for verification of existing licence number and vehicle endorsements.",
+        "requirementType": "required",
+        "copiesHint": "Original + 1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Form 1 Self-Declaration of Physical Fitness",
+        "description": "Online self-declaration certifying vision, hearing, and physical fitness to operate a motor vehicle.",
+        "requirementType": "required",
+        "copiesHint": "Filled online during application",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "name": "Form 1A Medical Fitness Certificate",
+        "description": "Certificate signed by a registered MBBS medical doctor with official medical council registration number.",
+        "requirementType": "conditional",
+        "copiesHint": "Original doctor signed copy",
+        "appliesWhen": {
+          "or": [
+            {
+              "applicantAge": {
+                "gte": 40
+              }
+            },
+            {
+              "licenceCategory": "commercial_transport"
+            }
+          ]
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Proof of Present Residential Address",
+        "description": "Aadhaar Card, electricity bill, or rent agreement if your present address differs from your old licence.",
+        "requirementType": "conditional",
+        "copiesHint": "Original + 1 self-attested photocopy",
+        "appliesWhen": {
+          "addressChanged": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Aadhaar Card with Linked Mobile Number",
+        "description": "Aadhaar card used for instant digital identity verification and contactless faceless processing on Sarathi.",
+        "requirementType": "required",
+        "copiesHint": "Original + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Driving Licence Renewal Fee (Applied within 1 Year)",
+        "amount": 200,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "CMVR 1989 Rule 32",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Smart Card Form 7 Printing Fee",
+        "amount": 200,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "CMVR 1989 Rule 32",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Late Renewal Penalty (Per Year After 1 Year of Expiry)",
+        "amount": 300,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "Motor Vehicles (Amendment) Act 2019",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "DL Renewal Fee Calculator",
+      "description": "Calculate total statutory renewal fees based on expiry timing and smart card dispatch.",
+      "baseFee": 400,
+      "baseFeeLabel": "Standard Renewal Fee (₹200 renewal + ₹200 smart card)",
+      "officialSourceUrl": "https://morth.nic.in",
+      "officialSourceLabel": "CMVR Rule 32 Fee Schedule",
+      "rulesReference": "CMVR 1989 Rule 32",
+      "options": [
+        {
+          "id": "expiry_status",
+          "label": "Licence Expiry Status",
+          "type": "expiry",
+          "defaultChoiceId": "on_time",
+          "choices": [
+            {
+              "id": "on_time",
+              "label": "Before Expiry or within 1 Year (Standard)",
+              "amount": 0,
+              "description": "Standard renewal with zero late penalty"
+            },
+            {
+              "id": "late_1year",
+              "label": "Expired 1 to 2 Years Ago (+₹300)",
+              "amount": 300,
+              "description": "Includes late penalty under Section 15"
+            },
+            {
+              "id": "late_2years",
+              "label": "Expired 2 to 3 Years Ago (+₹600)",
+              "amount": 600,
+              "description": "Includes two years of statutory penalty"
+            }
+          ]
+        },
+        {
+          "id": "address_change",
+          "label": "Address Update Option",
+          "type": "address",
+          "defaultChoiceId": "no_change",
+          "choices": [
+            {
+              "id": "no_change",
+              "label": "Same Address as Old Licence",
+              "amount": 0,
+              "description": "No additional service fee"
+            },
+            {
+              "id": "with_change",
+              "label": "Update to New Residential Address (+₹200)",
+              "amount": 200,
+              "description": "Combined renewal and address change endorsement"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Sarathi Parivahan Citizen Portal",
+        "url": "https://sarathi.parivahan.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Road Transport and Highways (MoRTH)",
+        "portalName": "Parivahan Sewa",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "label": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "MoRTH Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Missing Form 1A Medical Certificate for Applicants Aged 40+",
+        "description": "Applicants aged 40 or older who submit without a registered doctor signed Form 1A will have their application halted.",
+        "solution": "Get Form 1A signed by a registered MBBS doctor with their registration seal before uploading.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Applying with DL Expired Over 1 Year Without Late Fees",
+        "description": "Under Section 15 of the Motor Vehicles Act, late renewal attracts a statutory penalty of ₹300 per year.",
+        "solution": "Pay the calculated late fee on the Sarathi portal to avoid rejection by the scrutiny clerk.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Legacy DL Records Not Found in National Sarathi Database",
+        "description": "Very old manual book licences issued before digitization may not appear automatically on Sarathi.",
+        "solution": "Apply for 'DL Backlog Entry' first at your issuing RTO with your physical booklet.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Submitting Incomplete Proof for Address Change",
+        "description": "Requesting an address change without uploading a matching Aadhaar card or electricity bill causes delay.",
+        "solution": "Upload a clear government document displaying your exact current residential address.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Blurry Scan of Existing Driving Licence",
+        "description": "Uploading a cropped or unreadable photo of the old licence prevents document verification.",
+        "solution": "Scan both front and back sides of the plastic card cleanly in PDF format under 200 KB.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Pending Traffic E-Challans or Suspension Orders",
+        "description": "An active court suspension or unpaid traffic challan linked to the licence blocks the renewal workflow.",
+        "solution": "Clear all pending e-challans on the echallan.parivahan.gov.in portal before applying for renewal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "When can I apply to renew my driving licence in India?",
+        "answer": "You can apply up to one year before your licence expires and within one year after expiry without penalty.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Is a medical certificate compulsory for driving licence renewal?",
+        "answer": "It is compulsory for applicants aged 40 or above and for commercial transport licence holders.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What is the fee for renewing a driving licence before expiry?",
+        "answer": "The statutory fee is ₹200 for licence renewal plus ₹200 for smart card printing, totaling ₹400.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What is the penalty for renewing a driving licence after one year of expiry?",
+        "answer": "A late penalty of ₹300 per additional year or part of year applies under the amended Motor Vehicles Act.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Can I renew my driving licence online without visiting the RTO?",
+        "answer": "Yes. States offering Aadhaar e-KYC provide contactless online renewal without any physical RTO visit.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "question": "What happens if my driving licence has been expired for more than 5 years?",
+        "answer": "You must pay the penalty and re-appear for the practical driving test before your licence is renewed.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Can I change my residential address during DL renewal?",
+        "answer": "Yes. Select 'Change of Address' in DL services and upload proof of your new residential address.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "question": "How long does it take to receive the renewed smart card DL?",
+        "answer": "It typically arrives within 7 to 15 days via Speed Post. The digital licence updates on DigiLocker immediately.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Complete Your DL Renewal",
+      "subtitle": "5 final checks before submitting your renewal application",
+      "items": [
+        {
+          "id": "old_dl",
+          "title": "Physical Old Driving Licence",
+          "description": "Keep your existing plastic card or booklet ready to enter the exact licence number.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "medical_cert",
+          "title": "Signed Form 1A (If Aged 40+)",
+          "description": "Have your medical fitness certificate signed by an MBBS doctor with official seal.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "address_doc",
+          "title": "Address Proof (If Address Changed)",
+          "description": "Keep original Aadhaar or utility bill ready if updating your residential address.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "fee_receipt",
+          "title": "Payment Receipt & Reference ID",
+          "description": "Download your fee receipt with 14-digit application number for tracking.",
+          "icon": "FileText"
+        },
+        {
+          "id": "aadhaar_otp",
+          "title": "Aadhaar Linked Mobile Phone",
+          "description": "Keep your mobile phone nearby to receive the Aadhaar OTP for paperless submission.",
+          "icon": "ShieldCheck"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Motor Vehicles Act, 1988 (as amended in 2019)",
+        "actOrRuleNumber": "Section 14 & Section 15",
+        "issuingAuthority": "Parliament of India / MoRTH",
+        "url": "https://morth.nic.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Central Motor Vehicles Rules, 1989",
+        "actOrRuleNumber": "Rule 18 & Rule 32",
+        "issuingAuthority": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Renew Your Driving Licence in Gujarat (2026)",
+      "summary": "Gujarat provides 100% faceless online DL renewal service through Sarathi Parivahan with Aadhaar e-KYC. Plastic smart card is delivered to your home via Speed Post.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
