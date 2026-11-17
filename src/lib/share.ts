@@ -1,13 +1,27 @@
 /**
  * Share utilities for WhatsApp, Telegram, Web Share API, and clipboard copy.
  * Adds standardized UTM analytics parameters to track viral citizen referrals.
+ * Features category-specific, non-spammy WhatsApp copy in English, Hindi, and Gujarati (Prompt 143).
  */
+
+import whatsappData from "../content/whatsapp-templates.json" with { type: "json" };
 
 export interface ShareUrlOptions {
   pageUrl: string;
   source: "whatsapp" | "telegram" | "copylink" | "webshare";
   medium?: string;
   campaign?: string;
+}
+
+export type SupportedShareLocale = "en" | "hi" | "gu";
+
+export interface WhatsAppShareOptions {
+  taskTitle: string;
+  stateName?: string;
+  pageUrl: string;
+  categorySlug?: string;
+  locale?: string;
+  templateIndex?: number;
 }
 
 /**
@@ -33,15 +47,64 @@ export function buildShareUrl({
 }
 
 /**
- * Builds pre-filled message for WhatsApp share.
+ * Resolves a category-specific, non-spammy WhatsApp message template in the requested language.
+ */
+export function getWhatsAppShareMessage({
+  taskTitle,
+  stateName = "All India",
+  pageUrl,
+  categorySlug = "default",
+  locale = "en",
+  templateIndex = 0,
+}: WhatsAppShareOptions): string {
+  const trackedUrl = buildShareUrl({ pageUrl, source: "whatsapp" });
+
+  const validLocale = (locale === "hi" || locale === "gu" ? locale : "en") as SupportedShareLocale;
+
+  const defaultTemplates = (whatsappData.templates as any).default as Record<
+    SupportedShareLocale,
+    string[]
+  >;
+  const categories = whatsappData.templates as Record<
+    string,
+    Record<SupportedShareLocale, string[]> | undefined
+  >;
+
+  const categoryTemplates = categories[categorySlug] || defaultTemplates;
+  const langTemplates =
+    (categoryTemplates && categoryTemplates[validLocale]) ||
+    (categoryTemplates && categoryTemplates.en) ||
+    defaultTemplates.en;
+
+  const safeIndex = Math.abs(templateIndex) % (langTemplates.length || 1);
+  const rawTemplate =
+    langTemplates[safeIndex] || langTemplates[0] || "Check out {title} ({state}): {url}";
+
+  return rawTemplate
+    .replace(/\{title\}/g, taskTitle)
+    .replace(/\{state\}/g, stateName)
+    .replace(/\{url\}/g, trackedUrl);
+}
+
+/**
+ * Builds pre-filled message URL for WhatsApp share with category and language personalization.
  */
 export function buildWhatsAppShareUrl(
   taskTitle: string,
-  stateName: string,
-  pageUrl: string
+  stateName = "All India",
+  pageUrl: string,
+  categorySlug = "default",
+  locale: string = "en",
+  templateIndex = 0
 ): string {
-  const trackedUrl = buildShareUrl({ pageUrl, source: "whatsapp" });
-  const message = `Here is the verified checklist, fees, and official links for *${taskTitle}* (${stateName}):\n${trackedUrl}`;
+  const message = getWhatsAppShareMessage({
+    taskTitle,
+    stateName,
+    pageUrl,
+    categorySlug,
+    locale,
+    templateIndex,
+  });
   return `https://wa.me/?text=${encodeURIComponent(message)}`;
 }
 

@@ -11,11 +11,14 @@ import {
 import { siteConfig } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import { analytics } from "@/lib/analytics";
+import { parseLocaleFromPath } from "@/i18n";
 
 export interface ShareButtonGroupProps {
   taskTitle: string;
   stateName?: string;
+  categorySlug?: string;
   canonicalPath?: string;
+  locale?: string;
   className?: string;
 }
 
@@ -24,7 +27,9 @@ const emptySubscribe = () => () => {};
 export function ShareButtonGroup({
   taskTitle,
   stateName = "All India",
+  categorySlug = "default",
   canonicalPath,
+  locale: propLocale,
   className,
 }: ShareButtonGroupProps) {
   const [copied, setCopied] = useState(false);
@@ -44,10 +49,23 @@ export function ShareButtonGroup({
       ? window.location.href.split("?")[0] || window.location.href
       : fallbackUrl;
 
+  const activeLocale =
+    propLocale ||
+    parseLocaleFromPath(
+      canonicalPath || (isClient && typeof window !== "undefined" ? window.location.pathname : "/")
+    ).locale ||
+    "en";
+
   const canWebShare =
     isClient && typeof navigator !== "undefined" && typeof navigator.share === "function";
 
-  const whatsAppUrl = buildWhatsAppShareUrl(taskTitle, stateName, currentUrl);
+  const whatsAppUrl = buildWhatsAppShareUrl(
+    taskTitle,
+    stateName,
+    currentUrl,
+    categorySlug,
+    activeLocale
+  );
   const telegramUrl = buildTelegramShareUrl(taskTitle, stateName, currentUrl);
   const copyTrackedUrl = buildShareUrl({ pageUrl: currentUrl, source: "copylink" });
   const cardSlug = canonicalPath

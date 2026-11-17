@@ -352,6 +352,7 @@ export function TaskPageView({
             <ShareButtonGroup
               taskTitle={task.name}
               stateName={isStatePage && state ? state.name : variant.stateName}
+              categorySlug={task.categorySlug}
               canonicalPath={isStatePage && state ? `/${task.slug}/${state.slug}` : `/${task.slug}`}
               className="my-8"
             />
@@ -400,6 +401,7 @@ export function TaskPageView({
               taskSlug={task.slug}
               stateSlug={state?.slug}
               stateName={isStatePage && state ? state.name : variant.stateName}
+              categorySlug={task.categorySlug}
               documents={variant.documentRequirements}
               onResetDocs={handleResetDocs}
             />

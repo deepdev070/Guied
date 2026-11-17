@@ -18,6 +18,7 @@ export interface TaskSidebarProps {
   taskSlug?: string;
   stateSlug?: string;
   stateName?: string;
+  categorySlug?: string;
   documents?: DocumentRequirement[];
   onResetDocs?: () => void;
 }
@@ -29,6 +30,7 @@ export function TaskSidebar({
   taskSlug,
   stateSlug,
   stateName,
+  categorySlug,
   documents = [],
   onResetDocs,
 }: TaskSidebarProps) {
@@ -149,6 +151,7 @@ export function TaskSidebar({
         <ShareButtonGroup
           taskTitle={taskTitle}
           stateName={stateName}
+          categorySlug={categorySlug}
           canonicalPath={taskSlug ? `/${taskSlug}${stateSlug ? `/${stateSlug}` : ""}` : undefined}
         />
 

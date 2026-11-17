@@ -1,0 +1,193 @@
+{
+  "version": "1.0",
+  "description": "Helpful, non-spammy WhatsApp share message templates per category in English, Hindi, and Gujarati.",
+  "templates": {
+    "default": {
+      "en": [
+        "Sharing this verified document checklist for {title} ({state}) so you have all paperwork ready before applying: {url}",
+        "Here are the verified statutory fees and official portal links for {title} in {state}. Avoid unnecessary agent charges: {url}",
+        "Step-by-step official paperwork procedure and required forms for {title} ({state}): {url}"
+      ],
+      "hi": [
+        "{state} में {title} के लिए जरूरी दस्तावेजों की सत्यापित चेकलिस्ट यहां देखें ताकि दफ्तर के चक्कर न लगाने पड़ें: {url}",
+        "{state} में {title} की आधिकारिक सरकारी फीस और पोर्टल लिंक यहां उपलब्ध हैं। बिचौलियों को अतिरिक्त शुल्क न दें: {url}",
+        "{state} में {title} की पूरी प्रक्रिया, जरूरी फॉर्म और आधिकारिक लिंक: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} માટે કયા દસ્તાવેજો જોઈએ તેની ચકાસાયેલી યાદી અહીં છે, જેથી કચેરીના ધક્કા ન ખાવા પડે: {url}",
+        "{state}માં {title} માટે સત્તાવાર સરકારી ફી અને પોર્ટલ લિંક અહીં ઉપલબ્ધ છે. વચેટિયાઓને વધારાના પૈસા ન આપશો: {url}",
+        "{state}માં {title} કરવાની સાચી પ્રક્રિયા અને જરૂરી ફોર્મ્સની માહિતી: {url}"
+      ]
+    },
+    "identity": {
+      "en": [
+        "Useful guide for {title} ({state}) — includes the exact documents accepted and photo specs so the application doesn't get rejected: {url}",
+        "Official government fees and step-by-step portal links for {title} ({state}). Don't pay extra fees to cyber cafes or agents: {url}",
+        "How to apply or update {title} online directly on the official government website without long queues: {url}"
+      ],
+      "hi": [
+        "{state} में {title} के लिए स्वीकार्य पहचान व पते के प्रमाण की सही लिस्ट ताकि फॉर्म रिजेक्ट न हो: {url}",
+        "{state} में {title} की सरकारी फीस और असली पोर्टल लिंक। साइबर कैफे या दलालों को अतिरिक्त पैसा न दें: {url}",
+        "{title} का काम आधिकारिक सरकारी वेबसाइट पर घर बैठे ऑनलाइन कैसे पूरा करें, पूरी गाइड: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} માટે માન્ય પુરાવાની યાદી જેથી તમારી અરજી રદ ન થાય: {url}",
+        "{state}માં {title} માટેની સત્તાવાર સરકારી ફી અને પોર્ટલ લિંક. કોઈને વધારાના પૈસા ન આપશો: {url}",
+        "{title} માટે સરકારી પોર્ટલ પરથી સરળતાથી ઓનલાઇન અરજી કરવાની રીત: {url}"
+      ]
+    },
+    "vehicles": {
+      "en": [
+        "Before going to the RTO for {title} ({state}), check this verified list of required documents and form numbers: {url}",
+        "The official government fee for {title} in {state} is fixed by law. Check the exact statutory fee breakdown here: {url}",
+        "Step-by-step guide on how to apply for {title} on the Parivahan portal and book your slot online: {url}"
+      ],
+      "hi": [
+        "{state} में RTO जाने से पहले {title} के लिए जरूरी दस्तावेजों और फॉर्म नंबर की यह सूची देख लें: {url}",
+        "{state} में {title} की असली सरकारी फीस कानून द्वारा तय है। सही फीस और रसीद की जानकारी यहां देखें: {url}",
+        "परिवહન पोर्टल पर {title} के लिए ऑनलाइन फॉर्म भरने और स्लॉट बुक करने का आसान तरीका: {url}"
+      ],
+      "gu": [
+        "{state}માં RTO જતાં પહેલાં {title} માટે કયા પુરાવા અને કયું ફોર્મ જોઈશે તેની યાદી ચકાસી લો: {url}",
+        "{state}માં {title} માટે કાયદા મુજબ કેટલી સત્તાવાર સરકારી ફી લાગે છે તે અહીં જુઓ: {url}",
+        "પરિવહન પોર્ટલ પરથી {title} માટે ઓનલાઇન અરજી અને સ્લોટ બુકિંગની સરળ ગાઇડ: {url}"
+      ]
+    },
+    "money-and-tax": {
+      "en": [
+        "Complete document checklist and eligibility rules for {title} ({state}): {url}",
+        "Avoid paying unauthorized agent commissions for {title}. Here is the official fee schedule and safe portal: {url}",
+        "How to complete {title} online directly through the official income tax / revenue portal: {url}"
+      ],
+      "hi": [
+        "{state} में {title} के लिए जरूरी प्रमाण पत्रों और नियमों की पूरी चेकलिस्ट यहां देखें: {url}",
+        "{title} के लिए किसी एजेंट को कमीशन न दें। आधिकारिक सरकारी फीस और सुरक्षित पोर्टल लिंक यहां है: {url}",
+        "आयकर और राजस्व विभाग के आधिकारिक पोर्टल से {title} ऑनलाइन करने का सही तरीका: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} માટે જરૂરી પ્રમાણપત્રો અને પાત્રતાની સંપૂર્ણ માહિતી: {url}",
+        "{title} માટે એજન્ટોને વધારાનું કમિશન આપવાનું ટાળો. સત્તાવાર સરકારી ફી અને સાચી પોર્ટલ લિંક: {url}",
+        "સત્તાવાર સરકારી પોર્ટલ પરથી {title} ઓનલાઇન પૂર્ણ કરવાની સ્ટેપ-બાય-સ્ટેપ રીત: {url}"
+      ]
+    },
+    "property-and-land": {
+      "en": [
+        "Essential paperwork and stamp duty checklist for {title} ({state}) to prevent registration delays: {url}",
+        "Verified statutory stamp duty and registration fees for {title} in {state}. Direct land registry links: {url}",
+        "How to download land records or book a sub-registrar appointment for {title} ({state}): {url}"
+      ],
+      "hi": [
+        "{state} में {title} की रजिस्ट्री में देरी से बचने के लिए जरूरी कागजातों और स्टांप ड्यूटी की लिस्ट: {url}",
+        "{state} में {title} के लिए कानूनी स्टांप शुल्क व सरकारी रजिस्ट्री फीस का विवरण: {url}",
+        "{state} में {title} के लिए सरकारी जमीन रिकॉर्ड देखने और सब-रजिस्ट्रार अपॉइंटमेंट की गाइड: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} માટે દસ્તાવેજ નોંધણી અને સ્ટેમ્પ ડ્યુટીની ચકાસાયેલી ચેકલિસ્ટ: {url}",
+        "{state}માં {title} માટે સરકારી સ્ટેમ્પ ડ્યુટી અને રજિસ્ટ્રેશન ફીની ચોક્કસ વિગતો: {url}",
+        "{state}માં {title} માટે જમીનના ઓનલાઇન રેકોર્ડ્સ અને સબ-રજિસ્ટ્રાર એપોઇન્ટમેન્ટ ગાઇડ: {url}"
+      ]
+    },
+    "family-and-certificates": {
+      "en": [
+        "Hospital slips, affidavits, and ID proofs needed for {title} in {state}. Complete checklist: {url}",
+        "Zero middleman charges for {title} ({state}). Verified statutory fees and municipal ward procedure: {url}",
+        "How to apply for {title} online on the state e-district / civic portal with doorstep or download options: {url}"
+      ],
+      "hi": [
+        "{state} में {title} के लिए आवश्यक शपथ पत्र, अस्पताल पर्ची और आईडी प्रूफ की पूरी सूची: {url}",
+        "{state} में {title} की सही नगर निगम/पंचायत फीस और नियम। दलालों से बचें: {url}",
+        "{state} के ई-डिस्ट्रिक्ट पोर्टल से {title} ऑनलाइन बनवाने का सीधा तरीका: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} માટે જોઈતા સોગંદનામા, હોસ્પિટલ પહોંચ અને ઓળખના પુરાવાઓની યાદી: {url}",
+        "{state}માં {title} માટે નગરપાલિકા કે પંચાયતની સત્તાવાર ફી અને નિયમો: {url}",
+        "ઇ-ગ્રામ કે ડિજિટલ પોર્ટલ પરથી {title} માટે ઓનલાઇન અરજી કરવાની સરળ રીત: {url}"
+      ]
+    },
+    "business-and-licences": {
+      "en": [
+        "Clear checklist of documents, premises proof, and identity papers needed for {title} ({state}): {url}",
+        "Government statutory fees for {title} ({state}). Udyam and MSME registration are 100% free by law: {url}",
+        "Official portal instructions on registering {title} directly without third-party fees: {url}"
+      ],
+      "hi": [
+        "{state} में {title} शुरू करने के लिए जरूरी दुकान/ऑफिस प्रमाण और दस्तावेजों की लिस्ट: {url}",
+        "{state} में {title} की सरकारी फीस। उद्यम और MSME पंजीकरण कानूनन पूरी तरह फ्री हैं: {url}",
+        "बिना किसी थर्ड-पार्टी चार्ज के सरकारी पोर्टल पर {title} खुद ऑनलाइन रजिस्टर करने की गाइड: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} મેળવવા માટે જગ્યાના પુરાવા અને જરૂરી દસ્તાવેજોની ચકાસાયેલી યાદી: {url}",
+        "{state}માં {title} માટે સરકારી ફી. ઉદ્યમ/MSME નોંધણી કાયદા મુજબ તદ્દન મફત છે: {url}",
+        "કોઈપણ વધારાના ખર્ચ વગર સરકારી પોર્ટલ પરથી {title} સીધું ઓનલાઇન નોંધણી કરવાની રીત: {url}"
+      ]
+    },
+    "education-and-scholarships": {
+      "en": [
+        "Documents, income criteria, and marksheet uploads required for {title} ({state}): {url}",
+        "Verified scholarship guidelines and official portal links for {title} ({state}). 100% free application: {url}",
+        "How eligible students can submit {title} online directly before the official deadline: {url}"
+      ],
+      "hi": [
+        "{state} में {title} के लिए आवश्यक आय प्रमाण पत्र, जाति प्रमाण और मार्कशीट की चेकलिस्ट: {url}",
+        "{state} में {title} की आधिकारिक गाइडलाइन और पोर्टल लिंक। आवेदन पूरी तरह नि:शुल्क है: {url}",
+        "अंतिम तारीख से पहले छात्र {title} का ऑनलाइन फॉर्म सीधे सरकारी पोर्टल पर कैसे भरें: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} માટે જોઈતા આવકના દાખલા, જાતિના પુરાવા અને માર્કશીટની વિગતો: {url}",
+        "{state}માં {title} માટેની સત્તાવાર માર્ગદર્શિકા અને સરકારી પોર્ટલ લિંક. અરજી એકદમ ફ્રી છે: {url}",
+        "છેલ્લી તારીખ પહેલાં વિદ્યાર્થીઓ {title} માટે ઓનલાઇન ફોર્મ કેવી રીતે ભરી શકે: {url}"
+      ]
+    },
+    "health-and-welfare": {
+      "en": [
+        "Check eligibility and document requirements for {title} ({state}) to get government coverage: {url}",
+        "Ayushman / Welfare cards like {title} are issued free at authorized CSC centres. Verified guidelines: {url}",
+        "Step-by-step procedure to check your name in the beneficiary list and get {title} ({state}): {url}"
+      ],
+      "hi": [
+        "{state} में {title} के तहत सरकारी स्वास्थ्य लाभ पाने के लिए पात्रता और जरूरी दस्तावेजों की सूची: {url}",
+        "{title} जैसे सरकारी स्वास्थ्य कार्ड अधिकृत केंद्र पर मुफ्त बनते हैं। सही नियम यहां देखें: {url}",
+        "लाभार्थी सूची में अपना नाम जांचने और {title} बनवाने की पूरी प्रक्रिया: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} હેઠળ સહાય મેળવવા માટે પાત્રતા અને જરૂરી પુરાવાઓની યાદી: {url}",
+        "{state}માં {title} જેવા યોજના કાર્ડ સરકારી કેન્દ્રો પર મફત બને છે. સાચી માહિતી અહીં જુઓ: {url}",
+        "લાભાર્થી યાદીમાં નામ તપાસીને {title} મેળવવાની સરળ રીત: {url}"
+      ]
+    },
+    "jobs-and-pension": {
+      "en": [
+        "Required bank proofs, service documents, and forms for {title} claim ({state}): {url}",
+        "Verified statutory process for {title} ({state}) without paying any service fee: {url}",
+        "How to file your {title} online on the official EPFO / department portal: {url}"
+      ],
+      "hi": [
+        "{state} में {title} क्लेम के लिए आवश्यक पासबुक, सर्विस दस्तावेज और फॉर्म की सही लिस्ट: {url}",
+        "{state} में {title} का काम बिना किसी एजेंट फीस के पूरा करने की सत्यापित प्रक्रिया: {url}",
+        "आधिकारिक EPFO या सरकारी पोर्टल पर {title} ऑनलाइन सबमिट करने का तरीका: {url}"
+      ],
+      "gu": [
+        "{state}માં {title} ક્લેમ કરવા માટે બેંક પાસબુક અને જરૂરી ફોર્મ્સની ચકાસાયેલી યાદી: {url}",
+        "{state}માં {title} કોઈપણ એજન્ટ વિના પૂર્ણ કરવાની સત્તાવાર પ્રક્રિયા: {url}",
+        "સરકારી પોર્ટલ પરથી {title} ઓનલાઇન અરજી કરવાની સ્ટેપ-બાય-સ્ટેપ રીત: {url}"
+      ]
+    },
+    "utilities-and-connections": {
+      "en": [
+        "Ownership proof, NOC, and ID needed for new {title} connection ({state}). Official checklist: {url}",
+        "Statutory security deposit and application fees for {title} in {state}. Official electricity/gas portal: {url}",
+        "How to apply for {title} online directly on the state discom / gas utility portal: {url}"
+      ],
+      "hi": [
+        "{state} में {title} के नए कनेक्शन के लिए जरूरी मकान/जमीन के दस्तावेज और आईडी की लिस्ट: {url}",
+        "{state} में {title} की सरकारी सिक्योरिटी डिपॉजिट और आवेदन शुल्क का विवरण: {url}",
+        "बिजली/गैस वितरण कंपनी के आधिकारिक पोर्टल पर {title} ऑनलाइन अप्लाई करने की गाइड: {url}"
+      ],
+      "gu": [
+        "{state}માં {title}ના નવા જોડાણ માટે જરૂરી મકાન/જમીનના પુરાવા અને ઓળખકાર્ડની યાદી: {url}",
+        "{state}માં {title} માટે સરકારી ડિપોઝિટ અને સત્તાવાર ફીની વિગતો: {url}",
+        "વીજ કંપની કે ગેસ પોર્ટલ પરથી {title} માટે ઓનલાઇન અરજી કરવાની સરળ રીત: {url}"
+      ]
+    }
+  }
+}
