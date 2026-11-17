@@ -1,0 +1,462 @@
+{
+  "slug": "ration-card-new",
+  "name": "Ration Card: New or Member Addition",
+  "description": "Complete guide to applying for a new NFSA ration card or adding a family member online through state food portals with verified fees and rules.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Apply for a New Ration Card or Add Members (2026)",
+    "summary": "Step-by-step guide to applying for a new NFSA ration card or adding family members on state civil supplies portals. Verified statutory fees of ₹20 to ₹50, female head of household rules, and document requirements.",
+    "estimatedTime": "15-30 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://nfsa.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Check Household Eligibility and Category",
+        "description": "Verify household income against state NFSA eligibility limits. Antyodaya cards are reserved for poorest families, while PHH covers low-income households.",
+        "where": "National Food Security Portal (nfsa.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://nfsa.gov.in",
+        "officialLinkLabel": "Open National Food Security Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Know Your Category",
+        "calloutText": "NFSA categorizes households into Antyodaya Anna Yojana (AAY) for poorest families and Priority Households (PHH).",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Confirm Female Head of Household Details",
+        "description": "Under Section 13 of the NFSA, the eldest woman aged 18 or above must be designated as the head of the household.",
+        "where": "Family Profiling & Documentation",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Female Head Mandatory",
+        "calloutText": "If an adult female aged 18+ resides in the family, she must legally be registered as head of the family.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Open State Food & Civil Supplies Portal",
+        "description": "Log in to your state civil supplies portal and select 'Application for New Ration Card' or 'Add Member to Existing Card'.",
+        "where": "Official State Civil Supplies Portal",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Enter Household Address and Family Member Details",
+        "description": "Enter full residential address, fair price shop (FPS) location, and details of all family members including relationship and occupation.",
+        "where": "Online NFSA Application Form",
+        "estimatedTime": "15 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Enter Aadhaar Numbers for Mandatory Seeding",
+        "description": "Enter the 12-digit Aadhaar number and active mobile phone for every listed family member for biometric PDS verification.",
+        "where": "Online Aadhaar Seeding Interface",
+        "estimatedTime": "10 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Aadhaar Seeding Mandatory",
+        "calloutText": "Subsidized foodgrains under the NFSA require mandatory Aadhaar biometric linkage for all household beneficiaries.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Supporting Certificates and Identity Documents",
+        "description": "Upload address proof, income certificate, deletion certificate for newly married members, and birth certificates for minor children in PDF format.",
+        "where": "Online Document Upload Gateway",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Nominal Government Application Processing Fee",
+        "description": "Pay the nominal statutory state application fee of ₹20 to ₹50 online or at the citizen service centre counter.",
+        "where": "Integrated State Treasury / CSC Counter",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Field Verification by Food Inspector and Card Delivery",
+        "description": "The local Taluka Supply Officer (TSO) or Food Inspector verifies the residence. Upon approval, collect the physical ration card or download e-Ration slip.",
+        "where": "Doorstep Verification & Taluka Civil Supplies Office",
+        "estimatedTime": "15-30 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Aadhaar Cards for All Family Members",
+        "description": "Original Aadhaar cards with linked mobile numbers for every member listed on the ration card application.",
+        "requirementType": "required",
+        "copiesHint": "Aadhaar numbers for all members",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "name": "Proof of Present Residential Address",
+        "description": "Recent electricity bill, water bill, or registered house rent agreement confirming continuous household residence.",
+        "requirementType": "required",
+        "copiesHint": "Original document + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "name": "Income Certificate from Revenue Authority",
+        "description": "Official income certificate issued by the Talati, Tehsildar, or Revenue Officer to determine NFSA subsidy tier.",
+        "requirementType": "required",
+        "copiesHint": "Original certificate issued within 1 year",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "name": "Surrender / Deletion Certificate from Previous Card",
+        "description": "Official deletion certificate proving that a newly married spouse has been removed from their parental ration card.",
+        "requirementType": "conditional",
+        "copiesHint": "Original deletion receipt from prior Taluka",
+        "appliesWhen": {
+          "isNewlyMarriedOrShifted": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "name": "Birth Certificate of Child (For Adding Member)",
+        "description": "Municipal or panchayat birth certificate showing parents' names when adding a newborn or minor child.",
+        "requirementType": "conditional",
+        "copiesHint": "Clear self-attested photocopy",
+        "appliesWhen": {
+          "addingChild": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "name": "Passport Sized Photograph of Female Head of Family",
+        "description": "Recent frontal studio portrait of the female head of the family in clear color under 2 MB.",
+        "requirementType": "required",
+        "copiesHint": "2 color passport photographs",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "New Ration Card Application Fee",
+        "amount": 20,
+        "currency": "INR",
+        "paymentMode": "both",
+        "rulesReference": "State Food & Civil Supplies Rules",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "label": "Member Addition / Deletion Endorsement Fee",
+        "amount": 10,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "State Food & Civil Supplies Rules",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "label": "Plastic Laminated / Smart Ration Card Printing Fee",
+        "amount": 50,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "State Civil Supplies Schedule",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Ration Card Fee Calculator",
+      "description": "Calculate official state processing charges for new card issuance or adding family members.",
+      "baseFee": 20,
+      "baseFeeLabel": "New Ration Card Processing Fee (₹20)",
+      "officialSourceUrl": "https://dfpd.gov.in",
+      "officialSourceLabel": "Food & Civil Supplies Fee Schedule",
+      "rulesReference": "State Food & Civil Supplies Rules",
+      "options": [
+        {
+          "id": "card_service",
+          "label": "Service Category",
+          "type": "service",
+          "defaultChoiceId": "new_card",
+          "choices": [
+            {
+              "id": "new_card",
+              "label": "New Ration Card Application (₹20)",
+              "amount": 0,
+              "description": "Standard processing fee for new household card"
+            },
+            {
+              "id": "add_member",
+              "label": "Add Family Member Only (₹10) (-₹10)",
+              "amount": -10,
+              "description": "Endorsement fee to add spouse or newborn child"
+            }
+          ]
+        },
+        {
+          "id": "smart_card",
+          "label": "Card Format Option",
+          "type": "format",
+          "defaultChoiceId": "paper_booklet",
+          "choices": [
+            {
+              "id": "paper_booklet",
+              "label": "Standard Paper Booklet / e-Ration Slip (₹0)",
+              "amount": 0,
+              "description": "Standard paper format issued by civil supplies"
+            },
+            {
+              "id": "smart_pvc",
+              "label": "Plastic Smart Card with Barcode (+₹30)",
+              "amount": 30,
+              "description": "Durable plastic card where state infrastructure supports it"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Food Security Portal (NFSA)",
+        "url": "https://nfsa.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Consumer Affairs, Food and Public Distribution",
+        "portalName": "National Food Security Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      },
+      {
+        "label": "Department of Food & Public Distribution",
+        "url": "https://dfpd.gov.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "DFPD Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "label": "National Government Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Aadhaar Number Already Seeded in Another Active Ration Card",
+        "description": "If any family member's Aadhaar remains active on a previous household card, the automated deduplication system halts approval.",
+        "solution": "Obtain an official deletion certificate from the previous taluka before adding the member.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "title": "Household Income Exceeding NFSA Priority Limits",
+        "description": "Households declaring annual income above state priority thresholds are ineligible for subsidized NFSA foodgrains.",
+        "solution": "Apply for a Non-NFSA Above Poverty Line (APL) card for identity and address documentation.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "title": "Missing Deletion Certificate for Newlywed Spouse",
+        "description": "Adding a married daughter-in-law without an official deletion slip from her parental card causes rejection.",
+        "solution": "Submit Form 3 (Deletion Request) at her parent's taluka office to secure the cancellation slip.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "title": "Male Member Listed as Head When Eligible Female Exists",
+        "description": "Section 13 of the NFSA strictly mandates that the eldest woman aged 18+ must be registered as head of household.",
+        "solution": "Designate the eldest female member as the family head on the application form.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "title": "Address Mismatch with Local Fair Price Shop (FPS) Jurisdiction",
+        "description": "Selecting an FPS dealer outside your administrative revenue village or municipal ward causes application transfer delays.",
+        "solution": "Select the authorized fair price shop assigned specifically to your street or neighborhood.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "title": "Incomplete Supporting Documents for Minor Children",
+        "description": "Attempting to add children without an official municipal birth certificate or Aadhaar card leads to rejection.",
+        "solution": "Upload the certified municipal birth certificate clearly displaying both father's and mother's names.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Who must be named as the head of the family on a ration card?",
+        "answer": "Under Section 13 of the NFSA, the eldest woman member of the household aged 18 years or above must be the head.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "question": "Can a newly married woman be added to her husband's ration card?",
+        "answer": "Yes. She can be added after obtaining a deletion certificate from her parental household's ration card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "question": "What is the difference between Antyodaya (AAY) and Priority (PHH) cards?",
+        "answer": "AAY cards provide 35 kg subsidized foodgrains per household, while PHH cards allocate 5 kg per member monthly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "question": "Is Aadhaar card compulsory for all family members on a ration card?",
+        "answer": "Yes. The central government mandates 100% Aadhaar biometric seeding for all members to receive subsidized rations.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "question": "What is the statutory fee to apply for a new ration card?",
+        "answer": "The statutory processing fee ranges from ₹20 to ₹50 depending on the state civil supplies schedule.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "question": "What is the 'One Nation One Ration Card' (ONORC) scheme?",
+        "answer": "ONORC enables migrant workers to lift their subsidized foodgrains from any fair price shop in India using biometric authentication.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      },
+      {
+        "question": "How long does it take to get a new ration card approved?",
+        "answer": "Most states mandate field verification and card issuance within 15 to 30 working days under citizen charter rules.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://dfpd.gov.in"
+      },
+      {
+        "question": "How can I download my digital ration card online?",
+        "answer": "Visit your state civil supplies portal or DigiLocker, select 'Ration Card', enter your card number, and verify with OTP.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://nfsa.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Start Your Ration Card Application",
+      "subtitle": "5 final checks before submitting your NFSA application",
+      "items": [
+        {
+          "id": "all_aadhaars",
+          "title": "Aadhaar Numbers for All Members",
+          "description": "Have original Aadhaar cards and active mobile phones ready for all household members.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "female_head_photo",
+          "title": "Female Head of Family Photo",
+          "description": "Ensure clear studio passport portraits of the eldest woman aged 18 or older.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "deletion_cert",
+          "title": "Deletion Certificate (If Married)",
+          "description": "Keep original cancellation slip ready if adding a newly married daughter-in-law.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "income_cert",
+          "title": "Revenue Income Certificate",
+          "description": "Obtain current annual income certificate from the local Tehsildar or Talati.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "fps_selection",
+          "title": "Assigned Fair Price Shop Details",
+          "description": "Identify the exact dealer name and booth number of your local neighbourhood ration shop.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "National Food Security Act, 2013",
+        "actOrRuleNumber": "Section 10 & Section 13 (Women Empowerment in Ration Cards)",
+        "issuingAuthority": "Parliament of India / Ministry of Consumer Affairs",
+        "url": "https://dfpd.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Targeted Public Distribution System (Control) Order, 2015",
+        "actOrRuleNumber": "Clause 4 (Identification of Eligible Households)",
+        "issuingAuthority": "Department of Food and Public Distribution",
+        "url": "https://dfpd.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for a Ration Card in Gujarat (2026)",
+      "summary": "Gujarat citizens can apply online via the Digital Gujarat portal or submit Form 2 at local Jan Seva Kendras (Mamlatdar offices). The statutory application fee is ₹20 with 15-day delivery under the Gujarat Citizen Charter.",
+      "estimatedTime": "15-30 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}

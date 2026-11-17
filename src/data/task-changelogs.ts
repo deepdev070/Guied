@@ -232,6 +232,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://eci.gov.in",
     },
   ],
+  "ration-card-new": [
+    {
+      id: "rc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Ration Card (NFSA) Guide Published & Verified",
+      description:
+        "Full NFSA ration card and member addition guide published with verified ₹20-₹50 statutory fees, Section 13 female head of household rules, and e-PDS steps.",
+      officialSourceLabel: "Department of Food and Public Distribution (dfpd.gov.in)",
+      officialSourceUrl: "https://dfpd.gov.in",
+    },
+    {
+      id: "rc-2026-06-15-02",
+      date: "2026-06-15",
+      changeType: "rule",
+      changeTypeLabel: "ONORC Portability",
+      title: "One Nation One Ration Card (ONORC) Nationwide Portability Active",
+      description:
+        "Beneficiaries can lift allocated foodgrains from any operational fair price shop in India using biometric Aadhaar e-PoS authentication.",
+      officialSourceLabel: "NFSA National Portability Guidelines",
+      officialSourceUrl: "https://nfsa.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

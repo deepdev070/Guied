@@ -379,9 +379,9 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
   {
     slug: "ration-card-new",
     name: "Ration Card: New or Member Addition",
-    title: "New NFSA Ration Card & Family Member Addition",
+    title: "How to Apply for a New Ration Card or Add Members (2026)",
     summary:
-      "Apply for new household ration card or add newly married spouse or child to existing card.",
+      "Step-by-step guide to applying for a new NFSA ration card or adding family members on state civil supplies portals with verified ₹20 to ₹50 statutory fees.",
     categorySlug: "family-and-certificates",
     categoryName: "Family and Certificates",
     difficulty: "medium",
@@ -397,13 +397,17 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
       "nfsa",
       "ration",
       "rashan",
+      "add member ration card",
+      "digital gujarat ration card",
     ],
     documentSnippets: [
-      "Family group photograph",
       "Aadhaar cards of all family members",
-      "Income certificate from Talati / Mamlatdar",
       "Proof of residence (Electricity bill / Property tax)",
+      "Income certificate from Talati / Mamlatdar",
+      "Deletion certificate from prior card (if newly married)",
+      "Birth certificate of child (for adding newborn)",
     ],
+    launchState: true,
   },
   {
     slug: "marriage-certificate",
