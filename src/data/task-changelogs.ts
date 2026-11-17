@@ -184,6 +184,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://incometaxindia.gov.in",
     },
   ],
+  "pan-aadhaar-link": [
+    {
+      id: "pan-aadh-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Link PAN with Aadhaar Guide Published & Verified",
+      description:
+        "Full PAN-Aadhaar linkage procedure published with verified ₹1,000 late fee under Section 234H, Minor Head 500 payment rules, and e-filing steps.",
+      officialSourceLabel: "Income Tax Department (incometaxindia.gov.in)",
+      officialSourceUrl: "https://incometaxindia.gov.in",
+    },
+    {
+      id: "pan-aadh-2026-07-01-02",
+      date: "2026-07-01",
+      changeType: "rule",
+      changeTypeLabel: "Inoperative PAN Consequences",
+      title: "Statutory Consequences of Inoperative PAN Status Confirmed",
+      description:
+        "CBDT confirms that unlinked PAN cards remain inoperative, incurring TDS/TCS at higher 20% rates and blocking tax refund processing.",
+      officialSourceLabel: "CBDT Circular No. 03/2023",
+      officialSourceUrl: "https://incometaxindia.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

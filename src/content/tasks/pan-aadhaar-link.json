@@ -1,0 +1,422 @@
+{
+  "slug": "pan-aadhaar-link",
+  "name": "Link PAN with Aadhaar",
+  "description": "Complete guide to linking PAN with Aadhaar online on the Income Tax e-filing portal. Includes verified statutory fee of ₹1,000, exemption rules, and status checks.",
+  "categorySlug": "money-and-tax",
+  "national": {
+    "title": "How to Link PAN with Aadhaar Online (2026)",
+    "summary": "Step-by-step guide to linking your PAN with Aadhaar on the official Income Tax e-filing portal. Verified statutory fee of ₹1,000 under Section 234H, exemption categories, and biometric matching rules.",
+    "estimatedTime": "1-3 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://incometaxindia.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Open Income Tax e-Filing Portal and Click 'Link Aadhaar'",
+        "description": "Visit incometax.gov.in and click 'Link Aadhaar' under Quick Links on the homepage.",
+        "where": "Official Income Tax e-Filing Portal (incometax.gov.in)",
+        "estimatedTime": "2 minutes",
+        "officialLinkUrl": "https://www.incometax.gov.in",
+        "officialLinkLabel": "Open Income Tax Link Aadhaar Portal",
+        "calloutType": "tip",
+        "calloutTitle": "No Login Required",
+        "calloutText": "You can link your PAN and Aadhaar directly from the homepage without logging into an account.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Enter 10-Digit PAN and 12-Digit Aadhaar Number",
+        "description": "Type your permanent account number and Aadhaar number to verify current linkage status.",
+        "where": "Online Link Aadhaar Form",
+        "estimatedTime": "2 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Check Exemption Categories",
+        "calloutText": "Residents of Assam, Meghalaya, and J&K, non-citizens, and citizens aged 80+ are legally exempt from penalty.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Pay Statutory Penalty Fee of ₹1,000 via e-Pay Tax",
+        "description": "Select Assessment Year and choose Major Head 0021 and Minor Head 500 (Fee for delay in linking PAN-Aadhaar).",
+        "where": "Integrated e-Pay Tax Gateway",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Select Correct Minor Head",
+        "calloutText": "Payment must be made under Minor Head 500 (Other Receipts) for delayed PAN-Aadhaar linkage.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Wait for Payment Challan Realization (24 to 48 Hours)",
+        "description": "Wait until the e-Pay Tax challan reflects in the Income Tax database before submitting the final linkage request.",
+        "where": "Banking Clearing & Tax Database Sync",
+        "estimatedTime": "24-48 hours",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Re-open 'Link Aadhaar' After Payment Clears",
+        "description": "Re-enter your PAN and Aadhaar number. The portal will display 'Your payment details are verified'.",
+        "where": "Income Tax e-Filing Portal",
+        "estimatedTime": "2 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Enter Name and Mobile Number Exactly as on Aadhaar",
+        "description": "Enter your full name and mobile number. Tick 'I agree to validate my Aadhaar details'.",
+        "where": "Aadhaar Demographic Verification Screen",
+        "estimatedTime": "2 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Authenticate via Aadhaar 6-Digit OTP",
+        "description": "Enter the one-time password sent to your Aadhaar-registered mobile number and click Validate.",
+        "where": "UIDAI OTP Verification Screen",
+        "estimatedTime": "2 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Track Linkage Request and Confirm Operative Status",
+        "description": "Check status under 'Link Aadhaar Status' using PAN and Aadhaar to confirm your PAN is fully operative.",
+        "where": "Link Aadhaar Status Interface",
+        "estimatedTime": "1 minute",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Active Permanent Account Number (PAN) Card",
+        "description": "Valid 10-character alphanumeric PAN card issued by the Income Tax Department.",
+        "requirementType": "required",
+        "copiesHint": "10-character PAN number",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Aadhaar Card with Linked Mobile Number",
+        "description": "Valid 12-digit Aadhaar card with an active phone number to receive the UIDAI authentication OTP.",
+        "requirementType": "required",
+        "copiesHint": "12-digit Aadhaar number",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "e-Pay Tax Challan Receipt (BSR Code & Challan No.)",
+        "description": "Statutory challan receipt showing payment of ₹1,000 under Minor Head 500 on the e-filing portal.",
+        "requirementType": "required",
+        "copiesHint": "Downloadable PDF challan receipt",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Proof of Exemption Category",
+        "description": "Domicile certificate for Assam, Meghalaya, or J&K, foreign passport for non-citizens, or age proof for citizens aged 80+.",
+        "requirementType": "conditional",
+        "copiesHint": "Original government proof",
+        "appliesWhen": {
+          "isExempt": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Biometric Authentication Form at Service Centre",
+        "description": "Biometric mismatch correction form submitted at an authorized Protean or UTIITSL centre if demographic data differs.",
+        "requirementType": "conditional",
+        "copiesHint": "Physical form + biometric scan",
+        "appliesWhen": {
+          "demographicMismatch": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Statutory Late Fee for Linking PAN with Aadhaar",
+        "amount": 1000,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Income Tax Act Section 234H",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "label": "Biometric Authentication Fee for Data Mismatch at Centre",
+        "amount": 50,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "CBDT Circular No. 6/2024",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "PAN-Aadhaar Linkage Fee Calculator",
+      "description": "Calculate whether statutory Section 234H late fees apply based on residency and age.",
+      "baseFee": 1000,
+      "baseFeeLabel": "Standard Statutory Penalty under Section 234H (₹1,000)",
+      "officialSourceUrl": "https://incometaxindia.gov.in",
+      "officialSourceLabel": "Income Tax Section 234H Schedule",
+      "rulesReference": "Income Tax Act 1961 Section 234H",
+      "options": [
+        {
+          "id": "exemption_status",
+          "label": "Exemption Category Check",
+          "type": "exemption",
+          "defaultChoiceId": "general_citizen",
+          "choices": [
+            {
+              "id": "general_citizen",
+              "label": "Standard Indian Citizen (₹1,000)",
+              "amount": 0,
+              "description": "Statutory penalty applies under Section 234H"
+            },
+            {
+              "id": "exempt_category",
+              "label": "Exempt Category (Resident of Assam/Meghalaya/J&K, Age 80+, Non-Citizen) (-₹1,000)",
+              "amount": -1000,
+              "description": "Exempt from mandatory penalty under Notification No. 37/2017"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Income Tax e-Filing Link Aadhaar Portal",
+        "url": "https://www.incometax.gov.in",
+        "isPrimary": true,
+        "department": "Income Tax Department",
+        "portalName": "e-Filing Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.incometax.gov.in"
+      },
+      {
+        "label": "Income Tax Department of India",
+        "url": "https://incometaxindia.gov.in",
+        "isPrimary": false,
+        "department": "Central Board of Direct Taxes (CBDT)",
+        "portalName": "Income Tax Official Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "label": "National Government Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Name Spelling Mismatch Between PAN and Aadhaar",
+        "description": "If your name on the PAN card differs from the Aadhaar card, the automated matching algorithm fails.",
+        "solution": "Correct the spelling on either PAN or Aadhaar to match before linking, or visit an authorized centre for biometric linkage.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Date of Birth or Gender Mismatch in Records",
+        "description": "A discrepancy in the date of birth or recorded gender prevents automated database synchronization.",
+        "solution": "Update your date of birth on the myAadhaar portal or submit a PAN correction Form CSF.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Submitting Linkage Request Before Payment Realization",
+        "description": "Attempting to link immediately after paying ₹1,000 before the bank challan clears in the tax database causes an error.",
+        "solution": "Wait 24 to 48 hours after payment until the portal shows 'Your payment details are verified'.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Inoperative PAN with Mismatched Mobile Number",
+        "description": "Unable to receive the 6-digit OTP because the Aadhaar registered mobile number is inactive or changed.",
+        "solution": "Update your mobile number at an Aadhaar Seva Kendra before initiating the link request.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Attempting to Link Cancelled or Duplicate PAN",
+        "description": "If you hold more than one PAN and attempt to link an inactive or deactivated number, the request fails.",
+        "solution": "Surrender the duplicate PAN and link your genuine operative permanent account number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Entering Incorrect Challan Minor Head Code",
+        "description": "Selecting an incorrect head code instead of Minor Head 500 (Fee for delay in linking PAN-Aadhaar) invalidates the payment.",
+        "solution": "Select Major Head 0021 and Minor Head 500 strictly under the e-Pay Tax payment menu.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the penalty fee for linking PAN with Aadhaar?",
+        "answer": "The statutory penalty is ₹1,000 under Section 234H of the Income Tax Act paid via the e-Pay Tax service.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "What happens if I do not link my PAN with Aadhaar?",
+        "answer": "Your PAN becomes inoperative, leading to higher TDS/TCS deduction at 20% and inability to claim income tax refunds.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Who is legally exempt from linking PAN with Aadhaar?",
+        "answer": "Residents of Assam, Meghalaya, and J&K, non-residents, non-citizens, and citizens aged 80 years or older are exempt.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "How long does it take for PAN to become operative after paying ₹1,000?",
+        "answer": "Payment confirmation takes 24 to 48 hours, and the PAN becomes operative within 30 days of submitting the link request.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "What should I do if my name spelling differs between PAN and Aadhaar?",
+        "answer": "Update the spelling on your PAN or Aadhaar first, or visit an authorized centre for biometric authentication linkage.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Can I link PAN with Aadhaar if my mobile number is not linked to Aadhaar?",
+        "answer": "No. Online linkage requires OTP validation sent to the mobile number registered with UIDAI.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "How can I verify whether my PAN and Aadhaar are already linked?",
+        "answer": "Click 'Link Aadhaar Status' on incometax.gov.in, enter your PAN and Aadhaar, and view instant confirmation.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Can I get a refund of the ₹1,000 fee if I made an error during payment?",
+        "answer": "No. Statutory fees paid under Section 234H are non-refundable by the Income Tax Department.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Start PAN-Aadhaar Linkage",
+      "subtitle": "5 final checks before submitting your linkage request",
+      "items": [
+        {
+          "id": "pan_aadhaar_numbers",
+          "title": "10-Digit PAN & 12-Digit Aadhaar Numbers",
+          "description": "Have both original cards ready to verify the exact alphanumeric digits.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "aadhaar_otp_phone",
+          "title": "Aadhaar Registered Mobile Phone",
+          "description": "Keep your phone active and near you to receive the 6-digit UIDAI validation OTP.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "challan_payment",
+          "title": "Online Banking / UPI for ₹1,000 Fee",
+          "description": "Ensure sufficient funds to pay the statutory fee under Major Head 0021 and Minor Head 500.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "name_dob_match",
+          "title": "Spelling and Date of Birth Match",
+          "description": "Verify that your name, date of birth, and gender match identically on both documents.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "challan_receipt_save",
+          "title": "Challan Receipt & BSR Code Saved",
+          "description": "Download and save the payment challan receipt with the 7-digit BSR code.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Income Tax Act, 1961",
+        "actOrRuleNumber": "Section 139AA & Section 234H",
+        "issuingAuthority": "Parliament of India / Central Board of Direct Taxes",
+        "url": "https://incometaxindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Income Tax Rules, 1962",
+        "actOrRuleNumber": "Rule 114AAA (Manner of Making Permanent Account Number Inoperative)",
+        "issuingAuthority": "Ministry of Finance / CBDT",
+        "url": "https://incometaxindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Link PAN with Aadhaar in Gujarat (2026)",
+      "summary": "Linking PAN with Aadhaar is 100% digital across Gujarat via the national Income Tax e-filing portal. Citizens facing name mismatches can visit local Protean TIN-FC centres in Ahmedabad, Surat, and Vadodara for biometric verification.",
+      "estimatedTime": "1-3 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
