@@ -10,6 +10,8 @@ export interface ChecklistIndexEntry {
   totalCount: number;
   completedCount: number;
   lastUpdated: string;
+  savedVersion?: string; // e.g. "2026-11-14T00:00:00.000Z" (PROMPT 145)
+  rulesChanged?: boolean; // True when newer guide rules are detected (PROMPT 145)
 }
 
 const CHECKLIST_INDEX_KEY = "my_checklists_index";
@@ -46,7 +48,7 @@ export function saveStoredCompletedDocs(
   taskSlug: string,
   stateSlug: string | undefined,
   docIds: string[],
-  meta?: { taskTitle?: string; totalCount?: number }
+  meta?: { taskTitle?: string; totalCount?: number; currentVersion?: string }
 ): void {
   const storage = getStorage();
   if (!storage) return;
@@ -57,6 +59,7 @@ export function saveStoredCompletedDocs(
 
     // Update global checklist index for "My Checklists" page
     if (meta?.taskTitle && meta.totalCount !== undefined) {
+      const existing = getChecklistEntry(taskSlug, stateSlug);
       updateChecklistIndex({
         taskSlug,
         stateSlug: stateSlug || "national",
@@ -64,6 +67,8 @@ export function saveStoredCompletedDocs(
         totalCount: meta.totalCount,
         completedCount: docIds.length,
         lastUpdated: new Date().toISOString(),
+        savedVersion: meta.currentVersion || existing?.savedVersion || new Date().toISOString(),
+        rulesChanged: false,
       });
     }
 
@@ -82,6 +87,69 @@ export function saveStoredCompletedDocs(
   } catch {
     // Graceful fallback for storage limits
   }
+}
+
+/**
+ * Retrieves a single checklist index entry for a task and state (Prompt 145).
+ */
+export function getChecklistEntry(
+  taskSlug: string,
+  stateSlug?: string
+): ChecklistIndexEntry | null {
+  const index = getAllChecklistsIndex();
+  const normalizedState = stateSlug || "national";
+  return (
+    index.find((item) => item.taskSlug === taskSlug && item.stateSlug === normalizedState) || null
+  );
+}
+
+/**
+ * Compares the saved guide version in local storage against the live version.
+ * If live version is newer, sets rulesChanged: true and returns true (Prompt 145).
+ */
+export function checkRulesChanged(
+  taskSlug: string,
+  currentVersion: string,
+  stateSlug?: string
+): boolean {
+  const storage = getStorage();
+  if (!storage || !currentVersion) return false;
+
+  const entry = getChecklistEntry(taskSlug, stateSlug);
+  if (!entry || !entry.savedVersion) return false;
+
+  const savedTime = new Date(entry.savedVersion).getTime();
+  const currentTime = new Date(currentVersion).getTime();
+
+  // If valid dates, compare timestamps; otherwise compare version strings directly
+  const hasChanged =
+    !isNaN(savedTime) && !isNaN(currentTime)
+      ? currentTime > savedTime
+      : entry.savedVersion !== currentVersion;
+
+  if (hasChanged && !entry.rulesChanged) {
+    entry.rulesChanged = true;
+    updateChecklistIndex(entry);
+    return true;
+  }
+
+  return Boolean(entry.rulesChanged);
+}
+
+/**
+ * Acknowledges changes, clearing the "Rules changed" badge and updating savedVersion (Prompt 145).
+ */
+export function markRulesAcknowledged(
+  taskSlug: string,
+  currentVersion: string,
+  stateSlug?: string
+): void {
+  const entry = getChecklistEntry(taskSlug, stateSlug);
+  if (!entry) return;
+
+  entry.savedVersion = currentVersion;
+  entry.rulesChanged = false;
+  updateChecklistIndex(entry);
 }
 
 export function clearStoredCompletedDocs(taskSlug: string, stateSlug?: string): void {

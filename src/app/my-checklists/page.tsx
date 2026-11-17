@@ -12,6 +12,7 @@ import {
   Copy,
   ShieldCheck,
   AlertCircle,
+  AlertTriangle,
   FileCheck2,
 } from "lucide-react";
 import {
@@ -267,7 +268,7 @@ export default function MyChecklistsPage() {
                     />
 
                     <div>
-                      <div className="flex items-center gap-2">
+                      <div className="flex flex-wrap items-center gap-2">
                         <Link
                           href={targetUrl}
                           className="text-body text-text hover:text-primary font-bold tracking-tight"
@@ -277,6 +278,16 @@ export default function MyChecklistsPage() {
                         <span className="bg-surface-alt text-muted border-border rounded-full border px-2 py-0.5 text-[10px] font-bold uppercase">
                           {item.stateSlug === "national" ? "All India" : item.stateSlug}
                         </span>
+                        {item.rulesChanged && (
+                          <span
+                            aria-label="Rules changed since you saved this checklist"
+                            title="Government rules or fees were updated since you last saved this guide"
+                            className="inline-flex items-center gap-1 rounded-full border border-amber-300 bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-900"
+                          >
+                            <AlertTriangle className="h-3 w-3 text-amber-800" />
+                            <span>Rules changed</span>
+                          </span>
+                        )}
                       </div>
 
                       <div className="text-muted mt-1 flex items-center gap-2 text-xs">

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -20,6 +20,7 @@ import { TaskJourney } from "./TaskJourney";
 import { RelatedTasks } from "./RelatedTasks";
 import { TaskSidebar } from "./TaskSidebar";
 import { ShareButtonGroup } from "./ShareButtonGroup";
+import { WhatChangedSection } from "./WhatChangedSection";
 import { ListenButton } from "./ListenButton";
 import { AdSlot } from "@/components/ads/AdSlot";
 import { MobileAnchorAd } from "@/components/ads/MobileAnchorAd";
@@ -52,6 +53,8 @@ import {
   getStoredCompletedDocs,
   saveStoredCompletedDocs,
   clearStoredCompletedDocs,
+  checkRulesChanged,
+  markRulesAcknowledged,
 } from "@/lib/checklist-storage";
 import type { MergedTaskVariant, TaskSummary } from "@/lib/queries";
 import type { TaskContent } from "@/types/content";
@@ -88,6 +91,20 @@ export function TaskPageView({
     getStoredCompletedDocs(task.slug, state?.slug)
   );
 
+  const [hasRulesChanged, setHasRulesChanged] = useState(false);
+
+  useEffect(() => {
+    const changed = checkRulesChanged(task.slug, String(variant.lastVerifiedAt || ""), state?.slug);
+    if (changed) {
+      setHasRulesChanged(true);
+    }
+  }, [task.slug, variant.lastVerifiedAt, state?.slug]);
+
+  const handleAcknowledgeRules = () => {
+    markRulesAcknowledged(task.slug, String(variant.lastVerifiedAt || ""), state?.slug);
+    setHasRulesChanged(false);
+  };
+
   const handleToggleDoc = (docId: string) => {
     setCompletedDocIds((prev) => {
       const exists = prev.includes(docId);
@@ -95,6 +112,7 @@ export function TaskPageView({
       saveStoredCompletedDocs(task.slug, state?.slug, next, {
         taskTitle: task.name,
         totalCount: variant.documentRequirements.length,
+        currentVersion: String(variant.lastVerifiedAt || ""),
       });
 
       // Track checklist start and completion (Prompt 82)
@@ -220,6 +238,47 @@ export function TaskPageView({
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
           {/* Main Column */}
           <div className="lg:col-span-8">
+            {/* Rules Changed Retention Banner (Prompt 145) */}
+            {hasRulesChanged && (
+              <div
+                role="status"
+                aria-live="polite"
+                className="mb-5 rounded-xl border border-amber-300 bg-amber-50 p-4 text-xs sm:text-sm"
+              >
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                  <div className="flex items-start gap-2.5">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-amber-100 font-bold text-amber-900">
+                      ⚠️
+                    </span>
+                    <div>
+                      <strong className="font-bold text-amber-950">
+                        Official Rules Changed Since Your Last Save
+                      </strong>
+                      <p className="mt-0.5 text-xs text-amber-900">
+                        Statutory fees or portal procedures were updated since you last saved this
+                        guide.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex shrink-0 items-center gap-2 self-end sm:self-center">
+                    <a
+                      href="#what-changed"
+                      className="rounded-lg bg-amber-900 px-3 py-1.5 text-xs font-bold text-white transition-colors hover:bg-amber-950"
+                    >
+                      What Changed ↓
+                    </a>
+                    <button
+                      type="button"
+                      onClick={handleAcknowledgeRules}
+                      className="rounded-lg border border-amber-300 bg-white px-2.5 py-1.5 text-xs font-semibold text-amber-900 transition-colors hover:bg-amber-100"
+                    >
+                      Dismiss
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Header Area */}
             <div className="flex flex-col gap-3">
               {/* Verified Badge and Category Link */}
@@ -347,6 +406,9 @@ export function TaskPageView({
 
             {/* Official Links Section */}
             <OfficialLinksSection links={variant.officialLinks} />
+
+            {/* Prompt 145: What Changed Log (Email-Free Retention) */}
+            <WhatChangedSection taskSlug={task.slug} stateCode={state?.code} className="my-8" />
 
             {/* Share with Family & Friends */}
             <ShareButtonGroup
