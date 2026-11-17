@@ -208,6 +208,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://incometaxindia.gov.in",
     },
   ],
+  "voter-id-new": [
+    {
+      id: "vot-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "New Voter ID (Form 6) Guide Published & Verified",
+      description:
+        "Full first-time voter registration guide published with verified ₹0 statutory fee, 4 annual qualifying dates, and BLO verification steps.",
+      officialSourceLabel: "Election Commission of India (voters.eci.gov.in)",
+      officialSourceUrl: "https://voters.eci.gov.in",
+    },
+    {
+      id: "vot-2026-08-01-02",
+      date: "2026-08-01",
+      changeType: "rule",
+      changeTypeLabel: "Four Qualifying Dates",
+      title: "Advance Application Across 4 Annual Qualifying Dates Enabled",
+      description:
+        "Citizens turning 18 can now file advance Form 6 applications for any of the 4 qualifying dates (1 Jan, 1 April, 1 July, 1 Oct).",
+      officialSourceLabel: "Election Commission of India Notification",
+      officialSourceUrl: "https://eci.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

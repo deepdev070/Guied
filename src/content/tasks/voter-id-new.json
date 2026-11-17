@@ -1,0 +1,416 @@
+{
+  "slug": "voter-id-new",
+  "name": "New Voter ID Card (Form 6)",
+  "description": "Complete guide to applying for a new Indian Voter ID card online on the Voters Service Portal. Includes Form 6 steps, document requirements, and BLO checks.",
+  "categorySlug": "identity",
+  "national": {
+    "title": "How to Apply for a New Voter ID Card Online (Form 6 - 2026)",
+    "summary": "Step-by-step guide to applying for a first-time Voter ID card using Form 6 on the official Voters' Service Portal. Verified zero statutory fee, four annual qualifying dates, and complete document guidelines.",
+    "estimatedTime": "15-30 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://voters.eci.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Register and Log in on Voters' Service Portal",
+        "description": "Visit voters.eci.gov.in, sign up with your mobile number, and log in using password and OTP verification.",
+        "where": "Official Voters' Service Portal (voters.eci.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://voters.eci.gov.in",
+        "officialLinkLabel": "Open Voters' Service Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Free Government Service",
+        "calloutText": "The Election Commission of India provides voter registration and physical EPIC cards 100% free of charge.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Select 'Fill Form 6 - Register as a New Elector'",
+        "description": "Click on 'Form 6' designed for first-time voters turning 18 or citizens not yet registered in any electoral roll.",
+        "where": "Voters' Portal Dashboard",
+        "estimatedTime": "2 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Select State, District, and Assembly Constituency",
+        "description": "Choose your resident state, revenue district, and legislative assembly constituency where you currently reside.",
+        "where": "Online Form 6 - Section A",
+        "estimatedTime": "3 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Ordinary Residence Rule",
+        "calloutText": "Select the assembly constituency corresponding to where you currently sleep and live on a day-to-day basis.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Enter Personal Details and Upload Passport Photograph",
+        "description": "Enter your first name, surname, and gender. Upload a recent color passport-size photograph with white background under 2 MB.",
+        "where": "Online Form 6 - Section B",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Enter Relative Details and Contact Information",
+        "description": "Provide father's, mother's, or spouse's name. Enter your personal mobile number and active email address for OTP alerts.",
+        "where": "Online Form 6 - Section C & D",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Fill Present Residential Address and Upload Address Proof",
+        "description": "Fill house number, street, locality, village/town, post office, and PIN code. Upload self-attested proof of residence.",
+        "where": "Online Form 6 - Section E",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Fill Date of Birth and Upload Age Proof",
+        "description": "Enter exact date of birth and upload Aadhaar, birth certificate, or school marksheet as proof of age.",
+        "where": "Online Form 6 - Section F",
+        "estimatedTime": "5 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Qualifying Dates",
+        "calloutText": "You can apply in advance if turning 18 before 1st Jan, 1st April, 1st July, or 1st Oct.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Submit Declaration and Receive Application Reference Number",
+        "description": "Sign the online declaration and submit Form 6. Save your 16-character alphanumeric reference number to track your BLO verification.",
+        "where": "Acknowledgment Screen & SMS Gateway",
+        "estimatedTime": "2 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Proof of Date of Birth (PoB)",
+        "description": "Birth certificate, Aadhaar card, PAN card, driving licence, Indian passport, or class 10 school mark sheet.",
+        "requirementType": "required",
+        "copiesHint": "Clear self-attested scan under 2 MB",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "name": "Proof of Ordinary Residence (PoA)",
+        "description": "Electricity, water, or gas bill (1 year), current bank passbook, Indian passport, or registered rent agreement.",
+        "requirementType": "required",
+        "copiesHint": "Clear self-attested scan under 2 MB",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "name": "Passport Sized Color Photograph (4.5 cm x 3.5 cm)",
+        "description": "Recent frontal portrait photograph with a clean white background in JPEG format under 2 MB.",
+        "requirementType": "required",
+        "copiesHint": "Digital JPEG image upload",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "name": "Self-Declaration Form (For Applicants Aged 21+)",
+        "description": "Mandatory declaration stating that the applicant has not been enrolled in any other constituency previously.",
+        "requirementType": "conditional",
+        "copiesHint": "Signed declaration template",
+        "appliesWhen": {
+          "applicantAge": {
+            "gte": 21
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "name": "Family Member EPIC Number",
+        "description": "Voter ID card number of father, mother, or spouse who is already enrolled in the same electoral polling station.",
+        "requirementType": "conditional",
+        "copiesHint": "10-character EPIC number string",
+        "appliesWhen": {
+          "hasFamilyEnrolled": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "New Voter Registration and Physical EPIC Card Delivery",
+        "amount": 0,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Registration of Electors Rules 1960",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "label": "Digital e-EPIC PDF Download",
+        "amount": 0,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "ECI Digital Voter ID Directive",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Voter ID Registration Fee Calculator",
+      "description": "Check official statutory charges for Form 6 new voter registration and EPIC dispatch.",
+      "baseFee": 0,
+      "baseFeeLabel": "Statutory ECI Registration Fee (₹0 - Completely Free)",
+      "officialSourceUrl": "https://voters.eci.gov.in",
+      "officialSourceLabel": "ECI Citizen Charter",
+      "rulesReference": "Registration of Electors Rules 1960",
+      "options": [
+        {
+          "id": "card_type",
+          "label": "Voter Card Delivery Option",
+          "type": "delivery",
+          "defaultChoiceId": "free_service",
+          "choices": [
+            {
+              "id": "free_service",
+              "label": "Physical Plastic EPIC Delivered by Post (₹0 Free)",
+              "amount": 0,
+              "description": "Zero fee charged by Election Commission of India"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Election Commission of India",
+        "url": "https://eci.gov.in",
+        "isPrimary": true,
+        "department": "Election Commission of India (ECI)",
+        "portalName": "ECI Main Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      },
+      {
+        "label": "Voters' Service Portal",
+        "url": "https://voters.eci.gov.in",
+        "isPrimary": false,
+        "department": "Election Commission of India",
+        "portalName": "National Voters' Service Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "label": "National Government Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Blurry or Incomplete Proof of Residence",
+        "description": "Uploading an illegible utility bill or a cropped rent agreement causes the Electoral Registration Officer (ERO) to reject.",
+        "solution": "Upload a clean PDF showing the complete address matching the entry in Form 6.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "title": "Applicant Below 18 Years on All Four Qualifying Dates",
+        "description": "Applying before attaining 18 on 1st January, April, July, or October of the current revision year leads to rejection.",
+        "solution": "Submit Form 6 during the advance quarter when your 18th birthday falls on the upcoming qualifying date.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "title": "Dual Registration Across Multiple Assembly Constituencies",
+        "description": "Holding an existing voter card in a hometown while applying fresh in a new city without Form 8 shifting is an offence.",
+        "solution": "Use Form 8 for shifting residence instead of submitting a new Form 6.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      },
+      {
+        "title": "Missing Family Member EPIC in Joint Household",
+        "description": "Failing to mention a relative's EPIC number when other family members are already registered may trigger extra scrutiny.",
+        "solution": "Provide your parent's or spouse's EPIC number in Section C to map your household to the correct polling booth.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "title": "Unverified Field Visit by Booth Level Officer (BLO)",
+        "description": "If the BLO visits your residence during physical verification and neighbors state you do not live there, the form is rejected.",
+        "solution": "Ensure your contact number is active and family members are aware of the upcoming BLO verification visit.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      },
+      {
+        "title": "Selfie or Cropped Casual Photograph Uploaded",
+        "description": "Photos with hats, dark sunglasses, filters, or busy colored backgrounds fail automated portrait verification.",
+        "solution": "Upload a formal passport portrait with a plain white background taken in standard studio lighting.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "How much does a new Voter ID card cost in India?",
+        "answer": "A new Voter ID card is completely free. The Election Commission of India charges zero fee for Form 6 registration.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "question": "What is the minimum age to apply for a new Voter ID card?",
+        "answer": "You can apply once you turn 18 years of age, or in advance if turning 18 in the upcoming quarter.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      },
+      {
+        "question": "What are the four qualifying dates for voter registration?",
+        "answer": "The four annual qualifying dates are 1st January, 1st April, 1st July, and 1st October.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      },
+      {
+        "question": "Can I download my Voter ID card online immediately?",
+        "answer": "Once your Form 6 is approved by the ERO, you can download your digital e-EPIC PDF immediately using OTP.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "question": "What is the role of the Booth Level Officer (BLO) in Form 6?",
+        "answer": "The BLO conducts physical doorstep verification to confirm your identity and ordinary residence before electoral approval.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      },
+      {
+        "question": "Can I apply for a Voter ID if I live in a rented house?",
+        "answer": "Yes. A registered rent agreement or utility bill in your name or landlord NOC is accepted as address proof.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "question": "How can I track the status of my Form 6 application?",
+        "answer": "Select 'Track Application Status' on voters.eci.gov.in and enter your 16-character acknowledgment reference number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://voters.eci.gov.in"
+      },
+      {
+        "question": "Can an Indian citizen have Voter IDs in two different cities?",
+        "answer": "No. Registering in more than one constituency is a criminal offence under Section 31 of the Representation of the People Act.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://eci.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Submit Form 6 Online",
+      "subtitle": "5 final checks before submitting your new voter application",
+      "items": [
+        {
+          "id": "white_bg_photo",
+          "title": "Clear Passport Photo (White Background)",
+          "description": "Have a high-resolution color portrait under 2 MB with white background ready to upload.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "dob_proof_scan",
+          "title": "Color Scan of Date of Birth Proof",
+          "description": "Keep Aadhaar, birth certificate, or 10th marksheet scanned clearly showing your date of birth.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "residence_proof",
+          "title": "Valid Address Proof for Present Residence",
+          "description": "Ensure your utility bill or rent agreement displays your complete residential address.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "family_epic",
+          "title": "Relative's Existing EPIC Number",
+          "description": "Have father's, mother's, or spouse's voter ID number ready to link to the same booth.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "ref_number_saved",
+          "title": "16-Character Reference Number Saved",
+          "description": "Note down your application reference ID immediately after clicking submit for BLO tracking.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Representation of the People Act, 1950",
+        "actOrRuleNumber": "Section 19 & Section 23 (Conditions of Registration)",
+        "issuingAuthority": "Parliament of India / Election Commission of India",
+        "url": "https://eci.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Registration of Electors Rules, 1960",
+        "actOrRuleNumber": "Rule 13 & Rule 26 (Form 6 Application)",
+        "issuingAuthority": "Ministry of Law and Justice / ECI",
+        "url": "https://eci.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for a New Voter ID in Gujarat (2026)",
+      "summary": "Gujarat voters can apply online through the national Voters' Service Portal or the CEO Gujarat portal. Local Booth Level Officers (BLOs) conduct doorstep physical verification across all 182 assembly constituencies.",
+      "estimatedTime": "15-30 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
