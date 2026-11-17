@@ -37,6 +37,7 @@ export function Footer({ className }: FooterProps) {
 
   const company = [
     { name: "About This Initiative", href: "/about" },
+    { name: "Local Partners & Listings", href: "/partners" },
     { name: "Civic Glossary (en/hi/gu)", href: "/glossary" },
     { name: "How We Verify Guides", href: "/how-we-verify" },
     { name: "All 200+ Guides Directory", href: "/guides" },
