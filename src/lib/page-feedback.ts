@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { db } from "./db.ts";
 import { checkRateLimit } from "./rate-limiter.ts";
+import { sanitizeText, sanitizeUrl } from "./sanitize.ts";
 
 export const PageFeedbackSchema = z.object({
   taskSlug: z.string().min(1).max(100),
@@ -52,12 +53,12 @@ export async function recordPageFeedback(
   try {
     const feedback = await db.pageFeedback.create({
       data: {
-        taskSlug,
-        stateSlug: stateSlug || null,
-        pageUrl: pageUrl || null,
+        taskSlug: sanitizeText(taskSlug),
+        stateSlug: stateSlug ? sanitizeText(stateSlug) : null,
+        pageUrl: pageUrl ? sanitizeUrl(pageUrl) : null,
         isHelpful,
         missingReason: missingReason || null,
-        details: details?.trim() || null,
+        details: details ? sanitizeText(details) : null,
         status: "NEW",
       },
     });

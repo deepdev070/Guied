@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.gov.paperworkguide.mobile",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7E:6F:09:25:5E:27:0B:45:9E:EC:39:7E:C1:27:AE:C2:5E:FE:0F:78:E2:EC:65:2F:81:AE:A9:7B:64"
+      ]
+    }
+  }
+]
+

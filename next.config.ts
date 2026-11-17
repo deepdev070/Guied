@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import { SITE_REDIRECTS } from "./src/lib/redirects.ts";
+import { SECURITY_HEADERS } from "./src/lib/security-headers.ts";
 
 const nextConfig: NextConfig = {
   // Strict trailing slash policy: redirects /path/ -> /path with 308 permanent redirect
@@ -8,6 +9,17 @@ const nextConfig: NextConfig = {
   // Performance & Core Web Vitals optimization
   compress: true,
   poweredByHeader: false,
+  productionBrowserSourceMaps: true,
+
+  // Security Headers (Prompt 134)
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: SECURITY_HEADERS,
+      },
+    ];
+  },
 
   // Image optimization for LCP and minimal mobile data usage
   images: {

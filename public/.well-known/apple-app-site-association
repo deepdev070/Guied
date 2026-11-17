@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID1234.in.gov.paperworkguide.mobile",
+        "paths": ["*", "/category/*", "/[task]/*"]
+      }
+    ]
+  }
+}
+

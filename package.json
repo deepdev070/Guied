@@ -15,9 +15,11 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "turbo run typecheck",
-    "test": "node --no-warnings --experimental-strip-types --test tests/**/*.test.ts",
+    "test": "node --no-warnings --experimental-strip-types --test tests/*.test.ts && vitest run",
+    "test:vitest": "vitest run",
     "test:turbo": "turbo run test",
     "test:e2e": "playwright test",
+    "lhci": "lhci autorun",
     "check": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run content:validate && npm run content:gate",
     "content:stale": "node --no-warnings --experimental-strip-types scripts/check-stale-content.ts",
     "content:validate": "node --no-warnings --experimental-strip-types scripts/validate-content.ts",
@@ -29,9 +31,15 @@
     "seo:audit": "node --no-warnings --experimental-strip-types scripts/seo-audit.ts",
     "pwa:icons": "node --no-warnings --experimental-strip-types scripts/generate-pwa-icons.ts",
     "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
     "db:studio": "prisma studio",
     "db:seed": "prisma db seed",
-    "postinstall": "prisma generate"
+    "backup:db": "node --no-warnings --experimental-strip-types scripts/backup-db.ts",
+    "backup:content": "node --no-warnings --experimental-strip-types scripts/backup-content-json.ts",
+    "restore:test": "node --no-warnings --experimental-strip-types scripts/restore-db.ts",
+    "weekly": "node --no-warnings --experimental-strip-types scripts/weekly-routine.ts",
+    "postinstall": "prisma generate",
+    "vercel-build": "prisma generate && prisma migrate deploy && turbo run build"
   },
   "prisma": {
     "seed": "node --experimental-strip-types prisma/seed.ts"
@@ -53,6 +61,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
+    "@lhci/cli": "^0.16.1",
     "@playwright/test": "^1.65.1",
     "@tailwindcss/turbopack": "4.3.3",
     "@types/bcryptjs": "^2.4.6",
@@ -68,6 +77,8 @@
     "prisma": "^6.19.3",
     "tailwindcss": "4.3.3",
     "turbo": "^2.11.11",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
   }
 }

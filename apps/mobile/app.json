@@ -15,7 +15,8 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "in.gov.paperworkguide.mobile",
-      "userInterfaceStyle": "light"
+      "userInterfaceStyle": "light",
+      "associatedDomains": ["applinks:indiapaperwork.in", "applinks:www.indiapaperwork.in"]
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +24,32 @@
         "backgroundColor": "#2563EB"
       },
       "package": "in.gov.paperworkguide.mobile",
-      "userInterfaceStyle": "light"
+      "userInterfaceStyle": "light",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "indiapaperwork.in",
+              "pathPrefix": "/"
+            },
+            {
+              "scheme": "https",
+              "host": "www.indiapaperwork.in",
+              "pathPrefix": "/"
+            },
+            {
+              "scheme": "civicguide"
+            },
+            {
+              "scheme": "indiapaperwork"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"

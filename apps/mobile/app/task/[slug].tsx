@@ -6,6 +6,7 @@ import { colors, radius, spacing, typography, layout } from "../../theme/tokens"
 import { Card, Badge, Callout, StepList, ChecklistItem, Button } from "../../components/ui";
 import { MobilePersonalizationWizard } from "../../components/wizard/MobilePersonalizationWizard";
 import { AppointmentReminderModal } from "../../components/reminders/AppointmentReminderModal.tsx";
+import { AppAdSlot } from "../../components/ads/AppAdSlot.tsx";
 import { getBundledGuide, type BundledGuide } from "../../lib/offline-datapack.ts";
 import { getCachedGuide, cacheViewedGuide, formatUpdatedAgo } from "../../lib/guide-cache.ts";
 import { shareToWhatsApp, shareSystemSheet, printAndSharePdf } from "../../lib/mobile-share.ts";
@@ -484,6 +485,13 @@ export default function MobileTaskDetailScreen() {
 
           <StepList steps={guide.steps} />
         </View>
+
+        {/* Ad Slot (Medium Rectangle 300x250 between sections, Prompt 127) */}
+        <AppAdSlot
+          format="medium_rectangle"
+          placementId="guide-between-sections"
+          screenName="guide_detail_section"
+        />
 
         {/* 5. Statutory Fees Breakdown */}
         <View style={styles.section}>

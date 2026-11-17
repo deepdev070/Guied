@@ -612,7 +612,7 @@ function ReportDetailView({ report, onReportUpdated }: ReportDetailViewProps) {
                         key={idx}
                         href={link.url}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         className="flex items-center justify-between rounded-lg border border-[#E5E7EB] p-2.5 text-[#003366] hover:bg-[#F9FAFB]"
                       >
                         <span>{link.label}</span>

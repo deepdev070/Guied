@@ -12,7 +12,7 @@ export const siteConfig = {
     { code: "hi", label: "Hindi", nativeLabel: "हिन्दी" },
     { code: "gu", label: "Gujarati", nativeLabel: "ગુજરાતી" },
   ] as const,
-  contactEmail: "contact@indiapaperworkguide.in",
+  contactEmail: "contact@indiapaperwork.in",
   socialLinks: {
     twitter: "https://x.com/indiapaperwork",
     github: "https://github.com/indiapaperworkguide",

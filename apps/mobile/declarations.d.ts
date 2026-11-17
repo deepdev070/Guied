@@ -128,6 +128,26 @@ declare module "react-native" {
     openURL: (url: string) => Promise<boolean>;
     canOpenURL: (url: string) => Promise<boolean>;
   };
+  export const Switch: import("react").ComponentType<{
+    value?: boolean;
+    onValueChange?: (value: boolean) => void;
+    trackColor?: { false?: string; true?: string };
+    thumbColor?: string;
+    disabled?: boolean;
+    accessibilityLabel?: string;
+    style?: any;
+  }>;
+  export const Alert: {
+    alert: (
+      title: string,
+      message?: string,
+      buttons?: Array<{
+        text?: string;
+        onPress?: () => void;
+        style?: "default" | "cancel" | "destructive";
+      }>
+    ) => void;
+  };
 }
 
 declare module "expo-status-bar" {

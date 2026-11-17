@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, RefreshControl } 
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { colors, radius, spacing, typography, layout } from "../../theme/tokens";
 import { Card, Badge, Skeleton, Callout } from "../../components/ui";
+import { AppAdSlot } from "../../components/ads";
 
 interface CategoryGuideItem {
   slug: string;
@@ -197,6 +198,9 @@ export default function MobileCategoryScreen() {
               </Card>
             ))
           )}
+
+          {/* 5. Banner Ad Slot Placeholder (Prompt 127) */}
+          <AppAdSlot format="banner" placementId="cat-list-bottom" screenName="category_list" />
         </View>
       )}
     </ScrollView>

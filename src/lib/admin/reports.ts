@@ -113,6 +113,24 @@ export function writeDiskReports(reports: ErrorReportItem[]): void {
   fs.writeFileSync(REPORTS_FILE, JSON.stringify(reports, null, 2), "utf-8");
 }
 
+export function getErrorReportStats(): {
+  total: number;
+  open: number;
+  resolved: number;
+  inReview: number;
+} {
+  const reports = readDiskReports();
+  let open = 0;
+  let resolved = 0;
+  let inReview = 0;
+  for (const r of reports) {
+    if (r.status === "FIXED" || r.status === "NOT_AN_ISSUE") resolved++;
+    else if (r.status === "NEED_TO_VERIFY") inReview++;
+    else open++;
+  }
+  return { total: reports.length, open, resolved, inReview };
+}
+
 /**
  * Creates or appends an error report (called by /api/report-mistake)
  */

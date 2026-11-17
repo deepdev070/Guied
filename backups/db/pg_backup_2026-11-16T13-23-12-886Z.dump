@@ -1,0 +1,14 @@
+{
+  "type": "CIVIC_DATABASE_SNAPSHOT",
+  "version": 1,
+  "createdAt": "2026-11-16T13:23:12.898Z",
+  "tables": [
+    "Category",
+    "State",
+    "Task",
+    "TaskTranslation",
+    "ErrorReport",
+    "AuditLog",
+    "PageFeedback"
+  ]
+}

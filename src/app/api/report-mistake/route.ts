@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
 import { checkRateLimit } from "@/lib/rate-limiter";
 import { createErrorReport } from "@/lib/admin/reports";
+import { sanitizeText, sanitizeEmail } from "@/lib/sanitize";
 
 const ReportMistakeSchema = z.object({
   taskSlug: z.string().max(100).optional().nullable(),
@@ -61,15 +62,22 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true });
     }
 
-    // 4. Save into database & file system ErrorReport storage
+    // 4. Sanitize inputs against XSS and malicious characters
+    const cleanDescription = sanitizeText(description);
+    const cleanProposedCorrection = proposedCorrection
+      ? sanitizeText(proposedCorrection)
+      : undefined;
+    const cleanReporterEmail = reporterEmail ? sanitizeEmail(reporterEmail) : undefined;
+
+    // 5. Save into database & file system ErrorReport storage
     try {
       const report = await createErrorReport({
-        taskSlug,
-        stateCode,
+        taskSlug: taskSlug ? sanitizeText(taskSlug) : undefined,
+        stateCode: stateCode ? sanitizeText(stateCode) : undefined,
         issueType,
-        description,
-        proposedCorrection,
-        reporterEmail,
+        description: cleanDescription,
+        proposedCorrection: cleanProposedCorrection,
+        reporterEmail: cleanReporterEmail,
       });
 
       return NextResponse.json({ success: true, id: report.id });

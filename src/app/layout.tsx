@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/layout/Header";
+import { SmartAppBanner } from "@/components/layout/SmartAppBanner";
 import { Footer } from "@/components/layout/Footer";
 import { StatePreferenceProvider } from "@/context/StatePreferenceContext";
 import { ReportMistakeProvider } from "@/context/ReportMistakeContext";
@@ -85,6 +86,9 @@ export default function RootLayout({
           <LanguageProvider>
             <StatePreferenceProvider>
               <ReportMistakeProvider>
+                {/* Mobile Web Smart App Banner (Prompt 128) */}
+                <SmartAppBanner />
+
                 {/* Global Header */}
                 <Header />
 

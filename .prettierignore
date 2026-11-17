@@ -20,7 +20,4 @@ apps/mobile/assets
 *.png
 *.jpg
 *.ico
-
-
-
-
+public/.well-known/apple-app-site-association
