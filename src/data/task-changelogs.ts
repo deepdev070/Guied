@@ -304,6 +304,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://censusindia.gov.in",
     },
   ],
+  "marriage-certificate": [
+    {
+      id: "mc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Marriage Registration Guide Published & Verified",
+      description:
+        "Full marriage registration guide published with verified ₹5 statutory fee (within 30 days), Hindu Marriage Act vs Special Marriage Act rules, and witness criteria.",
+      officialSourceLabel: "National Government Services (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "mc-2026-05-20-02",
+      date: "2026-05-20",
+      changeType: "rule",
+      changeTypeLabel: "Mandatory Registration Compliance",
+      title: "Compulsory Registration Enforcement and Digital Certificates",
+      description:
+        "State registration portals now generate digitally signed marriage certificates with verifiable cryptographic QR codes acceptable for passports and visas.",
+      officialSourceLabel: "Ministry of Law and Justice",
+      officialSourceUrl: "https://lawmin.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

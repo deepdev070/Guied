@@ -1,0 +1,443 @@
+{
+  "slug": "marriage-certificate",
+  "name": "Marriage Certificate Registration",
+  "description": "Complete guide to legal marriage registration under the Hindu Marriage Act or Special Marriage Act with verified fees, documents, and witness rules.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Register a Marriage in India (2026)",
+    "summary": "Step-by-step guide to legal marriage registration under the Hindu Marriage Act or Special Marriage Act on state registration portals. Verified statutory fees of ₹5 to ₹100, witness criteria, and document requirements.",
+    "estimatedTime": "7-21 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Verify Age Eligibility and Applicable Marriage Act",
+        "description": "Ensure the bride is at least 18 years old and the groom is at least 21 years old as legally required under Indian law.",
+        "where": "Legal Eligibility Assessment",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Marriage Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Know Your Act",
+        "calloutText": "Marriages already solemnized by religious customs fall under the Hindu Marriage Act. Civil weddings fall under the Special Marriage Act.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Log In to State Marriage Registration Portal",
+        "description": "Create an account on the state marriage registration portal and select 'Register Marriage' under registration services.",
+        "where": "Official State Registration Portal (e.g. e-Nagar / IGR Portal)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Fill Bride and Groom Personal and Family Details",
+        "description": "Enter full legal names, dates of birth, religion, father's names, mother's names, and present addresses of both parties.",
+        "where": "Online Form 1 (Marriage Intimation)",
+        "estimatedTime": "15 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Fill Date, Venue, and Solemnization Ritual Details",
+        "description": "Provide the exact wedding date, venue address, priest or solemnizer details, and select the applicable marriage act.",
+        "where": "Online Marriage Details Tab",
+        "estimatedTime": "10 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Venue Determines SRO",
+        "calloutText": "You can apply at the Sub-Registrar Office where the wedding took place or where either spouse resided for six months.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Enter Details of Witnesses and Upload Identity Proofs",
+        "description": "Enter the names, addresses, and Aadhaar numbers of at least two adult witnesses who were present at the wedding.",
+        "where": "Online Witness Details Tab",
+        "estimatedTime": "10 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Witnesses Must Be Adult",
+        "calloutText": "Witnesses must be aged 18 or older and must possess valid government identity proof such as Aadhaar or Passport.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Joint Photographs, Wedding Card, and Age Proofs",
+        "description": "Upload scanned copies of wedding card, joint couple photo, age proofs, and witness ID cards in PDF format under 2 MB.",
+        "where": "Online Document Upload Gateway",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Statutory Government Registration Fee Online",
+        "description": "Pay the nominal statutory government registration fee of ₹5 to ₹100 online and download the payment receipt.",
+        "where": "State Treasury Cyber Treasury / Online Payment Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Physical Verification at Sub-Registrar Office and Certificate Delivery",
+        "description": "Both spouses and two witnesses appear before the Sub-Registrar for signature verification. Collect the embossed marriage certificate.",
+        "where": "Jurisdictional Sub-Registrar Office (SRO)",
+        "estimatedTime": "1-2 hours at SRO",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Proof of Age for Bride and Groom",
+        "description": "Birth certificate, 10th school mark sheet, passport, or driving licence proving bride is 18+ and groom is 21+.",
+        "requirementType": "required",
+        "copiesHint": "Original documents + 1 set of photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "name": "Proof of Present Residence for Both Parties",
+        "description": "Aadhaar card, voter ID, passport, or utility bill confirming continuous residence within the Sub-Registrar jurisdiction.",
+        "requirementType": "required",
+        "copiesHint": "Original documents + 1 set of photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "name": "Wedding Invitation Card or Solemnization Certificate",
+        "description": "Original printed wedding card, temple/gurdwara solemnization certificate, or church marriage register copy.",
+        "requirementType": "required",
+        "copiesHint": "Original invitation card or priest certificate",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "name": "Joint Photographs of Husband and Wife",
+        "description": "Formal color photographs showing the married couple together along with standard passport-size photos of each.",
+        "requirementType": "required",
+        "copiesHint": "4 joint photos + 2 individual passport photos",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "name": "Identity and Address Proofs of Two Witnesses",
+        "description": "Aadhaar cards or voter IDs of at least two adult witnesses who attended the marriage ceremony.",
+        "requirementType": "required",
+        "copiesHint": "Originals + self-attested photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "name": "Divorce Decree or Death Certificate of Prior Spouse",
+        "description": "Certified court divorce decree or death certificate of previous spouse if either party was married earlier.",
+        "requirementType": "conditional",
+        "copiesHint": "Certified court copy or municipal certificate",
+        "appliesWhen": {
+          "isSecondMarriage": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Standard Marriage Registration Fee (Applied within 30 Days)",
+        "amount": 5,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "State Marriage Registration Rules",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Delayed Registration Late Fee (Between 30 and 90 Days)",
+        "amount": 15,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "State Marriage Registration Rules",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (After 90 Days with Registrar Order)",
+        "amount": 25,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "State Marriage Registration Rules",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Marriage Registration Fee Calculator",
+      "description": "Calculate exact statutory fees based on registration timing after the wedding date.",
+      "baseFee": 5,
+      "baseFeeLabel": "Standard Statutory Fee (₹5 within 30 Days)",
+      "officialSourceUrl": "https://services.india.gov.in",
+      "officialSourceLabel": "State Marriage Registration Fee Schedule",
+      "rulesReference": "Compulsory Registration of Marriages Act",
+      "options": [
+        {
+          "id": "registration_timing",
+          "label": "Time Since Wedding Ceremony",
+          "type": "timing",
+          "defaultChoiceId": "within_30days",
+          "choices": [
+            {
+              "id": "within_30days",
+              "label": "Within 30 Days of Wedding (₹5)",
+              "amount": 0,
+              "description": "Standard registration fee without late penalty"
+            },
+            {
+              "id": "delay_90days",
+              "label": "Between 30 and 90 Days (+₹10)",
+              "amount": 10,
+              "description": "Delayed registration fee of ₹15 total"
+            },
+            {
+              "id": "delay_over90days",
+              "label": "After 90 Days (+₹20)",
+              "amount": 20,
+              "description": "Late registration with Registrar permission (₹25 total)"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Government Services Portal (Marriage Services)",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Ministry of Law and Justice",
+        "url": "https://lawmin.gov.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "Law Ministry Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "label": "National Portal of India",
+        "url": "https://india.gov.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "India.gov.in Citizen Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Age Disqualification (Groom Under 21 or Bride Under 18)",
+        "description": "Indian statutory law prohibits registration if the bride is younger than 18 or the groom is younger than 21.",
+        "solution": "Submit genuine proof of age demonstrating both spouses meet legal statutory age limits.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "title": "Submitting Without Prior Spouse Divorce Decree or Death Certificate",
+        "description": "If either party was previously married, failing to produce a certified divorce decree or death certificate halts approval.",
+        "solution": "Attach the authenticated family court divorce decree or prior spouse's municipal death certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "title": "Missing Witness Physical Presence or Incomplete Witness ID Proof",
+        "description": "Witnesses who fail to appear physically before the Sub-Registrar or bring incomplete identity proofs cause application deferral.",
+        "solution": "Ensure at least two adult witnesses accompany the couple to the SRO with original Aadhaar cards.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "title": "Applying Outside Both Parties' Jurisdictional SRO",
+        "description": "Filing with a Sub-Registrar office where neither spouse resided nor the wedding occurred results in jurisdiction rejection.",
+        "solution": "File strictly with the SRO where the wedding took place or where either party resided for at least six months.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "title": "Contradictory Names Between Wedding Card and Aadhaar Records",
+        "description": "Major discrepancies between pet names printed on wedding invitations and formal names on Aadhaar trigger rejection.",
+        "solution": "Provide an affidavit clarifying alternate names or use an official temple solemnization certificate with legal names.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "title": "Failure to Appear Within 90 Days of Online Application",
+        "description": "Submitting online but failing to appear at the Sub-Registrar office within the state validity period causes expiry.",
+        "solution": "Book an in-person appointment slot immediately after completing online fee payment.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Is marriage registration mandatory in India?",
+        "answer": "Yes. The Supreme Court of India mandated compulsory marriage registration across all states to protect spousal rights.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "question": "What is the minimum age for marriage in India?",
+        "answer": "The legal age for marriage is 18 years for the bride and 21 years for the groom under current statutory law.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "question": "What is the statutory government fee to register a marriage?",
+        "answer": "Statutory fees are very nominal, typically ₹5 to ₹100 depending on the state schedule and application timing.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Within how many days of marriage must we register?",
+        "answer": "Most states require registration within 30 days of the ceremony to avoid delayed late registration surcharges.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can a marriage be registered if the wedding occurred years ago?",
+        "answer": "Yes. Marriages can be registered at any time after the wedding by paying the nominal delayed fee.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the difference between registration under Hindu Marriage Act and Special Marriage Act?",
+        "answer": "Hindu Marriage Act registers marriages already solemnized. Special Marriage Act solemnizes civil marriages with a 30-day notice.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://lawmin.gov.in"
+      },
+      {
+        "question": "Do witnesses have to appear in person before the Sub-Registrar?",
+        "answer": "Yes. At least two adult witnesses must appear in person before the Sub-Registrar with original identity proofs.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "How can I download my marriage certificate online?",
+        "answer": "Once verified, log in to your state civil portal or DigiLocker, enter your registration number, and download the signed certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Visit the Sub-Registrar Office",
+      "subtitle": "5 final checks before appearing for marriage registration",
+      "items": [
+        {
+          "id": "original_age_proofs",
+          "title": "Original Age Proofs for Both Spouses",
+          "description": "Carry original 10th marksheet, passport, or birth certificate for both bride and groom.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "wedding_invitation",
+          "title": "Wedding Card or Solemnization Proof",
+          "description": "Keep original wedding invitation card or certified priest certificate in your file.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "joint_photos",
+          "title": "Joint Photographs of Married Couple",
+          "description": "Have 4 joint color photos in formal clothing and individual passport photos ready.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "two_witnesses",
+          "title": "Two Adult Witnesses with Original IDs",
+          "description": "Ensure two adult witnesses accompany you with original Aadhaar cards or voter IDs.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "sro_appointment",
+          "title": "SRO Appointment Slip & Fee Receipt",
+          "description": "Print your online appointment booking confirmation and government fee challan.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Hindu Marriage Act, 1955",
+        "actOrRuleNumber": "Section 5 & Section 8 (Registration of Hindu Marriages)",
+        "issuingAuthority": "Parliament of India / Ministry of Law and Justice",
+        "url": "https://lawmin.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Special Marriage Act, 1954",
+        "actOrRuleNumber": "Section 4 & Section 15 (Registration of Marriages Celebrated in Other Forms)",
+        "issuingAuthority": "Ministry of Law and Justice",
+        "url": "https://lawmin.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Register a Marriage in Gujarat (2026)",
+      "summary": "In Gujarat, marriages are registered under the Gujarat Compulsory Registration of Marriages Act, 2006 through the e-Nagar portal or local Ward Offices. The statutory fee within 30 days is ₹5, and certified digital certificates with QR code are issued.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}

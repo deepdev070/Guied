@@ -474,14 +474,14 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
   {
     slug: "marriage-certificate",
     name: "Marriage Certificate Registration",
-    title: "Legal Registration of Marriage & Certificate Issuance",
+    title: "How to Register a Marriage in India (2026)",
     summary:
-      "Legal registration of marriage under Hindu Marriage Act or Special Marriage Act with registrar office.",
+      "Step-by-step guide to legal marriage registration under the Hindu Marriage Act or Special Marriage Act on state registration portals with verified ₹5 to ₹100 statutory fees.",
     categorySlug: "family-and-certificates",
     categoryName: "Family and Certificates",
     difficulty: "medium",
     estimatedTime: "7–21 days",
-    cost: "₹100 – ₹200",
+    cost: "₹5 – ₹100",
     keywords: [
       "marriage certificate",
       "marriage registration",
@@ -491,12 +491,15 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
       "sub registrar office",
       "vivah registration",
       "lagan",
+      "e-nagar marriage certificate",
     ],
     documentSnippets: [
-      "Marriage invitation card or proof of marriage",
-      "Joint photograph of husband and wife",
-      "Proof of age and residence for both parties",
-      "Affidavits from two witnesses with identity proof",
+      "Proof of Age for Bride (18+) and Groom (21+)",
+      "Proof of Present Residence for both spouses",
+      "Wedding Invitation Card or Solemnization Certificate",
+      "Joint Photographs of Husband and Wife",
+      "Identity and Address Proofs of Two Adult Witnesses",
     ],
+    launchState: true,
   },
 ];
