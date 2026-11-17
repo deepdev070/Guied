@@ -117,10 +117,11 @@ describe("Prompt 76: Static Generation & On-Demand ISR", () => {
       );
 
       const pairs = await getAllTaskStatePairs();
+      const allTasks = await loadAllTaskFiles();
       assert.equal(
         pairs.length,
-        108,
-        "Should generate 108 static paths (3 tasks * 36 Indian states/UTs)"
+        allTasks.length * 36,
+        `Should generate ${allTasks.length * 36} static paths (${allTasks.length} tasks * 36 Indian states/UTs)`
       );
 
       const gujaratLearner = pairs.find(

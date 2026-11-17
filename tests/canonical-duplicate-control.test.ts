@@ -166,12 +166,20 @@ describe("Prompt 77: Canonical, Hreflang & Duplicate Control", () => {
       assert.ok(!noindexPaths.includes("/driving-licence-learner"));
       assert.ok(!noindexPaths.includes("/driving-licence-new"));
 
-      // Verify count: 3 tasks * 36 states = 108 total state pages.
-      // 2 Gujarat overrides exist (learner DL + new DL), so 108 - 2 = 106 duplicate pages.
+      // Verify count dynamically: total state pages minus valid state overrides
+      let overrideCount = 0;
+      for (const task of allTasks) {
+        for (const state of allStates) {
+          if (task.states?.[state.code]) {
+            overrideCount++;
+          }
+        }
+      }
+      const expectedNoindexCount = allTasks.length * allStates.length - overrideCount;
       assert.equal(
         noindexReports.length,
-        106,
-        `Expected exactly 106 duplicate state pages marked as noindex, got ${noindexReports.length}`
+        expectedNoindexCount,
+        `Expected exactly ${expectedNoindexCount} duplicate state pages marked as noindex, got ${noindexReports.length}`
       );
     });
   });

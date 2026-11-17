@@ -175,8 +175,8 @@ describe("Prompt 73: Metadata Generator & Uniqueness Verification", () => {
       }
     }
 
-    // Verify we tested all 3 tasks * (1 national + 36 states) = 111 unique pages
-    assert.equal(totalChecked, 3 * (1 + 36));
+    // Verify we tested all tasks * (1 national + 36 states) unique pages
+    assert.equal(totalChecked, allTasks.length * (1 + 36));
     assert.equal(seenTitles.size, totalChecked, "All titles must be unique");
     assert.equal(seenDescriptions.size, totalChecked, "All descriptions must be unique");
   });

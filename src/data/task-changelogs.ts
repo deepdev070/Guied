@@ -123,6 +123,19 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://passportindia.gov.in",
     },
   ],
+  "passport-fresh": [
+    {
+      id: "pf-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Fresh Passport Application Guide Published & Verified",
+      description:
+        "Full first-time passport guide published with verified ₹1,500 statutory fee (36 pages) and ₹3,500 Tatkaal fee, 8 PSK steps, and document rules.",
+      officialSourceLabel: "Passport Seva Portal (passportindia.gov.in)",
+      officialSourceUrl: "https://www.passportindia.gov.in",
+    },
+  ],
 };
 
 /**

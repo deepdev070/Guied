@@ -1,0 +1,539 @@
+{
+  "slug": "passport-fresh",
+  "name": "Fresh Passport Application",
+  "description": "Complete guide to applying for a first-time Indian ordinary passport online with verified fees, document checklist, and PSK appointment steps.",
+  "categorySlug": "identity",
+  "national": {
+    "title": "How to Apply for a Fresh Indian Passport: Documents, Fees, and Steps (2026)",
+    "summary": "Step-by-step guide to applying for a first-time Indian passport online on the Passport Seva portal. Verified fees (₹1,500 normal, ₹3,500 tatkaal) and complete document checklist.",
+    "estimatedTime": "10-20 working days (Normal) / 1-3 days (Tatkaal)",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/faqServicesAvailable",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Register on the Official Passport Seva Portal",
+        "description": "Visit passportindia.gov.in and register a new user account. Choose your Passport Office based on your present residential address.",
+        "where": "Official Passport Seva Portal (passportindia.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://www.passportindia.gov.in",
+        "officialLinkLabel": "Open Official Passport Seva Portal",
+        "calloutType": "warning",
+        "calloutTitle": "Official Government Domain Warning",
+        "calloutText": "Only apply on passportindia.gov.in. Never use private commercial websites that mimic the portal and charge unauthorized fees.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Fill the Online Application for Fresh Passport",
+        "description": "Select 'Apply for Fresh Passport'. Choose between Normal or Tatkaal scheme and pick booklet size of 36 or 60 pages.",
+        "where": "Online Application Dashboard",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Enter Personal, Family, and Address Details",
+        "description": "Fill your full name, date of birth, and parents' names accurately. Enter your current residential address with correct pin code.",
+        "where": "Online Form (Form 1)",
+        "estimatedTime": "15 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Match Official School Records",
+        "calloutText": "Ensure spellings match your 10th marksheet or birth certificate exactly. Single letter mismatches cause delays at verification counters.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Declare Emigration Check Status (Non-ECR)",
+        "description": "Choose Non-ECR if you have passed 10th standard or hold a higher degree. This removes emigration clearance checks for overseas travel.",
+        "where": "Online Form",
+        "estimatedTime": "5 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Non-ECR Proof",
+        "calloutText": "Attach your 10th standard passing certificate to qualify for Non-ECR status automatically.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Pay the Statutory Government Fee Online",
+        "description": "Pay ₹1,500 for normal 36 pages or ₹3,500 for Tatkaal scheme. Payment is processed securely via SBI ePay with Net Banking, UPI, or cards.",
+        "where": "Integrated Bharatkosh / SBI ePay Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Schedule Appointment at Nearest PSK or POPSK",
+        "description": "Select your preferred Passport Seva Kendra or Post Office Passport Seva Kendra. Pick an available date and time slot, then download the receipt.",
+        "where": "Online Slot Booking System",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Appointment Confirmation",
+        "calloutText": "The SMS confirmation on your mobile phone is officially accepted at the PSK entry gate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Attend PSK Appointment for Biometrics and Verification",
+        "description": "Arrive 15 minutes before your batch time with all original documents. Complete photograph at Counter A, verification at Counter B, and approval at Counter C.",
+        "where": "Passport Seva Kendra (PSK / POPSK)",
+        "estimatedTime": "60-90 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Complete Local Police Verification and Receive Passport",
+        "description": "The local police station will verify your physical address and identity. After police clearance, India Post delivers your passport via Speed Post.",
+        "where": "Local Police Station & Registered Address",
+        "estimatedTime": "5-15 days",
+        "calloutType": "important",
+        "calloutTitle": "Be Present During Police Visit",
+        "calloutText": "Police verification requires applicant presence at home with original documents and two neighbourhood references.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Proof of Present Address",
+        "description": "Official proof showing your current residential address where you have lived for the past one year.",
+        "requirementType": "required",
+        "copiesHint": "Original + 2 self-attested photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/attachmentAdvisorInp"
+      },
+      {
+        "name": "Proof of Date of Birth (DOB)",
+        "description": "Birth certificate issued by Municipal Authority, School Leaving Certificate, PAN card, or Aadhaar card showing full birth date.",
+        "requirementType": "required",
+        "copiesHint": "Original + 2 self-attested photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/attachmentAdvisorInp"
+      },
+      {
+        "name": "Aadhaar Card / E-Aadhaar",
+        "description": "Original physical Aadhaar letter or downloaded e-Aadhaar showing verified digital signature and full date of birth.",
+        "requirementType": "required",
+        "copiesHint": "Original + 2 photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "name": "Proof of Non-ECR Category (10th Marksheet or Degree)",
+        "description": "Matriculation pass certificate (10th standard) or higher degree certificate from a recognized board or university.",
+        "requirementType": "conditional",
+        "copiesHint": "Original + 2 self-attested photocopies",
+        "appliesWhen": {
+          "applicantEducation": {
+            "ne": "below_10th"
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "name": "Annexure D - Parent Consent Affidavit (Minors Only)",
+        "description": "Declaration by parents for issue of passport to minor child affirming parental consent and citizenship.",
+        "requirementType": "conditional",
+        "copiesHint": "Original declaration signed by both parents",
+        "appliesWhen": {
+          "applicantCategory": {
+            "eq": "minor"
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "name": "Annexure E - Self-Declaration Affidavit",
+        "description": "Standard citizenship and clear criminal record declaration submitted on plain paper by the applicant.",
+        "requirementType": "required",
+        "copiesHint": "Original signed declaration on plain A4 sheet",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "name": "3 Prescribed Documents for Tatkaal Scheme",
+        "description": "Three eligible government identity documents such as Aadhaar, PAN card, and Voter ID card for urgent processing.",
+        "requirementType": "conditional",
+        "copiesHint": "Originals + 2 sets of photocopies",
+        "appliesWhen": {
+          "scheme": {
+            "eq": "tatkal"
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Fresh Passport Application Fee (Adult, 36 Pages, Normal)",
+        "amount": 1500,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Passports Act 1967 & Passport Rules 1980 Schedule IV",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+      },
+      {
+        "label": "Fresh Passport Jumbo Booklet Fee (Adult, 60 Pages, Normal)",
+        "amount": 2000,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Passport Rules 1980 Schedule IV",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+      },
+      {
+        "label": "Tatkaal Scheme Additional Urgent Fee",
+        "amount": 2000,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Passport Rules 1980 Schedule IV",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+      },
+      {
+        "label": "Fresh Passport for Minor (Below 18 Years, 36 Pages)",
+        "amount": 1000,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Passport Rules 1980 Schedule IV",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+      },
+      {
+        "label": "Optional Premium SMS Tracking Service",
+        "amount": 50,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "counter",
+        "rulesReference": "Passport Seva Project Citizen Charter",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Fresh Passport Fee Calculator",
+      "description": "Calculate total statutory fees for fresh Indian passport based on scheme, booklet size, and age.",
+      "baseFee": 1500,
+      "baseFeeLabel": "Standard Adult Application Fee",
+      "officialSourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument",
+      "officialSourceLabel": "Passport Seva Official Fee Schedule",
+      "rulesReference": "Passport Rules 1980, Schedule IV",
+      "options": [
+        {
+          "id": "scheme",
+          "label": "Processing Scheme",
+          "type": "scheme",
+          "defaultChoiceId": "normal",
+          "choices": [
+            {
+              "id": "normal",
+              "label": "Normal Scheme (10-20 business days)",
+              "amount": 0,
+              "description": "Standard processing at Passport Seva Kendra"
+            },
+            {
+              "id": "tatkal",
+              "label": "Tatkaal Scheme (Expedited 1-3 business days)",
+              "amount": 2000,
+              "description": "Urgent priority processing under Passports Act"
+            }
+          ]
+        },
+        {
+          "id": "pages",
+          "label": "Booklet Size",
+          "type": "pages",
+          "defaultChoiceId": "pages36",
+          "choices": [
+            {
+              "id": "pages36",
+              "label": "36 Pages (Standard Booklet)",
+              "amount": 0,
+              "description": "Standard 10-year validity passport"
+            },
+            {
+              "id": "pages60",
+              "label": "60 Pages (Jumbo Booklet)",
+              "amount": 500,
+              "description": "Frequent flyer booklet (+₹500 gazette fee)"
+            }
+          ]
+        },
+        {
+          "id": "applicant",
+          "label": "Applicant Category",
+          "type": "applicant",
+          "defaultChoiceId": "adult",
+          "choices": [
+            {
+              "id": "adult",
+              "label": "Adult (18 years and above)",
+              "amount": 0,
+              "description": "Standard 10-year validity booklet"
+            },
+            {
+              "id": "minor",
+              "label": "Minor (Below 18 years)",
+              "amount": -500,
+              "description": "5-year validity or until age 18 (₹1,000 base fee)"
+            }
+          ]
+        },
+        {
+          "id": "delivery",
+          "label": "Dispatch & Notifications",
+          "type": "delivery",
+          "defaultChoiceId": "standard_post",
+          "choices": [
+            {
+              "id": "standard_post",
+              "label": "Speed Post Delivery",
+              "amount": 0,
+              "description": "Included free by India Post and Ministry"
+            },
+            {
+              "id": "sms_alert",
+              "label": "Speed Post + Premium SMS Tracking",
+              "amount": 50,
+              "description": "Optional 9 SMS dispatch updates (+₹50)"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Passport Seva Official Portal",
+        "url": "https://www.passportindia.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of External Affairs, Government of India",
+        "portalName": "Passport Seva",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "label": "Ministry of External Affairs India",
+        "url": "https://www.mea.gov.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "MEA Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.mea.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Name or Date of Birth Mismatch on IDs",
+        "description": "If your name or date of birth differs between Aadhaar and your birth certificate, the counter officer will halt processing.",
+        "solution": "Update your Aadhaar details first at an Aadhaar Seva Kendra to match your educational certificate or legal birth record.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Address Verification Failure During Police Visit",
+        "description": "If the applicant does not reside at the address or neighbours fail to verify stay, the police file an adverse report.",
+        "solution": "Ensure you have lived at the declared address for at least one year and keep neighbours informed about your verification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Failing to Declare Previous Application or Passport",
+        "description": "Suppressing information about an earlier passport application or file number leads to system match flags and penalties.",
+        "solution": "Always mention previous file numbers or passport details honestly in the application form.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Incomplete Minor Consent (Missing Annexure D)",
+        "description": "A minor passport requires signatures and passports of both parents unless supported by court custody order.",
+        "solution": "Submit Annexure D signed by both parents, or submit Annexure C if one parent is unavailable.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Applying for Tatkaal Without 3 Prescribed Documents",
+        "description": "Tatkaal scheme requires three specific photo ID documents. If one is missing, the application is converted to Normal scheme.",
+        "solution": "Check the official document advisor and carry Aadhaar, PAN card, and Voter ID or bank passbook.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Unclear or Torn Original Documents",
+        "description": "Laminated certificates with hidden seals or torn documents will be rejected by the Verifying Officer.",
+        "solution": "Carry clean, legible original documents without peeling lamination or obscured stamps.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Unresolved Criminal Case or Pending Court Order",
+        "description": "Section 6 of the Passports Act restricts passport issuance if criminal proceedings are pending before an Indian court.",
+        "solution": "Obtain formal permission from the concerned court to travel abroad and attach the certified court order.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Who needs to apply for a Fresh Passport in India?",
+        "answer": "Any Indian citizen who has never held an Indian passport before must apply under the Fresh Passport category.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "What is the difference between Normal and Tatkaal passport schemes?",
+        "answer": "Normal processing takes 10 to 20 working days. Tatkaal processing issues the passport within 1 to 3 days for an extra fee.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "What does Non-ECR status mean on an Indian passport?",
+        "answer": "Non-ECR means Emigration Check Not Required. Citizens who passed 10th standard or hold higher degrees do not need clearance for employment abroad.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Can I apply for a fresh passport without a municipal birth certificate?",
+        "answer": "Yes. Applicants born on or after 26 January 1989 can use Aadhaar, PAN card, or School Leaving Certificate as proof of birth date.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Is an Aadhaar card compulsory to get a fresh passport?",
+        "answer": "Aadhaar is not strictly compulsory, but it is highly recommended. It serves as both identity and address proof and speeds up processing.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "How long does police verification take for a fresh passport?",
+        "answer": "Police verification typically takes 7 to 14 days depending on your local police station and district intelligence branch.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Do adult applicants need to bring printed photographs to the PSK?",
+        "answer": "No. Adult photographs and fingerprints are captured live at Counter A inside the PSK. Only minors below 4 years need physical photos.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "How can I track my fresh passport status after the appointment?",
+        "answer": "Log in to passportindia.gov.in and click 'Track Application Status'. Enter your 15-digit File Number and date of birth to check progress.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Leave for Passport Seva Kendra",
+      "subtitle": "5 final physical checks before heading out for your PSK slot",
+      "items": [
+        {
+          "id": "originals",
+          "title": "Original Documents & Aadhaar",
+          "description": "Carry original Aadhaar, 10th standard certificate, and address proof for physical inspection at Counter B.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "photocopies",
+          "title": "2 Self-Attested Photocopy Sets",
+          "description": "Bring two clean photocopies of every original document with your signature across the bottom margin.",
+          "icon": "Copy"
+        },
+        {
+          "id": "photos",
+          "title": "Photographs (Minors Below 4 Years Only)",
+          "description": "Minors below 4 years need two passport photos with white background. Adults are photographed live at the counter.",
+          "icon": "Camera"
+        },
+        {
+          "id": "payment",
+          "title": "Payment Receipt & Active UPI",
+          "description": "Carry your online payment receipt. Keep active UPI on phone in case you choose the SMS alert service.",
+          "icon": "CreditCard"
+        },
+        {
+          "id": "printout",
+          "title": "Application Receipt & SMS",
+          "description": "Keep your printed appointment receipt or appointment SMS on your phone ready for entry security at the gate.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "The Passports Act, 1967",
+        "actOrRuleNumber": "Act No. 15 of 1967",
+        "issuingAuthority": "Parliament of India / Ministry of External Affairs",
+        "url": "https://www.mea.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "The Passport Rules, 1980",
+        "actOrRuleNumber": "Schedule IV (Fee Structure)",
+        "issuingAuthority": "Ministry of External Affairs, Government of India",
+        "url": "https://www.passportindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for a Fresh Passport in Gujarat (2026)",
+      "summary": "Step-by-step guide to applying for a first-time passport in Gujarat. Covers Regional Passport Offices in Ahmedabad and Surat, plus Post Office Passport Seva Kendras.",
+      "estimatedTime": "10-20 working days (Normal) / 1-3 days (Tatkaal)",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
