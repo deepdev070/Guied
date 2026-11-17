@@ -5,11 +5,11 @@
   "categorySlug": "vehicles",
   "national": {
     "title": "How to Apply for a Permanent Driving Licence in India (2026)",
-    "summary": "Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (\u20b9700), and driving test rules.",
+    "summary": "Step-by-step procedure to convert your Learner's Licence into a Permanent Driving Licence. Complete document checklist, official government fees (₹700), and driving test rules.",
     "estimatedTime": "15-30 days after driving test",
     "difficulty": "medium",
     "status": "PUBLISHED",
-    "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
     "verifiedBy": "Civic Research Editorial Team",
     "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/driving-licence-0",
     "steps": [
@@ -210,43 +210,89 @@
     ],
     "officialLinks": [
       {
-        "label": "Sarathi Parivahan Official Portal",
+        "label": "Sarathi Parivahan Citizen Portal",
         "url": "https://sarathi.parivahan.gov.in",
         "isPrimary": true,
         "department": "Ministry of Road Transport and Highways (MoRTH)",
-        "portalName": "Sarathi Portal",
+        "portalName": "Parivahan Sewa",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "label": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "MoRTH Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
       }
     ],
     "faqItems": [
       {
         "question": "When can I apply for a permanent driving licence after getting a learner's licence?",
-        "answer": "You can apply exactly 30 days after the date your learner licence was issued. You have up to 180 days (6 months) from the LL issuance date to pass the driving test and obtain your permanent licence.",
+        "answer": "You can apply exactly 30 days after the date your learner licence was issued. You have up to 180 days from LL issuance to pass the test.",
+        "displayOrder": 0,
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       },
       {
         "question": "What happens if I fail the practical driving test?",
-        "answer": "If you fail the test, you can re-appear for a re-test after a mandatory 7-day practice period. You will need to log into Sarathi Parivahan, pay a re-test fee of \u20b9300, and book a new appointment slot.",
+        "answer": "You can re-appear for a re-test after a 7-day practice period. Log into Sarathi Parivahan, pay ₹300 re-test fee, and book a new slot.",
+        "displayOrder": 1,
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       },
       {
         "question": "Can I take the driving test in an automatic transmission car?",
-        "answer": "Yes! You can bring either a manual or an automatic transmission vehicle for your test. However, you must arrange the vehicle yourself; RTOs do not provide test vehicles.",
+        "answer": "Yes. You can bring either a manual or automatic vehicle for your test. However, you must arrange the vehicle yourself as RTOs do not provide cars.",
+        "displayOrder": 2,
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
       },
       {
         "question": "What is the validity period of a permanent driving licence in India?",
-        "answer": "For private vehicles, a driving licence is valid for 20 years or until age 40, whichever is earlier. For ages 40 to 50, it is valid for 10 years. For ages 50 to 55, it is valid until age 60. Above age 55, it is renewed every 5 years.",
+        "answer": "For private vehicles, it is valid for 20 years or until age 40, whichever is earlier. Above age 50, it is renewed every 5 years.",
+        "displayOrder": 3,
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Can I drive someone else's car for the RTO driving test?",
+        "answer": "Yes. You can use any roadworthy vehicle with a valid RC, insurance, and PUC certificate. The car does not need to be in your name.",
+        "displayOrder": 4,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "question": "Is a driving school training certificate mandatory for private cars?",
+        "answer": "No. Driving school training is optional for private vehicles. However, holding a Form 5B certificate from an accredited institute exempts you from the RTO test.",
+        "displayOrder": 5,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "How do I download my digital driving licence on DigiLocker after passing?",
+        "answer": "Open DigiLocker, select Ministry of Road Transport and Highways, and enter your new DL number. The digital copy carries legal parity with the physical card.",
+        "displayOrder": 6,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What is the official statutory fee for a permanent driving licence?",
+        "answer": "The statutory fee is ₹200 for licence issue, ₹300 for the driving test, and ₹200 for smart card printing, totaling ₹700.",
+        "displayOrder": 7,
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://morth.nic.in"
       }
     ],
@@ -256,7 +302,7 @@
         "description": "Attempting to book a permanent DL test slot when less than 30 days have elapsed since the learner licence was approved.",
         "solution": "Wait until day 31 from the date printed on your Learner Licence Form 3 before scheduling.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://sarathi.parivahan.gov.in"
       },
       {
@@ -264,7 +310,7 @@
         "description": "Bringing a vehicle to the test track with expired third-party insurance or expired PUC certificate leads to immediate test cancellation.",
         "solution": "Check mParivahan on your phone to verify the vehicle's fitness, insurance, and PUC are active before visiting the track.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
       },
       {
@@ -272,8 +318,32 @@
         "description": "Automated sensor tracks register a fail if vehicle tyres cross boundary lines or exceed allowed forward-reverse maneuvers.",
         "solution": "Practice parallel parking and reverse H-parking beforehand without crossing side curbs.",
         "status": "PUBLISHED",
-        "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
         "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "title": "Rolling Backward on the Gradient Hill Restart",
+        "description": "Rolling backwards by more than 12 inches when restarting on the steep gradient track triggers automatic sensor failure.",
+        "solution": "Practice handbrake coordination on inclines to ensure the vehicle moves forward smoothly without rolling back.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Putting Feet Down or Crossing White Lines on the 8-Track",
+        "description": "Putting your feet down on the ground or brushing the boundary sensors on the figure-eight track fails the test.",
+        "solution": "Maintain smooth throttle control and balance at walking speed without touching your feet to the road surface.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
+      },
+      {
+        "title": "Expired Learner Licence at Time of Practical Test",
+        "description": "If your Learner Licence exceeds its 180-day validity before your test appointment date, you cannot appear for the driving test.",
+        "solution": "Apply for the practical test within 2 to 3 months of getting your LLR. Do not wait until the final weeks before expiry.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://sarathi.parivahan.gov.in"
       }
     ],
     "sourceRefs": [
@@ -290,7 +360,7 @@
       "title": "Permanent Driving Licence Fee Calculator",
       "description": "Calculate statutory fees based on vehicle classes and postal dispatch.",
       "baseFee": 700,
-      "baseFeeLabel": "Single Class (Issue \u20b9200 + Test \u20b9300 + Smart Card \u20b9200)",
+      "baseFeeLabel": "Single Class (Issue ₹200 + Test ₹300 + Smart Card ₹200)",
       "rulesReference": "CMVR 1989 Rule 32",
       "officialSourceUrl": "https://parivahan.gov.in",
       "officialSourceLabel": "Parivahan Sarathi Fee Schedule",
@@ -311,7 +381,7 @@
               "id": "two_classes",
               "label": "Two Classes (Motorcycle MCWG + Car LMV)",
               "amount": 300,
-              "description": "Includes additional practical driving test (+\u20b9300)"
+              "description": "Includes additional practical driving test (+₹300)"
             }
           ]
         },
@@ -331,9 +401,45 @@
               "id": "sms_alert",
               "label": "Speed Post + SMS Status Notifications",
               "amount": 50,
-              "description": "Optional SMS dispatch notifications (+\u20b950)"
+              "description": "Optional SMS dispatch notifications (+₹50)"
             }
           ]
+        }
+      ]
+    },
+    "beforeYouGo": {
+      "title": "Before You Leave for the RTO Driving Test Track",
+      "subtitle": "5 final physical checks before heading out for your practical test slot",
+      "items": [
+        {
+          "id": "llr_printout",
+          "title": "Original Learner's Licence (LLR)",
+          "description": "Carry your physical LLR printout showing valid unexpired status and endorsed vehicle categories.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "vehicle_rc",
+          "title": "Vehicle Registration Certificate (RC)",
+          "description": "Carry original or DigiLocker vehicle RC corresponding to your test application class.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "puc_insurance",
+          "title": "Valid PUC & Insurance Policy",
+          "description": "Ensure pollution certificate and third-party insurance papers are unexpired and printed.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "appointment_slip",
+          "title": "Slot Booking Slip & Fee Receipt",
+          "description": "Printed Sarathi appointment slip and statutory fee payment receipt for entry gate verification.",
+          "icon": "FileText"
+        },
+        {
+          "id": "aadhaar_id",
+          "title": "Original Aadhaar Card",
+          "description": "Original photo identity card required for biometric fingerprint verification at track kiosk.",
+          "icon": "ShieldCheck"
         }
       ]
     }
@@ -370,8 +476,8 @@
         },
         {
           "stepNumber": 3,
-          "title": "Pay Gujarat Statutory Fee (\u20b9700 for single class)",
-          "description": "Pay the statutory fee: \u20b9200 for DL issue, \u20b9200 for smart card, and \u20b9300 per class test fee via online payment on the Sarathi portal.",
+          "title": "Pay Gujarat Statutory Fee (₹700 for single class)",
+          "description": "Pay the statutory fee: ₹200 for DL issue, ₹200 for smart card, and ₹300 per class test fee via online payment on the Sarathi portal.",
           "where": "Online Payment Gateway",
           "status": "PUBLISHED",
           "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
