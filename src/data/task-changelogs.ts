@@ -280,6 +280,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://censusindia.gov.in",
     },
   ],
+  "death-certificate": [
+    {
+      id: "dc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Death Certificate Registration Guide Published & Verified",
+      description:
+        "Full death registration guide published with verified ₹0 statutory fee (within 21 days), Form 4 medical cause requirements, and delayed SDM tiers.",
+      officialSourceLabel: "Civil Registration System (crsorgi.gov.in)",
+      officialSourceUrl: "https://crsorgi.gov.in",
+    },
+    {
+      id: "dc-2026-06-10-02",
+      date: "2026-06-10",
+      changeType: "rule",
+      changeTypeLabel: "MCCD Standardization",
+      title: "Medical Certificate of Cause of Death (MCCD) Standardized",
+      description:
+        "Hospital authorities must transmit Form 4 MCCD digitally to the jurisdictional Registrar to avoid manual errors in cause of death recording.",
+      officialSourceLabel: "Office of the Registrar General of India",
+      officialSourceUrl: "https://censusindia.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

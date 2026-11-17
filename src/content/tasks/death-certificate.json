@@ -1,0 +1,465 @@
+{
+  "slug": "death-certificate",
+  "name": "Death Certificate Registration & Application",
+  "description": "Complete guide to registering a death and obtaining an official death certificate online or offline with verified statutory fees and timelines.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Apply for a Death Certificate in India (2026)",
+    "summary": "Step-by-step guide to registering a death and obtaining an official death certificate on the Civil Registration System portal. Verified statutory fee rules under the RBD Act, medical certificate requirements, and delayed registration steps.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://crsorgi.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Obtain Medical Certificate of Cause of Death (Form 4 / 4A)",
+        "description": "Collect Form 4 (institutional death) or Form 4A (non-institutional death) signed by the registered attending medical doctor.",
+        "where": "Hospital / Attending Doctor",
+        "estimatedTime": "1 day",
+        "officialLinkUrl": "https://crsorgi.gov.in",
+        "officialLinkLabel": "Open Civil Registration System Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Doctor Signature Mandatory",
+        "calloutText": "Ensure Form 4 contains the registered doctor's medical council registration number and official hospital stamp.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Collect Crematorium or Burial Ground Receipt",
+        "description": "Obtain the official receipt stating deceased name, date, time, and cremation or burial registry entry.",
+        "where": "Registered Crematorium / Cemetery / Shamshan Ghat",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Shamshan Receipt Essential",
+        "calloutText": "Most municipal registrars mandate the cremation receipt as primary proof of disposal of mortal remains.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Inform Local Registrar of Births and Deaths Within 21 Days",
+        "description": "Submit death intimation within 21 days to ensure zero late fee and immediate registry recording.",
+        "where": "Local Municipal Ward Office / Gram Panchayat",
+        "estimatedTime": "1 day",
+        "calloutType": "warning",
+        "calloutTitle": "21-Day Free Window",
+        "calloutText": "Registration within 21 days is free of cost and avoids cumbersome magistrate permission procedures.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Fill Death Registration Report (Form 2)",
+        "description": "Enter deceased's full legal name, gender, age at death, date of death, place of death, and permanent residential address.",
+        "where": "Official CRS Portal (crsorgi.gov.in) or Municipal Office",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Enter Informant and Next of Kin Details",
+        "description": "Provide the informant's name, relationship to the deceased, 12-digit Aadhaar number, and active mobile number.",
+        "where": "Online Informant Section",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Supporting Documents and Receipts",
+        "description": "Upload scanned copies of Form 4, crematorium receipt, deceased Aadhaar, and informant identity proof in PDF format.",
+        "where": "Online Document Upload Gateway",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Statutory Delayed Fee (Only If After 21 Days)",
+        "description": "Registration within 21 days is free. If delayed beyond 21 days, pay the nominal statutory fee of ₹2 to ₹20.",
+        "where": "Municipal Treasury / Online Payment Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Receive Digitally Signed Death Certificate",
+        "description": "Download the digitally signed QR-coded death certificate from the portal or collect the physical embossed copy from the Registrar.",
+        "where": "CRS Citizen Portal / Municipal Civic Counter",
+        "estimatedTime": "7-15 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Medical Certificate of Cause of Death (Form 4 / 4A)",
+        "description": "Certificate signed by the attending registered medical practitioner or hospital authority stating cause of death.",
+        "requirementType": "required",
+        "copiesHint": "Original doctor signed copy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Cremation or Burial Ground Receipt (Shamshan Ghat Slip)",
+        "description": "Official receipt issued by the registered crematorium or cemetery confirming date and time of disposal of mortal remains.",
+        "requirementType": "required",
+        "copiesHint": "Original receipt + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Aadhaar Card and Identity Proof of the Deceased",
+        "description": "Aadhaar card, voter ID, or passport of the deceased person to verify exact legal name and parentage.",
+        "requirementType": "required",
+        "copiesHint": "Original document + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Identity and Relationship Proof of Informant",
+        "description": "Aadhaar card and relationship document of the immediate family member or legal heir reporting the death.",
+        "requirementType": "required",
+        "copiesHint": "Original document + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Police Panchnama and Post-Mortem Report",
+        "description": "Official police panchnama and autopsy report required for accidental, road, or unnatural medico-legal deaths.",
+        "requirementType": "conditional",
+        "copiesHint": "Certified copies from police station",
+        "appliesWhen": {
+          "isMedicoLegalOrUnnatural": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "name": "Order of Executive Magistrate / SDM (Delayed Over 1 Year)",
+        "description": "Statutory magisterial order passed under Section 13(3) of the RBD Act after inquiry for registration beyond one year.",
+        "requirementType": "conditional",
+        "copiesHint": "Original certified court order",
+        "appliesWhen": {
+          "isDelayedOver1Year": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Death Registration and First Certificate (Within 21 Days)",
+        "amount": 0,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "RBD Act 1969 Section 12 & 13",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (21 to 30 Days)",
+        "amount": 2,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "RBD Act 1969 Section 13(1)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (30 Days to 1 Year)",
+        "amount": 5,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "RBD Act 1969 Section 13(2)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "Delayed Registration Fee (After 1 Year with SDM Order)",
+        "amount": 10,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "both",
+        "rulesReference": "RBD Act 1969 Section 13(3)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Death Certificate Fee Calculator",
+      "description": "Calculate exact statutory fees based on registration timing and delay periods.",
+      "baseFee": 0,
+      "baseFeeLabel": "Registration within 21 Days (₹0 - Completely Free)",
+      "officialSourceUrl": "https://censusindia.gov.in",
+      "officialSourceLabel": "RBD Act Section 13 Fee Schedule",
+      "rulesReference": "Registration of Births and Deaths Act 1969",
+      "options": [
+        {
+          "id": "delay_period",
+          "label": "Registration Timeline",
+          "type": "timeline",
+          "defaultChoiceId": "on_time",
+          "choices": [
+            {
+              "id": "on_time",
+              "label": "Within 21 Days of Death (Free)",
+              "amount": 0,
+              "description": "Completely free under Section 12 of RBD Act"
+            },
+            {
+              "id": "delay_30days",
+              "label": "Between 21 and 30 Days (+₹2)",
+              "amount": 2,
+              "description": "Nominal statutory late fee under Section 13(1)"
+            },
+            {
+              "id": "delay_1year",
+              "label": "Between 30 Days and 1 Year (+₹5)",
+              "amount": 5,
+              "description": "Late fee with Tehsildar permission under Section 13(2)"
+            },
+            {
+              "id": "delay_over1year",
+              "label": "Delayed Over 1 Year (+₹10)",
+              "amount": 10,
+              "description": "Late fee with Executive Magistrate order under Section 13(3)"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Civil Registration System (CRS)",
+        "url": "https://crsorgi.gov.in",
+        "isPrimary": true,
+        "department": "Office of the Registrar General & Census Commissioner, India",
+        "portalName": "CRS Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "label": "Office of the Registrar General of India",
+        "url": "https://censusindia.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of Home Affairs",
+        "portalName": "Census India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "label": "National Government Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Spelling Mismatch Between Doctor's Certificate and Aadhaar",
+        "description": "Discrepancy in the spelling of the deceased person's name between Form 4 and Aadhaar halts registration.",
+        "solution": "Ensure the attending hospital records the deceased's name exactly as printed on their Aadhaar card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Missing Crematorium or Cemetery Receipt",
+        "description": "Failing to attach the official receipt proving physical cremation or burial leads to immediate scrutiny rejection.",
+        "solution": "Obtain the formal numbered receipt from the crematorium authority before filing Form 2.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Unnatural Death Reported Without Police Panchnama",
+        "description": "Registering a death resulting from an accident, poisoning, or suicide without police clearance is prohibited.",
+        "solution": "Obtain certified copies of the police FIR, panchnama, and post-mortem report before applying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Delayed Registration Beyond 1 Year Without SDM Order",
+        "description": "Submitting a death report after one year without an inquiry order from the Executive Magistrate violates Section 13(3).",
+        "solution": "File an application before the Sub-Divisional Magistrate to obtain the mandatory court order.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "title": "Contradictory Date or Time of Death Across Documents",
+        "description": "A discrepancy between the hospital death time and crematorium entry time blocks electronic approval.",
+        "solution": "Ensure that the hospital summary, doctor's certificate, and crematorium slip record consistent timelines.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "title": "Applying Outside Proper Municipal Ward Jurisdiction",
+        "description": "Submitting the death intimation to a municipality where the death did not physically occur causes jurisdiction rejection.",
+        "solution": "Submit Form 2 strictly to the Registrar having jurisdiction over the physical place where death occurred.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Is death registration free of cost in India?",
+        "answer": "Yes. Registration within 21 days is 100% free, and the first certificate copy is provided free under Section 12.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "Within how many days must a death be registered?",
+        "answer": "Under the RBD Act 1969, a death must be reported to the local Registrar within 21 days of occurrence.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "Who is legally responsible for reporting a death?",
+        "answer": "The head of the household for home deaths, or the medical officer in charge for hospital institutional deaths.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "What is a Medical Certificate of Cause of Death (MCCD)?",
+        "answer": "Form 4 / 4A signed by a registered doctor certifying the medical cause of death for national vital statistics.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "How can I register a death after more than one year has passed?",
+        "answer": "You must obtain an inquiry order from an Executive Magistrate (SDM) under Section 13(3) of the Act.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "Can I download a death certificate online?",
+        "answer": "Yes. If the death is registered on the Civil Registration System, download the QR-coded digital certificate using OTP.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://crsorgi.gov.in"
+      },
+      {
+        "question": "Why is a cremation or burial receipt mandatory for death registration?",
+        "answer": "The receipt provides physical verification that the mortal remains were legally consigned to the ground or cremated.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      },
+      {
+        "question": "How many copies of the death certificate should I obtain?",
+        "answer": "It is advisable to obtain 5 to 10 certified copies for bank accounts, insurance claims, property transfer, and pensions.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://censusindia.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Death Certificate",
+      "subtitle": "5 final checks before submitting your death registration",
+      "items": [
+        {
+          "id": "medical_cause_cert",
+          "title": "Doctor's Cause of Death Certificate (Form 4/4A)",
+          "description": "Have the official medical certificate with doctor's registration number and seal ready.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "cremation_receipt",
+          "title": "Crematorium / Burial Ground Receipt",
+          "description": "Ensure the original receipt states the exact date, time, and deceased name.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "deceased_aadhaar",
+          "title": "Deceased's Original Aadhaar / Identity Proof",
+          "description": "Keep original Aadhaar card or voter ID of the deceased ready for data verification.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "informant_id",
+          "title": "Informant's Identity and Relationship Proof",
+          "description": "Have informant's Aadhaar card ready to prove legal kinship to the deceased.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "post_mortem_slip",
+          "title": "Police Panchnama (If Unnatural Death)",
+          "description": "Carry certified police reports and autopsy findings if death occurred in an accident.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Registration of Births and Deaths Act, 1969",
+        "actOrRuleNumber": "Section 10, Section 12 & Section 13",
+        "issuingAuthority": "Parliament of India / Ministry of Home Affairs",
+        "url": "https://censusindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Registration of Births and Deaths (Amendment) Act, 2023",
+        "actOrRuleNumber": "Act No. 20 of 2023 (Digital Registry Integration)",
+        "issuingAuthority": "Ministry of Law and Justice",
+        "url": "https://censusindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Get a Death Certificate in Gujarat (2026)",
+      "summary": "In Gujarat, deaths are recorded via e-Nagar in urban municipal corporations and by Talati-cum-Mantri in Gram Panchayats. First copy is free within 21 days, and verified digital certificates with QR codes can be downloaded directly on e-Nagar.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
