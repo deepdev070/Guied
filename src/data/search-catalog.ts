@@ -251,9 +251,9 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
   {
     slug: "pan-card-new",
     name: "New PAN Card (Form 49A)",
-    title: "Apply for New PAN Card Online (Form 49A)",
+    title: "How to Apply for a New PAN Card Online in India (Form 49A - 2026)",
     summary:
-      "Apply for a new Permanent Account Number online or via physical application through NSDL/UTIITSL.",
+      "Step-by-step guide to applying for a new Permanent Account Number using Form 49A on the Protean or UTIITSL portal with verified ₹107 statutory fees.",
     categorySlug: "money-and-tax",
     categoryName: "Money and Tax",
     difficulty: "easy",
@@ -271,13 +271,15 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
       "pan number",
       "pan reprint",
       "lost pan",
+      "e-pan",
     ],
     documentSnippets: [
-      "Proof of Identity (Aadhaar / Passport / Voter ID)",
+      "Aadhaar Card with linked mobile number (for paperless e-KYC)",
+      "Proof of Identity (Voter ID / Passport / Driving Licence)",
       "Proof of Address (Utility bill / Bank statement)",
-      "Proof of Date of Birth (Birth certificate / Matriculation)",
-      "Two passport sized photographs",
+      "Proof of Date of Birth (Birth certificate / Matriculation mark sheet)",
     ],
+    launchState: true,
   },
   {
     slug: "aadhaar-update",

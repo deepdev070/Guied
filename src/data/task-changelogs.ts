@@ -160,6 +160,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://myaadhaar.uidai.gov.in",
     },
   ],
+  "pan-card-new": [
+    {
+      id: "pan-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "New PAN Card Application Guide Published & Verified",
+      description:
+        "Full PAN card procedure guide published with verified ₹107 statutory fee (₹91 + 18% GST), paperless Aadhaar e-KYC steps, and AO code selection rules.",
+      officialSourceLabel: "Income Tax Department (incometaxindia.gov.in)",
+      officialSourceUrl: "https://incometaxindia.gov.in",
+    },
+    {
+      id: "pan-2026-08-10-02",
+      date: "2026-08-10",
+      changeType: "rule",
+      changeTypeLabel: "Aadhaar Quoting Invariant",
+      title: "Mandatory Aadhaar Linkage at Time of PAN Application",
+      description:
+        "Under Section 139AA of the Income Tax Act, every applicant eligible for Aadhaar must quote their Aadhaar number to prevent duplicate PAN issuance.",
+      officialSourceLabel: "Central Board of Direct Taxes (CBDT)",
+      officialSourceUrl: "https://incometaxindia.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

@@ -1,0 +1,455 @@
+{
+  "slug": "pan-card-new",
+  "name": "New PAN Card Application (Form 49A)",
+  "description": "Complete guide to applying for a new Permanent Account Number online with verified statutory fees of ₹107, paperless Aadhaar e-KYC steps, and document rules.",
+  "categorySlug": "money-and-tax",
+  "national": {
+    "title": "How to Apply for a New PAN Card Online in India (Form 49A - 2026)",
+    "summary": "Step-by-step guide to applying for a new Permanent Account Number using Form 49A on the Protean or UTIITSL portal. Verified statutory fee of ₹107 for dispatch within India and instant digital e-PAN delivery.",
+    "estimatedTime": "10-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://incometaxindia.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Select Application Type (Form 49A) on Official Portal",
+        "description": "Choose 'Application Type: New PAN - Indian Citizen (Form 49A)' and select category as 'INDIVIDUAL'.",
+        "where": "Official Income Tax Authorized TIN Portal",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://www.incometax.gov.in",
+        "officialLinkLabel": "Open Income Tax e-Filing Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Authorized Portals Only",
+        "calloutText": "Only Protean and UTIITSL are legally authorized by the Income Tax Department to issue PAN cards.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Enter Applicant Personal Details and Generate Token Number",
+        "description": "Enter full name, date of birth, active email address, and mobile number. Save the generated 10-digit temporary token number.",
+        "where": "Online Registration Page",
+        "estimatedTime": "5 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Save Temporary Token",
+        "calloutText": "The 10-digit token allows you to resume your draft application if your session times out.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Choose Document Submission Mode (Aadhaar Paperless e-KYC)",
+        "description": "Select 'Submit digitally through e-KYC & e-Sign (Paperless)' for instant photo and signature import without sending physical papers.",
+        "where": "PAN Application Mode Selection Screen",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Provide Parent Details and Choose Name on Card",
+        "description": "Enter your father's and mother's names. Select whether your father's or mother's name should be printed on the PAN card.",
+        "where": "Online Application Form (Personal Details Tab)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Enter Source of Income and Residential Address",
+        "description": "Select your income source and confirm your address. For Aadhaar e-KYC, the address from your Aadhaar is imported automatically.",
+        "where": "Online Application Form (Contact & Details Tab)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Select Assessing Officer (AO) Code",
+        "description": "Select your Indian state and city to view jurisdictional AO codes. Click your ward or circle to auto-populate the code.",
+        "where": "AO Code Search Interface",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Jurisdictional Code",
+        "calloutText": "Select 'Individual' and your city to pick the matching ward circle for proper tax jurisdiction.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Statutory Government Application Fee Online",
+        "description": "Pay the statutory fee of ₹107 for physical card delivery within India using credit card, debit card, or UPI.",
+        "where": "Integrated Payment Gateway (Bharatkosh / Net Banking / UPI)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Authenticate Aadhaar e-Sign and Receive e-PAN",
+        "description": "Enter the OTP received on your Aadhaar-linked mobile to complete e-sign. Digital e-PAN is delivered to your email within 48 hours.",
+        "where": "Official Aadhaar e-Sign Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.incometax.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Aadhaar Card with Linked Mobile Number",
+        "description": "Serves as combined Proof of Identity, Address, and Date of Birth for instantaneous paperless e-KYC.",
+        "requirementType": "required",
+        "copiesHint": "12-digit number for paperless e-KYC",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Valid Proof of Identity (PoI)",
+        "description": "Voter ID card, passport, driving licence, or ration card with photo required when applying without Aadhaar e-KYC.",
+        "requirementType": "conditional",
+        "copiesHint": "Original document + 1 photocopy",
+        "appliesWhen": {
+          "submissionMode": "physical_or_non_aadhaar"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Valid Proof of Address (PoA)",
+        "description": "Electricity bill, landline bill, broadband bill, or water bill less than 3 months old.",
+        "requirementType": "conditional",
+        "copiesHint": "Original utility bill + 1 photocopy",
+        "appliesWhen": {
+          "submissionMode": "physical_or_non_aadhaar"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Valid Proof of Date of Birth (PoB)",
+        "description": "Municipal birth certificate, matriculation mark sheet, or passport showing complete date of birth.",
+        "requirementType": "conditional",
+        "copiesHint": "Original mark sheet + 1 photocopy",
+        "appliesWhen": {
+          "submissionMode": "physical_or_non_aadhaar"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Representative Assessee Identity Proof (For Minors)",
+        "description": "Identity and address proof of parent or legal guardian when applying for a minor applicant under 18 years.",
+        "requirementType": "conditional",
+        "copiesHint": "Parent Aadhaar card or Voter ID",
+        "appliesWhen": {
+          "isMinor": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "name": "Two Passport Sized Photographs (3.5 cm x 2.5 cm)",
+        "description": "Color photographs with white background required only if submitting physical documents or using non-Aadhaar mode.",
+        "requirementType": "conditional",
+        "copiesHint": "2 recent color studio prints",
+        "appliesWhen": {
+          "submissionMode": "physical_submission"
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Physical PAN Card Processing & Dispatch within India",
+        "amount": 107,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Income Tax Rules 1962 Rule 114",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "label": "Digital e-PAN Only (No Physical Plastic Card Sent)",
+        "amount": 72,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "CBDT Notification",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "label": "Physical PAN Card Dispatch to Foreign Address",
+        "amount": 1017,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "CBDT Notification",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "New PAN Card Fee Calculator",
+      "description": "Calculate exact statutory fees based on dispatch preference and delivery location.",
+      "baseFee": 107,
+      "baseFeeLabel": "Physical PAN Card within India (Statutory Fee ₹91 + 18% GST = ₹107)",
+      "officialSourceUrl": "https://incometaxindia.gov.in",
+      "officialSourceLabel": "Income Tax Department Fee Schedule",
+      "rulesReference": "Income Tax Rules 1962 Rule 114",
+      "options": [
+        {
+          "id": "delivery_mode",
+          "label": "Delivery Preference",
+          "type": "delivery",
+          "defaultChoiceId": "physical_india",
+          "choices": [
+            {
+              "id": "physical_india",
+              "label": "Physical Plastic Card within India (₹107)",
+              "amount": 0,
+              "description": "Includes laminated plastic card and digital e-PAN"
+            },
+            {
+              "id": "digital_only",
+              "label": "Digital e-PAN Only (₹72) (-₹35)",
+              "amount": -35,
+              "description": "Digitally signed e-PAN PDF sent via email only"
+            },
+            {
+              "id": "foreign_dispatch",
+              "label": "Physical Card Dispatched Abroad (+₹910)",
+              "amount": 910,
+              "description": "Includes international airmail delivery fee (total ₹1,017)"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Income Tax Department of India",
+        "url": "https://incometaxindia.gov.in",
+        "isPrimary": true,
+        "department": "Central Board of Direct Taxes (CBDT)",
+        "portalName": "Income Tax Official Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "label": "Income Tax e-Filing & PAN Services Portal",
+        "url": "https://www.incometax.gov.in",
+        "isPrimary": false,
+        "department": "Income Tax Department",
+        "portalName": "e-Filing Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.incometax.gov.in"
+      },
+      {
+        "label": "National Government Services Portal (PAN Services)",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Name Spelling Mismatch Against Aadhaar Database",
+        "description": "If the applicant's name entered in Form 49A differs even by one letter from Aadhaar records, the application fails.",
+        "solution": "Enter your first, middle, and last name exactly as printed on your Aadhaar card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Blurry or Cropped Photo Upload in Scanned Mode",
+        "description": "Uploading a mobile selfie or blurry low-resolution image fails Protean automated optical quality checks.",
+        "solution": "Scan a formal studio photograph in 200 DPI resolution with plain white background under 50 KB.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Unclear Signature on Ruled or Tinted Paper",
+        "description": "Signatures written across ruled lined paper or with light blue ink fail automatic legibility scans.",
+        "solution": "Sign firmly using a black ballpoint pen on unlined plain white paper and scan at 200 DPI.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Selecting Incorrect AO Code",
+        "description": "Entering an Assessing Officer code belonging to another jurisdiction or company tier delays issuance.",
+        "solution": "Use the portal AO finder to select your resident city and individual ward circle.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Already Possessing an Active PAN Card",
+        "description": "Under Section 272B of the Income Tax Act, possessing more than one PAN is illegal and attracts a ₹10,000 penalty.",
+        "solution": "Do not apply for a new PAN if you already have one; apply for a reprint or correction instead.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "title": "Minor Applying Without Parent Representative Details",
+        "description": "Form 49A for an applicant below 18 years submitted without guardian declaration and proof is rejected.",
+        "solution": "Fill out section 14 of Form 49A with parent details and upload guardian identity and address proof.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Can an individual hold more than one PAN card in India?",
+        "answer": "No. Possessing more than one PAN card is illegal under Section 272B and carries a penalty of ₹10,000.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "What is the statutory government fee for a new physical PAN card?",
+        "answer": "The statutory fee is ₹107 for delivery within India, which includes ₹91 base processing fee plus 18% GST.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "How long does it take to receive a PAN card after applying?",
+        "answer": "The digital e-PAN is emailed within 2 to 3 days, and the physical plastic card arrives in 10 to 15 days.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Can I apply for a PAN card completely online without sending physical papers?",
+        "answer": "Yes. Selecting 'Aadhaar e-KYC & e-Sign' makes the entire application 100% paperless without mailing any forms.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Is Aadhaar mandatory for applying for a new PAN card?",
+        "answer": "Yes. Section 139AA of the Income Tax Act makes quoting your Aadhaar number mandatory for Indian citizens.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Can a minor under 18 years of age get a PAN card?",
+        "answer": "Yes. Minors can apply through their parents or legal guardians acting as representative assessee.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "What is the difference between an e-PAN and a physical PAN card?",
+        "answer": "Both have equal legal validity. An e-PAN is a digitally signed PDF, while the physical card is plastic laminated.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "How can I track my PAN card application status online?",
+        "answer": "Visit the Protean or UTIITSL tracking portal and enter your 15-digit application acknowledgment number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Start Your PAN Card Application",
+      "subtitle": "5 final checks before submitting Form 49A online",
+      "items": [
+        {
+          "id": "aadhaar_otp",
+          "title": "Aadhaar Linked Mobile Phone",
+          "description": "Keep your phone ready to receive the OTP for paperless e-KYC and digital e-signing.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "parent_names",
+          "title": "Exact Parent Names",
+          "description": "Have father's and mother's legal spelling ready to print on your card.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "ao_code",
+          "title": "Assessing Officer (AO) Ward",
+          "description": "Locate your jurisdictional AO circle code using the online state and city search tool.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "payment_method",
+          "title": "Online Payment Method",
+          "description": "Keep UPI, net banking, or debit card ready to pay the ₹107 government processing fee.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "ack_tracking",
+          "title": "15-Digit Acknowledgment Number Saved",
+          "description": "Download and print your acknowledgment receipt immediately after successful payment.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Income Tax Act, 1961",
+        "actOrRuleNumber": "Section 139A & Section 139AA",
+        "issuingAuthority": "Parliament of India / Central Board of Direct Taxes",
+        "url": "https://incometaxindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Income Tax Rules, 1962",
+        "actOrRuleNumber": "Rule 114 (Application for Allotment of Permanent Account Number)",
+        "issuingAuthority": "Ministry of Finance / CBDT",
+        "url": "https://incometaxindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for a PAN Card in Gujarat (2026)",
+      "summary": "PAN allotment is managed centrally under the Principal Chief Commissioner of Income Tax, Gujarat. Citizens in Ahmedabad, Surat, Vadodara, and Rajkot can also submit physical Form 49A at local TIN-FC centres.",
+      "estimatedTime": "10-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
