@@ -129,4 +129,3 @@ if (process.argv[1]?.endsWith("backup-db.ts")) {
   console.log(`🔒 SHA256: ${result.checksum}`);
   console.log(`💾 Size: ${(result.sizeBytes / 1024).toFixed(2)} KB via ${result.strategy}`);
 }
-

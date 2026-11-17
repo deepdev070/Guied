@@ -27,10 +27,7 @@ describe("Phase 13: Troubleshooting Prompts Reference Playbook", () => {
     ];
 
     for (const prompt of requiredPrompts) {
-      assert.ok(
-        content.includes(prompt),
-        `Must document "${prompt}" in troubleshooting guide`
-      );
+      assert.ok(content.includes(prompt), `Must document "${prompt}" in troubleshooting guide`);
     }
   });
 

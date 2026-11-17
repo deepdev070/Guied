@@ -272,4 +272,3 @@ export const TaskContentSchema = z.object({
   states: z.record(z.string(), TaskVariantSchema.partial()).optional().default({}),
 });
 export type TaskContent = z.infer<typeof TaskContentSchema>;
-

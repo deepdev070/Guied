@@ -49,4 +49,3 @@ export const SECURITY_HEADERS = [
     value: "on",
   },
 ];
-

@@ -78,4 +78,3 @@ describe("Prompt 133: Lighthouse CI Performance & Accessibility Budgets", () => 
     assert.ok(config.ci.upload.outputDir);
   });
 });
-

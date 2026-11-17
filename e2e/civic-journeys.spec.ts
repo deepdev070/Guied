@@ -143,4 +143,3 @@ test.describe("Prompt 132: End-to-End Citizen Journeys", () => {
     expect(bodyText).toMatch(/admin|login|password|email/i);
   });
 });
-

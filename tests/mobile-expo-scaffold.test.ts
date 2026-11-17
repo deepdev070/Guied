@@ -94,4 +94,3 @@ describe("Prompt 118: Scaffold Expo App (TypeScript, Expo Router, Light-only, As
     assert.equal(pkg.dependencies["@civic/utils"], "*");
   });
 });
-

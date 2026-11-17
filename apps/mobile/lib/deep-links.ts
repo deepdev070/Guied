@@ -188,4 +188,3 @@ export function buildLinksForPath(webPath: string): {
     appSchemeUrl: `civicguide://${cleanPath.replace(/^\//, "")}`,
   };
 }
-

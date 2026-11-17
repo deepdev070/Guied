@@ -45,4 +45,3 @@ const styles = StyleSheet.create({
     minHeight: layout.minTouchTarget, // 44pt minimum touch target
   },
 });
-

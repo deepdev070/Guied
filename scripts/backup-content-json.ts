@@ -91,4 +91,3 @@ if (process.argv[1]?.endsWith("backup-content-json.ts")) {
     `📊 Metrics: ${result.backup.metadata.totalGuides} guides, ${result.backup.metadata.totalCategories} categories, ${result.backup.metadata.totalGlossaryTerms} glossary terms`
   );
 }
-

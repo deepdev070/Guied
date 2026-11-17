@@ -127,10 +127,7 @@
                 "backgroundColor": "Plain white paper with dark blue or black ink",
                 "maxFileSizeBytes": 20480,
                 "maxFileSizeLabel": "10 KB to 20 KB",
-                "acceptedFormats": [
-                  "JPEG",
-                  "JPG"
-                ],
+                "acceptedFormats": ["JPEG", "JPG"],
                 "diagramType": "signature",
                 "guidanceUrl": "https://sarathi.parivahan.gov.in",
                 "instructions": [
@@ -876,10 +873,7 @@
                 "backgroundColor": "Plain white background without shadows",
                 "maxFileSizeBytes": 204800,
                 "maxFileSizeLabel": "20 KB to 200 KB",
-                "acceptedFormats": [
-                  "JPEG",
-                  "JPG"
-                ],
+                "acceptedFormats": ["JPEG", "JPG"],
                 "diagramType": "photo",
                 "guidanceUrl": "https://www.passportindia.gov.in",
                 "instructions": [
@@ -1401,10 +1395,7 @@
         "nativeName": "ఆంధ్రప్రదేశ్",
         "slug": "andhra-pradesh",
         "code": "AP",
-        "primaryLanguages": [
-          "te",
-          "en"
-        ],
+        "primaryLanguages": ["te", "en"],
         "portalName": "Meeseva",
         "portalUrl": ""
       },
@@ -1413,10 +1404,7 @@
         "nativeName": "अरुणाचल प्रदेश",
         "slug": "arunachal-pradesh",
         "code": "AR",
-        "primaryLanguages": [
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["en", "hi"],
         "portalName": "ServicePlus Arunachal",
         "portalUrl": ""
       },
@@ -1425,10 +1413,7 @@
         "nativeName": "অসম",
         "slug": "assam",
         "code": "AS",
-        "primaryLanguages": [
-          "as",
-          "en"
-        ],
+        "primaryLanguages": ["as", "en"],
         "portalName": "SewaSetu Assam",
         "portalUrl": ""
       },
@@ -1437,9 +1422,7 @@
         "nativeName": "बिहार",
         "slug": "bihar",
         "code": "BR",
-        "primaryLanguages": [
-          "hi"
-        ],
+        "primaryLanguages": ["hi"],
         "portalName": "RTPS Bihar",
         "portalUrl": ""
       },
@@ -1448,9 +1431,7 @@
         "nativeName": "छत्तीसगढ़",
         "slug": "chhattisgarh",
         "code": "CG",
-        "primaryLanguages": [
-          "hi"
-        ],
+        "primaryLanguages": ["hi"],
         "portalName": "e-District Chhattisgarh",
         "portalUrl": ""
       },
@@ -1459,11 +1440,7 @@
         "nativeName": "गोंय",
         "slug": "goa",
         "code": "GA",
-        "primaryLanguages": [
-          "kok",
-          "en",
-          "mr"
-        ],
+        "primaryLanguages": ["kok", "en", "mr"],
         "portalName": "Goa Online",
         "portalUrl": ""
       },
@@ -1472,11 +1449,7 @@
         "nativeName": "ગુજરાત",
         "slug": "gujarat",
         "code": "GJ",
-        "primaryLanguages": [
-          "gu",
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["gu", "en", "hi"],
         "launchState": true,
         "portalName": "Digital Gujarat",
         "portalUrl": ""
@@ -1486,11 +1459,7 @@
         "nativeName": "हरियाणा",
         "slug": "haryana",
         "code": "HR",
-        "primaryLanguages": [
-          "hi",
-          "en",
-          "pa"
-        ],
+        "primaryLanguages": ["hi", "en", "pa"],
         "portalName": "Antyodaya Saral Haryana",
         "portalUrl": ""
       },
@@ -1499,10 +1468,7 @@
         "nativeName": "हिमाचल प्रदेश",
         "slug": "himachal-pradesh",
         "code": "HP",
-        "primaryLanguages": [
-          "hi",
-          "en"
-        ],
+        "primaryLanguages": ["hi", "en"],
         "portalName": "e-District Himachal",
         "portalUrl": ""
       },
@@ -1511,9 +1477,7 @@
         "nativeName": "झारखंड",
         "slug": "jharkhand",
         "code": "JH",
-        "primaryLanguages": [
-          "hi"
-        ],
+        "primaryLanguages": ["hi"],
         "portalName": "JharSewa Jharkhand",
         "portalUrl": ""
       },
@@ -1522,10 +1486,7 @@
         "nativeName": "ಕರ್ನಾಟಕ",
         "slug": "karnataka",
         "code": "KA",
-        "primaryLanguages": [
-          "kn",
-          "en"
-        ],
+        "primaryLanguages": ["kn", "en"],
         "portalName": "Seva Sindhu",
         "portalUrl": ""
       },
@@ -1534,10 +1495,7 @@
         "nativeName": "കേരളം",
         "slug": "kerala",
         "code": "KL",
-        "primaryLanguages": [
-          "ml",
-          "en"
-        ],
+        "primaryLanguages": ["ml", "en"],
         "portalName": "e-District Kerala",
         "portalUrl": ""
       },
@@ -1546,9 +1504,7 @@
         "nativeName": "मध्य प्रदेश",
         "slug": "madhya-pradesh",
         "code": "MP",
-        "primaryLanguages": [
-          "hi"
-        ],
+        "primaryLanguages": ["hi"],
         "portalName": "MP e-District",
         "portalUrl": ""
       },
@@ -1557,11 +1513,7 @@
         "nativeName": "महाराष्ट्र",
         "slug": "maharashtra",
         "code": "MH",
-        "primaryLanguages": [
-          "mr",
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["mr", "en", "hi"],
         "portalName": "Aaple Sarkar",
         "portalUrl": ""
       },
@@ -1570,10 +1522,7 @@
         "nativeName": "মণিপুর",
         "slug": "manipur",
         "code": "MN",
-        "primaryLanguages": [
-          "mni",
-          "en"
-        ],
+        "primaryLanguages": ["mni", "en"],
         "portalName": "e-District Manipur",
         "portalUrl": ""
       },
@@ -1582,9 +1531,7 @@
         "nativeName": "Meghalaya",
         "slug": "meghalaya",
         "code": "ML",
-        "primaryLanguages": [
-          "en"
-        ],
+        "primaryLanguages": ["en"],
         "portalName": "e-District Meghalaya",
         "portalUrl": ""
       },
@@ -1593,10 +1540,7 @@
         "nativeName": "Mizoram",
         "slug": "mizoram",
         "code": "MZ",
-        "primaryLanguages": [
-          "lus",
-          "en"
-        ],
+        "primaryLanguages": ["lus", "en"],
         "portalName": "Mizoram State Portal",
         "portalUrl": ""
       },
@@ -1605,9 +1549,7 @@
         "nativeName": "Nagaland",
         "slug": "nagaland",
         "code": "NL",
-        "primaryLanguages": [
-          "en"
-        ],
+        "primaryLanguages": ["en"],
         "portalName": "e-District Nagaland",
         "portalUrl": ""
       },
@@ -1616,10 +1558,7 @@
         "nativeName": "ଓଡ଼ିଶା",
         "slug": "odisha",
         "code": "OD",
-        "primaryLanguages": [
-          "or",
-          "en"
-        ],
+        "primaryLanguages": ["or", "en"],
         "portalName": "Odisha e-District",
         "portalUrl": ""
       },
@@ -1628,10 +1567,7 @@
         "nativeName": "ਪੰਜਾਬ",
         "slug": "punjab",
         "code": "PB",
-        "primaryLanguages": [
-          "pa",
-          "en"
-        ],
+        "primaryLanguages": ["pa", "en"],
         "portalName": "Connect Punjab",
         "portalUrl": ""
       },
@@ -1640,10 +1576,7 @@
         "nativeName": "राजस्थान",
         "slug": "rajasthan",
         "code": "RJ",
-        "primaryLanguages": [
-          "hi",
-          "en"
-        ],
+        "primaryLanguages": ["hi", "en"],
         "portalName": "e-Mitra Rajasthan",
         "portalUrl": ""
       },
@@ -1652,11 +1585,7 @@
         "nativeName": "सिक्किम",
         "slug": "sikkim",
         "code": "SK",
-        "primaryLanguages": [
-          "ne",
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["ne", "en", "hi"],
         "portalName": "Sikkim State Portal",
         "portalUrl": ""
       },
@@ -1665,10 +1594,7 @@
         "nativeName": "தமிழ்நாடு",
         "slug": "tamil-nadu",
         "code": "TN",
-        "primaryLanguages": [
-          "ta",
-          "en"
-        ],
+        "primaryLanguages": ["ta", "en"],
         "portalName": "e-Sevai Tamil Nadu",
         "portalUrl": ""
       },
@@ -1677,11 +1603,7 @@
         "nativeName": "తెలంగాణ",
         "slug": "telangana",
         "code": "TG",
-        "primaryLanguages": [
-          "te",
-          "en",
-          "ur"
-        ],
+        "primaryLanguages": ["te", "en", "ur"],
         "portalName": "MeeSeva Telangana",
         "portalUrl": ""
       },
@@ -1690,10 +1612,7 @@
         "nativeName": "ত্রিপুরা",
         "slug": "tripura",
         "code": "TR",
-        "primaryLanguages": [
-          "bn",
-          "en"
-        ],
+        "primaryLanguages": ["bn", "en"],
         "portalName": "e-District Tripura",
         "portalUrl": ""
       },
@@ -1702,11 +1621,7 @@
         "nativeName": "उत्तर प्रदेश",
         "slug": "uttar-pradesh",
         "code": "UP",
-        "primaryLanguages": [
-          "hi",
-          "ur",
-          "en"
-        ],
+        "primaryLanguages": ["hi", "ur", "en"],
         "portalName": "e-District UP",
         "portalUrl": ""
       },
@@ -1715,10 +1630,7 @@
         "nativeName": "उत्तराखंड",
         "slug": "uttarakhand",
         "code": "UK",
-        "primaryLanguages": [
-          "hi",
-          "en"
-        ],
+        "primaryLanguages": ["hi", "en"],
         "portalName": "e-Sewa Uttarakhand",
         "portalUrl": ""
       },
@@ -1727,10 +1639,7 @@
         "nativeName": "পশ্চিমবঙ্গ",
         "slug": "west-bengal",
         "code": "WB",
-        "primaryLanguages": [
-          "bn",
-          "en"
-        ],
+        "primaryLanguages": ["bn", "en"],
         "portalName": "Banglarbhumi / e-District WB",
         "portalUrl": ""
       },
@@ -1739,10 +1648,7 @@
         "nativeName": "अंडमान और निकोबार द्वीप समूह",
         "slug": "andaman-and-nicobar-islands",
         "code": "AN",
-        "primaryLanguages": [
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["en", "hi"],
         "portalName": "e-District Andaman",
         "portalUrl": ""
       },
@@ -1751,11 +1657,7 @@
         "nativeName": "ਚੰਡੀਗੜ੍ਹ",
         "slug": "chandigarh",
         "code": "CH",
-        "primaryLanguages": [
-          "en",
-          "pa",
-          "hi"
-        ],
+        "primaryLanguages": ["en", "pa", "hi"],
         "portalName": "e-Sampark Chandigarh",
         "portalUrl": ""
       },
@@ -1764,11 +1666,7 @@
         "nativeName": "દાદરા અને નગર હવેલી અને દમણ અને દીવ",
         "slug": "dadra-and-nagar-haveli-and-daman-and-diu",
         "code": "DN",
-        "primaryLanguages": [
-          "gu",
-          "hi",
-          "en"
-        ],
+        "primaryLanguages": ["gu", "hi", "en"],
         "portalName": "e-District Daman Diu",
         "portalUrl": ""
       },
@@ -1777,12 +1675,7 @@
         "nativeName": "दिल्ली (NCR)",
         "slug": "delhi",
         "code": "DL",
-        "primaryLanguages": [
-          "hi",
-          "en",
-          "pa",
-          "ur"
-        ],
+        "primaryLanguages": ["hi", "en", "pa", "ur"],
         "portalName": "e-District Delhi",
         "portalUrl": ""
       },
@@ -1791,12 +1684,7 @@
         "nativeName": "جموں و کشمیر",
         "slug": "jammu-and-kashmir",
         "code": "JK",
-        "primaryLanguages": [
-          "ks",
-          "ur",
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["ks", "ur", "en", "hi"],
         "portalName": "e-UNNAT J&K",
         "portalUrl": ""
       },
@@ -1805,10 +1693,7 @@
         "nativeName": "ལ་དྭགས",
         "slug": "ladakh",
         "code": "LA",
-        "primaryLanguages": [
-          "en",
-          "hi"
-        ],
+        "primaryLanguages": ["en", "hi"],
         "portalName": "e-District Ladakh",
         "portalUrl": ""
       },
@@ -1817,10 +1702,7 @@
         "nativeName": "ലക്ഷദ്വീപ്",
         "slug": "lakshadweep",
         "code": "LD",
-        "primaryLanguages": [
-          "ml",
-          "en"
-        ],
+        "primaryLanguages": ["ml", "en"],
         "portalName": "Lakshadweep Portal",
         "portalUrl": ""
       },
@@ -1829,11 +1711,7 @@
         "nativeName": "புதுச்சேரி",
         "slug": "puducherry",
         "code": "PY",
-        "primaryLanguages": [
-          "ta",
-          "en",
-          "fr"
-        ],
+        "primaryLanguages": ["ta", "en", "fr"],
         "portalName": "e-District Puducherry",
         "portalUrl": ""
       }
@@ -1844,13 +1722,7 @@
         "termEn": "Affidavit",
         "termHi": "शपथ पत्र (Affidavit)",
         "termGu": "સોગંદનામું (Affidavit)",
-        "aliases": [
-          "affidavit",
-          "affidavits",
-          "sworn statement",
-          "शपथ पत्र",
-          "સોગંદનામું"
-        ],
+        "aliases": ["affidavit", "affidavits", "sworn statement", "शपथ पत्र", "સોગંદનામું"],
         "defEn": "A written statement sworn before an authorized notary or magistrate. It legally confirms that the facts stated by you are 100% true. Making a false affidavit is a criminal offense.",
         "defHi": "नोटरी या मजिस्ट्रेट के सामने शपथ लेकर दिया गया लिखित बयान। यह कानूनी रूप से पुष्टि करता है कि आपके द्वारा दी गई जानकारी सच है।",
         "defGu": "નોટરી અથવા મેજિસ્ટ્રેટ સમક્ષ સોગંદપૂર્વક કરાયેલું લેખિત નિવેદન, જે કાયદેસર રીતે સાબિત કરે છે કે તમારી માહિતી સંપૂર્ણપણે સાચી છે.",
@@ -1869,24 +1741,13 @@
         "termEn": "Notary / Notarised",
         "termHi": "नोटरी (Notary)",
         "termGu": "નોટરી (Notary)",
-        "aliases": [
-          "notary",
-          "notarized",
-          "notarised",
-          "notary public",
-          "नोटरी"
-        ],
+        "aliases": ["notary", "notarized", "notarised", "notary public", "नोटरी"],
         "defEn": "A government-appointed legal officer (advocate) authorized to verify your identity, witness your signature, and place an official seal and stamp on legal declarations.",
         "defHi": "सरकार द्वारा अधिकृत वकील जो आपकी पहचान की पुष्टि करता है, आपके हस्ताक्षर देखता है और दस्तावेजों पर आधिकारिक मुहर लगाता है।",
         "defGu": "સરકાર દ્વારા અધિકૃત વકીલ જે તમારી અસલ ઓળખ ચકાસીને તમારા દસ્તાવેજ પર સહી તથા સત્તાવાર સિક્કો મારે છે.",
         "whoIssues": "Advocates appointed as Notaries by the Central or State Law Department.",
         "commonCost": "₹30 – ₹50 per signature/seal.",
-        "whereUsed": [
-          "Affidavits",
-          "Rent agreements",
-          "Power of attorney",
-          "Annexures"
-        ],
+        "whereUsed": ["Affidavits", "Rent agreements", "Power of attorney", "Annexures"],
         "tips": "Ensure the notary writes their registration number and expiry date next to their seal."
       },
       {
@@ -1894,13 +1755,7 @@
         "termEn": "Gazette (Rajpatra)",
         "termHi": "राजपत्र (Gazette)",
         "termGu": "રાજપત્ર (Gazette)",
-        "aliases": [
-          "gazette",
-          "official gazette",
-          "rajpatra",
-          "राजपत्र",
-          "રાજપત્ર"
-        ],
+        "aliases": ["gazette", "official gazette", "rajpatra", "राजपत्र", "રાજપત્ર"],
         "defEn": "The official government publication where new statutes, statutory fee revisions, and legal name changes are published to make them legally recognized across India.",
         "defHi": "सरकार का आधिकारिक प्रकाशन जहां नए कानून, सरकारी फीस और नाम बदलने की सूचनाएं कानूनी रूप से प्रकाशित होती हैं।",
         "defGu": "સરકારનું સત્તાવાર પ્રકાશન જેમાં નવા કાયદા, સરકારી ફી અને નામ બદલવાની જાહેરાતો કાયદેસર રીતે જાહેર થાય છે.",
@@ -1931,12 +1786,7 @@
         "defGu": "ઝેરોક્ષ કોપી પર 'Self-Attested' લખીને તમારી પોતાની સહી અને તારીખ કરવી. આ માટે કોઈ સરકારી અધિકારીની સહીની જરૂર નથી હોતી.",
         "whoIssues": "Done directly by you (the applicant).",
         "commonCost": "Free (₹0).",
-        "whereUsed": [
-          "Passport application",
-          "Driving licence",
-          "Aadhaar update",
-          "PAN card"
-        ],
+        "whereUsed": ["Passport application", "Driving licence", "Aadhaar update", "PAN card"],
         "tips": "Sign across the blank margin without obscuring vital document details or photo."
       },
       {
@@ -1992,22 +1842,13 @@
         "termEn": "Tatkaal Scheme",
         "termHi": "तत्काल सेवा (Tatkal)",
         "termGu": "તત્કાલ યોજના (Tatkal)",
-        "aliases": [
-          "tatkal",
-          "tatkaal",
-          "urgent processing",
-          "तत्काल",
-          "તત્કાલ"
-        ],
+        "aliases": ["tatkal", "tatkaal", "urgent processing", "तत्काल", "તત્કાલ"],
         "defEn": "An official expedited fast-track government scheme that delivers passports or public services in 1 to 3 business days for an additional gazetted surcharge.",
         "defHi": "आपातकालीन त्वरित सेवा जो अतिरिक्त सरकारी शुल्क लेकर 1 से 3 दिनों में पासपोर्ट या दस्तावेज तैयार करती है।",
         "defGu": "સરકારી કટોકટી સેવા જે વધારાની સરકારી ફી લઈને ૧ થી ૩ દિવસમાં પાસપોર્ટ કે દસ્તાવેજ આપવાની સુવિધા આપે છે.",
         "whoIssues": "Passport Seva Kendra (Ministry of External Affairs).",
         "commonCost": "₹2,000 additional statutory surcharge for passport.",
-        "whereUsed": [
-          "Urgent international travel",
-          "Medical emergency passport renewal"
-        ],
+        "whereUsed": ["Urgent international travel", "Medical emergency passport renewal"],
         "tips": "Police verification for Tatkaal passports happens after dispatch (Post-police verification)."
       },
       {
@@ -2015,13 +1856,7 @@
         "termEn": "Annexure",
         "termHi": "अनुलग्नक (Annexure)",
         "termGu": "જોડાણ (Annexure)",
-        "aliases": [
-          "annexure",
-          "annexures",
-          "annexure e",
-          "अनुलग्नक",
-          "જોડાણ"
-        ],
+        "aliases": ["annexure", "annexures", "annexure e", "अनुलग्नक", "જોડાણ"],
         "defEn": "A standardized affidavit or declaration form attached to a government application to certify specific circumstances (such as citizenship declaration, spouse details, or lost document explanation).",
         "defHi": "आवेदन के साथ लगने वाला आधिकारिक हलफनामा या घोषणा पत्र प्रारूप (जैसे पासपोर्ट के लिए Annexure E)।",
         "defGu": "અરજી સાથે જોડવાનું સત્તાવાર સોગંદનામું કે બાંયધરી ફોર્મ (જેમ કે પાસપોર્ટ માટે Annexure E).",
@@ -2039,13 +1874,7 @@
         "termEn": "Challan / E-Challan",
         "termHi": "चालान (Challan)",
         "termGu": "ચલણ (Challan)",
-        "aliases": [
-          "challan",
-          "e-challan",
-          "echallan",
-          "चालान",
-          "ચલણ"
-        ],
+        "aliases": ["challan", "e-challan", "echallan", "चालान", "ચલણ"],
         "defEn": "An official computerized receipt or payment demand note used to deposit statutory fees or penalties directly into the government treasury.",
         "defHi": "सरकारी खजाने में फीस या जुर्माना जमा करने की आधिकारिक रसीદ।",
         "defGu": "સરકારી તિજોરીમાં ફી અથવા દંડ જમા કરાવવાની સત્તાવાર કોમ્પ્યુટરાઈઝ્ડ રસીદ.",

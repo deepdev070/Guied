@@ -93,4 +93,3 @@ export const WIZARD_QUESTIONS: WizardQuestion[] = [
     ],
   },
 ];
-

@@ -1,0 +1,415 @@
+{
+  "slug": "pcc-passport",
+  "name": "Police Clearance Certificate (PCC) for Abroad",
+  "description": "Complete guide to obtaining a Police Clearance Certificate (PCC) from Passport Seva for foreign employment, study, or immigration visas.",
+  "categorySlug": "identity",
+  "national": {
+    "title": "How to Get Police Clearance Certificate (PCC) for Abroad: Steps & Fees (2026)",
+    "summary": "Step-by-step guide to applying for a Police Clearance Certificate (PCC) online through Passport Seva. Verified statutory fee of ₹500, required documents, and police verification steps.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/faqServicesAvailable",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Log In to the Official Passport Seva Portal",
+        "description": "Visit passportindia.gov.in and log in with your existing account. If you do not have an account, complete user registration.",
+        "where": "Official Passport Seva Portal (passportindia.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://www.passportindia.gov.in",
+        "officialLinkLabel": "Open Official Passport Seva Portal",
+        "calloutType": "warning",
+        "calloutTitle": "Official Portal Only",
+        "calloutText": "Only apply on passportindia.gov.in. Commercial intermediary sites charge extra fees without official authorization.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Select 'Apply for Police Clearance Certificate'",
+        "description": "Click 'Apply for Police Clearance Certificate'. Enter your valid Indian passport number, issue date, and passport expiry date.",
+        "where": "Online Application Dashboard",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Fill Country and Visa Purpose Details",
+        "description": "Select the destination country and specify your visa category. Common categories include employment, immigration, long-term stay, or overseas student visa.",
+        "where": "Online Form (PCC Form)",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Tourist Visas Do Not Need PCC",
+        "calloutText": "PCC is strictly for long-term stay, study, or work visas. Regular short tourist visits do not require a PCC.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Pay the Statutory Government Fee of ₹500",
+        "description": "Pay the mandatory ₹500 statutory fee online through SBI ePay. You can use UPI, debit cards, or net banking.",
+        "where": "Integrated Bharatkosh / SBI ePay Gateway",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Schedule Appointment at Nearest PSK or POPSK",
+        "description": "Choose an available date and time slot at your nearest Passport Seva Kendra or Post Office PSK. Download your appointment receipt.",
+        "where": "Online Appointment Booking",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Appointment SMS Accepted",
+        "calloutText": "The official SMS received on your registered mobile number is accepted for entry at the PSK security gate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Visit PSK for Physical Document Scrutiny",
+        "description": "Visit the PSK with your original passport and self-attested photocopies. The officer verifies your passport authenticity and takes digital biometric acknowledgement.",
+        "where": "Passport Seva Kendra (PSK / POPSK)",
+        "estimatedTime": "30-45 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Undergo Verification at Local Police Station",
+        "description": "Your local jurisdiction police station receives the electronic enquiry. An officer conducts physical address verification and background criminal records check.",
+        "where": "Local Police Station & Residential Address",
+        "estimatedTime": "5-10 days",
+        "calloutType": "important",
+        "calloutTitle": "Neighbour Witnesses Needed",
+        "calloutText": "Police verification officers typically request two local neighbourhood references to confirm your residential stay.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Collect Issued Police Clearance Certificate",
+        "description": "Once clear police report uploads, your PCC certificate is issued. You will receive an SMS to collect the physical certificate or track Speed Post delivery.",
+        "where": "Passport Seva Kendra or Delivered via Speed Post",
+        "estimatedTime": "2-4 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Original Valid Indian Passport",
+        "description": "Original valid passport with at least 6 months validity remaining and self-attested copies of first and last pages.",
+        "requirementType": "required",
+        "copiesHint": "Original + 2 self-attested photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/pccInp"
+      },
+      {
+        "name": "Proof of Present Residential Address",
+        "description": "Aadhaar Card, utility bill, or bank passbook if your present address differs from the address printed on your passport.",
+        "requirementType": "conditional",
+        "copiesHint": "Original + 2 self-attested photocopies",
+        "appliesWhen": {
+          "addressChanged": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/docAdvisor/pccInp"
+      },
+      {
+        "name": "Document Justifying Visa or PCC Requirement",
+        "description": "Employment offer letter, foreign university admission letter, or visa application letter requiring police clearance.",
+        "requirementType": "conditional",
+        "copiesHint": "Original + 1 clear photocopy",
+        "appliesWhen": {
+          "hasVisaLetter": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "name": "Self-Declaration on Criminal Proceedings",
+        "description": "Signed self-declaration stating applicant has no pending criminal cases or court warrants across India.",
+        "requirementType": "required",
+        "copiesHint": "Original signed statement on plain A4 paper",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "name": "Aadhaar Card with Linked Mobile Number",
+        "description": "Original Aadhaar card used for instant digital identity confirmation at the Passport Seva Kendra entrance.",
+        "requirementType": "required",
+        "copiesHint": "Original + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Police Clearance Certificate (PCC) Statutory Fee",
+        "amount": 500,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Passports Act 1967 & Passport Rules Schedule IV",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument"
+      },
+      {
+        "label": "Optional Premium SMS Status Alerts",
+        "amount": 50,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "counter",
+        "rulesReference": "Passport Seva Citizen Charter",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "PCC Cost Calculator",
+      "description": "Calculate total statutory charges for Police Clearance Certificate.",
+      "baseFee": 500,
+      "baseFeeLabel": "Statutory PCC Fee",
+      "officialSourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/feeDocument",
+      "officialSourceLabel": "Official Passport Seva Fee Schedule",
+      "rulesReference": "Passport Rules Schedule IV",
+      "options": [
+        {
+          "id": "delivery",
+          "label": "Notification & Tracking Mode",
+          "type": "delivery",
+          "defaultChoiceId": "standard",
+          "choices": [
+            {
+              "id": "standard",
+              "label": "Online Web Tracking (Free)",
+              "amount": 0,
+              "description": "Standard portal tracking using application file number"
+            },
+            {
+              "id": "sms_alert",
+              "label": "Direct SMS Alerts (+₹50)",
+              "amount": 50,
+              "description": "Live SMS updates at each verification stage"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Passport Seva Online Portal",
+        "url": "https://www.passportindia.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of External Affairs, Government of India",
+        "portalName": "Passport Seva",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "label": "Ministry of External Affairs Guidelines",
+        "url": "https://www.mea.gov.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "MEA Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.mea.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Pending Criminal Case or Active Court Warrant",
+        "description": "If an active FIR, chargesheet, or court summon exists in your name, the local police will issue an adverse report.",
+        "solution": "Obtain formal clearance from the concerned court before applying for foreign clearance.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Address Mismatch with Police Station Jurisdiction",
+        "description": "Selecting a police station that does not have administrative jurisdiction over your actual residence results in file return.",
+        "solution": "Verify your exact local police station limits with neighbours or local municipality before submitting Form 1.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Applying with an Expired Passport",
+        "description": "PCC can only be issued against an active, valid Indian passport. Expired passports are rejected immediately.",
+        "solution": "Apply for passport renewal first. Once your renewed passport is issued, apply for your PCC.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Applicant Not Found During Police Visit",
+        "description": "If the verification officer visits and finds the house locked or neighbours deny knowing the applicant, the report is marked adverse.",
+        "solution": "Keep your phone reachable, stay present in town, and inform family members to facilitate the verification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Mutilated or Damaged Physical Passport",
+        "description": "A passport with torn pages or damaged biographical laminate will be rejected during PSK counter verification.",
+        "solution": "Apply for passport re-issue under 'Damaged Passport' category before seeking a police certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "title": "Failing to Provide Supporting Visa Reason",
+        "description": "The Ministry requires a valid purpose for issuing a PCC. Vague or undeclared travel plans will delay clearance.",
+        "solution": "Attach your job contract, university admission letter, or visa checklist with your application.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is a Police Clearance Certificate (PCC) from Passport Seva?",
+        "answer": "A PCC is an official document issued by the Ministry of External Affairs certifying that an Indian citizen has no adverse criminal record.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Who needs to apply for a Police Clearance Certificate?",
+        "answer": "Indian citizens moving abroad for employment, long-term immigration, permanent residency, or higher education require a PCC.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Can I obtain a PCC if my Indian passport has expired?",
+        "answer": "No. You must renew your expired passport first before applying for a Police Clearance Certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "What is the official statutory fee for a PCC?",
+        "answer": "The statutory fee is ₹500 paid online through the official Passport Seva portal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "How long is an Indian Police Clearance Certificate valid?",
+        "answer": "The certificate is generally valid for 6 months from the date of issue for most foreign embassy visa applications.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Do tourists going abroad on vacation need a PCC?",
+        "answer": "No. Short tourist visa holders do not require a Police Clearance Certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Is there a Tatkaal urgent scheme for PCC issuance?",
+        "answer": "No. PCC applications must undergo mandatory local police verification, so no Tatkaal quota is available.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      },
+      {
+        "question": "Can I apply if my current address differs from my passport address?",
+        "answer": "Yes. Provide valid proof of your current address, such as an Aadhaar Card or utility bill, when filling out the form.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://www.passportindia.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Leave for Passport Seva Kendra",
+      "subtitle": "5 final physical checks before heading out for your PCC slot",
+      "items": [
+        {
+          "id": "passport",
+          "title": "Original Valid Passport",
+          "description": "Carry your physical passport with at least 6 months validity remaining.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "photocopies",
+          "title": "2 Self-Attested Photocopy Sets",
+          "description": "Bring two clean photocopies of passport first two and last two pages with your signature.",
+          "icon": "Copy"
+        },
+        {
+          "id": "address_proof",
+          "title": "Current Address Proof (If Changed)",
+          "description": "Carry original Aadhaar or utility bill if living at a different address than in passport.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "visa_letter",
+          "title": "Visa or Employment Document",
+          "description": "Bring your foreign offer letter or university letter proving why PCC is required.",
+          "icon": "FileText"
+        },
+        {
+          "id": "receipt",
+          "title": "Appointment Receipt or SMS",
+          "description": "Keep printed receipt or mobile SMS ready for security gate entry at PSK.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "The Passports Act, 1967",
+        "actOrRuleNumber": "Section 4 and 10",
+        "issuingAuthority": "Parliament of India / Ministry of External Affairs",
+        "url": "https://www.mea.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Passport Rules, 1980 - Schedule IV",
+        "actOrRuleNumber": "Fee for Miscellaneous Passport Services",
+        "issuingAuthority": "Ministry of External Affairs, Government of India",
+        "url": "https://www.passportindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Get Police Clearance Certificate (PCC) in Gujarat (2026)",
+      "summary": "Step-by-step PCC application procedure for Gujarat residents. Covers RPO Ahmedabad and RPO Surat jurisdictions, city commissionerates, and district SP verification.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}

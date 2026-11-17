@@ -141,4 +141,3 @@ const styles = StyleSheet.create({
     fontSize: typography.h4.fontSize,
   },
 });
-

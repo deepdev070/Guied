@@ -125,4 +125,3 @@ if (process.argv[1]?.endsWith("restore-db.ts")) {
     process.exit(1);
   }
 }
-
