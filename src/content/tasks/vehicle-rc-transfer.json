@@ -1,0 +1,491 @@
+{
+  "slug": "vehicle-rc-transfer",
+  "name": "Vehicle RC Ownership Transfer (Used Vehicle)",
+  "description": "Complete guide to transferring vehicle registration certificate ownership after buying a used two-wheeler or car with verified Parivahan fees and forms.",
+  "categorySlug": "vehicles",
+  "national": {
+    "title": "How to Transfer Vehicle RC Ownership After Buying a Used Vehicle (2026)",
+    "summary": "Step-by-step guide to transferring vehicle registration certificate ownership on the Parivahan Vahan portal. Verified statutory fees under CMVR Rule 81, Form 29 and 30 rules, and required seller documents.",
+    "estimatedTime": "15-30 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://parivahan.gov.in/parivahan//en/content/vehicle-related-services",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Check Pending E-Challans and Active Bank Loans",
+        "description": "Visit echallan.parivahan.gov.in to verify that no pending traffic fines exist. Ensure the seller provides a bank NOC if a loan was active.",
+        "where": "Online E-Challan & Vahan Portal",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://echallan.parivahan.gov.in",
+        "officialLinkLabel": "Open Parivahan E-Challan Portal",
+        "calloutType": "warning",
+        "calloutTitle": "Clear All Fines First",
+        "calloutText": "Any unpaid traffic challan will freeze the vehicle record and prevent transfer approval.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://echallan.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Collect Form 29 and Form 30 Signed by Seller",
+        "description": "Get two copies of Form 29 and two copies of Form 30 signed by the registered seller. Take a clean chassis pencil print.",
+        "where": "In Person with Seller",
+        "estimatedTime": "1 day",
+        "calloutType": "tip",
+        "calloutTitle": "Pencil Tracing Tip",
+        "calloutText": "Trace the chassis number using an HB pencil on the corner of both forms.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Open Parivahan Vahan and Select State",
+        "description": "Visit vahan.parivahan.gov.in and select your state transport department. Enter the vehicle registration number and proceed to vehicle services.",
+        "where": "Official Parivahan Vahan Portal",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://vahan.parivahan.gov.in",
+        "officialLinkLabel": "Open Vahan Citizen Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://vahan.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Select Transfer of Ownership Service",
+        "description": "Click on 'Apply for Transfer of Ownership' under online vehicle services. Enter the last five digits of the chassis number.",
+        "where": "Online Vahan Services Menu",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://vahan.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Enter Buyer Details and Mobile Number",
+        "description": "Fill in the buyer's full name, father's name, present residential address, and mobile number. Generate and submit the OTP sent to buyer.",
+        "where": "Online Application Form",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://vahan.parivahan.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Signed Forms and Supporting Documents",
+        "description": "Upload scanned copies of Form 29, Form 30, valid insurance, valid PUC, and buyer address proof in PDF format.",
+        "where": "Online Document Upload Gateway",
+        "estimatedTime": "10 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Upload Specifications",
+        "calloutText": "Ensure each PDF file size is under 200 KB and clearly legible.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Statutory Government Transfer Fees Online",
+        "description": "Pay the transfer fee and smart card fee through the integrated government treasury payment gateway. Download the fee receipt with application number.",
+        "where": "Integrated State Treasury / Bharatkosh",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Submit Physical File to RTO or Await Faceless Approval",
+        "description": "In faceless states, approval happens automatically online. In other states, submit original RC and signed forms to the jurisdictional RTO.",
+        "where": "Jurisdictional RTO Office or Speed Post Delivery",
+        "estimatedTime": "15-30 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Original Vehicle Registration Certificate (RC)",
+        "description": "Physical smart card or paper booklet registration certificate issued in the seller's name.",
+        "requirementType": "required",
+        "copiesHint": "Original smart card or RC booklet",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Form 29 Notice of Transfer of Ownership",
+        "description": "Statutory notice of ownership transfer signed in duplicate by the registered vehicle seller.",
+        "requirementType": "required",
+        "copiesHint": "2 signed original copies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Form 30 Application for Transfer of Ownership",
+        "description": "Statutory application for intimation and transfer of ownership signed by both seller and buyer in duplicate.",
+        "requirementType": "required",
+        "copiesHint": "2 signed original copies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Valid Motor Vehicle Insurance Certificate",
+        "description": "Active third-party or comprehensive motor vehicle insurance policy valid for at least thirty days.",
+        "requirementType": "required",
+        "copiesHint": "Original policy or printout",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Valid Pollution Under Control (PUC) Certificate",
+        "description": "Valid computerized emissions certificate issued by an authorized government testing centre.",
+        "requirementType": "required",
+        "copiesHint": "Original computerized receipt",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "name": "Form 35 Loan Hypothecation Termination Certificate",
+        "description": "NOC letter from the financing bank along with two copies of Form 35 signed by the financier.",
+        "requirementType": "conditional",
+        "copiesHint": "Original bank NOC + 2 signed Form 35",
+        "appliesWhen": {
+          "loanActive": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Form 28 No Objection Certificate (NOC)",
+        "description": "Three copies of Form 28 issued by the parent RTO if moving to a different RTO district or state.",
+        "requirementType": "conditional",
+        "copiesHint": "3 original copies with chassis print",
+        "appliesWhen": {
+          "interDistrictOrState": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "name": "Proof of Buyer Residential Address",
+        "description": "Aadhaar Card, voter ID card, electricity bill, or registered rent agreement of the buyer.",
+        "requirementType": "required",
+        "copiesHint": "Original + 1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Two-Wheeler Ownership Transfer Fee",
+        "amount": 150,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "CMVR 1989 Rule 81",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Four-Wheeler / Car Ownership Transfer Fee",
+        "amount": 300,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "CMVR 1989 Rule 81",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Smart Card RC Form 23A Fee",
+        "amount": 200,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "CMVR 1989 Rule 81",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "Loan Hypothecation Termination Endorsement Fee",
+        "amount": 100,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "CMVR 1989 Rule 81",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Vehicle RC Transfer Fee Calculator",
+      "description": "Calculate exact statutory fees for transferring ownership of a used motorcycle, scooter, or car.",
+      "baseFee": 350,
+      "baseFeeLabel": "Two-Wheeler Standard Fee (₹150 transfer + ₹200 smart card)",
+      "officialSourceUrl": "https://morth.nic.in",
+      "officialSourceLabel": "CMVR Rule 81 Fee Schedule",
+      "rulesReference": "CMVR 1989 Rule 81",
+      "options": [
+        {
+          "id": "vehicle_category",
+          "label": "Vehicle Category",
+          "type": "vehicle_type",
+          "defaultChoiceId": "two_wheeler",
+          "choices": [
+            {
+              "id": "two_wheeler",
+              "label": "Two-Wheeler (Motorcycle / Scooter)",
+              "amount": 0,
+              "description": "Statutory transfer fee ₹150 + ₹200 smart card"
+            },
+            {
+              "id": "four_wheeler",
+              "label": "Light Motor Vehicle (Car / SUV) (+₹150)",
+              "amount": 150,
+              "description": "Statutory transfer fee ₹300 + ₹200 smart card"
+            }
+          ]
+        },
+        {
+          "id": "loan_status",
+          "label": "Bank Loan / Hypothecation Status",
+          "type": "hypothecation",
+          "defaultChoiceId": "no_loan",
+          "choices": [
+            {
+              "id": "no_loan",
+              "label": "No Existing Bank Loan",
+              "amount": 0,
+              "description": "No hypothecation removal fee required"
+            },
+            {
+              "id": "remove_loan",
+              "label": "Remove Bank Loan Lien (+₹100)",
+              "amount": 100,
+              "description": "Endorsement fee to delete financier name from RC"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Parivahan Vahan Citizen Portal",
+        "url": "https://vahan.parivahan.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Road Transport and Highways (MoRTH)",
+        "portalName": "Vahan Citizen Services",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "label": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "MoRTH Official Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "label": "National E-Challan Citizen Portal",
+        "url": "https://echallan.parivahan.gov.in",
+        "isPrimary": false,
+        "department": "MoRTH Traffic Enforcement Division",
+        "portalName": "E-Challan System",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://echallan.parivahan.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Active Bank Hypothecation Without Form 35",
+        "description": "Submitting the transfer application while the vehicle still shows a financier lien blocks RTO approval.",
+        "solution": "Obtain a bank NOC and signed Form 35 from the financing bank before applying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Pending Traffic E-Challans on Vehicle Number",
+        "description": "Unpaid traffic violation challans recorded on the national portal prevent ownership transfer processing.",
+        "solution": "Pay all pending e-challans on echallan.parivahan.gov.in before filing Form 29 and 30.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://echallan.parivahan.gov.in"
+      },
+      {
+        "title": "Missing Seller Signature or Signature Mismatch",
+        "description": "If the seller's signature on Form 29 differs from original RTO records, the scrutiny clerk rejects it.",
+        "solution": "Ensure the seller signs exactly as recorded in their official identity documents.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "title": "Expired Vehicle Insurance or PUC Certificate",
+        "description": "The Motor Vehicles Act strictly prohibits ownership transfer without active insurance and valid emission certificate.",
+        "solution": "Renew the insurance policy and get a fresh PUC before initiating the transfer application.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Missing Inter-State RTO NOC (Form 28)",
+        "description": "Buying a vehicle registered in another district or state requires a clearance NOC from the original RTO.",
+        "solution": "Apply for Form 28 NOC at the seller's home RTO before applying for transfer in your district.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "title": "Illegible Chassis Number Pencil Tracing",
+        "description": "A blurry or missing physical pencil tracing of the chassis number on Form 29 delays verification.",
+        "solution": "Rub an HB pencil over plain white paper firmly against the embossed chassis plate on the vehicle frame.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Within how many days must an RC transfer be completed after buying a used vehicle?",
+        "answer": "The buyer must report the transfer within 30 days for local sales and 45 days for inter-state purchases.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Can the seller be held liable if the buyer does not transfer the RC?",
+        "answer": "Yes. The registered owner remains legally liable for accidents and traffic fines until the RC transfer is endorsed.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What is the statutory government fee to transfer a two-wheeler RC?",
+        "answer": "The statutory fee is ₹150 for ownership transfer plus ₹200 for the new smart card RC, totaling ₹350.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "What is the government fee to transfer ownership of a four-wheeler car?",
+        "answer": "The statutory fee is ₹300 for car ownership transfer plus ₹200 for the smart card RC, totaling ₹500.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "Is a police clearance certificate required for vehicle RC transfer?",
+        "answer": "No general police certificate is required. However, the RTO portal automatically verifies that the vehicle is not reported stolen.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "question": "Can I transfer vehicle RC online without visiting the RTO?",
+        "answer": "Several states allow faceless transfer using Aadhaar authentication. However, some RTOs still require physical submission of Form 29 and 30.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://parivahan.gov.in"
+      },
+      {
+        "question": "What is an NOC (Form 28) and when is it needed?",
+        "answer": "Form 28 is required when the buyer resides in a different RTO jurisdiction or in another state from the seller.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://morth.nic.in"
+      },
+      {
+        "question": "How can I track my vehicle RC transfer application status?",
+        "answer": "Visit the Parivahan Vahan portal and select 'Know Your Application Status' using your 16-digit application number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://vahan.parivahan.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Leave Home for RC Transfer",
+      "subtitle": "5 final checks before submitting your ownership transfer file",
+      "items": [
+        {
+          "id": "forms_29_30",
+          "title": "Form 29 and Form 30 in Duplicate",
+          "description": "Ensure both forms carry the seller's verified signature and buyer signature.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "original_rc",
+          "title": "Original Registration Certificate",
+          "description": "Keep original smart card RC or booklet safely in a waterproof folder.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "insurance_puc",
+          "title": "Valid Insurance & PUC Printouts",
+          "description": "Verify insurance policy validity and computerized emission check status.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "chassis_pencil_print",
+          "title": "Clear Chassis Pencil Print",
+          "description": "Carry two clean pencil tracings of the chassis number on white paper strips.",
+          "icon": "FileText"
+        },
+        {
+          "id": "bank_noc",
+          "title": "Financier Bank NOC (If Loan Existed)",
+          "description": "Bring Form 35 signed by the bank manager with loan closure certificate.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "Motor Vehicles Act, 1988",
+        "actOrRuleNumber": "Section 50 (Transfer of Ownership)",
+        "issuingAuthority": "Parliament of India / MoRTH",
+        "url": "https://morth.nic.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Central Motor Vehicles Rules, 1989",
+        "actOrRuleNumber": "Rule 55, Rule 56 & Rule 81",
+        "issuingAuthority": "Ministry of Road Transport and Highways",
+        "url": "https://morth.nic.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Transfer Vehicle RC in Gujarat (2026)",
+      "summary": "Gujarat Transport Department offers faceless online vehicle ownership transfer via the Parivahan Vahan portal. If transferring from another state, a Gujarat road tax clearance and Form 28 NOC are mandatory.",
+      "estimatedTime": "10-20 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}

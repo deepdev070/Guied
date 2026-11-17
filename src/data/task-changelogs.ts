@@ -112,6 +112,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://morth.nic.in",
     },
   ],
+  "vehicle-rc-transfer": [
+    {
+      id: "rc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Vehicle RC Ownership Transfer Guide Published & Verified",
+      description:
+        "Full RC ownership transfer procedure published with verified CMVR Rule 81 fees (₹150 bike / ₹300 car + ₹200 smart card), Form 29/30 checklist, and Vahan steps.",
+      officialSourceLabel: "Parivahan Vahan (vahan.parivahan.gov.in)",
+      officialSourceUrl: "https://vahan.parivahan.gov.in",
+    },
+    {
+      id: "rc-2026-10-15-02",
+      date: "2026-10-15",
+      changeType: "rule",
+      changeTypeLabel: "Challan & Hypothecation Check",
+      title: "Mandatory Online E-Challan & Loan Clearances Before Transfer",
+      description:
+        "Parivahan Vahan portal now automatically blocks Form 29 transfer applications if pending traffic challans or unreleased bank hypothecation exist.",
+      officialSourceLabel: "Ministry of Road Transport and Highways",
+      officialSourceUrl: "https://parivahan.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",
