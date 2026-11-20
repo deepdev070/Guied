@@ -1,0 +1,464 @@
+{
+  "slug": "lpg-connection-new",
+  "name": "New LPG Gas Connection",
+  "description": "Master guide for getting a new domestic LPG gas connection in India with verified security deposits, safety rules, and distributor steps.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Get a New LPG Gas Connection in India (2026)",
+    "summary": "Master procedure for obtaining a new domestic LPG connection from official oil marketing companies. Verified guide covering Aadhaar de-duplication, equipment security deposits, safety kitchen inspections, and cylinder delivery.",
+    "estimatedTime": "3-7 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://mopng.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Locate Nearest Authorized LPG Distributor",
+        "description": "Search the official oil company portal to find the nearest authorized Indane, Bharat Gas, or HP Gas distributor serving your neighborhood pin code.",
+        "where": "Distributor Locator (services.india.gov.in)",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Authorized Agencys",
+        "calloutText": "Always register with official public sector agencies to guarantee genuine equipment and subsidized refill rates.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Choose Connection Type (Single or Double Bottle)",
+        "description": "Select Single Bottle Cylinder (SBC) for standard households, or Double Bottle Cylinder (DBC) for uninterrupted backup supply.",
+        "where": "Applicant Residence",
+        "estimatedTime": "15 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Backup Cylinder",
+        "calloutText": "Opting for a double bottle connection requires paying an additional cylinder security deposit.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Submit Online Registration or KYC at Distributor",
+        "description": "Fill the simplified KYC form online or visit the local distributor showroom. Enter personal details, family members, and complete residential address.",
+        "where": "Official Oil Marketing Portal or Distributor Office",
+        "estimatedTime": "30 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Undergo Automated De-Duplication Verification",
+        "description": "The central petroleum database matches your Aadhaar and address records. This statutory check ensures no existing active connection exists in the same household.",
+        "where": "Central Petroleum OMC Server",
+        "estimatedTime": "1-2 days",
+        "calloutType": "important",
+        "calloutTitle": "One Connection Rule",
+        "calloutText": "Government rules strictly prohibit multiple domestic LPG connections within the same physical household.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Pay Prescribed Statutory Security Deposits and Fees",
+        "description": "Pay the refundable cylinder deposit of 2,200 rupees and regulator deposit of 250 rupees. Pay administrative and domestic consumer book charges.",
+        "where": "Distributor Billing Counter or Online Payment Gateway",
+        "estimatedTime": "15 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Refundable Deposit",
+        "calloutText": "Cylinder and regulator security deposits are fully refundable when you surrender the connection.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Procure ISI-Marked Stove and Suraksha Safety Hose",
+        "description": "Purchase an ISI-certified gas stove and an orange Suraksha safety hose. You are free to buy the stove from any open market retailer.",
+        "where": "Open Appliance Market or Distributor Showroom",
+        "estimatedTime": "1-2 hours",
+        "calloutType": "warning",
+        "calloutTitle": "No Forced Buying",
+        "calloutText": "Distributors cannot compel you to purchase a stove from them if you already possess an ISI-marked appliance.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Complete Mandatory Kitchen Safety Inspection",
+        "description": "A certified delivery technician visits your home to inspect kitchen ventilation and ensure the cooking platform is raised above cylinder level.",
+        "where": "Applicant Kitchen",
+        "estimatedTime": "30 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Receive Installed Cylinder and Blue Consumer Passbook",
+        "description": "The technician connects the cylinder, tests for gas leaks with soap solution, and hands over your Subscription Voucher and domestic blue book.",
+        "where": "Applicant Home",
+        "estimatedTime": "20 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Manage Gas Connection",
+        "calloutType": "success",
+        "calloutTitle": "Preserve Voucher",
+        "calloutText": "Keep the Subscription Voucher safe. It is the primary document required for future cylinder transfers or deposit refunds.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "aadhaar_identity_proof",
+        "name": "Identity Proof of Applicant (Aadhaar or Voter ID)",
+        "description": "Self-attested copy of Aadhaar card, Voter ID, or Indian Passport for primary applicant identity verification.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "address_proof_utility",
+        "name": "Proof of Address (Electricity Bill or Aadhaar)",
+        "description": "Latest electricity bill, telephone bill, water bill, or house tax receipt in the applicant name.",
+        "requirementType": "required",
+        "copiesHint": "Recent bill not older than 3 months",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "bank_account_dbtl",
+        "name": "Bank Account Details for Direct Subsidy Transfer (PAHAL)",
+        "description": "Bank passbook front page or cancelled cheque displaying account holder name, account number, and IFSC code.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested bank passbook copy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "passport_photos",
+        "name": "Two Recent Passport Size Photographs",
+        "description": "Recent color photographs with clear light background for consumer passbook and registration forms.",
+        "requirementType": "required",
+        "copiesHint": "2 passport size photographs",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "family_ration_card",
+        "name": "Family Ration Card or Household Declaration",
+        "description": "Copy of state ration card proving separate kitchen and listing household family members.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "rent_agreement_noc",
+        "name": "Registered Rent Agreement and Landlord NOC",
+        "description": "Lease deed accompanied by a declaration from the landlord certifying tenant separate kitchen.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isTenantApplicant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Photocopy of rent agreement + owner NOC",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "bpl_ration_card_pmuy",
+        "name": "BPL Ration Card for Ujjwala (PMUY) Benefits",
+        "description": "Antyodaya or Priority Household ration card for availing zero-deposit connection under Pradhan Mantri Ujjwala Yojana.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isUjjwalaBeneficiary": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Certified copy of BPL ration card",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmuy.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "cylinder_security_deposit",
+        "label": "14.2 kg LPG Cylinder Security Deposit (Refundable)",
+        "amount": 2200,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://mopng.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory refundable deposit per 14.2 kg domestic cylinder fixed by public sector oil marketing companies."
+      },
+      {
+        "id": "regulator_security_deposit",
+        "label": "LPG Pressure Regulator Security Deposit (Refundable)",
+        "amount": 250,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://mopng.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Refundable security deposit for one domestic pressure regulator."
+      },
+      {
+        "id": "dgcc_passbook_fee",
+        "label": "Domestic Gas Consumer Card (Blue Passbook) Fee",
+        "amount": 25,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://mopng.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Cost for issuing the physical domestic consumer passbook recording refill deliveries."
+      },
+      {
+        "id": "installation_demo_fee",
+        "label": "Installation, Safety Demo & Administrative Fee",
+        "amount": 118,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://mopng.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Standard installation and demonstration charge including 18 percent GST."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "duplicate_connection_found",
+        "title": "Existing Connection Registered Under Same Household",
+        "description": "Central OMC servers detect existing active connections at the same physical address or family ration card.",
+        "solution": "Apply for a separate connection only after proving a separate kitchen or transferring old connections.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "kitchen_safety_violation",
+        "title": "Kitchen Cooking Stove Placed at Floor Level",
+        "description": "Safety regulations mandate gas stoves must sit on a raised platform higher than the cylinder to avoid gas pooling.",
+        "solution": "Construct or place a raised cooking slab above cylinder height before scheduling home inspection.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "unregistered_rent_agreement",
+        "title": "Submitting Unregistered Lease Without Landlord Gas NOC",
+        "description": "Tenants presenting informal lease agreements without landlord confirmation of a separate kitchen face rejection.",
+        "solution": "Obtain an official landlord NOC stating the tenant maintains an independent kitchen.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "bank_name_mismatch",
+        "title": "Name Discrepancy Between Bank Account and Aadhaar",
+        "description": "If the bank account name differs from Aadhaar, direct benefit subsidy transfers (PAHAL) fail automated verification.",
+        "solution": "Provide bank documents matching your Aadhaar name exactly to ensure smooth subsidy linkage.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "non_isi_appliance",
+        "title": "Using Non-Standard or Defective Cooking Appliances",
+        "description": "Gas stoves lacking ISI certification or worn-out rubber tubes fail technician pre-commissioning checks.",
+        "solution": "Install an ISI-certified stove and use an approved steel-braided orange Suraksha hose.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "id": "unserviced_address_location",
+        "title": "Address Located Outside Distributor Service Territory",
+        "description": "Applying at a distributor agency not licensed to service your municipal ward causes application transfer.",
+        "solution": "Select an agency having authorized delivery jurisdiction for your exact pin code and street.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Can one household hold two domestic LPG gas connections?",
+        "answer": "No. Under the LPG Control Order, only one domestic LPG connection is permitted per physical household across all companies.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "question": "Is the cylinder and regulator security deposit refundable?",
+        "answer": "Yes. The cylinder deposit of 2,200 rupees and regulator deposit of 250 rupees are fully refundable upon connection surrender.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "question": "Am I forced to buy a gas stove from the LPG distributor?",
+        "answer": "No. You have the legal right to purchase an ISI-marked gas stove from any retail shop in the open market.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "question": "What is the difference between single and double bottle connections?",
+        "answer": "Single bottle connections have one active cylinder. Double bottle connections provide a second backup cylinder to avoid running out of gas.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "question": "Who is eligible for a free LPG connection under Ujjwala (PMUY)?",
+        "answer": "Adult women belonging to eligible poor households without an active LPG connection qualify for free PMUY connections.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmuy.gov.in"
+      },
+      {
+        "question": "How do I receive LPG subsidy payments into my bank account?",
+        "answer": "Subsidies are credited directly through the PAHAL DBTL scheme once your bank account is linked to your LPG consumer number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "question": "Can I transfer my LPG connection when relocating to another city?",
+        "answer": "Yes. Obtain a Termination Voucher from your existing distributor and submit it to the new distributor at your new destination.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "question": "What safety measures must be followed in an LPG kitchen?",
+        "answer": "Keep cylinders upright at ground level, maintain raised cooking platforms, ensure adequate cross-ventilation, and replace hoses every five years.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for New LPG Connection",
+      "subtitle": "5 mandatory checks before submitting your connection application",
+      "items": [
+        {
+          "id": "no_duplicate_connection",
+          "title": "No Existing Household Connection",
+          "description": "Confirm no other family member at your residence holds an active domestic connection in any company.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "raised_cooking_platform",
+          "title": "Raised Cooking Platform Prepared",
+          "description": "Ensure your kitchen counter is elevated higher than cylinder level to pass mandatory safety inspection.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "bank_aadhaar_name_match",
+          "title": "Bank Account & Aadhaar Match",
+          "description": "Verify your bank account name matches your Aadhaar card for direct DBTL subsidy transfers.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "isi_marked_stove",
+          "title": "ISI-Certified Gas Stove Ready",
+          "description": "Have an ISI-marked gas stove ready to avoid purchasing expensive appliances at the agency.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "landlord_kitchen_noc",
+          "title": "Signed Landlord Separate Kitchen NOC",
+          "description": "Obtain an explicit owner consent letter confirming independent kitchen facilities if you are renting.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Ministry of Petroleum and Natural Gas",
+        "url": "https://mopng.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Petroleum and Natural Gas, Government of India",
+        "portalName": "MoPNG Official Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://mopng.gov.in"
+      },
+      {
+        "label": "Pradhan Mantri Ujjwala Yojana Portal",
+        "url": "https://pmuy.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of Petroleum and Natural Gas",
+        "portalName": "PMUY Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmuy.gov.in"
+      },
+      {
+        "label": "National Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Liquefied Petroleum Gas (Regulation of Supply and Distribution) Order, 2000",
+        "actOrRuleNumber": "Essential Commodities Act, 1955 Regulations",
+        "issuingAuthority": "Ministry of Petroleum and Natural Gas",
+        "url": "https://mopng.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Direct Benefit Transfer for LPG Consumer (DBTL) Guidelines",
+        "actOrRuleNumber": "PAHAL Scheme Operational Guidelines",
+        "issuingAuthority": "Ministry of Petroleum and Natural Gas",
+        "url": "https://mopng.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Get New LPG Gas Connection in Gujarat (2026)",
+      "summary": "In Gujarat, domestic LPG connections are provided by Indane, Bharat Gas, and HP Gas distributors across all 33 districts. Consumers residing in urban areas can also opt for piped natural gas (PNG) networks where available.",
+      "estimatedTime": "3-7 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

@@ -634,6 +634,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://www.epfindia.gov.in",
     },
   ],
+  "lpg-connection-new": [
+    {
+      id: "ch-lpg-conn-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Deposits Verified",
+      title: "Statutory Cylinder Security Deposits Verified",
+      description:
+        "Verified official ₹2,200 cylinder and ₹250 regulator refundable security deposits and ₹118 installation charges on mopng.gov.in.",
+      officialSourceLabel: "Ministry of Petroleum and Natural Gas (mopng.gov.in)",
+      officialSourceUrl: "https://mopng.gov.in",
+    },
+    {
+      id: "ch-lpg-conn-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Safety Rules Verified",
+      title: "One-Connection & Kitchen Safety Regulations Verified",
+      description:
+        "Confirmed one-household-one-connection de-duplication rule and raised cooking platform kitchen safety norms under LPG Control Order.",
+      officialSourceLabel: "MoPNG Portal (mopng.gov.in)",
+      officialSourceUrl: "https://mopng.gov.in",
+    },
+  ],
 };
 
 /**
