@@ -413,6 +413,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://www.passportindia.gov.in",
     },
   ],
+  "legal-name-change-gazette": [
+    {
+      id: "ch-name-gazette-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Fee Verified",
+      title: "Statutory Central Gazette Fee Verified",
+      description:
+        "Verified ₹1,100 statutory publication fee for adult name change under Controller of Publications on Bharatkosh portal.",
+      officialSourceLabel: "Bharatkosh Portal (bharatkosh.gov.in)",
+      officialSourceUrl: "https://bharatkosh.gov.in",
+    },
+    {
+      id: "ch-name-gazette-02",
+      date: "2026-11-20",
+      changeType: "verification",
+      changeTypeLabel: "Process Verified",
+      title: "E-Gazette Digital Download Standards Verified",
+      description:
+        "Confirmed electronic weekly Part IV gazette publication schedule and digital download authenticity without physical printing requirement.",
+      officialSourceLabel: "Department of Publication (egazette.gov.in)",
+      officialSourceUrl: "https://egazette.gov.in",
+    },
+  ],
 };
 
 /**

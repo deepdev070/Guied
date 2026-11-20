@@ -1,0 +1,505 @@
+{
+  "slug": "legal-name-change-gazette",
+  "name": "Legal Name Change Through Gazette Notification",
+  "description": "Master guide for legally changing your name in India through the Central Gazette of India with verified fees, forms, and procedures.",
+  "categorySlug": "identity",
+  "national": {
+    "title": "How to Legally Change Your Name Through Gazette Notification in India (2026)",
+    "summary": "Master procedure for legal name change of Indian citizens through The Gazette of India. Verified process covering sworn affidavit, newspaper advertisements, Bharatkosh fee payment, and digital gazette download.",
+    "estimatedTime": "30-45 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://egazette.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Execute Name Change Affidavit on Non-Judicial Stamp Paper",
+        "description": "Draft an affidavit stating your old name, new name, father or husband name, residence, and reason for change. Sign it before a Notary Public or Judicial Magistrate on stamp paper worth 100 rupees.",
+        "where": "Local Notary Office or District Court Complex",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Notary Seal Requirement",
+        "calloutText": "Ensure the notary affixes an official seal, registration number, and current date on the stamp paper.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Publish Public Notice in Two Daily Newspapers",
+        "description": "Place a classified advertisement declaring your name change in two daily newspapers. One paper must be in the regional language and one in English or Hindi.",
+        "where": "Local Daily Newspaper Offices",
+        "estimatedTime": "2-3 days",
+        "calloutType": "tip",
+        "calloutTitle": "Retain Full Newspaper Pages",
+        "calloutText": "Keep at least two complete original newspaper copies. The publication department rejects single cut-out clippings.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Prepare Name Change Proforma and Compact Disc",
+        "description": "Fill the prescribed proforma supplied by the Department of Publication. Type the exact proforma contents in an MS Word file and burn it onto a compact disc.",
+        "where": "Home Computer or Cyber Cafe",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Text Consistency",
+        "calloutText": "The text inside the digital Word file must match the physical printed form word for word without any deviation.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Obtain Signatures of Two Independent Adult Witnesses",
+        "description": "Get the prescribed proforma signed by two adult witnesses who know you personally. Both witnesses must write their full names, residential addresses, and phone numbers clearly.",
+        "where": "Witness Residence or Office",
+        "estimatedTime": "1 day",
+        "calloutType": "tip",
+        "calloutTitle": "Adult Witnesses",
+        "calloutText": "Witnesses must be Indian citizens holding valid government photo identification documents.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Pay Statutory Gazette Fee Online on Bharatkosh",
+        "description": "Visit the Bharatkosh portal and select Controller of Publications under the Ministry of Housing and Urban Affairs. Pay the statutory fee of 1,100 rupees and save the payment receipt.",
+        "where": "Bharatkosh Portal (bharatkosh.gov.in)",
+        "estimatedTime": "15 minutes",
+        "officialLinkUrl": "https://bharatkosh.gov.in",
+        "officialLinkLabel": "Pay Gazette Fee on Bharatkosh",
+        "calloutType": "tip",
+        "calloutTitle": "Correct Payment Head",
+        "calloutText": "Always select Controller of Publications as the target office to ensure your fee reaches the correct department ledger.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://bharatkosh.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Assemble and Dispatch Physical Dossier to Controller of Publications",
+        "description": "Compile your original affidavit, full newspaper pages, signed proforma, CD, ID proofs, photos, and payment receipt in a secure envelope. Send it via Speed Post or submit in person at the Delhi office.",
+        "where": "Department of Publication, Civil Lines, Delhi or Speed Post Counter",
+        "estimatedTime": "3-5 days",
+        "officialLinkUrl": "https://egazette.gov.in",
+        "officialLinkLabel": "Visit Official Gazette Portal",
+        "calloutType": "warning",
+        "calloutTitle": "Postal Tracking",
+        "calloutText": "Always send documents via registered Speed Post. Keep the postal tracking receipt safe until your gazette notification is issued.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Scrutiny and Processing by Controller of Publications",
+        "description": "The Department of Publication verifies your submitted documents, cross-checks newspaper notices, and checks the CD contents. If approved, your name change is queued for the upcoming Saturday Gazette.",
+        "where": "Department of Publication Directorate, Civil Lines, Delhi",
+        "estimatedTime": "15-30 days",
+        "calloutType": "important",
+        "calloutTitle": "Weekly Publication",
+        "calloutText": "The Gazette of India Part IV is published every Saturday under statutory authority.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Digitally Signed Gazette Notification",
+        "description": "Open egazette.gov.in and search Part IV of the Weekly Gazette. Download and save the digitally signed Gazette notification PDF for updating Aadhaar, PAN, and passports.",
+        "where": "eGazette Portal (egazette.gov.in)",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://egazette.gov.in",
+        "officialLinkLabel": "Search and Download Gazette Notification",
+        "calloutType": "tip",
+        "calloutTitle": "Free Digital Download",
+        "calloutText": "Physical copies of the Gazette are no longer printed. The downloaded digital PDF carries full legal validity across all authorities.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "affidavit_original",
+        "name": "Original Notarized Affidavit on Stamp Paper",
+        "description": "Original sworn affidavit on non-judicial stamp paper attested by a Notary Public or Judicial Magistrate stating reasons for change.",
+        "requirementType": "required",
+        "copiesHint": "Original affidavit",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "newspaper_full_pages",
+        "name": "Original Full Newspaper Sheets (Two Papers)",
+        "description": "Two complete original daily newspapers containing the published name change advertisement. One English or Hindi daily and one regional language daily.",
+        "requirementType": "required",
+        "copiesHint": "2 full original newspaper sheets",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "proforma_signed",
+        "name": "Prescribed Name Change Proforma with Witness Signatures",
+        "description": "Physical application form prescribed by the Department of Publication signed by the applicant and two independent adult witnesses.",
+        "requirementType": "required",
+        "copiesHint": "Original signed form",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "digital_cd",
+        "name": "Compact Disc with Soft Copy in MS Word",
+        "description": "Clean compact disc containing the name change proforma text saved in MS Word format matching the printed form verbatim.",
+        "requirementType": "required",
+        "copiesHint": "1 compact disc (CD)",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "bharatkosh_receipt",
+        "name": "Bharatkosh Fee Payment Receipt",
+        "description": "Printed receipt of 1,100 rupees paid online on the Bharatkosh portal under Controller of Publications.",
+        "requirementType": "required",
+        "copiesHint": "1 printout",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://bharatkosh.gov.in"
+      },
+      {
+        "id": "identity_proof",
+        "name": "Self-Attested Copy of Identity and Address Proof",
+        "description": "Photocopy of Aadhaar card, Voter ID card, or Passport self-attested by the applicant displaying current residential address.",
+        "requirementType": "required",
+        "copiesHint": "2 self-attested copies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "passport_photos",
+        "name": "Two Self-Attested Passport Size Photographs",
+        "description": "Two recent color passport size photographs pasted on the application proforma and cross-signed by the applicant.",
+        "requirementType": "required",
+        "copiesHint": "2 passport photographs",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "minor_deed_poll",
+        "name": "Deed Poll or Declaration for Minors",
+        "description": "Formal declaration signed by parents or legal guardian explaining the necessity of name change for a minor applicant.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isMinorApplicant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Original declaration",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "govt_employee_noc",
+        "name": "Employer No Objection Certificate or Deed Poll",
+        "description": "Official permission or deed poll endorsement from head of office or commanding officer for government employees.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isGovernmentEmployee": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Original NOC letter",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "central_gazette_adult_fee",
+        "label": "Central Gazette Publication Fee (Adult Name Change)",
+        "amount": 1100,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://bharatkosh.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Standard publication charge for major Indian citizens publishing in Part IV of The Gazette of India."
+      },
+      {
+        "id": "central_gazette_minor_fee",
+        "label": "Central Gazette Publication Fee (Minor Name Change)",
+        "amount": 1700,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://bharatkosh.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory fee applicable when changing name of a minor applicant under 18 years."
+      },
+      {
+        "id": "central_gazette_nri_fee",
+        "label": "Central Gazette Publication Fee (Indian Citizens Abroad)",
+        "amount": 3500,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://bharatkosh.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory fee for Indian citizens residing outside India."
+      },
+      {
+        "id": "affidavit_stamp_duty",
+        "label": "Non-Judicial Stamp Paper Duty for Affidavit",
+        "amount": 100,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "counter",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "State stamp duty for executing a sworn affidavit before a Notary Public."
+      },
+      {
+        "id": "newspaper_classified_advertisement",
+        "label": "Classified Advertisements in Two Daily Newspapers",
+        "amount": 750,
+        "currency": "INR",
+        "isStatutory": false,
+        "paymentMode": "both",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Estimated commercial rate for publishing short classified notices in one national and one local daily."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "single_newspaper_cutout",
+        "title": "Submitting Single Cut-Out Clippings Instead of Full Newspaper Sheets",
+        "description": "The Department of Publication requires complete broadsheet newspaper pages to verify masthead dates and edition names.",
+        "solution": "Submit the complete original newspaper page displaying the newspaper name, date, and page number clearly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "unnotarized_affidavit",
+        "title": "Affidavit Missing Official Seal, Stamp Duty, or Notary Attestation",
+        "description": "Affidavits executed on plain paper or lacking an authorized notary stamp and registration number are rejected during scrutiny.",
+        "solution": "Execute a fresh affidavit on 100 rupee non-judicial stamp paper signed before an authorized Notary Public.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "cd_mismatch",
+        "title": "Text Discrepancy Between Physical Proforma and Compact Disc File",
+        "description": "Any variation in characters or spellings between the MS Word digital file on the CD and printed paper causes instant rejection.",
+        "solution": "Burn a new compact disc with the exact text of the printed proforma in MS Word format.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "missing_witness_details",
+        "title": "Proforma Lacks Signatures or Complete Addresses of Two Adult Witnesses",
+        "description": "Statutory rules require two adult citizens to witness the application and provide verifiable contact details.",
+        "solution": "Have two adult Indian citizens sign the proforma with their full residential addresses and phone numbers.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "id": "wrong_bharatkosh_head",
+        "title": "Payment Routed to Wrong Ministry or Sub-Head on Bharatkosh",
+        "description": "Payments credited to general revenue or other ministries cannot be adjusted by the Controller of Publications.",
+        "solution": "Make a fresh payment selecting Controller of Publications under Ministry of Housing and Urban Affairs.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://bharatkosh.gov.in"
+      },
+      {
+        "id": "old_name_id_mismatch",
+        "title": "Old Name Differs from Supporting Government Identity Proofs",
+        "description": "Discrepancies between the old name stated in the application and government records prevent identity verification.",
+        "solution": "Ensure the old name in the affidavit matches your Aadhaar card or birth certificate exactly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Dispatch Gazette Dossier",
+      "subtitle": "5 final checks before sending your name change application to Delhi",
+      "items": [
+        {
+          "id": "stamp_affidavit",
+          "title": "Notarized Affidavit on 100 Rupee Stamp Paper",
+          "description": "Verify the original affidavit has the official notary stamp, registration number, and clear signature.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "complete_newspapers",
+          "title": "Two Full Original Newspaper Sheets",
+          "description": "Ensure you include entire uncut newspaper broadsheets from both national and regional dailies.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "tested_cd",
+          "title": "Tested Compact Disc with Matching Word File",
+          "description": "Check the CD on a computer to ensure the Word file opens cleanly and matches physical forms.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "signed_proforma",
+          "title": "Proforma with Two Adult Witness Signatures",
+          "description": "Confirm two independent adult witnesses signed the proforma with complete residential addresses and phone numbers.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "bharatkosh_slip",
+          "title": "Printed Bharatkosh Fee Receipt",
+          "description": "Include the printed receipt of 1,100 rupees paid under Controller of Publications.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "The Gazette of India Portal",
+        "url": "https://egazette.gov.in",
+        "isPrimary": true,
+        "department": "Department of Publication, Ministry of Housing and Urban Affairs",
+        "portalName": "eGazette Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "label": "Bharatkosh Portal",
+        "url": "https://bharatkosh.gov.in",
+        "isPrimary": false,
+        "department": "Controller General of Accounts, Ministry of Finance",
+        "portalName": "Bharatkosh Non-Tax Receipt Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://bharatkosh.gov.in"
+      },
+      {
+        "label": "National Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Government of India (Allocation of Business) Rules, 1961",
+        "actOrRuleNumber": "Department of Publication Regulations (Gazette Notification Procedures)",
+        "issuingAuthority": "Ministry of Housing and Urban Affairs",
+        "url": "https://egazette.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Indian Stamp Act, 1899",
+        "actOrRuleNumber": "Schedule I (Stamp Duty on Sworn Affidavits)",
+        "issuingAuthority": "Ministry of Finance",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is a Gazette notification and why is it legally required?",
+        "answer": "A Gazette notification is an official public record published by the government. It provides conclusive legal proof of your new name across Indian courts, passport offices, and banks.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "question": "Does the Department of Publication issue printed physical copies of the Gazette?",
+        "answer": "No. The Government of India has discontinued printed copies. Citizens can download digitally signed electronic Gazette copies free of charge from egazette.gov.in.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "question": "How long does it take for a name change to appear in The Gazette?",
+        "answer": "It generally takes 30 to 45 working days from receipt of a complete dossier at the Department of Publication in Delhi.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "question": "What is the statutory fee for an adult name change in the Central Gazette?",
+        "answer": "The statutory publication fee is 1,100 rupees for adult Indian citizens. Payment must be made online via the Bharatkosh portal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://bharatkosh.gov.in"
+      },
+      {
+        "question": "Can I publish my name change notice in a state gazette instead of central gazette?",
+        "answer": "Yes. Most states maintain state gazettes. However, the Central Gazette of India is universally accepted across all national authorities and foreign embassies.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "question": "Can I skip newspaper publication before applying for Gazette notification?",
+        "answer": "No. Publishing a public declaration in two daily newspapers is a mandatory statutory requirement before Gazette publication.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "question": "Is Gazette notification mandatory for married women adopting their spouse surname?",
+        "answer": "Not mandatory for simple surname changes if you possess a registered marriage certificate. However, it is mandatory for major first name changes.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Which document should I update first after receiving the Gazette notification?",
+        "answer": "Update your Aadhaar card first. An updated Aadhaar card serves as primary proof of address and identity for updating PAN, passport, and bank accounts.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Change Name Legally in Gujarat (2026)",
+      "summary": "Gujarat citizens can publish name change notifications in the Gujarat Government Gazette printed by the Government Central Press, Gandhinagar. Physical applications can also be routed to the Central Gazette of India in Delhi.",
+      "estimatedTime": "20-40 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
