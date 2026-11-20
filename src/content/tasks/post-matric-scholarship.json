@@ -1,0 +1,433 @@
+{
+  "slug": "post-matric-scholarship",
+  "name": "Post-Matric Scholarship Application",
+  "description": "Master guide for applying for Post-Matric Scholarships in India with verified income thresholds, OTR registration, and DBT payment rules.",
+  "categorySlug": "education-and-scholarships",
+  "national": {
+    "title": "How to Apply for Post-Matric Scholarship in India (2026)",
+    "summary": "Master procedure for obtaining post-matric educational scholarships from central and state governments across India. Verified guide covering National Scholarship Portal registration, Aadhaar NPCI bank account seeding, institute verification, and direct benefit transfer.",
+    "estimatedTime": "15-30 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://scholarships.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Complete One-Time Registration (OTR)",
+        "description": "Visit the official National Scholarship Portal to create a unique 14-digit OTR number using the official face-authentication mobile application.",
+        "where": "National Scholarship Portal (scholarships.gov.in)",
+        "estimatedTime": "20 minutes",
+        "officialLinkUrl": "https://scholarships.gov.in",
+        "officialLinkLabel": "Open National Scholarship Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Single OTR Identifier",
+        "calloutText": "Your OTR number remains valid throughout your entire educational career for all central and state scholarship renewals.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Authenticate via Aadhaar e-KYC",
+        "description": "Enter your Aadhaar number and verify identity using mobile OTP authentication or facial recognition on the NSP OTR app.",
+        "where": "Aadhaar UIDAI Server / NSP App",
+        "estimatedTime": "10 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Aadhaar Seeding",
+        "calloutText": "Ensure your student bank account is active and seeded with Aadhaar on the NPCI mapper for Direct Benefit Transfer.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Select Academic Scheme and Enter College Details",
+        "description": "Select the Post-Matric scheme matching your category. Enter your college AISHE or DISE code, admission year, and current roll number.",
+        "where": "National Scholarship Portal",
+        "estimatedTime": "20 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Enter Caste and Family Income Details",
+        "description": "Provide community certificate details and enter total annual family income as certified by the competent revenue authority.",
+        "where": "National Scholarship Portal",
+        "estimatedTime": "15 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Income Ceiling",
+        "calloutText": "Annual family income must strictly stay within statutory ceilings such as two lakh fifty thousand rupees for SC and ST students.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Upload Bonafide Certificate and Fee Receipts",
+        "description": "Upload scanned copies of the institutional bonafide student certificate, current year admission fee receipt, and previous marksheet.",
+        "where": "Applicant Device / Portal",
+        "estimatedTime": "15 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Submit Application and Save Acknowledgement",
+        "description": "Review all entered information carefully and submit the application. Download and print the generated PDF acknowledgement form.",
+        "where": "National Scholarship Portal",
+        "estimatedTime": "5 minutes",
+        "calloutType": "success",
+        "calloutTitle": "Application Reference",
+        "calloutText": "Keep your application reference number handy to track institutional and district verification stages online.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Institutional Verification by College Nodal Officer",
+        "description": "Submit physical copies of your form and certificates to your college scholarship cell. The nodal officer verifies records online.",
+        "where": "College / Institute Scholarship Office",
+        "estimatedTime": "7-10 working days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "District Officer Scrutiny and DBT Payment",
+        "description": "The District Welfare Officer approves the file. Scholarship maintenance allowance and tuition fees are credited to your bank account via PFMS.",
+        "where": "Public Financial Management System (PFMS)",
+        "estimatedTime": "15-30 days",
+        "calloutType": "important",
+        "calloutTitle": "Direct Bank Credit",
+        "calloutText": "Payments flow directly through the NPCI Aadhaar payment bridge without intermediate physical cheques.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "pms-bonafide-cert",
+        "name": "Institutional Bonafide Student Certificate",
+        "description": "Official certificate signed and stamped by the college principal or head of institution confirming active enrollment.",
+        "requirementType": "required",
+        "copiesHint": "Original signed bonafide certificate on institution letterhead.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-income-cert",
+        "name": "Revenue Authority Income Certificate",
+        "description": "Statutory family income certificate issued by Tehsildar, Mamlatdar, or Sub-Divisional Magistrate for current financial year.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy or digital barcoded certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-caste-cert",
+        "name": "Caste or Community Certificate",
+        "description": "Official SC, ST, OBC, or EWS certificate issued by competent government authority.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isReservedCategory": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 self-attested photocopy with valid certificate number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-fee-receipt",
+        "name": "Current Academic Year College Fee Receipt",
+        "description": "Official payment receipt from college showing tuition fee, library fee, and exam fee breakdown.",
+        "requirementType": "required",
+        "copiesHint": "Original or stamped institution fee payment receipt.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-marksheet",
+        "name": "Previous Qualifying Examination Marksheet",
+        "description": "Marksheet of Class 10, Class 12, or previous semester examination proving minimum passing percentage.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy of marksheet.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-bank-proof",
+        "name": "Aadhaar Seeded Bank Account Proof",
+        "description": "First page of bank passbook or cancelled cheque showing student name, IFSC code, and account number.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy of passbook first page.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-hostel-cert",
+        "name": "Hosteller Certificate",
+        "description": "Certificate issued by hostel warden or institution confirming student is staying in an approved residential hostel.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isHosteller": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Original stamped certificate from hostel authority.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-disability-cert",
+        "name": "Unique Disability ID (UDID) Card",
+        "description": "Certified disability certificate for claiming specialized reader allowances and transport grants.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "hasDisability": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 photocopy of UDID card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "pms-fee-application",
+        "label": "Online Portal Application Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "Applying for government scholarships on official portals is completely free of charge.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-fee-verification",
+        "label": "Institutional Scrutiny and Verification Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "counter",
+        "description": "Colleges and universities are strictly prohibited from charging students for scholarship form verification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "pms-rej-1",
+        "title": "Bank Account Not Seeded with NPCI",
+        "description": "Student bank account is active but not mapped to the Aadhaar payment bridge on NPCI servers.",
+        "solution": "Visit your bank branch immediately and submit an Aadhaar seeding consent form for DBT payments.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-rej-2",
+        "title": "Family Income Exceeds Statutory Limit",
+        "description": "Annual household income on certificate exceeds prescribed threshold of 2.5 lakh rupees.",
+        "solution": "Ensure total declared income aligns with official tax returns and certified tahsildar assessment.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-rej-3",
+        "title": "Expired or Invalid Income Certificate",
+        "description": "Submitting an income certificate from an outdated financial year without current validity.",
+        "solution": "Obtain a fresh income certificate from your local revenue Mamlatdar or Tehsildar before applying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-rej-4",
+        "title": "Name Discrepancy Across Documents",
+        "description": "Student name differs between educational marksheets and Aadhaar demographic records.",
+        "solution": "Update your Aadhaar card details to match your high school passing certificate spelling exactly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-rej-5",
+        "title": "Missed Institutional Verification Cut-Off",
+        "description": "College nodal officer failed to verify application details before portal deadline closed.",
+        "solution": "Follow up with your college scholarship desk well before the published closing date.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-rej-6",
+        "title": "Multiple Scholarship Application Conflict",
+        "description": "Applying for multiple government scholarships providing similar tuition or maintenance benefits.",
+        "solution": "Select only one government scholarship scheme per academic year to prevent system cancellation.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "pms-faq-1",
+        "question": "Who is eligible to apply for the Post-Matric Scholarship?",
+        "answer": "Students studying in Class 11 and above belonging to eligible SC, ST, OBC, or EWS categories can apply.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-faq-2",
+        "question": "What is the family income limit for the Post-Matric Scholarship?",
+        "answer": "For SC and ST students, the annual family income ceiling is two lakh fifty thousand rupees from all sources.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-faq-3",
+        "question": "Is an Aadhaar seeded bank account mandatory for scholarship disbursement?",
+        "answer": "Yes. Direct Benefit Transfer credits scholarship funds solely to bank accounts linked with Aadhaar on the NPCI mapper.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-faq-4",
+        "question": "Can a student avail more than one scholarship at the same time?",
+        "answer": "No. Government regulations permit availing benefits from only one centrally sponsored or state scholarship concurrently.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-faq-5",
+        "question": "What is One-Time Registration (OTR) on the scholarship portal?",
+        "answer": "OTR is a unique 14-digit identifier generated using facial authentication to simplify future scholarship renewals.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-faq-6",
+        "question": "What is the difference between day scholar and hosteller rates?",
+        "answer": "Hostellers receive higher monthly maintenance allowances to cover approved college hostel and mess expenses.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-faq-7",
+        "question": "What should I do if my college is not listed on the portal?",
+        "answer": "Request your college administration to register on the National Scholarship Portal and obtain AISHE verification code.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-faq-8",
+        "question": "How can I track the status of my scholarship application?",
+        "answer": "Log in to the scholarship portal with your OTR credentials to track institutional, district, and payment disbursement status.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      }
+    ],
+    "officialLinks": [
+      {
+        "id": "pms-link-nsp",
+        "label": "National Scholarship Portal (NSP)",
+        "url": "https://scholarships.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Electronics and Information Technology",
+        "portalName": "National Scholarship Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://scholarships.gov.in"
+      },
+      {
+        "id": "pms-link-msje",
+        "label": "Ministry of Social Justice and Empowerment",
+        "url": "https://socialjustice.gov.in",
+        "isPrimary": false,
+        "department": "Department of Social Justice and Empowerment",
+        "portalName": "MSJE Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "pms-link-digitalgujarat",
+        "label": "Digital Gujarat Scholarship Portal",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "Social Justice and Empowerment Department Gujarat",
+        "portalName": "Digital Gujarat",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Submit Scholarship Application",
+      "items": [
+        {
+          "id": "byg-pms-1",
+          "title": "Seed Bank Account with NPCI Aadhaar",
+          "description": "Confirm your bank account is mapped to the Aadhaar payment bridge for DBT transfers."
+        },
+        {
+          "id": "byg-pms-2",
+          "title": "Obtain Fresh Revenue Income Certificate",
+          "description": "Get a valid income certificate from your Mamlatdar or Tehsildar for current year."
+        },
+        {
+          "id": "byg-pms-3",
+          "title": "Collect College Bonafide Certificate",
+          "description": "Secure a signed and stamped bonafide enrollment certificate from your principal."
+        },
+        {
+          "id": "byg-pms-4",
+          "title": "Keep Fee Receipts and Marksheets Ready",
+          "description": "Scan recent college admission fee slips and previous semester marksheets."
+        },
+        {
+          "id": "byg-pms-5",
+          "title": "Track Institute Verification Schedule",
+          "description": "Submit paperwork to your college nodal officer before institutional deadline expires."
+        }
+      ]
+    }
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for Post-Matric Scholarship in Gujarat (2026)",
+      "summary": "Gujarat students apply via the Digital Gujarat portal for state-funded and centrally sponsored post-matric scholarships. Applications are scrutinized by institute nodal officers and sanctioned through District Social Defense or Tribal Development offices.",
+      "estimatedTime": "15-20 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

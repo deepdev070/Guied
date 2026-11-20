@@ -730,6 +730,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://beneficiary.nha.gov.in",
     },
   ],
+  "post-matric-scholarship": [
+    {
+      id: "ch-pms-01",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Mandatory Aadhaar Seeding",
+      title: "NPCI Aadhaar Payment Bridge Seeding Enforced",
+      description:
+        "Direct Benefit Transfer (DBT) rules mandate that applicant student bank accounts must be actively seeded on the NPCI mapper for scholarship credit.",
+      officialSourceLabel: "National Scholarship Portal (scholarships.gov.in)",
+      officialSourceUrl: "https://scholarships.gov.in",
+    },
+    {
+      id: "ch-pms-02",
+      date: "2026-11-20",
+      changeType: "portal",
+      changeTypeLabel: "NSP Face OTR Rollout",
+      title: "One-Time Registration (OTR) with Face Auth Introduced",
+      description:
+        "Students must generate a permanent 14-digit OTR number using the official NSP FaceAuth mobile application prior to submitting scheme applications.",
+      officialSourceLabel: "Ministry of Social Justice and Empowerment (socialjustice.gov.in)",
+      officialSourceUrl: "https://socialjustice.gov.in",
+    },
+  ],
 };
 
 /**
