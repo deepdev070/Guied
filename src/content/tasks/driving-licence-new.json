@@ -447,82 +447,180 @@
   "states": {
     "GJ": {
       "title": "How to Get a Permanent Driving Licence in Gujarat (2026)",
-      "summary": "Gujarat operates 100% sensor-based Automated Driving Test Tracks (ADTT) across all major RTOs including Subhash Bridge Ahmedabad, Surat, Rajkot, and Vadodara. Official Gujarat fee schedule and slot booking details.",
-      "estimatedTime": "10-20 days",
+      "summary": "Gujarat operates sensor-based Automated Driving Test Tracks across major RTOs including Ahmedabad, Surat, Rajkot, and Vadodara. Learn slot booking rules, sensor track requirements, and verified Gujarat fee schedules.",
+      "estimatedTime": "10-20 working days",
+      "difficulty": "medium",
       "status": "PUBLISHED",
-      "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://cot.gujarat.gov.in",
       "steps": [
         {
           "stepNumber": 1,
           "title": "Complete 30-Day Mandatory LLR Waiting Period in Gujarat",
-          "description": "Wait at least 30 days after your Gujarat Learner Licence issuance date before booking a permanent licence test track slot.",
-          "where": "Eligibility",
+          "description": "Wait at least thirty days after your Gujarat Learner Licence issuance date before booking a permanent driving test slot.",
+          "where": "Applicant Residence",
+          "estimatedTime": "30 days mandatory wait",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-          "sourceUrl": "https://sarathi.parivahan.gov.in"
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
         },
         {
           "stepNumber": 2,
-          "title": "Book Automated Test Track (ADTT) Slot via Sarathi Portal",
-          "description": "Log into sarathi.parivahan.gov.in, select Gujarat, and book an RTO test track slot. Popular tracks include GJ-01 Ahmedabad, GJ-27 Vastral, and GJ-05 Surat. In Gujarat, morning appointment quotas open daily at 10:00 AM IST.",
+          "title": "Book Automated Test Track Slot on Sarathi Portal",
+          "description": "Log into sarathi.parivahan.gov.in and select Gujarat to book an automated test track appointment. In Gujarat, morning appointment quotas open daily at 10:00 AM IST.",
           "where": "Sarathi Gujarat Slot Portal",
-          "estimatedTime": "5 minutes",
+          "estimatedTime": "10 minutes",
           "calloutType": "tip",
-          "calloutTitle": "Gujarat Slot Opening Time",
-          "calloutText": "Slots in high-volume Gujarat RTOs (Ahmedabad, Surat, Vadodara) fill rapidly. Log in precisely at 10:00 AM IST for new opening slots.",
+          "calloutTitle": "Gujarat Slot Timing",
+          "calloutText": "High-volume Gujarat RTO slots open daily at 10:00 AM IST and fill within minutes.",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
           "sourceUrl": "https://sarathi.parivahan.gov.in"
         },
         {
           "stepNumber": 3,
-          "title": "Pay Gujarat Statutory Fee (₹700 for single class)",
-          "description": "Pay the statutory fee: ₹200 for DL issue, ₹200 for smart card, and ₹300 per class test fee via online payment on the Sarathi portal.",
-          "where": "Online Payment Gateway",
+          "title": "Pay Gujarat Statutory Fee via Cyber Treasury",
+          "description": "Pay the statutory driving licence fee of seven hundred rupees for single class or one thousand rupees for dual vehicle classes.",
+          "where": "Gujarat Cyber Treasury / Sarathi Payment Gateway",
+          "estimatedTime": "10 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Statutory Fee Breakdown",
+          "calloutText": "Fee includes two hundred rupees for licence issue, two hundred rupees for smart card, and three hundred rupees for driving test.",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-          "sourceUrl": "https://sarathi.parivahan.gov.in"
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
         },
         {
           "stepNumber": 4,
-          "title": "Appear for Sensor-Based Automated Driving Test in Gujarat",
-          "description": "Arrive at the Gujarat Automated Driving Test Track (ADTT) with your vehicle. For two-wheelers, navigate the 8-shaped sensor track without putting feet down. For four-wheelers, complete H-track reverse parking and gradient hill climb within the computerized camera time limit.",
-          "where": "Gujarat RTO Automated Driving Test Track",
-          "estimatedTime": "1 hour",
+          "title": "Biometric Verification at Gujarat RTO Center",
+          "description": "Arrive thirty minutes before your booked appointment. Complete biometric fingerprint capture and original document scrutiny at the administrative window.",
+          "where": "Gujarat RTO Administrative Wing",
+          "estimatedTime": "20 minutes",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-          "sourceUrl": "https://sarathi.parivahan.gov.in"
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
         },
         {
           "stepNumber": 5,
-          "title": "Receive Driving Licence via Speed Post in Gujarat",
-          "description": "Once the sensor report uploads, the Gujarat Transport Department prints the Smart Card DL and dispatches it via India Post Speed Post. Digital DL is immediately available on DigiLocker.",
-          "where": "Delivered to Residence across Gujarat",
+          "title": "Appear for Sensor-Based Automated Driving Test",
+          "description": "Navigate the automated sensor track. For two-wheelers, clear the 8-shaped track without placing feet down. For four-wheelers, complete H-track reverse parking and gradient climb.",
+          "where": "Gujarat RTO Automated Driving Test Track",
+          "estimatedTime": "1 hour",
+          "calloutType": "important",
+          "calloutTitle": "Computerized Sensors",
+          "calloutText": "High-definition cameras and ground sensors record driving errors automatically without human manual interference.",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Receive Driving Licence via Speed Post in Gujarat",
+          "description": "Upon passing the automated track, your physical Smart Card Driving Licence is dispatched to your registered address via India Post Speed Post.",
+          "where": "Applicant Residence across Gujarat",
+          "estimatedTime": "7-10 working days",
+          "calloutType": "success",
+          "calloutTitle": "Instant DigiLocker DL",
+          "calloutText": "Your digital driving licence becomes visible immediately on DigiLocker and mParivahan once approved by the licensing officer.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-dl-fee-single",
+          "label": "Permanent DL Package (Single Vehicle Class)",
+          "amount": 700,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory composite fee for one class: 200 licence issue, 200 smart card, and 300 automated track test.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dl-fee-dual",
+          "label": "Permanent DL Package (Dual Vehicle Classes - MCWOG + LMV)",
+          "amount": 1000,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory composite fee for two classes: 200 licence issue, 200 smart card, and 600 dual track test fees.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-dl-faq-1",
+          "question": "What are the automated test track maneuvers in Gujarat for cars?",
+          "answer": "Gujarat ADTT tracks test parallel parking, reverse S-bend, H-track parking, and gradient hill stop-and-go maneuvers.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dl-faq-2",
+          "question": "At what time do Gujarat RTO driving test appointment slots open?",
+          "answer": "Driving test appointment slots in Gujarat open daily at 10:00 AM IST on the Sarathi portal.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
           "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "id": "gj-dl-faq-3",
+          "question": "What happens if I fail the automated driving test in Gujarat?",
+          "answer": "You can rebook a fresh slot after seven days and pay a re-test fee of three hundred rupees per class.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dl-faq-4",
+          "question": "Do I need to take my own vehicle for the driving test in Gujarat?",
+          "answer": "Yes. Bring your own registered, insured vehicle with valid PUC certificate matching the applied licence category.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
         }
       ],
       "officialLinks": [
         {
+          "id": "gj-dl-link-sarathi",
           "label": "Sarathi Parivahan Gujarat Portal",
           "url": "https://sarathi.parivahan.gov.in",
           "isPrimary": true,
-          "department": "Commissioner of Transport, Government of Gujarat",
+          "department": "Commissioner of Transport Gujarat",
           "portalName": "Sarathi Gujarat",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
           "sourceUrl": "https://sarathi.parivahan.gov.in"
         },
         {
-          "label": "Digital Gujarat Citizen Services",
-          "url": "https://www.digitalgujarat.gov.in",
+          "id": "gj-dl-link-cot",
+          "label": "Commissionerate of Transport Gujarat",
+          "url": "https://cot.gujarat.gov.in",
           "isPrimary": false,
-          "department": "Government of Gujarat",
+          "department": "Ports and Transport Department Gujarat",
+          "portalName": "COT Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dl-link-digitalgujarat",
+          "label": "Digital Gujarat Citizen Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
           "portalName": "Digital Gujarat",
           "status": "PUBLISHED",
-          "lastVerifiedAt": "2026-11-14T00:00:00.000Z",
-          "sourceUrl": "https://www.digitalgujarat.gov.in"
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
         }
       ]
     }
