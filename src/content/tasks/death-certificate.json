@@ -457,9 +457,196 @@
   "states": {
     "GJ": {
       "title": "How to Get a Death Certificate in Gujarat (2026)",
-      "summary": "In Gujarat, deaths are recorded via e-Nagar in urban municipal corporations and by Talati-cum-Mantri in Gram Panchayats. First copy is free within 21 days, and verified digital certificates with QR codes can be downloaded directly on e-Nagar.",
-      "estimatedTime": "7-15 working days",
-      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      "summary": "In Gujarat, deaths are recorded online via e-Nagar across urban municipalities and through Talati-cum-Mantri at Gram Panchayats. Digital bilingual certificates are issued in Gujarati and English with verifiable QR codes.",
+      "estimatedTime": "5-10 working days",
+      "difficulty": "easy",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://enagar.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Obtain Hospital Cause of Death Slip or Smashan Receipt",
+          "description": "Collect Form 4 medical cause of death from the attending hospital or obtain an official crematorium receipt from the registered Moksha Dham.",
+          "where": "Hospital Medical Records or Municipal Crematorium",
+          "estimatedTime": "Immediate upon bereavement",
+          "calloutType": "important",
+          "calloutTitle": "Smashan Slip",
+          "calloutText": "The municipal crematorium or burial ground receipt is mandatory evidence for non-institutional deaths across Gujarat.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Access Gujarat e-Nagar or Visit Local Gram Panchayat",
+          "description": "Urban residents log into the e-Nagar portal or visit municipal civic centers. Rural residents contact the Gram Panchayat Talati-cum-Mantri.",
+          "where": "e-Nagar Portal (enagar.gujarat.gov.in) or Gram Panchayat",
+          "estimatedTime": "15 minutes",
+          "officialLinkUrl": "https://enagar.gujarat.gov.in",
+          "officialLinkLabel": "Open Gujarat e-Nagar Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Submit Form 2 Death Registration Application",
+          "description": "Enter deceased details including full name in Gujarati and English, date of passing, exact place of death, and informant relationship.",
+          "where": "e-Nagar Death Registration Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Accurate Spelling",
+          "calloutText": "Cross-check spellings against the deceased person's Aadhaar and property records to ensure smooth inheritance transfers.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Upload Informant Identity Proof and Supporting Slips",
+          "description": "Upload scanned copies of informant Aadhaar card, deceased person identity proof, and the doctor certification or crematorium voucher.",
+          "where": "e-Nagar Upload Interface",
+          "estimatedTime": "10 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Talati Panchnama or Executive Magistrate Sanction",
+          "description": "Rural home deaths require a spot panchnama signed by two local panchas. Deaths over one year old require a Mamlatdar court order.",
+          "where": "Village Panchayat or Taluka Mamlatdar Office",
+          "estimatedTime": "3-7 working days",
+          "calloutType": "important",
+          "calloutTitle": "Delayed Cases",
+          "calloutText": "Under Section 13(3) of the RBD Act, registrations after one year require formal permission from the Executive Magistrate.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Download QR-Coded Bilingual Death Certificate",
+          "description": "Upon verification by the municipal health registrar, download your digitally signed certificate directly from e-Nagar or collect at civic desk.",
+          "where": "e-Nagar Portal / Municipal Civic Center",
+          "estimatedTime": "Immediate download",
+          "calloutType": "success",
+          "calloutTitle": "QR Verification",
+          "calloutText": "Gujarat death certificates contain cryptographically signed QR codes for instant online verification by banks and insurance firms.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-death-fee-initial",
+          "label": "Timely Registration Fee (Within 21 Days)",
+          "amount": 0,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory registration and first certified copy is free within 21 days of passing.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-death-fee-copy",
+          "label": "Additional Certified Copy Fee",
+          "amount": 5,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Prescribed statutory charge per additional certified copy under Gujarat RBD Rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-death-fee-late",
+          "label": "Late Registration Penalty (After 30 Days)",
+          "amount": 5,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Statutory delayed registration fine prescribed under Gujarat state vital statistics rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-death-faq-1",
+          "question": "Is the crematorium receipt mandatory for death certificate in Gujarat?",
+          "answer": "Yes. For deaths taking place at home, the official Moksha Dham or burial ground receipt is mandatory evidence.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-death-faq-2",
+          "question": "Can I download a death certificate online via Gujarat e-Nagar?",
+          "answer": "Yes. You can search digitized municipal death records by date and registration number to download signed e-certificates.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-death-faq-3",
+          "question": "What is the fee for additional copies of a death certificate in Gujarat?",
+          "answer": "Each additional certified copy costs five rupees under Gujarat Registration of Births and Deaths Rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-death-faq-4",
+          "question": "What is the process if a death occurred at home in rural Gujarat?",
+          "answer": "Inform the village Talati-cum-Mantri within 21 days with the crematorium receipt and two local witness statements.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://panchayat.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-death-link-enagar",
+          "label": "Gujarat e-Nagar Urban Portal",
+          "url": "https://enagar.gujarat.gov.in",
+          "isPrimary": true,
+          "department": "Urban Development and Urban Housing Department Gujarat",
+          "portalName": "e-Nagar Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-death-link-digitalgujarat",
+          "label": "Digital Gujarat Citizen Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-death-link-panchayat",
+          "label": "Panchayat and Rural Housing Department Gujarat",
+          "url": "https://panchayat.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Panchayat Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://panchayat.gujarat.gov.in"
+        }
+      ]
     }
   }
 }
