@@ -487,6 +487,31 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       stateCode: "GJ",
     },
   ],
+  "caste-certificate": [
+    {
+      id: "ch-caste-cert-01",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Rules Verified",
+      title: "Paternal Lineage & Cut-Off Date Rules Verified",
+      description:
+        "Verified constitutional pre-1950 (SC/ST) and pre-1978 (OBC) cut-off residency requirements and patrilineal inheritance rules.",
+      officialSourceLabel: "Services India Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "ch-caste-cert-02",
+      date: "2026-11-20",
+      changeType: "portal",
+      changeTypeLabel: "Portal Verified",
+      title: "Digital Gujarat SEBC & SC/ST Online Issuance Verified",
+      description:
+        "Confirmed Digital Gujarat portal application workflow and Talati Vanshavali verification for SEBC/SC/ST certificates.",
+      officialSourceLabel: "Digital Gujarat Portal (digitalgujarat.gov.in)",
+      officialSourceUrl: "https://digitalgujarat.gov.in",
+      stateCode: "GJ",
+    },
+  ],
 };
 
 /**

@@ -1,0 +1,441 @@
+{
+  "slug": "caste-certificate",
+  "name": "Caste Certificate",
+  "description": "Comprehensive guide to applying for SC, ST, and OBC caste certificates in India with verified lineage rules, cut-off dates, and portal steps.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Apply for Caste Certificate in India (2026)",
+    "summary": "Master procedure for obtaining an official Caste Certificate for SC, ST, and OBC categories under Indian constitutional orders. Verified guide covering paternal genealogy proof, pre-cutoff residence records, Talati verification, and digital certificate download.",
+    "estimatedTime": "15-30 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Trace Paternal Bloodline and Caste Proofs",
+        "description": "Collect caste proofs of your father, grandfather, or paternal uncle. Under Indian law, caste status is inherited strictly through the paternal lineage.",
+        "where": "Family Archives or District Records Office",
+        "estimatedTime": "2-3 days",
+        "calloutType": "important",
+        "calloutTitle": "Paternal Lineage Only",
+        "calloutText": "Caste proofs of mother or maternal relatives are not legally admissible to claim caste status.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Establish Ancestral Residence Before Statutory Cut-Off Date",
+        "description": "Gather ancestral revenue records showing family residence before 1950 for SC and ST, or before 1978 for OBC. Suitable proofs include old land records, birth registers, or school admission registers.",
+        "where": "District Record Room or Taluka Archive",
+        "estimatedTime": "3-5 days",
+        "calloutType": "tip",
+        "calloutTitle": "Cut-Off Years",
+        "calloutText": "Cut-off years establish that your family resided in the state when constitutional caste orders were first notified.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Draft Family Genealogy Tree and Caste Affidavit",
+        "description": "Prepare a family genealogy chart showing relationships from the eldest known paternal ancestor to the applicant. Execute a sworn caste affidavit on non-judicial stamp paper before a Notary Public.",
+        "where": "Notary Office or District Court Complex",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Genealogy Chart",
+        "calloutText": "The family tree must clearly list male ancestors in direct lineage with their birthplaces.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Obtain Local Talati or Patwari Attestation",
+        "description": "Submit your family tree and caste proofs to your village Talati or ward revenue inspector. The officer verifies local community recognition and signs the inquiry report.",
+        "where": "Gram Panchayat Office or Talati Chamber",
+        "estimatedTime": "2-3 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Submit Online Application on State e-District Portal",
+        "description": "Log into your state e-governance portal and choose Caste Certificate issuance service. Fill personal details, select your notified sub-caste name, and upload scanned proofs.",
+        "where": "State e-District Portal (services.india.gov.in)",
+        "estimatedTime": "30 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Exact Caste Name",
+        "calloutText": "Select your sub-caste name exactly as spelled in the central or state gazette notification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Pay Nominal Statutory Application Fee",
+        "description": "Pay the statutory processing fee of twenty to fifty rupees online using UPI or Net Banking. Download and print the payment receipt containing the application tracking number.",
+        "where": "Online Payment Gateway or CSC Counter",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Receipt Safety",
+        "calloutText": "Keep the application acknowledgement safe to track verification progress across revenue offices.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Scrutiny and Field Inquiry by Social Welfare Committee",
+        "description": "The Revenue Inspector or Social Welfare Committee conducts field scrutiny of submitted school and land records. Once authenticity is verified, the Sub-Divisional Magistrate or Mamlatdar approves the file.",
+        "where": "Sub-Divisional Magistrate or Tehsildar Office",
+        "estimatedTime": "7-14 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Digitally Signed Caste Certificate",
+        "description": "Download your digitally signed Caste Certificate from the state portal or DigiLocker once approved. The digital certificate features an official QR code valid for all national admissions and government employment.",
+        "where": "e-District Portal or DigiLocker App",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Download Caste Certificate",
+        "calloutType": "success",
+        "calloutTitle": "Lifetime Validity",
+        "calloutText": "SC and ST caste certificates have lifetime legal validity and never expire.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "father_caste_proof",
+        "name": "Father or Paternal Blood Relative Caste Certificate",
+        "description": "Certified copy of father, paternal uncle, or grandfather official caste certificate or school leaving certificate recording caste.",
+        "requirementType": "required",
+        "copiesHint": "1 certified copy + original for verification",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "pre_cutoff_records",
+        "name": "Pre-Cutoff Domicile & Ancestral Residence Record",
+        "description": "Government revenue record, village birth entry, or school register establishing family stay in state prior to cut-off year.",
+        "requirementType": "required",
+        "copiesHint": "1 certified extract copy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "applicant_school_lc",
+        "name": "Applicant School Leaving Certificate",
+        "description": "Original or certified copy of school leaving certificate showing applicant date of birth, father name, and religion.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "genealogy_tree",
+        "name": "Family Pedigree Chart (Vanshavali) with Talati Sign",
+        "description": "Family tree detailing paternal lineage from eldest recorded ancestor down to the applicant, signed by local Talati.",
+        "requirementType": "required",
+        "copiesHint": "Original signed genealogy chart",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "caste_affidavit",
+        "name": "Sworn Caste Self-Declaration Affidavit",
+        "description": "Affidavit executed on non-judicial stamp paper affirming caste category and declaring no false claims.",
+        "requirementType": "required",
+        "copiesHint": "Original notarized affidavit",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "migrant_caste_cert",
+        "name": "Father Original State Caste Certificate for Migrants",
+        "description": "Official caste certificate issued by the original state government before migration to another territory.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isInterStateMigrant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Certified copy from original home state",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "ncl_certificate",
+        "name": "Non-Creamy Layer (NCL) Certificate for OBC Quota",
+        "description": "Official certificate confirming family annual income is below statutory creamy layer ceiling for OBC reservation.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isOBCQuotaApplicant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 original valid NCL certificate",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "caste_portal_fee",
+        "label": "State e-District Statutory Application Fee",
+        "amount": 20,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Nominal statutory service charge for processing caste certificate applications online."
+      },
+      {
+        "id": "csc_kiosk_charge",
+        "label": "CSC Citizen Service Center Assistance Fee",
+        "amount": 30,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Prescribed government ceiling for scanning, form submission, and printout facilitation at citizen centers."
+      },
+      {
+        "id": "stamp_paper_duty",
+        "label": "Non-Judicial Stamp Paper Duty for Affidavit",
+        "amount": 50,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "counter",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "State stamp duty for executing a sworn affidavit before an authorized Notary Public."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "maternal_proofs_submitted",
+        "title": "Submitting Maternal Lineage Documents Instead of Paternal Proofs",
+        "description": "Indian law strictly recognizes caste status derived from the biological father. Submitting maternal documents causes immediate rejection.",
+        "solution": "Furnish caste or school leaving certificates of father, grandfather, or paternal uncles.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "missing_pre_cutoff_records",
+        "title": "Inability to Provide Ancestral Residence Proofs Before Cut-Off Year",
+        "description": "Failure to prove family residence in the state prior to 1950 for SC/ST or 1978 for OBC prevents eligibility verification.",
+        "solution": "Search old land revenue registers, municipal birth entries, or village school admission records.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "spelling_caste_mismatch",
+        "title": "Discrepancy Between Stated Sub-Caste and Notified Schedule",
+        "description": "Colloquial clan names or slight spelling variations not found in the official presidential orders lead to document rejection.",
+        "solution": "Select the exact recognized sub-caste name listed in the constitutional order schedule.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "unattested_family_tree",
+        "title": "Submitting Unattested or Incomplete Family Pedigree Tree",
+        "description": "Genealogy charts lacking official verification from the village Talati or Patwari are rejected during scrutiny.",
+        "solution": "Have your complete paternal genealogy attested by your local Talati or village accountant.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "unnotarized_affidavit",
+        "title": "Affidavit on Plain Paper Lacking Official Notary Seal",
+        "description": "Caste declarations made on plain paper or without a registered notary stamp and registration number are invalid.",
+        "solution": "Execute the affidavit on non-judicial stamp paper signed before an authorized notary.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "migrant_claim_error",
+        "title": "Claiming State Benefits Without Origin State Caste Certification",
+        "description": "Migrants who moved after the cut-off year cannot claim reservation in the new state without origin state verification.",
+        "solution": "Apply for an on-migration certificate citing father origin state caste certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the legal basis of a Caste Certificate in India?",
+        "answer": "Caste certificates are issued under presidential orders and constitutional schedules to extend reservation and educational benefits.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can I claim my mother caste for reservation benefits?",
+        "answer": "Generally no. The Supreme Court has ruled that a child inherits the caste of the father under customary patrilineal law.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What are statutory cut-off dates for caste certification?",
+        "answer": "Cut-off years require proving family residence before 1950 for SC/ST and 1978 for OBC in the specific state.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Does a Scheduled Caste or Scheduled Tribe certificate expire?",
+        "answer": "No. SC and ST caste certificates have permanent lifetime validity and do not require periodic renewal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the difference between OBC certificate and Non-Creamy Layer certificate?",
+        "answer": "An OBC certificate confirms your community. A Non-Creamy Layer certificate confirms family income is below the reservation ceiling.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Who is the competent issuing authority for caste certificates?",
+        "answer": "The Sub-Divisional Magistrate, Tehsildar, or Taluka Mamlatdar is the designated statutory issuing authority.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can I apply for a Caste Certificate online?",
+        "answer": "Yes. Most states offer online applications through their e-District portals or state citizen service platforms.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Does a digitally signed caste certificate need a physical stamp?",
+        "answer": "No. Cryptographically signed certificates with verification QR codes are legally valid without physical ink stamps or signatures.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Caste Certificate",
+      "subtitle": "5 mandatory checks before submitting your caste application",
+      "items": [
+        {
+          "id": "father_caste_records",
+          "title": "Father Paternal Caste Records",
+          "description": "Have father or grandfather original caste certificate or school leaving certificate ready for inspection.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "talati_vanshavali",
+          "title": "Attested Family Pedigree (Vanshavali)",
+          "description": "Verify your family genealogy chart is fully drawn and signed by the village Talati.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "pre_cutoff_proof",
+          "title": "Pre-Cutoff Domicile Evidence",
+          "description": "Confirm you possess ancestral revenue or school documents dated prior to the state cut-off year.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "notarized_caste_affidavit",
+          "title": "Notarized Caste Declaration Affidavit",
+          "description": "Ensure the affidavit is executed on non-judicial stamp paper with an authorized notary seal.",
+          "icon": "FileText"
+        },
+        {
+          "id": "exact_subcaste_match",
+          "title": "Exact Notified Sub-Caste Name",
+          "description": "Cross-check that your application spelling matches the official constitutional schedule list.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Digital Gujarat Portal",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "Social Justice and Empowerment Department, Government of Gujarat",
+        "portalName": "Digital Gujarat Citizen Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Constitution (Scheduled Castes) Order, 1950",
+        "actOrRuleNumber": "Article 341 and 342 of the Constitution of India",
+        "issuingAuthority": "Ministry of Social Justice and Empowerment",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "State Social Welfare Department Rules",
+        "actOrRuleNumber": "Verification of Caste and Tribe Claims Regulations",
+        "issuingAuthority": "State Social Welfare Department",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for Caste Certificate in Gujarat (2026)",
+      "summary": "Caste certificates in Gujarat for SC, ST, and SEBC are issued via Digital Gujarat by the Taluka Mamlatdar. A verified Vanshavali pedigree attested by the Talati and pre-1978 SEBC residency proof are compulsory prerequisites.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
