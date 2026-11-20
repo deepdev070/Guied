@@ -1,0 +1,459 @@
+{
+  "slug": "income-certificate",
+  "name": "Income Certificate",
+  "description": "Step-by-step master guide for obtaining an official Income Certificate across Indian states with verified fees, documents, and portal steps.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Apply for Income Certificate in India (2026)",
+    "summary": "Master procedure for obtaining an official Income Certificate issued by the Revenue Department. Verified guide covering family income calculation, Talati verification report, portal application, and digital certificate download.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Calculate Total Family Income from All Sources",
+        "description": "Aggregate annual earnings of all earning family members living in the household. Include salaries, business profits, agricultural harvest returns, pensions, and rental revenue.",
+        "where": "Applicant Residence",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Complete Disclosure",
+        "calloutText": "Hiding earnings from secondary sources like property rentals leads to immediate cancellation of your certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Execute Income Self-Declaration Affidavit",
+        "description": "Draft a sworn income affidavit on non-judicial stamp paper stating annual earnings of all family members. Sign the declaration before a Notary Public or Executive Magistrate.",
+        "where": "Notary Office or District Court Complex",
+        "estimatedTime": "1 day",
+        "calloutType": "tip",
+        "calloutTitle": "Standard Format",
+        "calloutText": "Use the standard state revenue income declaration proforma to avoid document rejection.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Obtain Local Talati or Patwari Inquiry Report",
+        "description": "Visit your village Talati or municipal ward revenue inspector with family income proofs. The officer conducts a local inquiry and issues a signed income inquiry report.",
+        "where": "Gram Panchayat Office or Talati Chamber",
+        "estimatedTime": "2-3 days",
+        "calloutType": "important",
+        "calloutTitle": "Panchkyas Report",
+        "calloutText": "The local revenue inspector report is the primary evidence used by the Tehsildar to approve your certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Register on State e-District Portal",
+        "description": "Create an applicant profile on your state e-District or citizen service portal using Aadhaar and mobile number. Select the service named Issuance of Income Certificate.",
+        "where": "State e-District Portal (services.india.gov.in)",
+        "estimatedTime": "20 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Aadhaar OTP Login",
+        "calloutText": "Using Aadhaar OTP login autofills applicant demographics and speeds up portal verification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Upload Scanned Supporting Documents and Photos",
+        "description": "Upload scanned copies of salary slips, ITR acknowledgment, Talati report, ration card, and sworn affidavit. Ensure each uploaded PDF or JPG is clear and within file limits.",
+        "where": "State e-District Online Portal or CSC Center",
+        "estimatedTime": "30 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "File Clarity",
+        "calloutText": "Keep scanned documents under two hundred kilobytes with clear text and visible official seals.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Pay Nominal Statutory Service Fee",
+        "description": "Pay the statutory online processing fee ranging between twenty and fifty rupees using UPI or debit card. Save the digital acknowledgement slip containing the application tracking number.",
+        "where": "e-District Payment Gateway",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Application Tracking",
+        "calloutText": "Save your application reference number to track file movement across revenue desks.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Scrutiny and Approval by Tehsildar or Mamlatdar",
+        "description": "The Circle Officer reviews uploaded papers and matches them with the field inquiry report. Upon satisfaction, the Tehsildar or Mamlatdar signs the certificate digitally.",
+        "where": "Taluka Tehsildar or Mamlatdar Office",
+        "estimatedTime": "5-7 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Digitally Signed Income Certificate",
+        "description": "Login to the portal after SMS notification and download the digitally signed certificate. The document features an official QR code verifiable by colleges and welfare authorities.",
+        "where": "State e-District Portal or DigiLocker",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Download Income Certificate",
+        "calloutType": "success",
+        "calloutTitle": "QR Code Validity",
+        "calloutText": "Digitally signed certificates with QR codes do not require physical ink signatures or office rubber stamps.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "identity_proof",
+        "name": "Identity Proof of Applicant (Aadhaar or Voter ID)",
+        "description": "Self-attested copy of Aadhaar card, Voter ID, or Passport proving applicant legal identity.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "residence_proof",
+        "name": "Proof of Residence (Ration Card or Electricity Bill)",
+        "description": "Copy of family ration card, latest electricity bill, or municipal property tax receipt confirming local address.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sworn_affidavit",
+        "name": "Income Self-Declaration Affidavit on Stamp Paper",
+        "description": "Original sworn affidavit executed on non-judicial stamp paper stating total family income from all sources.",
+        "requirementType": "required",
+        "copiesHint": "Original notarized affidavit",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "talati_report",
+        "name": "Talati or Patwari Local Inquiry Verification Report",
+        "description": "Official signed report issued by village accountant or ward inspector assessing family living standards and earnings.",
+        "requirementType": "required",
+        "copiesHint": "Original report with official seal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "passport_photos",
+        "name": "Two Recent Passport Size Photographs",
+        "description": "Recent color photographs with clear light background pasted on the physical form or uploaded digitally.",
+        "requirementType": "required",
+        "copiesHint": "2 passport photographs",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "salary_slips_form16",
+        "name": "Salary Slips or Form 16 from Employer",
+        "description": "Salary slips for the last three months or annual Form 16 showing gross compensation.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isSalariedApplicant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Last 3 months salary slips",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "itr_acknowledgment",
+        "name": "Income Tax Return (ITR-V) Acknowledgment",
+        "description": "Copy of filed income tax return acknowledgment for the latest assessment year.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isTaxAssessee": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 photocopy of ITR-V",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "agricultural_land_records",
+        "name": "Agricultural Land Records (7/12 & 8-A Extracts)",
+        "description": "Latest certified village form 7/12 and 8-A extracts showing land holding acreage and crop pattern.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isFarmerApplicant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Latest certified extracts",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "edistrict_portal_fee",
+        "label": "State e-District Statutory Portal Service Charge",
+        "amount": 20,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Standard statutory portal fee for online application processing via state e-District or Digital Gujarat."
+      },
+      {
+        "id": "csc_kiosk_fee",
+        "label": "Common Service Centre (CSC) Operator Facilitation Charge",
+        "amount": 30,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Prescribed government ceiling charge when applying through a physical CSC or citizen facilitation counter."
+      },
+      {
+        "id": "affidavit_stamp_duty",
+        "label": "Non-Judicial Stamp Paper Duty for Income Affidavit",
+        "amount": 50,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "counter",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "State stamp duty for executing a sworn affidavit before an authorized Notary Public."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "underreported_income",
+        "title": "Under-Reporting Earnings or Omitting Earning Family Members",
+        "description": "Revenue inspectors cross-verify family size and earnings. Omitting working adult children leads to immediate rejection.",
+        "solution": "Declare gross earnings of all resident family members honestly in the affidavit.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "missing_talati_report",
+        "title": "Absence of Village Accountant or Talati Field Verification",
+        "description": "Applications submitted without local revenue inquiry reports are rejected during initial scrutiny by the Mamlatdar.",
+        "solution": "Approach your village Talati or municipal ward officer to complete the physical verification report.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "unnotarized_affidavit",
+        "title": "Affidavit Executed on Plain Paper Without Notary Attestation",
+        "description": "Income declarations on plain white paper or lacking a valid notary seal and registration number are invalid.",
+        "solution": "Execute the affidavit on official non-judicial stamp paper signed before an authorized notary.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "mismatch_with_itr",
+        "title": "Discrepancy Between Stated Income and Income Tax Return",
+        "description": "If stated annual income is lower than gross figures on submitted ITR forms, the file is rejected for misrepresentation.",
+        "solution": "Ensure the declared figure matches the gross total income reported in your filed tax return.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "missing_land_records",
+        "title": "Failing to Produce 7/12 Land Records for Farm Landowners",
+        "description": "Farmers who fail to furnish current 7/12 and 8-A extracts cannot have their crop earnings verified.",
+        "solution": "Obtain updated 7/12 extracts from AnyRoR or the local Talati office and re-upload.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "outdated_salary_slips",
+        "title": "Submitting Outdated or Illegible Salary Slips",
+        "description": "Salary slips older than three months or lacking employer seals prevent accurate assessment of current compensation.",
+        "solution": "Submit latest consecutive salary slips carrying company letterhead or HR stamp.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the official validity period of an Income Certificate?",
+        "answer": "In most states including Gujarat, an Income Certificate is valid for three financial years from the year of issue.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Whose income is counted when issuing an Income Certificate?",
+        "answer": "The collective income of the applicant, spouse, parents, and unmarried adult children living under the same roof is counted.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can I obtain an Income Certificate if I have no taxable income?",
+        "answer": "Yes. Non-taxable citizens can apply by submitting a Talati inquiry report and a self-declaration affidavit.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Who is the competent authority to issue an Income Certificate?",
+        "answer": "The Tehsildar, Taluka Mamlatdar, or Sub-Divisional Magistrate is the statutory issuing authority.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Is an agriculturalist required to show land revenue receipts?",
+        "answer": "Yes. Farmers must submit 7/12 and 8-A land extracts to verify acreage and estimated crop yields.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the statutory fee for an online Income Certificate application?",
+        "answer": "The official online portal fee is twenty rupees. CSC operators may charge up to thirty rupees for scanning and filing.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can I track my Income Certificate application status online?",
+        "answer": "Yes. You can track status using your application reference number on your state e-District portal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Does a digitally signed Income Certificate need an ink stamp?",
+        "answer": "No. Certificates with cryptographic signatures and verification QR codes are legally valid without physical ink stamps.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Submit Income Certificate Application",
+      "subtitle": "5 mandatory checks before applying online or visiting the revenue office",
+      "items": [
+        {
+          "id": "talati_panchkyas",
+          "title": "Talati Inquiry & Panchkyas Report",
+          "description": "Ensure the village accountant has completed the local income inspection with clear remarks.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "notarized_affidavit",
+          "title": "Notarized Income Declaration on Stamp Paper",
+          "description": "Verify the affidavit contains total family income and carries an authorized notary seal.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "consecutive_salary_slips",
+          "title": "Last 3 Months Salary Slips or Form 16",
+          "description": "Have certified payslips or latest ITR acknowledgement ready if family members are employed.",
+          "icon": "FileText"
+        },
+        {
+          "id": "ration_card_copy",
+          "title": "Family Ration Card with All Member Names",
+          "description": "Check that the ration card lists every resident family member to establish household size.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "clear_scans",
+          "title": "Clear Digital Scans Under 200 KB",
+          "description": "Scan all documents cleanly to prevent portal rejection due to blurred or oversized files.",
+          "icon": "ShieldCheck"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Digital Gujarat Portal",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "Department of Science and Technology, Government of Gujarat",
+        "portalName": "Digital Gujarat Citizen Services",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "State Revenue Department Regulations",
+        "actOrRuleNumber": "Revenue Code (Issuance of Solvency and Income Certificates)",
+        "issuingAuthority": "State Revenue Department",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Indian Stamp Act, 1899",
+        "actOrRuleNumber": "Schedule I (Stamp Duty on Sworn Declarations)",
+        "issuingAuthority": "Ministry of Finance",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for Income Certificate in Gujarat (2026)",
+      "summary": "Income certificates in Gujarat are issued online via Digital Gujarat under the authority of the Taluka Mamlatdar. Under Gujarat Government Resolution, certificates are valid for three financial years with a nominal portal charge of twenty rupees.",
+      "estimatedTime": "3-7 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

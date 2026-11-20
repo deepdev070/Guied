@@ -462,6 +462,31 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       stateCode: "GJ",
     },
   ],
+  "income-certificate": [
+    {
+      id: "ch-income-cert-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Fee Verified",
+      title: "Statutory e-District Application Fee Verified",
+      description:
+        "Verified ₹20 statutory portal fee and CSC facilitation norms on official State Services and Digital Gujarat portals.",
+      officialSourceLabel: "Services India Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "ch-income-cert-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Validity Verified",
+      title: "Gujarat 3-Year Validity Resolution Verified",
+      description:
+        "Confirmed Government of Gujarat Resolution establishing 3 financial years validity for Mamlatdar-issued income certificates.",
+      officialSourceLabel: "Digital Gujarat Portal (digitalgujarat.gov.in)",
+      officialSourceUrl: "https://digitalgujarat.gov.in",
+      stateCode: "GJ",
+    },
+  ],
 };
 
 /**
