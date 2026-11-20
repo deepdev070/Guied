@@ -512,6 +512,31 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       stateCode: "GJ",
     },
   ],
+  "domicile-certificate": [
+    {
+      id: "ch-domicile-01",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Rules Verified",
+      title: "10-Year Continuous Stay & Sole Domicile Rule Verified",
+      description:
+        "Verified 10-year residency documentation standards and prohibition against dual state domicile claims.",
+      officialSourceLabel: "Services India Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "ch-domicile-02",
+      date: "2026-11-20",
+      changeType: "portal",
+      changeTypeLabel: "Portal Verified",
+      title: "Digital Gujarat Domicile Online Workflow Verified",
+      description:
+        "Confirmed Digital Gujarat portal application workflow under Taluka Mamlatdar with verified ₹20 statutory portal fee.",
+      officialSourceLabel: "Digital Gujarat Portal (digitalgujarat.gov.in)",
+      officialSourceUrl: "https://digitalgujarat.gov.in",
+      stateCode: "GJ",
+    },
+  ],
 };
 
 /**

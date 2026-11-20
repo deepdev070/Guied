@@ -653,4 +653,33 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
     ],
     launchState: true,
   },
+  {
+    slug: "domicile-certificate",
+    name: "Domicile / Residence Certificate",
+    title: "How to Apply for Domicile / Residence Certificate in India (2026)",
+    summary:
+      "Master procedure for obtaining an official Domicile Certificate through the Revenue Department covering continuous stay, school proofs, and digital certificate.",
+    categorySlug: "family-and-certificates",
+    categoryName: "Family and Certificates",
+    difficulty: "medium",
+    estimatedTime: "7–15 days",
+    cost: "₹20 – ₹50",
+    keywords: [
+      "domicile certificate",
+      "residence certificate",
+      "gujarat domicile",
+      "state quota domicile",
+      "neet domicile",
+      "mamlatdar",
+      "digital gujarat",
+    ],
+    documentSnippets: [
+      "Continuous Residence Proof for Required Period (10 Years)",
+      "Birth Certificate or School Leaving Certificate",
+      "Educational Bonafide or Mark Sheets from Local Schools",
+      "Sworn Domicile Declaration Affidavit on Stamp Paper",
+      "Talati / Ward Revenue Verification Report",
+    ],
+    launchState: true,
+  },
 ];

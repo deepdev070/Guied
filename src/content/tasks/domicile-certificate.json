@@ -1,0 +1,441 @@
+{
+  "slug": "domicile-certificate",
+  "name": "Domicile / Residence Certificate",
+  "description": "Master guide for obtaining an official Domicile or Residence Certificate in India with verified continuous stay rules, fees, and portal steps.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Apply for Domicile / Residence Certificate in India (2026)",
+    "summary": "Master procedure for obtaining an official Domicile Certificate issued by the Revenue Department. Verified guide covering continuous residency proofs, school study certificates, Talati verification, and digital certificate download.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Assemble Continuous Residence Records for Required Period",
+        "description": "Collect documentary evidence showing continuous physical residence in the state for ten or fifteen years. Acceptable records include consecutive electricity bills, municipal property tax receipts, and ration cards.",
+        "where": "Applicant Home and Local Utility Offices",
+        "estimatedTime": "2-3 days",
+        "calloutType": "important",
+        "calloutTitle": "No Break in Stay",
+        "calloutText": "Proof must show unbroken stay without substantial unexplained gaps across the qualifying ten-year span.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Collect School and College Study Certificates",
+        "description": "Obtain bonafide student certificates or school leaving certificates from institutions attended in the state. School records prove uninterrupted physical presence during childhood and education.",
+        "where": "School or College Administrative Office",
+        "estimatedTime": "2-3 days",
+        "calloutType": "tip",
+        "calloutTitle": "Consecutive Mark Sheets",
+        "calloutText": "School progress reports and leaving certificates serve as strong primary evidence of continuous state residency.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Execute Sworn Domicile Affidavit on Stamp Paper",
+        "description": "Draft a sworn affidavit declaring continuous residence, local address, and absence of domicile in another state. Sign the declaration before a Notary Public or Executive Magistrate on stamp paper.",
+        "where": "Notary Office or District Court Complex",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Sole Domicile Clause",
+        "calloutText": "Indian law prohibits holding domicile certificates of two different states simultaneously.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Obtain Local Talati or Patwari Inquiry Report",
+        "description": "Present your residency proofs to your village Talati or ward revenue inspector. The revenue officer conducts field verification of your family stay and issues a signed inquiry report.",
+        "where": "Gram Panchayat Office or Talati Chamber",
+        "estimatedTime": "2-3 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Submit Online Application on State e-District Portal",
+        "description": "Register on your state citizen services portal using your mobile number and Aadhaar. Select the Domicile or Residence Certificate service and enter your residential history.",
+        "where": "State e-District Portal (services.india.gov.in)",
+        "estimatedTime": "30 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Correct SRO Jurisdiction",
+        "calloutText": "Select the taluka or tehsil matching your permanent residence to route the file to the right SDM.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Pay Nominal Statutory Service Fee",
+        "description": "Pay the statutory processing fee of twenty to fifty rupees online using Net Banking, UPI, or debit card. Save the digital payment receipt and application tracking number.",
+        "where": "e-District Payment Gateway",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Application Tracking",
+        "calloutText": "Use your application reference number to track file scrutiny across revenue desks.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Scrutiny and Approval by Tehsildar or SDM",
+        "description": "The revenue inspector reviews continuous stay records and verifies absence of conflicting claims. The Sub-Divisional Magistrate or Mamlatdar approves and signs the certificate digitally.",
+        "where": "Sub-Divisional Magistrate or Tehsildar Office",
+        "estimatedTime": "5-7 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Digitally Signed Domicile Certificate",
+        "description": "Download your official certificate from the portal or access it through DigiLocker once approved. The document contains an official government QR code valid for state quota admissions and government jobs.",
+        "where": "State e-District Portal or DigiLocker App",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Download Domicile Certificate",
+        "calloutType": "success",
+        "calloutTitle": "Permanent Validity",
+        "calloutText": "A domicile certificate remains valid permanently unless you change your permanent residence to another state.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "continuous_residence_proof",
+        "name": "Continuous Residence Proof for Required Period (10 Years)",
+        "description": "Consecutive electricity bills, property tax receipts, registered rent agreements, or telephone bills covering the required duration.",
+        "requirementType": "required",
+        "copiesHint": "10-year bills + 1 self-attested photocopy set",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "birth_certificate_or_lc",
+        "name": "Birth Certificate or School Leaving Certificate",
+        "description": "Certified document recording date of birth and place of birth in the state.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "applicant_identity_proof",
+        "name": "Identity Proof of Applicant (Aadhaar or Voter ID)",
+        "description": "Self-attested copy of Aadhaar card, Voter ID, or Indian Passport displaying local address.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "study_certificates",
+        "name": "Educational Bonafide or Mark Sheets from Local Schools",
+        "description": "Mark sheets or study certificates issued by recognized educational institutions in the state for primary and secondary schooling.",
+        "requirementType": "required",
+        "copiesHint": "School certificates + 1 photocopy set",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "notarized_domicile_affidavit",
+        "name": "Sworn Domicile Declaration Affidavit on Stamp Paper",
+        "description": "Original sworn affidavit on non-judicial stamp paper declaring uninterrupted residence and absence of other state domicile.",
+        "requirementType": "required",
+        "copiesHint": "Original notarized affidavit",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "parent_domicile_record",
+        "name": "Parent Domicile or Service Proof for Minors",
+        "description": "Domicile certificate or government service record of father or mother for minor students claiming state quota.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isMinorStudent": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Certified copy of parent domicile",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "central_govt_posting_order",
+        "name": "Central Government or Defence Posting Certificate",
+        "description": "Official posting order and residence certificate from head of department for central government employees.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isCentralGovtPosted": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Official certificate from commanding officer",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "domicile_portal_fee",
+        "label": "State e-District Statutory Application Fee",
+        "amount": 20,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Standard statutory portal fee for online application processing on state citizen platforms."
+      },
+      {
+        "id": "csc_facilitation_fee",
+        "label": "CSC Citizen Service Center Assistance Fee",
+        "amount": 30,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Prescribed government ceiling for scanning, submission, and printing assistance at citizen kiosks."
+      },
+      {
+        "id": "affidavit_stamp_duty",
+        "label": "Non-Judicial Stamp Paper Duty for Affidavit",
+        "amount": 50,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "counter",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "State stamp duty for executing a sworn affidavit before an authorized Notary Public."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "unexplained_gap_in_stay",
+        "title": "Unexplained Gaps in Continuous Ten-Year Stay Documentation",
+        "description": "Failing to furnish consecutive proofs for every intervening year across the ten-year period causes application suspension.",
+        "solution": "Submit consecutive utility bills, bank statements, or academic records for the missing years.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "recent_aadhaar_only",
+        "title": "Submitting Only Recent Aadhaar Without Historic Residence Proofs",
+        "description": "An Aadhaar card only proves current address, not continuous long-term historical residency.",
+        "solution": "Pair Aadhaar with historic school leaving certificates, registered rent agreements, or utility bills.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "dual_domicile_violation",
+        "title": "Holding Active Domicile Certificate in Another State",
+        "description": "Citizens can legally claim domicile in only one state at a time. Holding dual domicile leads to cancellation and prosecution.",
+        "solution": "Surrender previous state domicile and submit the formal cancellation endorsement.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "unnotarized_affidavit",
+        "title": "Affidavit on Plain Paper Lacking Official Notary Attestation",
+        "description": "Declarations without official notary stamps, registration numbers, or stamp paper duty are rejected during scrutiny.",
+        "solution": "Execute a fresh declaration on non-judicial stamp paper before an authorized notary.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "missing_talati_verification",
+        "title": "Absence of Village Accountant or Talati Field Verification",
+        "description": "Applications submitted without local revenue inquiry reports are rejected during initial scrutiny by the Mamlatdar.",
+        "solution": "Approach your village Talati or municipal ward officer to complete the physical verification report.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "birthplace_discrepancy",
+        "title": "Mismatch Between Stated Birthplace and School Leaving Certificate",
+        "description": "Discrepancies between birthplace in the application and school records raise questions regarding actual origin.",
+        "solution": "Ensure personal details match official school leaving records or birth certificates exactly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the continuous residence requirement for a Domicile Certificate?",
+        "answer": "Most states including Gujarat require continuous residence for at least ten years. Some states require fifteen years.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can an Indian citizen hold Domicile Certificates of two states simultaneously?",
+        "answer": "No. Indian law prohibits dual domicile. You can claim domicile in only one state at any given time.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the difference between a Residence Certificate and a Domicile Certificate?",
+        "answer": "A residence certificate confirms current stay. A domicile certificate confirms permanent legal home and eligibility for state quota benefits.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Is a Domicile Certificate required for state quota college admissions?",
+        "answer": "Yes. State quota seats in medical and engineering colleges require a valid Domicile Certificate of that state.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Does a Domicile Certificate have an expiry date?",
+        "answer": "No. Once issued, a Domicile Certificate is permanently valid unless you permanently relocate your domicile to another state.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Who is the competent issuing authority for Domicile Certificates?",
+        "answer": "The Sub-Divisional Magistrate, Tehsildar, or Taluka Mamlatdar is the statutory issuing authority.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can I obtain a Domicile Certificate if I live in rented premises?",
+        "answer": "Yes. Continuous residence can be established using registered rent agreements paired with consecutive electricity bills.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Does a digitally signed Domicile Certificate need a physical ink stamp?",
+        "answer": "No. Certificates with cryptographic digital signatures and verification QR codes are legally valid without physical ink stamps.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Domicile Certificate",
+      "subtitle": "5 mandatory checks before submitting your domicile application",
+      "items": [
+        {
+          "id": "consecutive_10yr_bills",
+          "title": "Consecutive 10-Year Utility Bills",
+          "description": "Verify you have unbroken utility bills or property tax receipts covering the full qualifying duration.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "school_study_certs",
+          "title": "School Study & Leaving Certificates",
+          "description": "Have bonafide study certificates from local schools ready to prove presence during education.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "talati_inquiry_slip",
+          "title": "Talati Field Verification Report",
+          "description": "Confirm the local village accountant or ward officer has completed the physical residence inquiry.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "sole_domicile_affidavit",
+          "title": "Notarized Domicile Affidavit on Stamp Paper",
+          "description": "Ensure your affidavit explicitly declares you do not hold domicile in any other state.",
+          "icon": "FileText"
+        },
+        {
+          "id": "valid_photo_id",
+          "title": "Valid Aadhaar and Voter ID Originals",
+          "description": "Carry original government photo identity cards displaying your local residential address.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Digital Gujarat Portal",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "General Administration Department, Government of Gujarat",
+        "portalName": "Digital Gujarat Citizen Services",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "State Revenue Department Regulations",
+        "actOrRuleNumber": "Rules for Grant of Domicile and Residence Certificates",
+        "issuingAuthority": "State General Administration Department",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Indian Stamp Act, 1899",
+        "actOrRuleNumber": "Schedule I (Stamp Duty on Sworn Declarations)",
+        "issuingAuthority": "Ministry of Finance",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for Domicile Certificate in Gujarat (2026)",
+      "summary": "Domicile certificates in Gujarat are issued online via Digital Gujarat under the authority of the Taluka Mamlatdar. Applicants must prove ten years of unbroken residence in Gujarat with a verified Talati report and a nominal twenty rupee portal fee.",
+      "estimatedTime": "7-15 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
