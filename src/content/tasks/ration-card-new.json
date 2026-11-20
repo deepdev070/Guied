@@ -454,9 +454,181 @@
   "states": {
     "GJ": {
       "title": "How to Apply for a Ration Card in Gujarat (2026)",
-      "summary": "Gujarat citizens can apply online via the Digital Gujarat portal or submit Form 2 at local Jan Seva Kendras (Mamlatdar offices). The statutory application fee is ₹20 with 15-day delivery under the Gujarat Citizen Charter.",
-      "estimatedTime": "15-30 working days",
-      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      "summary": "Gujarat citizens can apply online via Digital Gujarat or visit local Jan Seva Kendras at Mamlatdar offices. Learn verified procedure for new barcoded ration cards, member additions, deletion certificates, and statutory fee rules.",
+      "estimatedTime": "15-20 working days",
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://dcs-dof.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat Citizen Portal",
+          "description": "Log into Digital Gujarat using your mobile number or visit the nearest Jan Seva Kendra at your local taluka Mamlatdar office.",
+          "where": "Digital Gujarat Portal (digitalgujarat.gov.in) or Jan Seva Kendra",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select Ration Card Service and Enter Household Details",
+          "description": "Select Application for New Ration Card or Add Member. Enter complete family head details, LPG connection numbers, and municipal residential address.",
+          "where": "Digital Gujarat Application Form",
+          "estimatedTime": "20 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "LPG Declaration",
+          "calloutText": "Declaring domestic LPG connections accurately is mandatory under Gujarat Food and Civil Supplies regulations.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Mandatory Deletion Certificate and Proofs",
+          "description": "Upload scanned copies of Aadhaar cards, Gujarat electricity bill, and previous ration card deletion certificate if moving after marriage.",
+          "where": "Online Document Upload Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Deletion Certificate",
+          "calloutText": "A formal deletion certificate from your previous taluka Mamlatdar is strictly required to prevent duplicate household claims.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Statutory Twenty Rupee Citizen Fee",
+          "description": "Pay twenty rupees statutory application fee online via Cyber Treasury or in cash at the Jan Seva Kendra counter.",
+          "where": "Gujarat Cyber Treasury / Jan Seva Cash Counter",
+          "estimatedTime": "5 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Talati Field Verification and Supply Officer Scrutiny",
+          "description": "The local Talati-cum-Mantri in rural areas or Food Supply Inspector in urban zones verifies family residency and income category.",
+          "where": "Taluka Mamlatdar Office / Zonal Supply Office",
+          "estimatedTime": "7-10 working days",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Collect Barcoded Ration Card in Gujarat",
+          "description": "Receive an SMS alert upon approval. Collect your official laminated barcoded ration card from the Mamlatdar office or download e-ration slip.",
+          "where": "Local Jan Seva Kendra / Digital Gujarat",
+          "estimatedTime": "5-7 working days",
+          "calloutType": "success",
+          "calloutTitle": "Barcoded Card Issued",
+          "calloutText": "Your barcoded ration card enables subsidized food grains and serves as family identity for welfare schemes.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-rc-fee-application",
+          "label": "Gujarat Citizen Charter Application Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Fixed statutory fee under Gujarat Citizen Charter for processing ration card applications.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-fee-card",
+          "label": "Barcoded Smart Booklet Printing Fee",
+          "amount": 50,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "counter",
+          "description": "Statutory administrative printing cost for physical barcoded ration booklet at Jan Seva Kendra.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-rc-faq-1",
+          "question": "What is a Ration Card Deletion Certificate in Gujarat?",
+          "answer": "It is an official certificate issued by the Mamlatdar confirming your name was removed from previous family card.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-faq-2",
+          "question": "Can I add my newborn child to my Gujarat ration card online?",
+          "answer": "Yes. Apply under Add Member service on Digital Gujarat by uploading the child's municipal birth certificate and parents' Aadhaar.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-faq-3",
+          "question": "What is the difference between NFSA and Non-NFSA in Gujarat?",
+          "answer": "NFSA cards receive monthly subsidized grains under food security acts, while Non-NFSA cards serve primarily as identity documents.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-faq-4",
+          "question": "Where can I submit physical ration card forms in Gujarat?",
+          "answer": "Submit forms at your local Taluka Mamlatdar Jan Seva Kendra or village e-Gram Panchayat center.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-rc-link-digitalgujarat",
+          "label": "Digital Gujarat Ration Card Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Food, Civil Supplies and Consumer Affairs Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-link-dcs",
+          "label": "Food and Civil Supplies Department Gujarat",
+          "url": "https://dcs-dof.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "DCS Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://dcs-dof.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-link-services",
+          "label": "National Services Portal - Gujarat PDS",
+          "url": "https://services.india.gov.in",
+          "isPrimary": false,
+          "department": "National Informatics Centre",
+          "portalName": "Services India",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://services.india.gov.in"
+        }
+      ]
     }
   }
 }
