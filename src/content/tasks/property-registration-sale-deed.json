@@ -448,9 +448,201 @@
   "states": {
     "GJ": {
       "title": "How to Register Property Sale Deed in Gujarat (2026)",
-      "summary": "Property registration in Gujarat is conducted via the GARVI portal operated by the Inspector General of Registration. Stamp duty is 4.9 percent of the jantasri value or market consideration, and female purchasers receive full exemption from registration fees.",
+      "summary": "Property registration in Gujarat is conducted via the official GARVI portal and Sub-Registrar offices. Learn about Jantri rate valuations, 4.9 percent stamp duty, 100 percent female registration fee exemptions, and AnyRoR 7/12 checks.",
       "estimatedTime": "5-10 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "hard",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://garvi.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Verify Land Title on AnyRoR and Calculate Jantri Value",
+          "description": "Check official land records 7/12, 8A, and Form 6 mutation history on AnyRoR. Determine the statutory minimum valuation using Gujarat Jantri benchmark rates.",
+          "where": "AnyRoR Gujarat Portal (anyror.gujarat.gov.in)",
+          "estimatedTime": "30 minutes",
+          "officialLinkUrl": "https://anyror.gujarat.gov.in",
+          "officialLinkLabel": "Open AnyRoR Land Records",
+          "calloutType": "tip",
+          "calloutTitle": "Jantri Benchmark",
+          "calloutText": "Stamp duty is calculated on the higher of actual sale price or official government Jantri value.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Purchase Gujarat e-Stamp Certificate",
+          "description": "Pay 4.9 percent statutory stamp duty through Stock Holding Corporation counters or authorized net banking to generate a secure Gujarat e-stamp certificate.",
+          "where": "Authorized Bank / SHCIL e-Stamping Centre",
+          "estimatedTime": "1 hour",
+          "calloutType": "important",
+          "calloutTitle": "Stamp Duty Rate",
+          "calloutText": "Statutory stamp duty in Gujarat is 4.9 percent comprising 3.5 percent basic duty and 1.4 percent additional surcharge.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Prepare Sale Deed and Upload on GARVI Portal",
+          "description": "Draft the final deed with legal property boundaries. Upload deed text and e-stamp details to the Gujarat GARVI registration portal.",
+          "where": "GARVI Gujarat Portal (garvi.gujarat.gov.in)",
+          "estimatedTime": "45 minutes",
+          "officialLinkUrl": "https://garvi.gujarat.gov.in",
+          "officialLinkLabel": "Open GARVI Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Registration Fee and Book SRO Appointment",
+          "description": "Pay 1 percent registration fee online via Cyber Treasury. Sole female buyers enjoy a statutory 100 percent registration fee exemption.",
+          "where": "GARVI Portal / Gujarat Cyber Treasury",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Female Concession",
+          "calloutText": "Female purchasers save the entire 1 percent registration fee when real estate is registered solely in their name.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Biometric Execution at Sub-Registrar Office (SRO)",
+          "description": "Buyer, seller, and two adult witnesses present original documents at the designated taluka Sub-Registrar office for biometric fingerprint and photograph capture.",
+          "where": "Jurisdiction Sub-Registrar Office (SRO)",
+          "estimatedTime": "1-2 hours",
+          "calloutType": "important",
+          "calloutTitle": "Two Witnesses",
+          "calloutText": "Both witnesses must carry original Aadhaar cards and have known the parties personally.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Collect Registered Deed and Form 6 Mutation",
+          "description": "Receive the stamped registered sale deed with Index II copy on the same day. Apply for revenue mutation on AnyRoR to update owner name.",
+          "where": "Sub-Registrar Office / AnyRoR Portal",
+          "estimatedTime": "Same day at SRO, 30 days for revenue mutation",
+          "calloutType": "success",
+          "calloutTitle": "Index II Issued",
+          "calloutText": "The registered Index II provides legal proof of ownership and encumbrance-free title in Gujarat revenue records.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-prop-fee-stamp",
+          "label": "Gujarat Composite Stamp Duty (4.9%)",
+          "amount": 49000,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory 4.9 percent composite stamp duty calculated per 10 lakh rupees of consideration or Jantri value.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-fee-reg-male",
+          "label": "Registration Fee for Male Buyers (1%)",
+          "amount": 10000,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory 1 percent registration fee payable on property consideration per 10 lakh rupees value.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-fee-reg-female",
+          "label": "Registration Fee for Sole Female Buyers (0%)",
+          "amount": 0,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory 100 percent registration fee exemption granted to female purchasers in Gujarat.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-prop-faq-1",
+          "question": "What is Jantri in Gujarat and how is it calculated?",
+          "answer": "Jantri is the statutory minimum benchmark rate fixed by the Gujarat Government for valuing land and built properties.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-faq-2",
+          "question": "Are female property buyers exempt from registration fees in Gujarat?",
+          "answer": "Yes. Sole female buyers are completely exempt from the 1 percent registration fee under Gujarat revenue rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-faq-3",
+          "question": "What is AnyRoR and why is it checked before buying property?",
+          "answer": "AnyRoR displays digitized 7/12 land records, ownership history, and encumbrances maintained by the Gujarat Revenue Department.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://anyror.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-faq-4",
+          "question": "What is an Index II copy in Gujarat?",
+          "answer": "Index II is an official registered abstract summarizing buyer, seller, survey number, and consideration details for registered deeds.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-prop-link-garvi",
+          "label": "GARVI Gujarat Registration Portal",
+          "url": "https://garvi.gujarat.gov.in",
+          "isPrimary": true,
+          "department": "Inspector General of Registration Gujarat",
+          "portalName": "GARVI Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-link-anyror",
+          "label": "AnyRoR Gujarat Official Land Records",
+          "url": "https://anyror.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Revenue Department Gujarat",
+          "portalName": "AnyRoR Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://anyror.gujarat.gov.in"
+        },
+        {
+          "id": "gj-prop-link-digitalgujarat",
+          "label": "Digital Gujarat Revenue Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ]
     }
   }
 }
