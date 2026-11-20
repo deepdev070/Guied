@@ -445,9 +445,199 @@
   "states": {
     "GJ": {
       "title": "How to Apply for Learner's Licence in Gujarat (2026)",
-      "summary": "Gujarat offers 100% contactless online Learner Licence services with home-based computerized testing through Sarathi Parivahan and Digital Gujarat.",
-      "estimatedTime": "7-15 days",
-      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      "summary": "Gujarat provides contactless online Learner Licence services with home-based computerized testing through Sarathi Parivahan and Digital Gujarat. Citizens can also take the computerized test in Gujarati at designated government Industrial Training Institutes.",
+      "estimatedTime": "1-3 working days",
+      "difficulty": "easy",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://cot.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Access Sarathi Gujarat Portal with Aadhaar Authentication",
+          "description": "Select Gujarat state on Sarathi Parivahan and choose applicant with Aadhaar for contactless application without visiting the RTO office.",
+          "where": "Sarathi Gujarat Portal (sarathi.parivahan.gov.in)",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://sarathi.parivahan.gov.in",
+          "officialLinkLabel": "Open Sarathi Gujarat Portal",
+          "calloutType": "tip",
+          "calloutTitle": "Aadhaar e-KYC",
+          "calloutText": "Aadhaar e-KYC automatically imports verified demographic details and waives mandatory physical document verification at the RTO.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Complete Online Form 2 and Upload Signatures",
+          "description": "Select vehicle classes such as Motorcycle Without Gear or Light Motor Vehicle. Upload digital signature and emergency contact blood group.",
+          "where": "Sarathi Parivahan Portal",
+          "estimatedTime": "15 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pay Gujarat Statutory Fees via Cyber Treasury",
+          "description": "Pay one hundred fifty rupees test fee and fifty rupees per vehicle category using the integrated Gujarat Cyber Treasury payment gateway.",
+          "where": "Gujarat Cyber Treasury / Sarathi Gateway",
+          "estimatedTime": "10 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Fee Breakdown",
+          "calloutText": "Total statutory fee is two hundred rupees for one vehicle class or three hundred fifty rupees for both two-wheeler and car.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Complete Road Safety Awareness Video Tutorial",
+          "description": "Watch the mandatory road safety tutorial video on Sarathi Gujarat. The portal verifies video completion before unlocking the computer test.",
+          "where": "Sarathi Parivahan Portal",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Mandatory Tutorial",
+          "calloutText": "You cannot start the online LL exam until the portal registers 100% completion of the road safety tutorial.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Appear for Computerized LL Test at Home or ITI",
+          "description": "Take the 15-question multiple choice test in Gujarati, Hindi, or English using your home webcam or visit a designated Gujarat ITI center.",
+          "where": "Home (Webcam Proctoring) or Nearest Gujarat ITI Center",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Pass Criterion",
+          "calloutText": "Score at least 11 correct answers out of 15 questions within the 48-second timer per question to qualify.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Instantly Download Digital Gujarat Learner Licence",
+          "description": "Upon scoring eleven or more marks, download the official Form 3 Learner Licence PDF directly from the portal or DigiLocker.",
+          "where": "Sarathi Gujarat Portal / DigiLocker",
+          "estimatedTime": "5 minutes",
+          "calloutType": "success",
+          "calloutTitle": "Six-Month Validity",
+          "calloutText": "Your Gujarat Learner Licence is valid across India for six months from the date of passing.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-ll-fee-test",
+          "label": "Gujarat Driving Knowledge Test Fee",
+          "amount": 150,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory computerized knowledge testing fee under Gujarat Motor Vehicles Rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-ll-fee-issue-single",
+          "label": "Issue of Learner Licence (Single Class - MCWOG)",
+          "amount": 50,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory licence issuance fee for one class of vehicle under Gujarat RTO rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-ll-fee-issue-dual",
+          "label": "Issue of Learner Licence (Dual Class - MCWOG + LMV)",
+          "amount": 100,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Combined issuance fee for both two-wheeler and four-wheeler vehicle classes.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-ll-faq-1",
+          "question": "Can I take the Gujarat Learner Licence test in Gujarati?",
+          "answer": "Yes. The computerized test questions and audio are available in Gujarati, Hindi, and English.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-ll-faq-2",
+          "question": "Can I take the LL test from home without visiting an RTO in Gujarat?",
+          "answer": "Yes. Gujarat enables 100% contactless testing from home using Aadhaar authentication and webcam proctoring.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-ll-faq-3",
+          "question": "What if I do not have a computer or webcam at home?",
+          "answer": "You can take the test at any authorized Gujarat Government Industrial Training Institute (ITI) or RTO office.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-ll-faq-4",
+          "question": "What is the passing score for the Gujarat LL computerized test?",
+          "answer": "You must answer at least 11 questions correctly out of 15 questions to pass the test.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-link-cot",
+          "label": "Commissionerate of Transport Gujarat",
+          "url": "https://cot.gujarat.gov.in",
+          "isPrimary": true,
+          "department": "Ports and Transport Department Gujarat",
+          "portalName": "COT Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-link-sarathi",
+          "label": "Sarathi Parivahan Gujarat Portal",
+          "url": "https://sarathi.parivahan.gov.in",
+          "isPrimary": false,
+          "department": "Ministry of Road Transport and Highways",
+          "portalName": "Sarathi Parivahan",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "id": "gj-link-digitalgujarat",
+          "label": "Digital Gujarat Transport Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ]
     }
   }
 }

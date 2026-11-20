@@ -223,7 +223,7 @@ export async function getTaskVariant(
     };
   }
 
-  const stateOverride = task.states?.[state.code];
+  const stateOverride = task.states?.[state.code] || task.states?.[state.slug];
   if (!stateOverride) {
     // No specific override for this state -> return national baseline with state context
     return {

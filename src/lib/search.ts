@@ -266,7 +266,7 @@ export function buildSearchIndex(): SearchableItem[] {
         ...(category?.name ? [category.name.toLowerCase()] : []),
       ],
       availableStates: Object.keys(t.states || {}),
-      launchState: Boolean(t.states?.["gujarat"]),
+      launchState: Boolean(t.states?.["gujarat"] || t.states?.["GJ"]),
     });
   }
 
