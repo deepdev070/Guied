@@ -415,9 +415,181 @@
   "states": {
     "GJ": {
       "title": "How to Apply for Senior Citizen Card in Gujarat (2026)",
-      "summary": "Gujarat Social Justice and Empowerment Department issues senior citizen cards through District Social Defense Officers and Mamlatdar offices. Applications can be submitted online via Digital Gujarat or at local e-Gram centers.",
+      "summary": "Gujarat Social Justice and Empowerment Department issues senior citizen cards via Digital Gujarat and District Social Defense Offices. Learn about GSRTC bus concessions, free portal applications, and Mamlatdar verification steps.",
       "estimatedTime": "7-10 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "easy",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat Portal or Jan Seva Kendra",
+          "description": "Log into Digital Gujarat using your mobile number or visit the Jan Seva Kendra at your local taluka Mamlatdar office.",
+          "where": "Digital Gujarat Portal (digitalgujarat.gov.in) or Jan Seva Kendra",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Senior Citizen Identity Card Application",
+          "description": "Complete personal details including full name, birth date confirming 60+ age milestone, blood group, and emergency contact numbers.",
+          "where": "Digital Gujarat Application Form",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Blood Group Test",
+          "calloutText": "Attach a stamped blood group report from any authorized government clinic or diagnostic laboratory.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Proof of Age and Gujarat Residence",
+          "description": "Upload scanned school leaving certificate or birth certificate showing age 60+, accompanied by your Gujarat electricity bill or ration card.",
+          "where": "Online Document Upload Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Document Legibility",
+          "calloutText": "Make sure your date of birth is clearly readable on all uploaded certificates to prevent application rejection.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Zero Portal Processing Fee in Gujarat",
+          "description": "The Government of Gujarat provides this welfare service completely free of charge on the official citizen portal.",
+          "where": "Digital Gujarat Portal",
+          "estimatedTime": "Instant",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "District Social Defense Officer (DSDO) Scrutiny",
+          "description": "The District Social Defense Officer reviews uploaded records and verifies residency credentials under state social defense rules.",
+          "where": "District Social Defense Office / Tehsil Desk",
+          "estimatedTime": "3-5 working days",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Download Barcoded Senior Citizen ID or Collect Smart Card",
+          "description": "Upon approval, download the digital e-card from Digital Gujarat or collect your laminated photo identity card from the local Mamlatdar office.",
+          "where": "Digital Gujarat Portal / Jan Seva Kendra",
+          "estimatedTime": "Immediate download upon approval",
+          "calloutType": "success",
+          "calloutTitle": "GSRTC Bus Concessions",
+          "calloutText": "Present your approved card at GSRTC bus depots for concessional passenger fares and priority reservation benefits.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-sc-fee-online",
+          "label": "Digital Gujarat Portal Application Fee",
+          "amount": 0,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory welfare service provided completely free of cost by the Gujarat Government.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-sc-fee-csc",
+          "label": "Village e-Gram / CSC Facilitation Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": false,
+          "paymentMode": "counter",
+          "description": "Permitted service fee when applying through assisted village computer centers or Jan Seva Kendras.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-sc-faq-1",
+          "question": "What are the GSRTC bus travel concessions for seniors in Gujarat?",
+          "answer": "Senior citizen card holders receive priority boarding, reserved seats, and fare concessions across Gujarat state transport buses.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-sc-faq-2",
+          "question": "Who is the issuing authority for senior cards in Gujarat?",
+          "answer": "The District Social Defense Officer (DSDO) and Taluka Mamlatdar issue official senior citizen identity cards.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-sc-faq-3",
+          "question": "Is there any portal fee to apply for a senior citizen card in Gujarat?",
+          "answer": "No. Online application and digital e-card downloads on Digital Gujarat are completely free of charge.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-sc-faq-4",
+          "question": "Can I use the senior card for hospital priority in Gujarat?",
+          "answer": "Yes. Gujarat government civil hospitals offer dedicated senior citizen registration counters and geriatric OPD priority.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-sc-link-digitalgujarat",
+          "label": "Digital Gujarat Senior Citizen Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Social Justice and Empowerment Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-sc-link-sje",
+          "label": "Directorate of Social Defense Gujarat",
+          "url": "https://sje.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "SJE Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-sc-link-services",
+          "label": "National Services Portal - Gujarat Senior Welfare",
+          "url": "https://services.india.gov.in",
+          "isPrimary": false,
+          "department": "National Informatics Centre",
+          "portalName": "Services India",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://services.india.gov.in"
+        }
+      ]
     }
   }
 }
