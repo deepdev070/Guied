@@ -425,9 +425,181 @@
   "states": {
     "GJ": {
       "title": "How to Apply for Post-Matric Scholarship in Gujarat (2026)",
-      "summary": "Gujarat students apply via the Digital Gujarat portal for state-funded and centrally sponsored post-matric scholarships. Applications are scrutinized by institute nodal officers and sanctioned through District Social Defense or Tribal Development offices.",
+      "summary": "Gujarat students apply via Digital Gujarat for state-funded and centrally sponsored post-matric scholarships. Learn about college nodal verification, food bill assistance for private hostels, and direct bank account payment rules.",
       "estimatedTime": "15-20 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Create Student Profile on Digital Gujarat Portal",
+          "description": "Register on the Digital Gujarat portal using your student mobile number, email ID, and Aadhaar card details.",
+          "where": "Digital Gujarat Portal (digitalgujarat.gov.in)",
+          "estimatedTime": "15 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select Category Scholarship Scheme",
+          "description": "Choose the scheme matching your profile: SC Post-Matric, ST Umbrella Scheme, or SEBC / EWS educational tuition assistance.",
+          "where": "Digital Gujarat Scholarship Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Scheme Selection",
+          "calloutText": "Ensure your selected scheme corresponds exactly with the caste category mentioned on your official revenue certificate.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Bonafide, Fee Receipts, and Caste Proof",
+          "description": "Upload college bonafide certificate, current year college fee slip, previous examination marksheet, and Mamlatdar income certificate.",
+          "where": "Online Document Upload Screen",
+          "estimatedTime": "20 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Food Bill Assistance",
+          "calloutText": "Students staying in private hostels or paying guest setups must upload a landlord rent agreement to claim food bill aid.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Aadhaar NPCI Mapper Seeding Verification",
+          "description": "Ensure your savings bank account is mapped on the NPCI payment bridge to enable automated Direct Benefit Transfer payments.",
+          "where": "Bank Branch / NPCI Portal",
+          "estimatedTime": "1 day",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://scholarships.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "College Principal and Nodal Officer Verification",
+          "description": "Submit a printed acknowledgement form to your college scholarship cell for electronic nodal verification on the state portal.",
+          "where": "College Scholarship Cell",
+          "estimatedTime": "5-7 working days",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "District Officer Approval and Direct Bank Disbursement",
+          "description": "The District Social Welfare Officer sanctions the scholarship. Maintenance allowance and tuition fees are credited to your bank account via PFMS.",
+          "where": "Student Bank Account / PFMS",
+          "estimatedTime": "15-20 working days",
+          "calloutType": "success",
+          "calloutTitle": "Direct Credit",
+          "calloutText": "Funds are credited directly to your Aadhaar-linked bank account without college fee counter deductions.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-pms-fee-online",
+          "label": "Digital Gujarat Online Application Fee",
+          "amount": 0,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Online scholarship registration on Digital Gujarat is 100 percent free of charge.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-pms-fee-institute",
+          "label": "Institutional Form Verification Fee",
+          "amount": 0,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "counter",
+          "description": "Colleges in Gujarat are legally barred from charging students for scholarship form verification.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-pms-faq-1",
+          "question": "Do Gujarat college students apply on Digital Gujarat or NSP?",
+          "answer": "Gujarat domicile students pursuing post-matric courses within Gujarat apply primarily via the Digital Gujarat portal.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-pms-faq-2",
+          "question": "What is the Food Bill Assistance Scheme in Gujarat?",
+          "answer": "It is an additional monthly grant provided to eligible college students residing in private rental hostels or paying guest lodgings.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-pms-faq-3",
+          "question": "What is the family income limit for scholarships in Gujarat?",
+          "answer": "For SC and ST students, annual family income must not exceed two lakh fifty thousand rupees from all sources.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-pms-faq-4",
+          "question": "How can I track my scholarship payment status in Gujarat?",
+          "answer": "Login to your Digital Gujarat account dashboard to monitor institutional scrutiny, district approval, and PFMS bank payment credits.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-pms-link-digitalgujarat",
+          "label": "Digital Gujarat Scholarship Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Social Justice and Empowerment Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-pms-link-sje",
+          "label": "Social Justice and Empowerment Department Gujarat",
+          "url": "https://sje.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "SJE Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-pms-link-tribal",
+          "label": "Tribal Development Department Gujarat",
+          "url": "https://tribal.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Tribal Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://tribal.gujarat.gov.in"
+        }
+      ]
     }
   }
 }
