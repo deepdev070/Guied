@@ -1,0 +1,412 @@
+{
+  "slug": "udyam-msme-registration",
+  "name": "Udyam (MSME) Registration",
+  "description": "Master guide for official Udyam MSME registration online with zero government fee, instant certificate generation, and verified rules.",
+  "categorySlug": "money-and-tax",
+  "national": {
+    "title": "How to Register for Udyam (MSME) Online in India (2026)",
+    "summary": "Master procedure for obtaining official Udyam MSME registration on udyamregistration.gov.in. Verified guide covering Aadhaar validation, PAN linking, zero government fee policy, and digital certificate generation.",
+    "estimatedTime": "1-3 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://udyamregistration.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Access Official Udyam Registration Portal",
+        "description": "Open udyamregistration.gov.in and click on For New Entrepreneurs Who Are Not Registered Yet as MSME. Beware of fake commercial portals charging fees.",
+        "where": "Official Udyam Portal (udyamregistration.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://udyamregistration.gov.in",
+        "officialLinkLabel": "Open Official Udyam Portal",
+        "calloutType": "warning",
+        "calloutTitle": "Zero Fee Policy",
+        "calloutText": "Udyam registration is completely free of charge. Never pay any fee on private commercial websites.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Validate Aadhaar Number of Primary Owner",
+        "description": "Enter the twelve-digit Aadhaar number and applicant name as printed on the Aadhaar card. Click Validate & Generate OTP to authenticate via your mobile.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Authorized Person",
+        "calloutText": "Use proprietor Aadhaar for proprietorship, managing partner for partnership, or authorized director for corporate entities.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Validate PAN and Fetch Income Tax Records",
+        "description": "Select the constitution of your enterprise and enter the business PAN. The portal validates PAN data against Income Tax records automatically.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Enter Enterprise Profile and Unit Locations",
+        "description": "Enter the business trade name, plant locations, office address, and date of business commencement. Provide the official corporate email and active mobile contact.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "15 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Multiple Units",
+        "calloutText": "You can add multiple manufacturing or service branches under a single enterprise Udyam record.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Provide Business Bank Account Details",
+        "description": "Input active bank account number and the eleven-digit IFS Code. The bank account must belong to the enterprise or proprietor.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Select National Industrial Classification (NIC) Codes",
+        "description": "Choose whether your business engages in Manufacturing or Services. Search and select appropriate two-digit, four-digit, and five-digit NIC activity codes.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Activity Selection",
+        "calloutText": "Add all major manufacturing and service activities you provide to maximize enterprise coverage.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Declare Employment Numbers and Capital Investment",
+        "description": "Declare the number of male, female, and other workers employed. State capital invested in plant and machinery excluding pollution control equipment.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Submit Application and Download Udyam Certificate",
+        "description": "Review details and click Final Submit to receive a final verification OTP. Once authenticated, your official Udyam Registration Certificate is generated with a lifetime QR code.",
+        "where": "Udyam Common Portal (udyamregistration.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://udyamregistration.gov.in",
+        "officialLinkLabel": "Print Udyam Certificate",
+        "calloutType": "success",
+        "calloutTitle": "Lifetime Validity",
+        "calloutText": "Udyam certificates have permanent lifetime validity and require no renewal fees.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "aadhaar_proprietor",
+        "name": "Aadhaar Card of Proprietor, Partner, or Director",
+        "description": "Aadhaar number of the business owner used for biometric identity verification via mobile OTP.",
+        "requirementType": "required",
+        "copiesHint": "12-digit number for online OTP",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "pan_enterprise",
+        "name": "Permanent Account Number (PAN) Card",
+        "description": "PAN card of the individual proprietor or registered legal entity (Company, LLP, Firm).",
+        "requirementType": "required",
+        "copiesHint": "Valid 10-digit PAN details",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "bank_account_details",
+        "name": "Active Business Bank Account Number and IFSC",
+        "description": "Bank account number and IFS Code of the applicant enterprise for financial verification.",
+        "requirementType": "required",
+        "copiesHint": "Passbook or cheque details",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "plant_location_proofs",
+        "name": "Plant Unit and Registered Office Address Details",
+        "description": "Complete physical addresses and pin codes of all operational manufacturing or servicing units.",
+        "requirementType": "required",
+        "copiesHint": "Operational address records",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "nic_code_details",
+        "name": "National Industrial Classification (NIC) Code Selection",
+        "description": "Official economic activity classification matching enterprise manufacturing or service operations.",
+        "requirementType": "required",
+        "copiesHint": "5-digit NIC code selection",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "gstin_details",
+        "name": "Goods and Services Tax Identification Number (GSTIN)",
+        "description": "Valid GSTIN of the enterprise for cross-verifying annual turnover and sales returns.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isGSTRegistered": {
+            "eq": true
+          }
+        },
+        "copiesHint": "15-digit GSTIN number",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "corporate_cin_deed",
+        "name": "Company CIN or Partnership Registration Deed",
+        "description": "Corporate Identity Number or partnership agreement for entities other than sole proprietorships.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isNonProprietorship": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Registration certificate details",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "udyam_govt_fee",
+        "label": "Government Statutory Udyam Registration Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://udyamregistration.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Udyam registration is completely free of charge. The Ministry of MSME charges zero fee on the official portal."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "fraudulent_fee_portal",
+        "title": "Registering on Fraudulent Third-Party Portals Charging Fees",
+        "description": "Many private imitation websites mimic official portals and charge unapproved consultancy fees for bogus certificates.",
+        "solution": "Use only the official Government of India portal ending in udyamregistration.gov.in.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "aadhaar_pan_mismatch",
+        "title": "Name Discrepancy Between Aadhaar and PAN Databases",
+        "description": "The portal automatically matches applicant names across UIDAI and Income Tax servers. Any spelling variance halts validation.",
+        "solution": "Update Aadhaar or PAN details to ensure character-level name consistency before applying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "mobile_otp_failure",
+        "title": "Aadhaar Card Linked to Inactive or Outdated Mobile Number",
+        "description": "The portal requires real-time OTP validation. Inability to receive OTP prevents completion of step two.",
+        "solution": "Visit an Aadhaar Seva Kendra to update your current active mobile number on UIDAI records.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "duplicate_pan_registration",
+        "title": "Attempting Multiple Registrations on the Same PAN",
+        "description": "Statutory rules stipulate one enterprise one registration. Multiple applications against the same PAN are rejected automatically.",
+        "solution": "Add new branch units or additional business activities under your existing Udyam registration number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "incorrect_nic_code",
+        "title": "Selecting Inappropriate or Non-Eligible Activity Codes",
+        "description": "Choosing incorrect classification codes can disqualify the enterprise from specific sector incentives and bank priorities.",
+        "solution": "Review the official NIC 2008 manual and select five-digit codes reflecting your core production operations.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "id": "omitting_turnover_declaration",
+        "title": "Discrepancy Between Declared Turnover and Income Tax Return",
+        "description": "The portal synchronizes turnover figures directly from the Income Tax portal based on previous tax returns.",
+        "solution": "Ensure reported turnover figures match Form ITR-3, ITR-4, or ITR-6 figures filed with the tax department.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the official statutory fee for Udyam registration in India?",
+        "answer": "Udyam registration is completely free of charge. No fee is payable to the government on udyamregistration.gov.in.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "Is an Aadhaar card mandatory for Udyam registration?",
+        "answer": "Yes. Aadhaar is mandatory for the proprietor, managing partner, Karta of HUF, or authorized signatory of corporate entities.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "Can I hold more than one Udyam registration on a single PAN?",
+        "answer": "No. Only one Udyam registration is allowed per PAN. You can add multiple manufacturing units under the same registration.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "What are the investment and turnover limits for Micro enterprises?",
+        "answer": "Micro enterprises have plant investment up to one crore rupees and annual turnover not exceeding five crore rupees.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "Do I need to upload physical document copies during registration?",
+        "answer": "No. The registration process is fully paperless. Data is fetched automatically from Aadhaar, PAN, and GST portals.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "What is the validity period of an Udyam Registration Certificate?",
+        "answer": "An Udyam Registration Certificate has permanent lifetime validity and does not require periodic renewal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "What benefits do MSMEs receive under Udyam registration?",
+        "answer": "Benefits include priority sector bank lending, collateral-free credit guarantees, subsidy on patent registrations, and protection against delayed payments.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "question": "Can retail and wholesale trade businesses register on Udyam?",
+        "answer": "Yes. Retail and wholesale traders are eligible to register under Udyam for priority sector lending benefits.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Start Udyam Registration",
+      "subtitle": "5 mandatory checks before applying on udyamregistration.gov.in",
+      "items": [
+        {
+          "id": "aadhaar_otp_ready",
+          "title": "Aadhaar-Linked Active Mobile",
+          "description": "Ensure your mobile phone can receive instant OTPs from UIDAI servers for biometric authentication.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "pan_name_consistency",
+          "title": "PAN & Aadhaar Name Consistency",
+          "description": "Confirm names match character-for-character across PAN and Aadhaar cards to prevent automated failure.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "official_domain_check",
+          "title": "Official .gov.in Portal Verification",
+          "description": "Check that the URL in your browser is udyamregistration.gov.in to avoid paying unauthorized fees.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "active_bank_ifsc",
+          "title": "Active Bank Account and IFSC",
+          "description": "Have active enterprise bank account number and bank branch IFSC code ready for entry.",
+          "icon": "FileText"
+        },
+        {
+          "id": "nic_code_identified",
+          "title": "Identified 5-Digit NIC Code",
+          "description": "Review the NIC 2008 list and identify five-digit classifications matching your products or services.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Official Udyam Registration Portal",
+        "url": "https://udyamregistration.gov.in",
+        "isPrimary": true,
+        "department": "Ministry of Micro, Small and Medium Enterprises",
+        "portalName": "Udyam Common Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://udyamregistration.gov.in"
+      },
+      {
+        "label": "Ministry of MSME Portal",
+        "url": "https://msme.gov.in",
+        "isPrimary": false,
+        "department": "Government of India",
+        "portalName": "Ministry of MSME Official Website",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://msme.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Micro, Small and Medium Enterprises Development Act, 2006",
+        "actOrRuleNumber": "Section 7 and 8 (Classification and Registration of MSMEs)",
+        "issuingAuthority": "Ministry of Law and Justice",
+        "url": "https://udyamregistration.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Ministry of MSME Notification S.O. 2119(E)",
+        "actOrRuleNumber": "Notification dated 26th June 2020 (Udyam Registration Criteria)",
+        "issuingAuthority": "Ministry of Micro, Small and Medium Enterprises",
+        "url": "https://udyamregistration.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Register for Udyam in Gujarat (2026)",
+      "summary": "Udyam registration in Gujarat is conducted via the central udyamregistration.gov.in portal. Registered Gujarat MSMEs access state capital subsidies, power tariff concessions, and interest relief through the Industries Commissionerate, Gandhinagar.",
+      "estimatedTime": "1-3 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

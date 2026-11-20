@@ -561,6 +561,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://www.cbic.gov.in",
     },
   ],
+  "udyam-msme-registration": [
+    {
+      id: "ch-udyam-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Zero Fee Verified",
+      title: "Statutory Zero Fee Policy Verified",
+      description:
+        "Verified ₹0 official government fee policy and paperless Aadhaar/PAN API integration on udyamregistration.gov.in.",
+      officialSourceLabel: "Udyam Common Portal (udyamregistration.gov.in)",
+      officialSourceUrl: "https://udyamregistration.gov.in",
+    },
+    {
+      id: "ch-udyam-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Criteria Verified",
+      title: "Revised MSME Investment & Turnover Thresholds Verified",
+      description:
+        "Confirmed composite criteria for Micro (<= ₹1 Cr / ₹5 Cr), Small (<= ₹10 Cr / ₹50 Cr), and Medium enterprises under MSMED Act.",
+      officialSourceLabel: "Ministry of MSME Portal (msme.gov.in)",
+      officialSourceUrl: "https://msme.gov.in",
+    },
+  ],
 };
 
 /**

@@ -712,4 +712,33 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
     ],
     launchState: true,
   },
+  {
+    slug: "udyam-msme-registration",
+    name: "Udyam (MSME) Registration",
+    title: "How to Register for Udyam (MSME) Online in India (2026)",
+    summary:
+      "Master procedure for obtaining official Udyam MSME registration on udyamregistration.gov.in with zero government fee and instant certificate generation.",
+    categorySlug: "money-and-tax",
+    categoryName: "Money and Taxes",
+    difficulty: "easy",
+    estimatedTime: "1–3 days",
+    cost: "₹0 (Free Govt Fee)",
+    keywords: [
+      "udyam registration",
+      "msme registration",
+      "udyam certificate",
+      "msme loan benefits",
+      "udyam portal",
+      "priority sector lending",
+      "small business registration",
+    ],
+    documentSnippets: [
+      "Aadhaar Card of Proprietor, Partner, or Director",
+      "Permanent Account Number (PAN) Card",
+      "Active Business Bank Account Number and IFSC",
+      "Plant Unit and Registered Office Address Details",
+      "National Industrial Classification (NIC) Code Selection",
+    ],
+    launchState: true,
+  },
 ];
