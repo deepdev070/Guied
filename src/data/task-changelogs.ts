@@ -706,6 +706,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://services.india.gov.in",
     },
   ],
+  "ayushman-card-pmjay": [
+    {
+      id: "ch-pmjay-01",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Senior 70+ Expansion",
+      title: "Universal ₹5 Lakh Coverage for All Seniors Aged 70+",
+      description:
+        "Updated guidelines following Union Cabinet approval extending ₹5 Lakh Ayushman health cover to all senior citizens aged 70 and older irrespective of income.",
+      officialSourceLabel: "National Health Authority (nha.gov.in)",
+      officialSourceUrl: "https://nha.gov.in",
+    },
+    {
+      id: "ch-pmjay-02",
+      date: "2026-11-20",
+      changeType: "portal",
+      changeTypeLabel: "Direct Beneficiary Portal",
+      title: "Self e-KYC and Instant Card Generation Enabled",
+      description:
+        "Citizens can now execute Aadhaar facial match or OTP e-KYC and download Ayushman cards directly on beneficiary.nha.gov.in without agent intermediaries.",
+      officialSourceLabel: "NHA Beneficiary Portal (beneficiary.nha.gov.in)",
+      officialSourceUrl: "https://beneficiary.nha.gov.in",
+    },
+  ],
 };
 
 /**

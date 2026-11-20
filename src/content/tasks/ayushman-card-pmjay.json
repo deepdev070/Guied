@@ -1,0 +1,421 @@
+{
+  "slug": "ayushman-card-pmjay",
+  "name": "Ayushman Bharat (PM-JAY) Card",
+  "description": "Master guide for getting an Ayushman Bharat PM-JAY health card in India with verified eligibility rules, e-KYC steps, and zero statutory fees.",
+  "categorySlug": "health-and-welfare",
+  "national": {
+    "title": "How to Apply for an Ayushman Bharat Card in India (2026)",
+    "summary": "Master procedure for obtaining an Ayushman Bharat PM-JAY health card from the National Health Authority across India. Verified guide covering Aadhaar e-KYC authentication, family ration card seeding, five lakh rupee cashless treatment, and instant card download.",
+    "estimatedTime": "1-3 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://pmjay.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Verify Family Eligibility on Beneficiary Portal",
+        "description": "Visit the official National Health Authority beneficiary portal. Enter your mobile number, select your state, and search using Aadhaar or ration card.",
+        "where": "Beneficiary NHA Portal (beneficiary.nha.gov.in)",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://beneficiary.nha.gov.in",
+        "officialLinkLabel": "Open Beneficiary Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Eligibility Search",
+        "calloutText": "Search by ration card number or family ID if your direct Aadhaar search does not show results immediately.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Select Beneficiary Member and e-KYC Mode",
+        "description": "Locate your family member profile in the search results. Select the pending e-KYC option and choose Aadhaar OTP, iris, or facial scan.",
+        "where": "Beneficiary NHA Portal",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Authenticate via Aadhaar OTP or Biometrics",
+        "description": "Enter your 12-digit Aadhaar number to trigger an authentication OTP. Submit the six-digit code sent to your UIDAI registered mobile number.",
+        "where": "Aadhaar UIDAI Authentication Server",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Active Mobile Link",
+        "calloutText": "Ensure your phone receives text messages from UIDAI to complete Aadhaar OTP verification successfully.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Capture Live Selfie for Facial Match",
+        "description": "Use your mobile camera or computer webcam to capture a live photograph. The system matches your photo against UIDAI biometric records.",
+        "where": "Applicant Device Camera",
+        "estimatedTime": "5 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Lighting Conditions",
+        "calloutText": "Face the camera directly in bright lighting without hats, masks, or dark spectacles for immediate matching.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Verify Contact and Household Address Details",
+        "description": "Review auto-filled demographic details retrieved from Aadhaar. Confirm your pin code, rural or urban classification, and sub-district details.",
+        "where": "Beneficiary NHA Portal",
+        "estimatedTime": "10 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Submit Application for State Health Agency Approval",
+        "description": "Submit your completed e-KYC request. High-confidence biometric matches receive instant automated approval while minor discrepancies go for officer scrutiny.",
+        "where": "State Health Agency Processing Engine",
+        "estimatedTime": "Instant to 24 hours",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://nha.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Download Official Ayushman e-Card",
+        "description": "Upon approval, the card status turns green. Click the download button to save your official PDF Ayushman Bharat card.",
+        "where": "Beneficiary NHA Portal / DigiLocker",
+        "estimatedTime": "5 minutes",
+        "calloutType": "success",
+        "calloutTitle": "Instant Access",
+        "calloutText": "You can save the verified digital card directly to your DigiLocker app for cashless hospital admissions.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Avail Cashless Hospital Treatment",
+        "description": "Present the digital or printed card at any empanelled public or private hospital nationwide to receive cashless inpatient healthcare.",
+        "where": "Empanelled Network Hospital / Ayushman Mitra Desk",
+        "estimatedTime": "Immediate on admission",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "pmjay-aadhaar",
+        "name": "Applicant Aadhaar Card",
+        "description": "Original 12-digit Aadhaar card linked with active mobile phone number for OTP authentication.",
+        "requirementType": "required",
+        "copiesHint": "Original Aadhaar card or digital copy on DigiLocker.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-ration-card",
+        "name": "Eligible Family Ration Card or Household ID",
+        "description": "State Food and Civil Supplies ration card showing applicant name and family member list.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy or digital ration card number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "id": "pmjay-mobile",
+        "name": "Active Mobile Number for OTP Verification",
+        "description": "Working mobile handset capable of receiving real-time SMS one-time passwords.",
+        "requirementType": "required",
+        "copiesHint": "Active SIM card with mobile connectivity.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-letter",
+        "name": "Prime Minister Entitlement Letter",
+        "description": "Official letter addressed to household head containing unique Ayushman family HHID.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "hasPmjayLetter": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Original PM letter containing family QR code barcode.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-senior-proof",
+        "name": "Age Proof for 70+ Universal Cover",
+        "description": "Aadhaar card or certified birth record establishing applicant age is 70 years or older.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isSenior70Plus": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 photocopy of Aadhaar confirming 70+ age milestone.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://nha.gov.in"
+      },
+      {
+        "id": "pmjay-disability-cert",
+        "name": "Unique Disability Identity Card (UDID)",
+        "description": "Official UDID certificate for expedited priority verification at hospital Ayushman Mitra helpdesks.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "hasDisability": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 photocopy of UDID certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://nha.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "pmjay-fee-portal",
+        "label": "Online e-KYC and Card Download Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "The central government provides online application, verification, and digital card downloads completely free.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-fee-pvc",
+        "label": "Physical PVC Ayushman Card at Hospital",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "counter",
+        "description": "Government empaneled hospitals issue the initial physical PVC card free of cost to eligible patients.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://nha.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "pmjay-rej-1",
+        "title": "Family Missing from SECC Database",
+        "description": "Household is not mapped in SECC 2011 records or active state priority ration lists.",
+        "solution": "Link family members to an active NFSA ration card or apply under expanded senior citizen schemes.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "id": "pmjay-rej-2",
+        "title": "Demographic Data Mismatch with Aadhaar",
+        "description": "Name spelling or date of birth on ration card differs significantly from Aadhaar records.",
+        "solution": "Update the demographic details on your Aadhaar card or food civil supplies database to match.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-rej-3",
+        "title": "Failed Live Selfie Facial Recognition",
+        "description": "Poor lighting or facial accessories cause low biometric match score against UIDAI photo records.",
+        "solution": "Retake the live selfie photograph in bright daylight facing camera squarely without eyeglasses.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "id": "pmjay-rej-4",
+        "title": "Unlinked Mobile Number for OTP",
+        "description": "Aadhaar card lacks an active linked phone number to receive the mandatory e-KYC code.",
+        "solution": "Visit a local Aadhaar Seva Kendra to link your active phone or authenticate using biometric fingerprint scanners.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-rej-5",
+        "title": "Inactive or Split Ration Card",
+        "description": "Ration card suspended due to non-lifting of grains or non-completion of mandatory family e-KYC.",
+        "solution": "Visit your local taluka food office or Fair Price Shop to restore active ration card status.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "pmjay-rej-6",
+        "title": "Duplicate e-KYC Submission",
+        "description": "Attempting to create a second card when an active Ayushman card is already issued.",
+        "solution": "Login to the beneficiary portal to re-download your existing active card without reapplying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "pmjay-faq-1",
+        "question": "What is the financial coverage provided by Ayushman Bharat PM-JAY?",
+        "answer": "PM-JAY provides up to five lakh rupees per eligible family per year for secondary and tertiary hospital treatments.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-faq-2",
+        "question": "Who is eligible to get an Ayushman Bharat Card?",
+        "answer": "Families listed in SECC 2011 deprivation categories, eligible NFSA ration card holders, and citizens aged 70 and above.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-faq-3",
+        "question": "Are citizens aged 70 and above eligible regardless of family income?",
+        "answer": "Yes. The central government approved universal health coverage for all senior citizens aged 70 and older without income caps.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://nha.gov.in"
+      },
+      {
+        "id": "pmjay-faq-4",
+        "question": "Is there any fee to apply for or download an Ayushman Card?",
+        "answer": "No. Online e-KYC, digital card downloads, and physical cards at public hospitals are 100% free of charge.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-faq-5",
+        "question": "Can I use the Ayushman Card in private hospitals?",
+        "answer": "Yes. The card is accepted across thousands of empaneled private and public hospitals nationwide for cashless inpatient care.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-faq-6",
+        "question": "What is e-KYC and why is it mandatory for Ayushman Bharat?",
+        "answer": "e-KYC electronically matches your Aadhaar biometrics to prevent identity theft and ensure benefits reach genuine beneficiaries.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "id": "pmjay-faq-7",
+        "question": "How long is an Ayushman Bharat Card valid?",
+        "answer": "The card has lifetime validity as long as the family or individual remains eligible under program guidelines.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-faq-8",
+        "question": "What should I do if my family name is missing from the portal?",
+        "answer": "Ensure your state ration card has all member names added, or check if eligible under age 70+ expansion schemes.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      }
+    ],
+    "officialLinks": [
+      {
+        "id": "pmjay-link-beneficiary",
+        "label": "NHA Beneficiary Portal (Direct e-KYC)",
+        "url": "https://beneficiary.nha.gov.in",
+        "isPrimary": true,
+        "department": "National Health Authority",
+        "portalName": "Beneficiary NHA Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://beneficiary.nha.gov.in"
+      },
+      {
+        "id": "pmjay-link-national",
+        "label": "PM-JAY Official Scheme Portal",
+        "url": "https://pmjay.gov.in",
+        "isPrimary": false,
+        "department": "National Health Authority",
+        "portalName": "PM-JAY Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://pmjay.gov.in"
+      },
+      {
+        "id": "pmjay-link-nha",
+        "label": "National Health Authority (NHA)",
+        "url": "https://nha.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of Health and Family Welfare",
+        "portalName": "NHA India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://nha.gov.in"
+      },
+      {
+        "id": "pmjay-link-digitalgujarat",
+        "label": "Digital Gujarat PM-JAY MA Portal",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "Health and Family Welfare Department Gujarat",
+        "portalName": "Digital Gujarat",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Ayushman Card",
+      "items": [
+        {
+          "id": "byg-pm-1",
+          "title": "Check Household Ration Card Inclusion",
+          "description": "Confirm all family member names are registered on your active state ration card."
+        },
+        {
+          "id": "byg-pm-2",
+          "title": "Ensure Mobile Number Linked to Aadhaar",
+          "description": "Have access to the mobile handset linked to Aadhaar for receiving OTP codes."
+        },
+        {
+          "id": "byg-pm-3",
+          "title": "Sit in Well-Lit Space for Live Photo",
+          "description": "Ensure ample daylight or room lighting for capturing facial biometric photographs."
+        },
+        {
+          "id": "byg-pm-4",
+          "title": "Keep Original Aadhaar Cards Ready",
+          "description": "Have original Aadhaar cards of each family member ready during enrollment."
+        },
+        {
+          "id": "byg-pm-5",
+          "title": "Locate Empanelled Hospitals Nearby",
+          "description": "Check the official list of nearby empanelled hospitals for cashless treatments."
+        }
+      ]
+    }
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for Ayushman Bharat PM-JAY MA Card in Gujarat (2026)",
+      "summary": "Gujarat integrates Mukhyamantri Amrutam (MA) with PM-JAY to provide up to 10 lakh rupees annual health coverage per eligible family. Cards are issued through Digital Gujarat, civic centers, and empanelled government hospitals.",
+      "estimatedTime": "1-2 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
