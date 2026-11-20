@@ -537,6 +537,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       stateCode: "GJ",
     },
   ],
+  "gst-registration": [
+    {
+      id: "ch-gst-reg-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Zero Fee Verified",
+      title: "Zero Government Fee & Aadhaar Fast-Track Verified",
+      description:
+        "Verified statutory ₹0 fee on gst.gov.in and fast-track 7-day deemed approval rule with biometric Aadhaar authentication.",
+      officialSourceLabel: "GST Common Portal (gst.gov.in)",
+      officialSourceUrl: "https://www.gst.gov.in",
+    },
+    {
+      id: "ch-gst-reg-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Threshold Verified",
+      title: "Mandatory Thresholds & E-Commerce Rules Verified",
+      description:
+        "Confirmed ₹40 Lakh goods / ₹20 Lakh services turnover thresholds and mandatory registration rules for inter-state and online suppliers.",
+      officialSourceLabel: "CBIC Portal (cbic.gov.in)",
+      officialSourceUrl: "https://www.cbic.gov.in",
+    },
+  ],
 };
 
 /**

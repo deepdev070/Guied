@@ -1,0 +1,433 @@
+{
+  "slug": "gst-registration",
+  "name": "GST Registration (New Business)",
+  "description": "Master guide for obtaining a new GSTIN on the official GST portal with zero government fee, Aadhaar authentication, and document rules.",
+  "categorySlug": "money-and-tax",
+  "national": {
+    "title": "How to Apply for New GST Registration Online in India (2026)",
+    "summary": "Master procedure for obtaining a new Goods and Services Tax Identification Number (GSTIN) on gst.gov.in. Verified guide covering TRN generation, Form REG-01 filing, business premises proof, and biometric Aadhaar authentication.",
+    "estimatedTime": "3-7 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://www.gst.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Generate Temporary Reference Number on GST Portal",
+        "description": "Visit gst.gov.in and select New Registration. Provide your PAN, official business email, and mobile number to receive one-time passwords and generate a fifteen-digit TRN.",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "15 minutes",
+        "officialLinkUrl": "https://www.gst.gov.in",
+        "officialLinkLabel": "Open Official GST Portal",
+        "calloutType": "important",
+        "calloutTitle": "TRN Validity",
+        "calloutText": "Your Temporary Reference Number remains valid for fifteen days to complete Part B of the application.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Log in with TRN and Enter Business Profile Details",
+        "description": "Log into the GST portal using your TRN and mobile OTP. Fill business legal trade name, constitution of business, ward jurisdiction, and reason for seeking registration.",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "30 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Jurisdiction Finder",
+        "calloutText": "Use the portal ward finder to select your correct Central and State GST division circles accurately.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Add Promoter and Authorized Signatory Information",
+        "description": "Enter personal details, residential addresses, PAN numbers, and passport photos of promoters or partners. Designate the primary authorized signatory and link mobile numbers for future filings.",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "30 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Upload Proof of Principal Place of Business",
+        "description": "Enter full address of the business premise and upload ownership or rental proof. Provide registered rent agreement, landlord NOC, and electricity bill or municipal tax receipt.",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "20 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Electricity Bill Match",
+        "calloutText": "Ensure the address on the electricity bill matches the premises description in the lease agreement exactly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Select Top Goods and Services HSN or SAC Codes",
+        "description": "Identify and declare up to five primary goods or services your enterprise supplies. Search corresponding Harmonized System of Nomenclature (HSN) or Service Accounting Codes (SAC).",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "15 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Opt for Aadhaar Authentication of Promoters",
+        "description": "Select the Aadhaar Authentication option to receive an e-verification link on Aadhaar-linked mobile numbers. Successful OTP authentication enables paperless approval without physical officer inspection.",
+        "where": "Online Aadhaar Authentication Link",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Fast-Track Processing",
+        "calloutText": "Aadhaar authentication ensures deemed approval within seven working days if no officer notice is raised.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Sign and Submit Application Using DSC or EVC",
+        "description": "Verify the application using a Digital Signature Certificate (DSC) for companies and LLPs, or Electronic Verification Code (EVC) for proprietorships. Receive an Application Reference Number (ARN) via email.",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "ARN Tracking",
+        "calloutText": "Use your ARN to track approval status in real time on the GST portal home page.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download GST Registration Certificate (Form GST REG-06)",
+        "description": "Download your official GST Registration Certificate bearing the fifteen-digit GSTIN once approved. The certificate must be displayed prominently at your principal place of business.",
+        "where": "GST Common Portal (gst.gov.in)",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://www.gst.gov.in",
+        "officialLinkLabel": "Download GST Certificate",
+        "calloutType": "success",
+        "calloutTitle": "Display Compliance",
+        "calloutText": "Statutory rules mandate displaying your GSTIN and registration certificate on the main signboard outside your office.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "pan_card_business",
+        "name": "Permanent Account Number (PAN) of Business or Proprietor",
+        "description": "Valid PAN card of the individual proprietor, partnership firm, company, or trust applying for registration.",
+        "requirementType": "required",
+        "copiesHint": "Clear scanned copy in PDF or JPEG",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "promoter_aadhaar_photos",
+        "name": "Aadhaar Card and Photograph of Promoters",
+        "description": "Aadhaar cards and recent passport-size color photographs of all primary owners, partners, or executive directors.",
+        "requirementType": "required",
+        "copiesHint": "Scanned photo under 100 KB and Aadhaar PDF",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "premises_ownership_proof",
+        "name": "Proof of Principal Place of Business Premises",
+        "description": "Latest municipal property tax receipt, electricity bill, or index II copy in the name of the premises owner.",
+        "requirementType": "required",
+        "copiesHint": "Recent bill not older than 2 months",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "rent_agreement_noc",
+        "name": "Rent Agreement and Landlord NOC",
+        "description": "Registered or notarized lease deed accompanied by a signed consent letter from the property owner.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isRentedPremises": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Complete agreement PDF + signed NOC",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "bank_account_proof",
+        "name": "Bank Account Proof (Cancelled Cheque or Statement)",
+        "description": "Cancelled cheque, bank passbook front page, or bank statement displaying account holder name, account number, and IFSC code.",
+        "requirementType": "required",
+        "copiesHint": "Clear scan showing IFSC and account details",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "board_resolution_auth",
+        "name": "Letter of Authorization or Board Resolution",
+        "description": "Official board resolution or authorization letter empowering the primary signatory to execute GST transactions.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isCorporateOrPartnership": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Letterhead printout signed by directors or partners",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "incorporation_or_deed",
+        "name": "Certificate of Incorporation or Partnership Deed",
+        "description": "MCA Certificate of Incorporation for companies, or registered partnership deed for partnership firms.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isEntityRegistration": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Certified true copy in PDF",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "gst_registration_fee",
+        "label": "Government Statutory GST Registration Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://www.gst.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "GST registration is completely free of charge. The Government of India levies zero statutory fee on gst.gov.in."
+      },
+      {
+        "id": "dsc_token_fee",
+        "label": "Class 3 Digital Signature Certificate (DSC) Token",
+        "amount": 1500,
+        "currency": "INR",
+        "isStatutory": false,
+        "paymentMode": "both",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Commercial cost for procuring a cryptographic USB token for signing company or LLP applications."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "inadequate_premises_proof",
+        "title": "Submitting Incomplete or Unregistered Rent Agreements",
+        "description": "Lease deeds lacking landlord NOC, missing owner signatures, or outdated utility bills trigger immediate officer queries.",
+        "solution": "Upload a valid rent agreement accompanied by an explicit owner consent letter and current electricity bill.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "aadhaar_auth_failure",
+        "title": "Failure to Complete Aadhaar Authentication Within Timeline",
+        "description": "Failing to authenticate via the sent link within fifteen days triggers mandatory physical officer inspection and delays.",
+        "solution": "Click the e-verification email link immediately and enter the OTP sent to your Aadhaar-registered mobile.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "pan_name_mismatch",
+        "title": "Name Discrepancy Between PAN Card and Aadhaar Records",
+        "description": "If promoter names differ in spelling between Income Tax and UIDAI databases, automated database validation fails.",
+        "solution": "Update Aadhaar or PAN details to ensure character-by-character name consistency before applying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "vague_business_activities",
+        "title": "Declaring Vague Business Descriptions or Missing HSN Codes",
+        "description": "Selecting incorrect HSN or SAC codes or writing unclear business descriptions prompts tax officers to seek clarification.",
+        "solution": "Choose specific five-digit HSN codes matching your exact goods manufactured or traded.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "missing_board_resolution",
+        "title": "Missing Authorized Signatory Resolution for Companies",
+        "description": "Submitting corporate or partnership applications without formal partner authorization causes application rejection.",
+        "solution": "Draft a board resolution on company letterhead naming the primary authorized signatory.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "id": "illegible_utility_bill",
+        "title": "Uploading Blurred or Incomplete Scans of Electricity Bills",
+        "description": "Scans with unreadable consumer numbers, cropped premises addresses, or blurred meter details prevent verification.",
+        "solution": "Scan the entire original electricity bill in high resolution ensuring the installation address is legible.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the official statutory fee for GST registration in India?",
+        "answer": "GST registration is completely free of charge. The government charges zero rupees on the official portal gst.gov.in.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "What is the turnover threshold for mandatory GST registration?",
+        "answer": "The threshold is 40 lakh rupees for goods suppliers in normal states, and 20 lakh rupees for service providers.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "Who must register for GST irrespective of annual turnover?",
+        "answer": "Businesses selling across state borders, online e-commerce sellers, and entities paying under reverse charge must register mandatorily.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "How long does it take to obtain a GST registration certificate?",
+        "answer": "With successful Aadhaar authentication, registration is approved within seven working days if no officer query is issued.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "Can I operate a business from home and obtain GST registration?",
+        "answer": "Yes. Residential premises can be registered as principal place of business using an electricity bill and owner consent letter.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "Is a bank account mandatory before submitting a GST application?",
+        "answer": "No. You can add your business bank account details within thirty days after the grant of registration.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "Is a Digital Signature Certificate (DSC) mandatory for proprietorships?",
+        "answer": "No. Proprietorships can authenticate filings using Aadhaar OTP or mobile EVC. DSC is mandatory only for companies and LLPs.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "question": "What is an Application Reference Number (ARN)?",
+        "answer": "An ARN is a unique tracking code generated upon submission. It allows you to monitor approval progress on gst.gov.in.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Submit GST Application",
+      "subtitle": "5 mandatory checks before filing Form GST REG-01",
+      "items": [
+        {
+          "id": "valid_pan_match",
+          "title": "PAN & Aadhaar Name Consistency",
+          "description": "Ensure promoter names in PAN and Aadhaar databases match character-for-character to avoid automated failure.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "registered_electricity_bill",
+          "title": "Latest Electricity Bill Under 2 Months",
+          "description": "Confirm the electricity bill displays consumer number and premises address clearly matching lease terms.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "signed_landlord_noc",
+          "title": "Signed Landlord Consent Letter",
+          "description": "Have the property owner signed NOC ready if the business premises are rented or shared.",
+          "icon": "FileText"
+        },
+        {
+          "id": "active_aadhaar_mobile",
+          "title": "Aadhaar-Linked Active Mobile Number",
+          "description": "Verify your mobile phone can receive instant OTPs for fast-track Aadhaar biometric authentication.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "hsn_sac_codes",
+          "title": "Top 5 Business HSN or SAC Codes",
+          "description": "Identify primary trade items and note down their specific 5-digit tariff classifications.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "Goods and Services Tax (GST) Portal",
+        "url": "https://www.gst.gov.in",
+        "isPrimary": true,
+        "department": "Goods and Services Tax Network (GSTN), Ministry of Finance",
+        "portalName": "GST Common Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.gst.gov.in"
+      },
+      {
+        "label": "Central Board of Indirect Taxes and Customs (CBIC)",
+        "url": "https://www.cbic.gov.in",
+        "isPrimary": false,
+        "department": "Department of Revenue, Ministry of Finance",
+        "portalName": "CBIC Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.cbic.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Central Goods and Services Tax Act, 2017",
+        "actOrRuleNumber": "Section 22 to 30 (Registration Provisions and Procedures)",
+        "issuingAuthority": "Ministry of Finance",
+        "url": "https://www.gst.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Central Goods and Services Tax Rules, 2017",
+        "actOrRuleNumber": "Rule 8 to 26 (Application, Verification, and Certificate Issuance)",
+        "issuingAuthority": "Central Board of Indirect Taxes and Customs",
+        "url": "https://www.gst.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Register for GST in Gujarat (2026)",
+      "summary": "GST registration in Gujarat operates through the common national GST portal. Taxpayers in Gujarat are allotted between Central GST Commissionerates (Ahmedabad, Vadodara, Surat, Rajkot) and the Gujarat State Commercial Tax Department.",
+      "estimatedTime": "3-7 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
