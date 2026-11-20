@@ -433,9 +433,181 @@
   "states": {
     "GJ": {
       "title": "How to Apply for Domicile Certificate in Gujarat (2026)",
-      "summary": "Domicile certificates in Gujarat are issued online via Digital Gujarat under the authority of the Taluka Mamlatdar. Applicants must prove ten years of unbroken residence in Gujarat with a verified Talati report and a nominal twenty rupee portal fee.",
+      "summary": "Domicile certificates in Gujarat are issued online via Digital Gujarat under the authority of the Taluka Mamlatdar. Learn about the mandatory ten-year continuous stay rule, Talati spot inquiries, and twenty rupee application fees.",
       "estimatedTime": "7-15 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat Citizen Portal",
+          "description": "Log into Digital Gujarat using your mobile number or visit the Jan Seva Kendra at your local taluka Mamlatdar office.",
+          "where": "Digital Gujarat Portal (digitalgujarat.gov.in) or Jan Seva Kendra",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Complete 10-Year Continuous Residence Details",
+          "description": "Enter residential history covering the past ten unbroken years in Gujarat, educational qualifications, and local employment records.",
+          "where": "Digital Gujarat Domicile Form",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Ten-Year Rule",
+          "calloutText": "Under Gujarat Government rules, applicants must establish at least ten consecutive years of physical residence in the state.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Draft Sole Domicile Affidavit on Gujarat Stamp Paper",
+          "description": "Execute a sworn affidavit declaring sole domicile in Gujarat and confirming you hold no residence certificate from any other Indian state.",
+          "where": "Notary Office / Executive Magistrate Desk",
+          "estimatedTime": "30 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Single Domicile Law",
+          "calloutText": "Indian law prohibits dual domicile. Holding domicile in two states is an offence punishable under revenue codes.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Upload Continuous School and Residential Proofs",
+          "description": "Upload academic marksheet bonafides from Gujarat schools, municipal property tax receipts, electricity bills, and parent domicile records.",
+          "where": "Online Document Upload Screen",
+          "estimatedTime": "15 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Talati Spot Inquiry and Neighbor Witness Statements",
+          "description": "The Talati-cum-Mantri visits your residence, records statements of two local neighbors confirming 10-year stay, and submits the Rojkam report.",
+          "where": "Applicant Neighborhood / Talati Office",
+          "estimatedTime": "3-5 working days",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Download Digitally Signed Domicile Certificate",
+          "description": "Upon Mamlatdar approval, download your official barcoded certificate. Gujarat domicile certificates carry lifetime validity for education and jobs.",
+          "where": "Digital Gujarat Portal / DigiLocker",
+          "estimatedTime": "Immediate download upon approval",
+          "calloutType": "success",
+          "calloutTitle": "Lifetime Validity",
+          "calloutText": "The certificate has lifetime validity for Gujarat state quota admissions, government jobs, and agricultural land purchase rights.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-dom-fee-portal",
+          "label": "Gujarat Citizen Charter Processing Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Prescribed statutory application fee under Gujarat Citizen Charter for domicile certification.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-dom-fee-kiosk",
+          "label": "Village e-Gram / CSC Facilitation Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": false,
+          "paymentMode": "counter",
+          "description": "Permitted service fee when applying through village computer centers or Jan Seva Kendras.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-dom-faq-1",
+          "question": "What is the minimum stay required for a Gujarat domicile certificate?",
+          "answer": "Applicants must demonstrate at least ten consecutive years of continuous lawful residence in the State of Gujarat.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dom-faq-2",
+          "question": "Who is the authorized issuing officer in Gujarat?",
+          "answer": "The Taluka Mamlatdar or Sub-Divisional Magistrate (SDM) in the Revenue Department is the competent issuing authority.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dom-faq-3",
+          "question": "Can I hold a domicile certificate of Gujarat and another state together?",
+          "answer": "No. Indian legal statutes strictly prohibit holding multiple state domicile certificates simultaneously.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-dom-faq-4",
+          "question": "How long is a Gujarat domicile certificate valid?",
+          "answer": "A Gujarat domicile certificate has lifetime validity unless the individual permanently relocates or renounces Indian citizenship.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-dom-link-digitalgujarat",
+          "label": "Digital Gujarat Domicile Services Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Revenue Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-dom-link-revenue",
+          "label": "Revenue Department Government of Gujarat",
+          "url": "https://revenuedepartment.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Revenue Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dom-link-services",
+          "label": "National Services Portal - Gujarat Domicile",
+          "url": "https://services.india.gov.in",
+          "isPrimary": false,
+          "department": "National Informatics Centre",
+          "portalName": "Services India",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://services.india.gov.in"
+        }
+      ]
     }
   }
 }
