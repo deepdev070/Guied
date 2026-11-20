@@ -437,6 +437,31 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://egazette.gov.in",
     },
   ],
+  "property-registration-sale-deed": [
+    {
+      id: "ch-prop-reg-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Rates Verified",
+      title: "Stamp Duty & Registration Fee Framework Verified",
+      description:
+        "Verified national 4-7% stamp duty and 1% registration fee statutory framework and state-level female buyer exemptions.",
+      officialSourceLabel: "Services India Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "ch-prop-reg-02",
+      date: "2026-11-20",
+      changeType: "portal",
+      changeTypeLabel: "Portal Verified",
+      title: "Gujarat GARVI Portal and Jantasri Integration Verified",
+      description:
+        "Confirmed Gujarat IGR GARVI online booking and Jantasri circle rate valuation workflows.",
+      officialSourceLabel: "GARVI Gujarat Portal (garvi.gujarat.gov.in)",
+      officialSourceUrl: "https://garvi.gujarat.gov.in",
+      stateCode: "GJ",
+    },
+  ],
 };
 
 /**

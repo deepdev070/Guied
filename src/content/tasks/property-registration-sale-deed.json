@@ -1,0 +1,456 @@
+{
+  "slug": "property-registration-sale-deed",
+  "name": "Property Registration / Sale Deed",
+  "description": "Comprehensive guide to registering property sale deeds in India with verified stamp duty, registration fees, jantasri circle rates, and SRO rules.",
+  "categorySlug": "property-and-land",
+  "national": {
+    "title": "How to Register Property Sale Deed in India (2026)",
+    "summary": "Master procedure for registering immovable property sale deeds under The Registration Act 1908. Verified guide covering title search, circle rate valuation, stamp duty payment, and Sub-Registrar biometric execution.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "hard",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Verify Property Title and Obtain Encumbrance Certificate",
+        "description": "Check ownership chain records for at least thirteen to thirty years at the Sub-Registrar office. Obtain a Nil Encumbrance Certificate to confirm the property is free of legal mortgages or disputes.",
+        "where": "Jurisdictional Sub-Registrar Office or State IGR Portal",
+        "estimatedTime": "3-5 days",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Services Portal",
+        "calloutType": "important",
+        "calloutTitle": "Title Verification",
+        "calloutText": "Never proceed with purchase without reviewing original title deeds and chain documents.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Calculate Property Valuation via Circle Rate",
+        "description": "Determine the minimum government guideline value of the property based on local circle rates or jantasri. The sale deed value cannot be lower than the official circle rate.",
+        "where": "State IGR Registration Portal or Revenue Office",
+        "estimatedTime": "1 day",
+        "calloutType": "tip",
+        "calloutTitle": "Valuation Rule",
+        "calloutText": "Stamp duty is calculated on whichever is higher: the actual sale price or the government circle rate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Draft the Sale Deed with Legal Covenants",
+        "description": "Engage an advocate to draft the sale deed including property boundaries, payment schedules, encumbrance indemnities, and handover terms. Ensure all names match Aadhaar and PAN cards.",
+        "where": "Advocate Office or Legal Drafter Chamber",
+        "estimatedTime": "2 days",
+        "calloutType": "important",
+        "calloutTitle": "Precise Boundaries",
+        "calloutText": "List north, south, east, and west property boundaries accurately in the schedule of property.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Pay Stamp Duty and Registration Charges via e-Stamping",
+        "description": "Purchase e-stamp certificate online or through authorized banks for the required stamp duty amount. Pay the one percent registration fee through state cyber treasury portals.",
+        "where": "Authorized Bank, e-Stamping Center, or Cyber Treasury Portal",
+        "estimatedTime": "1 day",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Pay Government Stamp Duty",
+        "calloutType": "tip",
+        "calloutTitle": "E-Stamp Certificate",
+        "calloutText": "E-stamp certificates carry a unique identification number verifiable online by the Sub-Registrar.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Book Appointment Slot at Sub-Registrar Office",
+        "description": "Visit the state registration portal to upload the draft deed and payment challans. Select an appointment date and time slot for physical appearance at the local Sub-Registrar Office.",
+        "where": "State IGR Online Portal",
+        "estimatedTime": "30 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Confirmed Slot",
+        "calloutText": "Download and print the appointment acknowledgement slip containing the token number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Present Documents at Sub-Registrar Office",
+        "description": "Buyer, seller, and two witnesses must arrive at the Sub-Registrar office fifteen minutes before the allotted slot. Submit original deeds, tax receipts, and identity proofs for scrutiny.",
+        "where": "Jurisdictional Sub-Registrar Office (SRO)",
+        "estimatedTime": "2-3 hours",
+        "calloutType": "warning",
+        "calloutTitle": "Witness Attendance",
+        "calloutText": "Both witnesses must be present in person with original government photo identity cards.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Complete Biometric Verification and Signatures",
+        "description": "The Sub-Registrar verifies identities against government databases and records digital photos and fingerprints. Both parties sign the official register in the presence of the officer.",
+        "where": "Sub-Registrar Registration Counter",
+        "estimatedTime": "30 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Collect Registered Sale Deed and Index II Copy",
+        "description": "Collect the final registered deed bearing the official registration number, volume, and seal after scanning. Obtain an official Index II copy as conclusive legal proof of ownership.",
+        "where": "Sub-Registrar Office Delivery Counter or Online Portal",
+        "estimatedTime": "1-3 days",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Download Registered Document",
+        "calloutType": "success",
+        "calloutTitle": "Apply for Mutation",
+        "calloutText": "Immediately apply for revenue mutation to update property records in municipal or land registries.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "draft_sale_deed",
+        "name": "Original Draft Sale Deed on Stamp Paper",
+        "description": "Legal deed executed between buyer and seller with full schedule of property and consideration details.",
+        "requirementType": "required",
+        "copiesHint": "Original deed + 2 photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "title_documents_chain",
+        "name": "Chain of Title Documents and Parent Deed",
+        "description": "Original previous sale deeds, allotment letters, or gift deeds establishing the seller legal ownership.",
+        "requirementType": "required",
+        "copiesHint": "Original parent deeds + 1 photocopy set",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "encumbrance_certificate",
+        "name": "Encumbrance Certificate (EC Form 15 or 16)",
+        "description": "Official certificate issued by the Sub-Registrar showing registered transactions on the property for recent decades.",
+        "requirementType": "required",
+        "copiesHint": "1 original certificate",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "property_tax_receipts",
+        "name": "Latest Property Tax and Utility Receipts",
+        "description": "Recent municipal property tax assessment receipt and electricity bill showing no outstanding municipal dues.",
+        "requirementType": "required",
+        "copiesHint": "Original receipt + 1 photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "pan_aadhaar_parties",
+        "name": "Aadhaar and PAN Cards of Buyer and Seller",
+        "description": "Self-attested photocopies of identity proofs and PAN cards for income tax reporting and biometric verification.",
+        "requirementType": "required",
+        "copiesHint": "Original cards + 2 photocopies each",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "witness_id_proofs",
+        "name": "Identity Proofs of Two Adult Witnesses",
+        "description": "Aadhaar cards or Voter ID cards of two adult witnesses who will identify the parties before the Sub-Registrar.",
+        "requirementType": "required",
+        "copiesHint": "Original IDs + 1 photocopy each",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "na_order",
+        "name": "Non-Agricultural (NA) Land Conversion Order",
+        "description": "Official revenue order permitting use of agricultural land for residential or commercial development.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isConvertedLand": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Certified copy of NA order",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "society_noc",
+        "name": "No Objection Certificate from Housing Society",
+        "description": "Letter issued by the cooperative housing society confirming transfer approval and maintenance clearance.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isSocietyApartment": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Original NOC certificate",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "stamp_duty_charge",
+        "label": "State Stamp Duty (National Average 4% to 7%)",
+        "amount": 50000,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory stamp duty calculated as percentage of circle rate or sale price. Amount varies by state."
+      },
+      {
+        "id": "registration_fee_charge",
+        "label": "Property Registration Fee (Standard 1%)",
+        "amount": 10000,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory registration charge payable to the Registration Department under The Registration Act 1908."
+      },
+      {
+        "id": "pasting_scanning_fee",
+        "label": "Document Scanning and Computerized Pasting Charges",
+        "amount": 300,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "both",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Administrative fee charged by the Sub-Registrar Office for digital archival and Index II generation."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "below_circle_rate",
+        "title": "Sale Value Declared Below Official Government Circle Rate",
+        "description": "The Sub-Registrar will refuse registration if the property valuation is lower than the minimum statutory circle rate.",
+        "solution": "Revalue the property according to the official circle rate and pay the differential stamp duty.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "missing_pan_form60",
+        "title": "Absence of Valid PAN Card or Form 60 for High Value Transfer",
+        "description": "Income tax regulations mandate valid PAN details for property transactions exceeding five lakh rupees.",
+        "solution": "Provide valid PAN cards of buyer and seller or submit duly filled Form 60 declarations.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "jurisdiction_error",
+        "title": "Submitting Deed at Incorrect Sub-Registrar Office",
+        "description": "Sale deeds must be registered strictly within the territorial jurisdiction where the property is located.",
+        "solution": "Verify the revenue village and taluka to book an appointment with the correct jurisdictional SRO.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "unpaid_stamp_duty",
+        "title": "Short Payment or Invalid e-Stamp Certificate",
+        "description": "Discrepancies in e-stamp certificate numbers or failure to pay the full calculated duty causes immediate suspension.",
+        "solution": "Purchase supplementary e-stamp certificates for the remaining amount before presenting the deed.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "missing_witnesses",
+        "title": "Absence of Two Adult Witnesses with Valid Identity Proofs",
+        "description": "Law requires two independent adult witnesses who know the parties to be physically present.",
+        "solution": "Bring two adult witnesses carrying original Aadhaar cards, Voter IDs, or Passports.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "active_bank_charge",
+        "title": "Existing Undischarged Bank Mortgage or Court Attachment",
+        "description": "Properties with registered financial liens cannot be transferred without formal bank release.",
+        "solution": "Obtain a formal deed of reconveyance or bank release deed before executing the sale.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Is property registration mandatory under Indian law?",
+        "answer": "Yes. Section 17 of The Registration Act 1908 makes registration mandatory for any transfer of immovable property worth over 100 rupees.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "How is stamp duty calculated for property registration?",
+        "answer": "Stamp duty is calculated as a percentage of the higher value between the actual transaction price and the government circle rate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Do female property buyers receive stamp duty concessions?",
+        "answer": "Yes. Several state governments offer a one to two percent reduction in stamp duty when property is registered in a woman name.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the difference between circle rate and market rate?",
+        "answer": "Circle rate is the minimum valuation set by the state government for taxes. Market rate is the negotiated price between buyer and seller.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can property be registered online without visiting the Sub-Registrar office?",
+        "answer": "No. While slot booking and duty payments happen online, physical appearance of buyer, seller, and witnesses is legally mandatory for biometrics.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is an Encumbrance Certificate and why is it essential?",
+        "answer": "An Encumbrance Certificate shows registered transactions on the property. It confirms the title is unencumbered by prior mortgages or legal attachments.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is an Index II copy?",
+        "answer": "Index II is the official document issued by the Sub-Registrar summarizing property details, buyer, seller, stamp duty, and registration date.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What must I do immediately after registering the sale deed?",
+        "answer": "Apply for property mutation at the local municipal corporation or taluka revenue office to update municipal tax and land records.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Visit the Sub-Registrar Office",
+      "subtitle": "5 mandatory checks before appearing for sale deed execution",
+      "items": [
+        {
+          "id": "original_estamp",
+          "title": "Original e-Stamp Certificate & Draft Deed",
+          "description": "Verify the printed sale deed is attached to the verified e-stamp certificate with complete boundary details.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "appointment_token",
+          "title": "Printed Appointment Slot Slip",
+          "description": "Carry the official appointment token slip issued by the state registration portal.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "pan_aadhaar_originals",
+          "title": "Original PAN & Aadhaar Cards of All Parties",
+          "description": "Ensure buyer, seller, and both witnesses carry original government identity documents.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "two_adult_witnesses",
+          "title": "Two Adult Witnesses with Local IDs",
+          "description": "Confirm two independent witnesses will attend the SRO in person at the scheduled time.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "tax_and_encumbrance_receipts",
+          "title": "Latest Property Tax and EC Receipts",
+          "description": "Have latest municipal tax receipts and Nil Encumbrance Certificate ready for the registrar inspection.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Services Portal (Property Registration)",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Gujarat Inspector General of Registration (GARVI Portal)",
+        "url": "https://garvi.gujarat.gov.in",
+        "isPrimary": false,
+        "department": "Revenue Department, Government of Gujarat",
+        "portalName": "GARVI Gujarat Registration Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://garvi.gujarat.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "The Registration Act, 1908",
+        "actOrRuleNumber": "Section 17 (Documents of which registration is compulsory)",
+        "issuingAuthority": "Ministry of Law and Justice",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "The Indian Stamp Act, 1899",
+        "actOrRuleNumber": "Schedule I (Stamp Duty Rates on Conveyance Deeds)",
+        "issuingAuthority": "Ministry of Finance",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Register Property Sale Deed in Gujarat (2026)",
+      "summary": "Property registration in Gujarat is conducted via the GARVI portal operated by the Inspector General of Registration. Stamp duty is 4.9 percent of the jantasri value or market consideration, and female purchasers receive full exemption from registration fees.",
+      "estimatedTime": "5-10 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
