@@ -451,9 +451,181 @@
   "states": {
     "GJ": {
       "title": "How to Apply for Income Certificate in Gujarat (2026)",
-      "summary": "Income certificates in Gujarat are issued online via Digital Gujarat under the authority of the Taluka Mamlatdar. Under Gujarat Government Resolution, certificates are valid for three financial years with a nominal portal charge of twenty rupees.",
+      "summary": "Income certificates in Gujarat are issued online via Digital Gujarat under the authority of the Taluka Mamlatdar. Learn about the statutory three-year validity rule, Talati inquest reports, and twenty rupee application fees.",
       "estimatedTime": "3-7 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat Citizen Portal",
+          "description": "Log into Digital Gujarat using your Aadhaar-linked mobile phone or visit the local Jan Seva Kendra at your taluka Mamlatdar office.",
+          "where": "Digital Gujarat Portal (digitalgujarat.gov.in) or Jan Seva Kendra",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Annual Family Earnings Application Form",
+          "description": "Enter head of household details, family members, agricultural income from AnyRoR 7/12 land, business turnover, or private wages.",
+          "where": "Digital Gujarat Income Certificate Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Agricultural Income",
+          "calloutText": "Attach your recent AnyRoR land satbara copy if any family member owns agricultural farmland in Gujarat.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Self-Declaration Affidavit and Proofs",
+          "description": "Upload a notarised income declaration affidavit on Gujarat non-judicial stamp paper along with electricity bill and ration card copies.",
+          "where": "Online Document Upload Interface",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Affidavit Stamp",
+          "calloutText": "Self-declaration must be executed on twenty or fifty rupee Gujarat e-stamp paper before an Executive Magistrate or Notary.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Statutory Twenty Rupee Citizen Fee",
+          "description": "Pay twenty rupees statutory application fee via Cyber Treasury online payment gateway or at the Jan Seva counter.",
+          "where": "Gujarat Cyber Treasury / Cash Counter",
+          "estimatedTime": "5 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Talati Field Inquiry and Circle Officer Scrutiny",
+          "description": "The Talati-cum-Mantri conducts a local inquiry into household assets, prepares the official Rojkam report, and forwards it to the Mamlatdar.",
+          "where": "Talati Office / Circle Office Desk",
+          "estimatedTime": "2-3 working days",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Download Digitally Signed Gujarat Certificate",
+          "description": "Upon Mamlatdar approval, download your official barcoded certificate. Under Gujarat Government rules, the certificate remains valid for three financial years.",
+          "where": "Digital Gujarat Portal / DigiLocker",
+          "estimatedTime": "Immediate download",
+          "calloutType": "success",
+          "calloutTitle": "Three-Year Validity",
+          "calloutText": "Your Gujarat income certificate is valid for three consecutive financial years without requiring annual re-application.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-inc-fee-portal",
+          "label": "Gujarat Citizen Charter Processing Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Prescribed statutory application fee under Gujarat Citizen Charter for income certification.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-inc-fee-kiosk",
+          "label": "Village e-Gram / CSC Facilitation Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": false,
+          "paymentMode": "counter",
+          "description": "Permitted service fee when applying through village computer centers or Jan Seva Kendras.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-inc-faq-1",
+          "question": "How long is an Income Certificate valid in Gujarat?",
+          "answer": "Under Gujarat Government Resolution, an income certificate issued by the Mamlatdar is valid for three financial years.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-inc-faq-2",
+          "question": "Who is the competent issuing authority in Gujarat?",
+          "answer": "The Taluka Mamlatdar or designated Executive Magistrate in the Revenue Department issues official income certificates.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "id": "gj-inc-faq-3",
+          "question": "What is the role of the Talati in Gujarat income verification?",
+          "answer": "The village Talati-cum-Mantri verifies physical assets, landholding records, and family business income before recommending approval.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "id": "gj-inc-faq-4",
+          "question": "Can I download my Gujarat Income Certificate online?",
+          "answer": "Yes. Once approved, download the digitally signed certificate with QR code directly from Digital Gujarat or DigiLocker.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-inc-link-digitalgujarat",
+          "label": "Digital Gujarat Revenue Services Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Revenue Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-inc-link-revenue",
+          "label": "Revenue Department Government of Gujarat",
+          "url": "https://revenuedepartment.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Revenue Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://revenuedepartment.gujarat.gov.in"
+        },
+        {
+          "id": "gj-inc-link-anyror",
+          "label": "AnyRoR Gujarat Land Records",
+          "url": "https://anyror.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Revenue Department Gujarat",
+          "portalName": "AnyRoR Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://anyror.gujarat.gov.in"
+        }
+      ]
     }
   }
 }
