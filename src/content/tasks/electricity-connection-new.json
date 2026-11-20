@@ -1,0 +1,458 @@
+{
+  "slug": "electricity-connection-new",
+  "name": "New Electricity Connection",
+  "description": "Master guide for getting a new domestic low-tension electricity connection in India with verified load estimates, security deposits, and DISCOM procedures.",
+  "categorySlug": "utilities-and-connections",
+  "national": {
+    "title": "How to Apply for a New Electricity Connection in India (2026)",
+    "summary": "Master procedure for obtaining a new low-tension domestic electricity connection from state distribution companies across India. Verified guide covering contracted load calculation, licensed electrical contractor wiring certificates, statutory security deposits, and meter installation.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Determine Contracted Load and Supply Phase",
+        "description": "Calculate total household electrical load in kilowatts. Standard homes require single-phase supply up to 5 kilowatts or three-phase supply above 5 kilowatts.",
+        "where": "Applicant Residence",
+        "estimatedTime": "15 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Load Estimation",
+        "calloutText": "Under-declaring connected load leads to statutory penalties and frequent fuse tripping once heavy appliances run.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Obtain Electrical Contractor Wiring Test Certificate",
+        "description": "Hire a government-licensed electrical contractor to inspect indoor wiring. The contractor issues statutory Form A completion and earthing test reports.",
+        "where": "Applicant Residence / Licensed Contractor Office",
+        "estimatedTime": "1-2 days",
+        "calloutType": "important",
+        "calloutTitle": "Licensed Wireman",
+        "calloutText": "Distribution companies reject wiring certificates issued by unauthorized technicians without valid state electrical licenses.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Register on State DISCOM Consumer Portal",
+        "description": "Visit the official distribution company website serving your area. Create a consumer account using your verified mobile number and email ID.",
+        "where": "Official State DISCOM Portal",
+        "estimatedTime": "15 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open Electricity Services Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Submit Online Application and Upload Documents",
+        "description": "Fill the new service connection form (A-Form). Upload scanned copies of identity proof, registered ownership deed, and wiring test reports.",
+        "where": "State DISCOM Portal or Sub-Division Office",
+        "estimatedTime": "30 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Document Legibility",
+        "calloutText": "Ensure scanned property documents clearly show survey numbers and boundary descriptions to prevent inspection delays.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Undergo Technical Feasibility Site Inspection",
+        "description": "A distribution company junior engineer visits the property to inspect premises feasibility, service line route, and earthing pit safety.",
+        "where": "Applicant Property Premises",
+        "estimatedTime": "2-4 days",
+        "calloutType": "important",
+        "calloutTitle": "Site Access",
+        "calloutText": "Ensure clear access to the exterior meter installation location and keep electrical test reports on site.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Pay Statutory Quotation and Security Deposit",
+        "description": "After technical clearance, the utility issues an official demand notice. Pay the load security deposit and service connection charges online.",
+        "where": "DISCOM Online Payment Gateway",
+        "estimatedTime": "20 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Payment Timeline",
+        "calloutText": "Pay the quotation demand notice within thirty days to keep your sanctioned load reservation active.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Install Service Line and Smart Energy Meter",
+        "description": "Utility linesmen draw the service wire from the nearest distribution pole. They mount the tamper-proof electronic smart meter on the outer board.",
+        "where": "Applicant Premises Boundary Wall",
+        "estimatedTime": "3-5 days",
+        "calloutType": "important",
+        "calloutTitle": "Outdoor Meter Box",
+        "calloutText": "Meters must be mounted on accessible outer walls at eye level to allow regular monthly reading and maintenance.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Energise Power Supply and Receive First Bill",
+        "description": "The distribution linesman connects the main cut-out fuse and energises supply. Save the signed meter installation report for billing records.",
+        "where": "Consumer Distribution Board",
+        "estimatedTime": "30 minutes",
+        "calloutType": "success",
+        "calloutTitle": "Supply Activated",
+        "calloutText": "Your consumer account number becomes active immediately and reflects in the online portal for monthly payments.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "elec-proof-identity",
+        "name": "Applicant Identity Proof",
+        "description": "Valid government-issued identity card showing full legal name and photograph.",
+        "requirementType": "required",
+        "copiesHint": "Original for verification and 1 self-attested photocopy or scanned PDF.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-proof-ownership",
+        "name": "Proof of Lawful Property Ownership",
+        "description": "Registered sale deed, gift deed, allotment letter, or recent municipal property tax paid receipt.",
+        "requirementType": "required",
+        "copiesHint": "Self-attested photocopy and registered index copy.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-contractor-test-report",
+        "name": "Licensed Electrical Contractor Test Report (Form A)",
+        "description": "Official wiring completion and earthing safety certificate signed by an authorized electrical supervisor.",
+        "requirementType": "required",
+        "copiesHint": "Original signed and stamped certificate with supervisor licence number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-rent-agreement-noc",
+        "name": "Registered Rent Agreement and Landlord NOC",
+        "description": "Valid registered tenancy agreement along with signed owner no-objection certificate for electricity connection.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isTenantApplicant": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Original landlord NOC on non-judicial stamp paper and registered agreement copy.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-neighbor-bill",
+        "name": "Adjacent Consumer Electricity Bill Copy",
+        "description": "Recent electricity bill of adjacent neighbour or same building to identify feeder line and transformer pole.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "hasNeighborMeter": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Photocopy of recent energy bill showing consumer number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-commercial-licence",
+        "name": "Trade Licence or Business Registration",
+        "description": "Shop and Establishment licence or GST certificate for non-domestic commercial power connections.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isCommercialLoad": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 self-attested photocopy of trade registration.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-coowner-noc",
+        "name": "Co-Owner Consent and No-Objection Letter",
+        "description": "Affidavit or signed consent letter from other co-owners if property is jointly owned.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isJointProperty": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Notarised consent affidavit from all legal co-owners.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "elec-fee-registration",
+        "label": "Online Application Registration Fee",
+        "amount": 50,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "Standard administrative processing fee charged upon registration of application.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-fee-security-deposit",
+        "label": "Security Deposit per Kilowatt (Single Phase)",
+        "amount": 500,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "Statutory refundable security deposit collected per kilowatt of contracted domestic load.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-fee-meter-charges",
+        "label": "Smart Energy Meter Security and Testing Charge",
+        "amount": 350,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "Statutory laboratory testing and meter equipment deposit for single-phase electronic meter.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-fee-service-line",
+        "label": "Standard Service Line Development Charge",
+        "amount": 1000,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "Fixed service connection charges covering cable drawing up to thirty meters from nearest pole.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "elec-rej-1",
+        "title": "Unlicensed Wireman Wiring Report",
+        "description": "Submission of wiring test certificate issued by an unauthorized electrician without active state licensing.",
+        "solution": "Hire a government-licensed electrical contractor registered with the state licensing board for inspection.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-rej-2",
+        "title": "Outstanding Dues on Premise",
+        "description": "Pending unpaid electricity bills on the same premises from a previous tenant or owner.",
+        "solution": "Clear outstanding dues with the utility or submit proof of fresh purchase clearance indemnity bond.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-rej-3",
+        "title": "Missing Landlord No-Objection Certificate",
+        "description": "Tenants applying without formal written consent from the registered property owner.",
+        "solution": "Submit an original notarised NOC signed by the property owner along with recent ownership proof.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-rej-4",
+        "title": "Inaccessible Outdoor Meter Placement",
+        "description": "Installing the meter cabin inside locked private areas or hazardous damp spaces.",
+        "solution": "Relocate the meter board to an accessible outer ground-floor wall away from rain and hazards.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-rej-5",
+        "title": "Transformer Feeder Overload",
+        "description": "The local distribution transformer lacks surplus capacity to support requested electrical load.",
+        "solution": "The utility plans network enhancement or requests applicant deposit work for dedicated distribution transformer.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-rej-6",
+        "title": "Name Discrepancy on Title Deeds",
+        "description": "Name on applicant identity card does not match spelling on registered property deed.",
+        "solution": "Upload a notarised name discrepancy affidavit or official gazette notification confirming legal name.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "elec-faq-1",
+        "question": "How many kilowatts of load do I need for a 2-BHK home?",
+        "answer": "A standard 2-BHK apartment typically requires two to four kilowatts for lights, fans, refrigerator, and one air conditioner.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-faq-2",
+        "question": "Can a tenant apply for an electricity connection directly?",
+        "answer": "Yes. Tenants can apply by submitting a registered rent agreement and a signed no-objection certificate from the owner.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-faq-3",
+        "question": "What is a wiring test report and who issues it?",
+        "answer": "It is a statutory safety document certifying indoor wiring and earthing, issued by a licensed electrical contractor.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-faq-4",
+        "question": "How long does a distribution company take to release power supply?",
+        "answer": "Under National Electricity Rules, distribution companies must energise supply within seven to fifteen days after fee payment.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-faq-5",
+        "question": "What is the difference between single phase and three phase supply?",
+        "answer": "Single phase handles loads up to 5 kilowatts. Three phase supports heavier residential loads exceeding 5 kilowatts.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-faq-6",
+        "question": "Why is an adjacent electricity bill requested during application?",
+        "answer": "It helps the field linesman pinpoint the exact distribution pole, transformer capacity, and sub-division route quickly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-faq-7",
+        "question": "Is the electricity security deposit refundable?",
+        "answer": "Yes. The security deposit remains refundable and earns interest or is adjusted when closing the connection permanently.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-faq-8",
+        "question": "What should I do if the previous occupant left unpaid bills?",
+        "answer": "Submit ownership transfer proof and indemnity bond to sub-division officers to isolate past arrears from new service.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "officialLinks": [
+      {
+        "id": "elec-link-national",
+        "label": "National Services Portal - Electricity Services",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "elec-link-powermin",
+        "label": "Ministry of Power Official Portal",
+        "url": "https://powermin.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of Power",
+        "portalName": "Ministry of Power Government of India",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://powermin.gov.in"
+      },
+      {
+        "id": "elec-link-digitalgujarat",
+        "label": "Digital Gujarat Electricity Services",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "Department of Energy and Petrochemicals Gujarat",
+        "portalName": "Digital Gujarat",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply or Visit the Sub-Division",
+      "items": [
+        {
+          "id": "byg-1",
+          "title": "Calculate Connected Appliance Wattage",
+          "description": "Sum up wattages of lights, geysers, and air conditioners to request accurate contracted load."
+        },
+        {
+          "id": "byg-2",
+          "title": "Secure Licensed Contractor Wiring Certificate",
+          "description": "Obtain signed Form A certificate and earthing test report from a licensed electrician."
+        },
+        {
+          "id": "byg-3",
+          "title": "Check Outstanding Premise Dues",
+          "description": "Confirm the premises has no past unpaid electricity balances from previous owners."
+        },
+        {
+          "id": "byg-4",
+          "title": "Prepare Ground Floor Outdoor Meter Board",
+          "description": "Mount an accessible weatherproof meter cabin on the exterior wall near property gate."
+        },
+        {
+          "id": "byg-5",
+          "title": "Keep Scanned Ownership Documents Ready",
+          "description": "Have clear digital PDF copies of registered sale deed and identity proofs on hand."
+        }
+      ]
+    }
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for New Electricity Connection in Gujarat (2026)",
+      "summary": "Gujarat distribution is managed by GUVNL subsidiaries (DGVCL, MGVCL, PGVCL, UGVCL) and Torrent Power. Applications are processed online via Digital Gujarat or dedicated DISCOM portals with doorstep smart meter installation.",
+      "estimatedTime": "7-10 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

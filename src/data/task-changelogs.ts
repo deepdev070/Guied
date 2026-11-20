@@ -658,6 +658,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://mopng.gov.in",
     },
   ],
+  "electricity-connection-new": [
+    {
+      id: "ch-elec-conn-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Tariff & Deposits Verified",
+      title: "Statutory Load Security Deposits and Meter Charges Verified",
+      description:
+        "Verified official ₹500/kW single-phase refundable deposit, ₹350 meter testing, and ₹1,000 standard service line charges on services.india.gov.in.",
+      officialSourceLabel: "National Services Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "ch-elec-conn-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Safety Mandate",
+      title: "Licensed Wireman Test Report Requirement Updated",
+      description:
+        "Mandated submission of Form A wiring completion report issued strictly by state-licensed electrical supervisors under Indian Electricity Rules.",
+      officialSourceLabel: "Ministry of Power (powermin.gov.in)",
+      officialSourceUrl: "https://powermin.gov.in",
+    },
+  ],
 };
 
 /**
