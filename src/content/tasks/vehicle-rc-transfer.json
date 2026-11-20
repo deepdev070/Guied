@@ -483,9 +483,184 @@
   "states": {
     "GJ": {
       "title": "How to Transfer Vehicle RC in Gujarat (2026)",
-      "summary": "Gujarat Transport Department offers faceless online vehicle ownership transfer via the Parivahan Vahan portal. If transferring from another state, a Gujarat road tax clearance and Form 28 NOC are mandatory.",
-      "estimatedTime": "10-20 working days",
-      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      "summary": "Gujarat Transport Department offers online vehicle ownership transfer via Parivahan Vahan and Digital Gujarat. Learn about Aadhaar dual authentication, Gujarat road tax adjustments, and smart card RC delivery.",
+      "estimatedTime": "10-15 working days",
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://cot.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Initiate Transfer on Parivahan Vahan Gujarat",
+          "description": "Enter the Gujarat vehicle registration number and chassis number on the official Vahan citizen portal to initiate ownership transfer.",
+          "where": "Parivahan Vahan Gujarat Portal",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://vahan.parivahan.gov.in",
+          "officialLinkLabel": "Open Vahan Citizen Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://vahan.parivahan.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Complete Buyer and Seller Dual Aadhaar OTP e-KYC",
+          "description": "Both the registered seller and buyer authenticate via Aadhaar OTP to electronically sign Form 29 and Form 30 transfer applications.",
+          "where": "Vahan Portal e-KYC Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Dual Verification",
+          "calloutText": "Simultaneous electronic authentication by both parties verifies lawful ownership transfer without notarised paper affidavits.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Clear Pending Gujarat Traffic e-Challans",
+          "description": "Verify and clear all pending traffic fines on the national e-challan database before proceeding to fee payment.",
+          "where": "Parivahan e-Challan Portal",
+          "estimatedTime": "10 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Challan Clearance",
+          "calloutText": "The Gujarat RTO system automatically locks transfer applications until all pending traffic penalties are settled.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Gujarat Statutory Transfer and Smart Card Fees",
+          "description": "Pay statutory ownership transfer fees and smart card issuance charges through the integrated Gujarat Cyber Treasury payment portal.",
+          "where": "Gujarat Cyber Treasury / Vahan Gateway",
+          "estimatedTime": "10 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Fee Schedule",
+          "calloutText": "Statutory composite fee is three hundred fifty rupees for motorcycles and five hundred rupees for passenger cars.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Physical Chassis Pencil Print Verification",
+          "description": "For inter-district or inter-state transfers, take chassis pencil print on Form 29 and visit the local Gujarat RTO vehicle inspection bay.",
+          "where": "Jurisdiction Gujarat RTO Vehicle Bay",
+          "estimatedTime": "1 hour",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Receive Smart Card RC via Speed Post in Gujarat",
+          "description": "Once the Motor Vehicles Inspector approves ownership transfer, the new Smart Card RC is dispatched to the buyer via Speed Post.",
+          "where": "Buyer Registered Address across Gujarat",
+          "estimatedTime": "7-10 working days",
+          "calloutType": "success",
+          "calloutTitle": "Digital RC Ready",
+          "calloutText": "The updated ownership details reflect immediately in mParivahan and DigiLocker upon administrative approval.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-rc-fee-twowheeler",
+          "label": "Motorcycle RC Transfer with Smart Card Package",
+          "amount": 350,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory composite fee: 150 transfer fee plus 200 smart card registration certificate fee.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-fee-car",
+          "label": "Car / LMV RC Transfer with Smart Card Package",
+          "amount": 500,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory composite fee: 300 transfer fee plus 200 smart card registration certificate fee.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-rc-faq-1",
+          "question": "Can I transfer vehicle RC online within Gujarat without visiting RTO?",
+          "answer": "Yes. If both buyer and seller authenticate with Aadhaar e-KYC in the same RTO, physical visits are waived.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-faq-2",
+          "question": "How much road tax is charged when bringing a vehicle from another state to Gujarat?",
+          "answer": "Gujarat road tax is computed on depreciated vehicle value based on original invoice price and age.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-faq-3",
+          "question": "What happens if there are pending traffic fines on the vehicle?",
+          "answer": "All pending e-challans must be paid online on the parivahan portal before the transfer can proceed.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-faq-4",
+          "question": "How long does it take to receive the new RC in Gujarat?",
+          "answer": "The new Smart Card RC is printed and delivered via Speed Post within seven to fifteen working days.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-rc-link-vahan",
+          "label": "Parivahan Vahan Citizen Portal",
+          "url": "https://vahan.parivahan.gov.in",
+          "isPrimary": true,
+          "department": "Ministry of Road Transport and Highways",
+          "portalName": "Vahan Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://vahan.parivahan.gov.in"
+        },
+        {
+          "id": "gj-rc-link-cot",
+          "label": "Commissionerate of Transport Gujarat",
+          "url": "https://cot.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Ports and Transport Department Gujarat",
+          "portalName": "COT Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-rc-link-digitalgujarat",
+          "label": "Digital Gujarat Citizen Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ]
     }
   }
 }
