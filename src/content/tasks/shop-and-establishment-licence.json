@@ -435,9 +435,184 @@
   "states": {
     "GJ": {
       "title": "How to Register Shop & Establishment in Gujarat (2026)",
-      "summary": "In Gujarat, shop registration is governed by the 2019 Act via the e-Nagar portal. Shops with under ten workers file free Form A intimations with permanent lifetime validity. Larger units register under municipal corporations.",
-      "estimatedTime": "1-5 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "summary": "In Gujarat, shop registration is governed by the 2019 Act via the e-Nagar portal. Learn about zero-fee Form A intimation for under ten workers, lifetime validity, and mandatory Gujarati signboards.",
+      "estimatedTime": "1-3 working days",
+      "difficulty": "easy",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://enagar.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Determine Worker Strength (Form A vs Form C)",
+          "description": "Establishments with zero to nine workers file simplified Form A intimation. Units with ten or more employees file Form C registration.",
+          "where": "Applicant Business Premises",
+          "estimatedTime": "10 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Zero Fee Exemption",
+          "calloutText": "Under the Gujarat 2019 Act, businesses with under ten workers pay zero government registration fees.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Access Gujarat e-Nagar or Labour Portal",
+          "description": "Log into the official Gujarat e-Nagar portal and select Shops and Establishment registration under urban municipal civic services.",
+          "where": "e-Nagar Gujarat Portal (enagar.gujarat.gov.in)",
+          "estimatedTime": "15 minutes",
+          "officialLinkUrl": "https://enagar.gujarat.gov.in",
+          "officialLinkLabel": "Open Gujarat e-Nagar Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Gujarati Signboard Photograph and Premises Proof",
+          "description": "Upload a clear photo of the shop nameboard prominently displaying the trade name in Gujarati script, alongside electricity bill or rent deed.",
+          "where": "Online Document Upload Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Gujarati Nameboard",
+          "calloutText": "Section 23 of the Gujarat Act mandates that business nameboards must feature Gujarati script in prominent font size.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Proprietor Identity and Business Classification",
+          "description": "Provide owner Aadhaar card, PAN card, partnership deed or incorporation certificate, and nature of commercial activity.",
+          "where": "e-Nagar Application Screen",
+          "estimatedTime": "15 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Pay Prescribed Statutory Fee (Zero for Under 10 Workers)",
+          "description": "Form A intimations are processed free of charge. Larger establishments with 10+ employees pay prescribed slab fees via Cyber Treasury.",
+          "where": "Gujarat Cyber Treasury / e-Nagar Gateway",
+          "estimatedTime": "5 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Lifetime Validity",
+          "calloutText": "Gujarat eliminated annual Gumasta renewals. Your certificate carries permanent validity without recurring annual fee charges.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Instantly Download Barcoded Gumasta Registration Certificate",
+          "description": "Download your official digitally signed Form B or Form D certificate directly from e-Nagar for bank current accounts and GST registration.",
+          "where": "e-Nagar Portal / Merchant Dashboard",
+          "estimatedTime": "Immediate download",
+          "calloutType": "success",
+          "calloutTitle": "Instant Commercial Registration",
+          "calloutText": "Small business intimations generate verified barcoded certificates immediately upon form submission.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-shop-fee-under10",
+          "label": "Form A Intimation Fee (0 to 9 Workers)",
+          "amount": 0,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory zero-fee intimation under Gujarat Shops and Establishments Act, 2019.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        },
+        {
+          "id": "gj-shop-fee-over10",
+          "label": "Form C Registration Fee (10 to 19 Workers)",
+          "amount": 500,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory registration charge for commercial units employing ten to nineteen workers.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-shop-faq-1",
+          "question": "Is there any government fee for small shops in Gujarat?",
+          "answer": "No. Establishments with under ten workers file Form A intimation completely free of charge.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        },
+        {
+          "id": "gj-shop-faq-2",
+          "question": "Is annual renewal required for Gumasta licences in Gujarat?",
+          "answer": "No. The Gujarat 2019 Act provides permanent lifetime validity with zero annual renewal requirements.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        },
+        {
+          "id": "gj-shop-faq-3",
+          "question": "Is a Gujarati language signboard mandatory for shops in Gujarat?",
+          "answer": "Yes. Every establishment must display its trade name prominently in Gujarati script on the outer signboard.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-shop-faq-4",
+          "question": "Can commercial offices operate 24x7 in Gujarat?",
+          "answer": "Yes. Establishments can operate 24x7 subject to worker safety guidelines, weekly offs, and overtime compensation rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-shop-link-enagar",
+          "label": "Gujarat e-Nagar Commercial Services",
+          "url": "https://enagar.gujarat.gov.in",
+          "isPrimary": true,
+          "department": "Urban Development and Urban Housing Department Gujarat",
+          "portalName": "e-Nagar Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-shop-link-labour",
+          "label": "Labour and Employment Department Gujarat",
+          "url": "https://labour.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Labour Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://labour.gujarat.gov.in"
+        },
+        {
+          "id": "gj-shop-link-digitalgujarat",
+          "label": "Digital Gujarat Business Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ]
     }
   }
 }
