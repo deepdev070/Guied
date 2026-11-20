@@ -1,0 +1,423 @@
+{
+  "slug": "senior-citizen-card",
+  "name": "Senior Citizen Card",
+  "description": "Master guide for applying for a Senior Citizen Identity Card in India with verified age criteria, welfare benefits, and application steps.",
+  "categorySlug": "health-and-welfare",
+  "national": {
+    "title": "How to Apply for a Senior Citizen Card in India (2026)",
+    "summary": "Master procedure for obtaining an official Senior Citizen Identity Card from state social welfare departments across India. Verified guide covering age eligibility criteria, blood group reports, statutory fee exemptions, and doorstep e-card delivery.",
+    "estimatedTime": "7-15 working days",
+    "difficulty": "easy",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://socialjustice.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Verify Sixty-Year Age Eligibility",
+        "description": "Confirm the applicant has completed sixty years of age using official records like school leaving certificates or passports.",
+        "where": "Applicant Residence",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Age Threshold",
+        "calloutText": "Applicants must be at least sixty years old on the date of application to qualify under welfare rules.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Obtain Certified Blood Group Report",
+        "description": "Visit an authorized pathological laboratory or government clinic to obtain a certified blood group test report.",
+        "where": "Government Hospital or Clinical Laboratory",
+        "estimatedTime": "1 hour",
+        "calloutType": "important",
+        "calloutTitle": "Medical Emergency Record",
+        "calloutText": "Blood group printing on the identity card assists first responders during sudden medical emergencies.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Register on State Social Welfare Portal",
+        "description": "Open your state citizen services portal and create an account using your Aadhaar-linked mobile number.",
+        "where": "Official State Citizen Services Portal",
+        "estimatedTime": "15 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open Senior Citizen Services",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Fill Senior Citizen Application Form",
+        "description": "Complete personal details including full legal name, date of birth, emergency contact number, and residential address.",
+        "where": "Citizen Portal or e-Seva Kendra",
+        "estimatedTime": "20 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Emergency Contact",
+        "calloutText": "Provide phone numbers of immediate family members who can assist during health or travel emergencies.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Upload Scanned Documents and Photograph",
+        "description": "Upload scanned copies of age proof, address proof, certified blood group report, and a recent colour passport photo.",
+        "where": "Online Application Portal",
+        "estimatedTime": "15 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Document Clarity",
+        "calloutText": "Ensure date of birth and full name are clearly legible on all uploaded identity documents.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Undergo Document Scrutiny and Verification",
+        "description": "The District Social Defense Officer or Tehsildar reviews submitted documents to verify age and residential validity.",
+        "where": "District Social Defense Office / Tehsil Office",
+        "estimatedTime": "3-7 working days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Receive Digital Senior Citizen ID Card",
+        "description": "Upon successful verification, an official digital Senior Citizen Identity Card with unique registration number is issued.",
+        "where": "Citizen Portal / DigiLocker",
+        "estimatedTime": "1 working day",
+        "calloutType": "success",
+        "calloutTitle": "DigiLocker Access",
+        "calloutText": "Download the verified e-card directly to DigiLocker for instant presentation across transport and hospital networks.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Collect Physical Laminated Card (Optional)",
+        "description": "Collect the physical laminated smart card from the local Social Defense office or receive it via postal delivery.",
+        "where": "Tehsil Office or Postal Delivery",
+        "estimatedTime": "5-7 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "sc-proof-age",
+        "name": "Proof of Age (60+ Years)",
+        "description": "Birth certificate, matriculation or school leaving certificate, passport, or PAN card confirming applicant completed 60 years.",
+        "requirementType": "required",
+        "copiesHint": "Original for verification and 1 self-attested photocopy or scanned PDF.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-proof-residence",
+        "name": "Proof of Residence",
+        "description": "Aadhaar card, voter identity card, electricity bill, or ration card showing local residential address.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy with current residential address.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-blood-report",
+        "name": "Certified Blood Group Report",
+        "description": "Laboratory testing slip or medical card signed by a registered practitioner specifying blood group and Rh factor.",
+        "requirementType": "required",
+        "copiesHint": "Original or stamped copy from authorized medical laboratory.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-photographs",
+        "name": "Passport Size Photographs",
+        "description": "Recent colour photographs of applicant taken against a white background without tinted glasses.",
+        "requirementType": "required",
+        "copiesHint": "2 physical passport photos or 1 passport-format digital JPEG scan.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-income-proof",
+        "name": "Income Certificate or BPL Card",
+        "description": "Official income certificate issued by Mamlatdar or Tehsildar for means-tested welfare pensions.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isIncomeConcession": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 self-attested photocopy of income certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-disability-cert",
+        "name": "Disability Certificate (UDID)",
+        "description": "Unique Disability ID card for claiming additional assistive aid benefits and healthcare subsidies.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "hasDisability": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Photocopy of UDID card or medical board certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-domicile-cert",
+        "name": "State Domicile Certificate",
+        "description": "Proof of continuous residence in state for specialized state-funded elderly welfare schemes.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isStateSpecificBenefit": {
+            "eq": true
+          }
+        },
+        "copiesHint": "1 self-attested photocopy of state domicile certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "sc-fee-online",
+        "label": "Online Citizen Portal Application Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "description": "Statutory application and e-card issuance is completely free of charge on government portals.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-fee-csc",
+        "label": "Common Service Centre Processing Charge",
+        "amount": 20,
+        "currency": "INR",
+        "isStatutory": false,
+        "paymentMode": "counter",
+        "description": "Permitted service charge when applying through assisted Village Computer Centers or CSC kiosks.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "sc-rej-1",
+        "title": "Applicant Under Sixty Years Old",
+        "description": "Submitting an application before the applicant has reached the statutory age of sixty.",
+        "solution": "Apply only after completing sixty years according to official school or birth records.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-rej-2",
+        "title": "Inconclusive Proof of Age",
+        "description": "Uploading self-made affidavits or unofficial records without a valid birth or school certificate.",
+        "solution": "Submit an authorized government document such as matriculation certificate, PAN card, or passport.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-rej-3",
+        "title": "Name Discrepancy Across Documents",
+        "description": "Name spelling differs between age proof and residential address proof documents.",
+        "solution": "Attach a notarised name change affidavit or update Aadhaar records prior to submitting application.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-rej-4",
+        "title": "Unverified Blood Group Details",
+        "description": "Entering blood group without enclosing a stamped laboratory test slip or clinical certificate.",
+        "solution": "Get a blood group testing report from a government hospital or registered pathological clinic.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-rej-5",
+        "title": "Illegible Document Scans",
+        "description": "Uploaded document scans are blurry, dark, or have critical information cut off.",
+        "solution": "Upload clean high-resolution scanned PDF copies ensuring all text and stamps are readable.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-rej-6",
+        "title": "Incorrect Administrative Jurisdiction",
+        "description": "Applying to a district social welfare office that does not cover your permanent residence.",
+        "solution": "Select the correct taluka, tehsil, and district office corresponding to your residence address.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "id": "sc-faq-1",
+        "question": "What is the minimum age to get a Senior Citizen Card in India?",
+        "answer": "An applicant must have completed at least sixty years of age to be eligible for a Senior Citizen Card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-faq-2",
+        "question": "What are the key benefits of holding a Senior Citizen Card?",
+        "answer": "It provides priority service at government hospitals, state transport bus fare concessions, and access to welfare programs.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-faq-3",
+        "question": "Is there a government fee to apply for a Senior Citizen Card?",
+        "answer": "No. The application is completely free on official government portals, with only nominal kiosk charges at CSC centers.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-faq-4",
+        "question": "Can I apply for a Senior Citizen Card online?",
+        "answer": "Yes. Most states offer online applications through citizen portals like Digital Gujarat or National Services Portal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-faq-5",
+        "question": "Which documents are accepted as valid proof of age?",
+        "answer": "School leaving certificate, matriculation marksheet, birth certificate, passport, and PAN card are valid proofs of age.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-faq-6",
+        "question": "Is a blood group report compulsory for a Senior Citizen Card?",
+        "answer": "Yes. Providing a certified blood group report ensures accurate medical data is displayed on the card.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-faq-7",
+        "question": "Does the Senior Citizen Card provide railway train concessions?",
+        "answer": "Indian Railways currently offers senior ticketing quotas and lower berth priority, while fare concessions remain suspended.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-faq-8",
+        "question": "How can I download my Senior Citizen Card online after approval?",
+        "answer": "Once approved, download the e-card directly from your state citizen services portal account or linked DigiLocker profile.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "officialLinks": [
+      {
+        "id": "sc-link-msje",
+        "label": "Ministry of Social Justice and Empowerment",
+        "url": "https://socialjustice.gov.in",
+        "isPrimary": true,
+        "department": "Department of Social Justice and Empowerment",
+        "portalName": "MSJE Government of India",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://socialjustice.gov.in"
+      },
+      {
+        "id": "sc-link-services",
+        "label": "National Services Portal - Senior Citizen Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": false,
+        "department": "National Informatics Centre",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "sc-link-digitalgujarat",
+        "label": "Digital Gujarat Social Defense Portal",
+        "url": "https://digitalgujarat.gov.in",
+        "isPrimary": false,
+        "department": "Social Justice and Empowerment Department Gujarat",
+        "portalName": "Digital Gujarat",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://digitalgujarat.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Senior Citizen Card",
+      "items": [
+        {
+          "id": "byg-sc-1",
+          "title": "Confirm Sixty-Year Age Completion",
+          "description": "Verify your birth certificate or matriculation certificate confirms you are 60 years or older."
+        },
+        {
+          "id": "byg-sc-2",
+          "title": "Collect Clinical Blood Group Report",
+          "description": "Obtain an official blood group report stamped by a registered diagnostic clinic."
+        },
+        {
+          "id": "byg-sc-3",
+          "title": "Prepare Recent Passport Color Photos",
+          "description": "Have 2 clear passport photos ready against a light background without tinted eyewear."
+        },
+        {
+          "id": "byg-sc-4",
+          "title": "Identify Local Social Defense Office",
+          "description": "Verify your tehsil or Mamlatdar office jurisdiction for submitting physical forms if needed."
+        },
+        {
+          "id": "byg-sc-5",
+          "title": "Verify Aadhaar Mobile Number",
+          "description": "Ensure your active mobile number is linked to Aadhaar to receive OTP authentication alerts."
+        }
+      ]
+    }
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Apply for Senior Citizen Card in Gujarat (2026)",
+      "summary": "Gujarat Social Justice and Empowerment Department issues senior citizen cards through District Social Defense Officers and Mamlatdar offices. Applications can be submitted online via Digital Gujarat or at local e-Gram centers.",
+      "estimatedTime": "7-10 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

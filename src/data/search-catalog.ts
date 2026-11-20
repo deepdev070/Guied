@@ -860,4 +860,33 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
     ],
     launchState: true,
   },
+  {
+    slug: "senior-citizen-card",
+    name: "Senior Citizen Card",
+    title: "How to Apply for a Senior Citizen Card in India (2026)",
+    summary:
+      "Master procedure for obtaining an official Senior Citizen Identity Card covering age verification, blood group reports, and welfare benefits.",
+    categorySlug: "health-and-welfare",
+    categoryName: "Health and Welfare",
+    difficulty: "easy",
+    estimatedTime: "7–15 days",
+    cost: "₹0 – ₹20",
+    keywords: [
+      "senior citizen card",
+      "elderly identity card",
+      "vridha pension card",
+      "digital gujarat senior citizen",
+      "social defense card",
+      "age 60 card",
+      "concession card",
+    ],
+    documentSnippets: [
+      "Proof of Age (School LC / Birth Certificate / Passport / PAN)",
+      "Proof of Residence (Aadhaar / Voter ID / Ration Card)",
+      "Certified Blood Group Medical Report",
+      "Recent Passport Size Color Photographs",
+      "Income Certificate (Conditional for Pensions)",
+    ],
+    launchState: true,
+  },
 ];

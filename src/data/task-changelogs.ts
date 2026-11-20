@@ -682,6 +682,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://powermin.gov.in",
     },
   ],
+  "senior-citizen-card": [
+    {
+      id: "ch-sc-card-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Free Service Confirmed",
+      title: "Zero Government Fee Verified for Senior Citizen ID",
+      description:
+        "Verified ₹0 statutory fee on central and state social welfare portals, with standard ₹20 cap on assisted CSC kiosk submissions.",
+      officialSourceLabel: "Ministry of Social Justice and Empowerment (socialjustice.gov.in)",
+      officialSourceUrl: "https://socialjustice.gov.in",
+    },
+    {
+      id: "ch-sc-card-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Eligibility & Emergency Norms",
+      title: "Sixty-Year Age and Blood Group Verification Updated",
+      description:
+        "Mandated submission of certified clinical blood group reports alongside standard age proof under state social defense guidelines.",
+      officialSourceLabel: "National Services Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+  ],
 };
 
 /**
