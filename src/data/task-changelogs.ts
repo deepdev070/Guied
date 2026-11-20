@@ -585,6 +585,31 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://msme.gov.in",
     },
   ],
+  "shop-and-establishment-licence": [
+    {
+      id: "ch-shop-lic-01",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Rules Verified",
+      title: "Worker Threshold & Signboard Regulations Verified",
+      description:
+        "Verified online intimation exemption for shops under 10 employees and mandatory regional language script on commercial signboards.",
+      officialSourceLabel: "Services India Portal (services.india.gov.in)",
+      officialSourceUrl: "https://services.india.gov.in",
+    },
+    {
+      id: "ch-shop-lic-02",
+      date: "2026-11-20",
+      changeType: "portal",
+      changeTypeLabel: "Portal Verified",
+      title: "Gujarat e-Nagar Form A & B Online Workflows Verified",
+      description:
+        "Confirmed Gujarat e-Nagar portal workflows under The Gujarat Shops and Establishments Act 2019 with zero renewal fees.",
+      officialSourceLabel: "e-Nagar Gujarat Portal (enagar.gujarat.gov.in)",
+      officialSourceUrl: "https://enagar.gujarat.gov.in",
+      stateCode: "GJ",
+    },
+  ],
 };
 
 /**

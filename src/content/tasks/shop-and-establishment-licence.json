@@ -1,0 +1,443 @@
+{
+  "slug": "shop-and-establishment-licence",
+  "name": "Shop and Establishment Licence (Gumasta)",
+  "description": "Master guide for obtaining a Shop and Establishment registration or intimation under state labour laws with verified rules and fees.",
+  "categorySlug": "money-and-tax",
+  "national": {
+    "title": "How to Get Shop and Establishment Licence in India (2026)",
+    "summary": "Master procedure for obtaining a Shop and Establishment certificate under state labour laws. Verified guide covering employee count rules, storefront photo requirements, municipal portal submission, and digital certificate download.",
+    "estimatedTime": "3-7 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://services.india.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Determine Registration Category Based on Worker Count",
+        "description": "Count total persons employed in your commercial premises. Establishments with under ten workers submit an intimation, while larger units require formal registration.",
+        "where": "Commercial Workplace",
+        "estimatedTime": "1 day",
+        "calloutType": "tip",
+        "calloutTitle": "Worker Exemption",
+        "calloutText": "Many states allow small shops with fewer than ten workers to submit free online intimations without renewal fees.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Capture Front View Photo with Name Signboard",
+        "description": "Take clear daylight photographs of your shopfront displaying the trade name signboard. The signboard must display the regional state language prominently alongside English.",
+        "where": "Business Storefront",
+        "estimatedTime": "30 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Regional Language Rule",
+        "calloutText": "Statutory rules mandate that business signboards display the official state language in equal or larger font.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Compile Employee Roster and Working Schedule",
+        "description": "Prepare a roster listing all workers, daily opening and closing hours, meal intervals, and weekly closing days. Ensure statutory rest periods comply with state labor codes.",
+        "where": "Commercial Office",
+        "estimatedTime": "1 hour",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Access State Labour or Municipal Corporation Portal",
+        "description": "Visit your municipal corporation portal or state labour e-governance platform. Create an employer account using your mobile number and PAN card.",
+        "where": "State Labour Portal or Municipal Corporation (services.india.gov.in)",
+        "estimatedTime": "20 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Municipal Jurisdiction",
+        "calloutText": "Select the correct municipal ward matching your commercial electricity bill to route your application properly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Complete Online Registration or Intimation Form",
+        "description": "Fill details regarding nature of business, date of commencement, employer particulars, and property ownership. Specify whether the premises are owned, rented, or leased.",
+        "where": "Municipal e-Governance Portal",
+        "estimatedTime": "30 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Supporting Documents and Storefront Photos",
+        "description": "Upload scanned copies of employer Aadhaar, PAN card, rent agreement with landlord NOC, and electricity bill. Attach clear shopfront photos showing the bilingual signboard.",
+        "where": "State Online Portal or Municipal Kiosk",
+        "estimatedTime": "20 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Pay Prescribed Statutory Municipal Fee",
+        "description": "Pay the statutory municipal fee based on your employee slab using Net Banking, UPI, or credit card. Establishments submitting Form A intimation pay zero statutory fees.",
+        "where": "Online Payment Gateway",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Payment Slip",
+        "calloutText": "Save your fee payment receipt and application reference number for audit verification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Download Gumasta Registration Certificate",
+        "description": "Download your official Shop and Establishment Registration Certificate or Form A acknowledgement. Print and frame the certificate for display in a visible spot inside the shop.",
+        "where": "State Labour Portal or Municipal Counter",
+        "estimatedTime": "5 minutes",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Download Shop Certificate",
+        "calloutType": "success",
+        "calloutTitle": "Prominent Display",
+        "calloutText": "Labor laws require the certificate to be displayed prominently near the main customer entrance.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "employer_identity_proof",
+        "name": "Identity and Address Proof of Employer",
+        "description": "Self-attested copy of Aadhaar card, Voter ID, or Indian Passport of the business owner or managing partner.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "pan_employer_firm",
+        "name": "PAN Card of Employer or Business Enterprise",
+        "description": "Permanent Account Number card of the proprietor, firm, or registered corporate entity.",
+        "requirementType": "required",
+        "copiesHint": "1 self-attested photocopy",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "premises_ownership_bill",
+        "name": "Proof of Commercial Premises (Electricity or Tax Bill)",
+        "description": "Latest municipal property tax receipt or commercial electricity bill showing premises address and owner name.",
+        "requirementType": "required",
+        "copiesHint": "Recent bill not older than 2 months",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "storefront_photo_signboard",
+        "name": "Storefront Photograph with Regional Language Signboard",
+        "description": "Clear color photograph of the front exterior showing the shop entrance and signboard in regional state script.",
+        "requirementType": "required",
+        "copiesHint": "Clear digital photo in JPEG format",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "rent_agreement_noc",
+        "name": "Registered Rent Agreement and Landlord NOC",
+        "description": "Valid rent agreement executed on stamp paper accompanied by a signed no-objection letter from the property owner.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isRentedCommercialPremises": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Complete agreement + signed owner NOC",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "partnership_deed_or_cin",
+        "name": "Partnership Deed or Certificate of Incorporation",
+        "description": "Registered partnership agreement for firms, or MCA Certificate of Incorporation for registered companies.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isEntityEstablishment": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Certified true copy in PDF",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "fssai_or_fire_noc",
+        "name": "Fire Safety NOC or FSSAI License for Food Units",
+        "description": "Prior safety clearance from fire department or food safety authority for restaurants and hospitality units.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isFoodOrHospitalityTrade": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Valid license or approval certificate",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "intimation_fee_small_units",
+        "label": "Online Form A Intimation Fee (0 to 9 Workers)",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Shops with fewer than ten workers file online intimation free of charge under modern state shops acts."
+      },
+      {
+        "id": "registration_fee_medium_units",
+        "label": "Municipal Registration Fee (10 to 19 Workers)",
+        "amount": 500,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory municipal registration fee for commercial establishments employing between ten and nineteen workers."
+      },
+      {
+        "id": "registration_fee_large_units",
+        "label": "Municipal Registration Fee (20 or More Workers)",
+        "amount": 1000,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://services.india.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Statutory fee slab for large commercial establishments employing twenty or more workers."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "missing_regional_language",
+        "title": "Signboard Lacks Prominent Regional State Script",
+        "description": "State regulations mandate the local language script on business signboards. Non-compliant signage leads to inspection notices and rejection.",
+        "solution": "Repaint or replace the signboard to display the state official language in prominent font alongside English.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "blurred_shopfront_photo",
+        "title": "Submitting Blurred or Cropped Exterior Shop Photographs",
+        "description": "Photos that do not show the full shop entrance, street view, and signboard are rejected by municipal inspectors.",
+        "solution": "Take a high-resolution daytime photograph from across the street capturing the entire storefront clearly.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "expired_rent_agreement",
+        "title": "Expired Lease Agreement or Missing Landlord NOC",
+        "description": "Commercial rental agreements that have expired or lack an explicit owner consent clause prevent establishment verification.",
+        "solution": "Execute an updated lease agreement or obtain a fresh notarized consent letter from the property owner.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "worker_count_mismatch",
+        "title": "Discrepancy Between Declared Workers and Physical Muster",
+        "description": "Declaring fewer than ten workers to avoid registration fees when field inspections reveal more staff constitutes statutory fraud.",
+        "solution": "Declare the exact number of all full-time, part-time, and contract workers accurately.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "incorrect_ward_selection",
+        "title": "Submitting Application to Incorrect Municipal Ward",
+        "description": "Routing applications to the wrong local ward causes delays as inspectors transfer files across administrative boundaries.",
+        "solution": "Check your municipal property tax bill to identify your exact administrative ward circle before applying.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "id": "restricted_trades_unapproved",
+        "title": "Operating Hazardous or Food Businesses Without Prior Licenses",
+        "description": "Restaurants, bakeries, or manufacturing units applying without FSSAI or fire clearances are halted during scrutiny.",
+        "solution": "Obtain preliminary safety clearances or licenses from relevant sector departments prior to submission.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is a Shop and Establishment Licence?",
+        "answer": "It is a statutory commercial registration issued by state municipal authorities regulating worker hours, holidays, and workplace conditions.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Do small shops with under 10 employees need formal registration?",
+        "answer": "In many states including Gujarat, shops with under ten employees need only a free online intimation rather than formal licensing.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Is annual renewal required for Shop and Establishment registration?",
+        "answer": "Under reformed state laws such as Gujarat 2019 Act, certificates carry lifetime validity with no annual renewal required.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the rule regarding language on business signboards?",
+        "answer": "State regulations require business signboards to display the local state language in prominent lettering alongside other languages.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Can I operate a business without a Shop and Establishment licence?",
+        "answer": "No. Operating an unregistered commercial establishment violates state labor statutes and attracts financial penalties.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Is a physical inspection always conducted before issuing the certificate?",
+        "answer": "No. For small shops, intimation receipts are issued instantly online. Inspections are conducted post-registration on a risk-assessment basis.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Is this certificate needed to open a business bank account?",
+        "answer": "Yes. Banks routinely ask for the Gumasta certificate or intimation receipt as official proof of business entity and address.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "How quickly can I obtain the registration certificate online?",
+        "answer": "Online intimation for small units is instant. Formal registration for larger units typically takes three to seven working days.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Apply for Shop Registration",
+      "subtitle": "5 mandatory checks before submitting your Gumasta application",
+      "items": [
+        {
+          "id": "bilingual_signboard",
+          "title": "Bilingual Regional Language Signboard",
+          "description": "Ensure your storefront board prominently displays the official state script alongside English text.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "clear_storefront_photo",
+          "title": "High-Resolution Storefront Photo",
+          "description": "Capture a wide daylight photograph showing the shop entrance, street number, and name board clearly.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "accurate_worker_count",
+          "title": "Verified Staff Count & Roster",
+          "description": "Count total full-time and part-time workers to choose the correct intimation or registration slab.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "commercial_utility_bill",
+          "title": "Commercial Electricity Bill",
+          "description": "Have latest commercial power bill ready to prove business premises address within municipal limits.",
+          "icon": "FileText"
+        },
+        {
+          "id": "landlord_noc_lease",
+          "title": "Registered Lease & Owner Consent",
+          "description": "Verify your rental agreement is active and accompanied by a signed landlord consent letter.",
+          "icon": "CheckSquare"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "National Services Portal",
+        "url": "https://services.india.gov.in",
+        "isPrimary": true,
+        "department": "National Informatics Centre (NIC)",
+        "portalName": "Services India Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "label": "Gujarat e-Nagar Urban Portal",
+        "url": "https://enagar.gujarat.gov.in",
+        "isPrimary": false,
+        "department": "Urban Development and Urban Housing Department, Government of Gujarat",
+        "portalName": "e-Nagar Gujarat Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://enagar.gujarat.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "State Shops and Commercial Establishments Acts",
+        "actOrRuleNumber": "State Labour Welfare and Employment Regulations",
+        "issuingAuthority": "State Labour and Employment Department",
+        "url": "https://services.india.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "The Gujarat Shops and Establishments Act, 2019",
+        "actOrRuleNumber": "Gujarat Act No. 4 of 2019 (Regulation of Employment and Conditions of Service)",
+        "issuingAuthority": "Government of Gujarat",
+        "url": "https://enagar.gujarat.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Register Shop & Establishment in Gujarat (2026)",
+      "summary": "In Gujarat, shop registration is governed by the 2019 Act via the e-Nagar portal. Shops with under ten workers file free Form A intimations with permanent lifetime validity. Larger units register under municipal corporations.",
+      "estimatedTime": "1-5 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}

@@ -741,4 +741,33 @@ export const SEARCH_CATALOG: SearchCatalogEntry[] = [
     ],
     launchState: true,
   },
+  {
+    slug: "shop-and-establishment-licence",
+    name: "Shop and Establishment Licence (Gumasta)",
+    title: "How to Get Shop and Establishment Licence in India (2026)",
+    summary:
+      "Master procedure for obtaining a Shop and Establishment registration or intimation under state labour laws covering worker counts, signboards, and fees.",
+    categorySlug: "money-and-tax",
+    categoryName: "Money and Taxes",
+    difficulty: "medium",
+    estimatedTime: "3–7 days",
+    cost: "₹0 (Small) / ₹500 – ₹1,000",
+    keywords: [
+      "shop and establishment",
+      "gumasta licence",
+      "gumastadhara",
+      "enagar",
+      "commercial shop licence",
+      "municipal shop registration",
+      "form a intimation",
+    ],
+    documentSnippets: [
+      "Identity and Address Proof of Employer",
+      "PAN Card of Employer or Business Enterprise",
+      "Proof of Commercial Premises (Electricity or Tax Bill)",
+      "Storefront Photograph with Regional Language Signboard",
+      "Registered Rent Agreement and Landlord NOC",
+    ],
+    launchState: true,
+  },
 ];
