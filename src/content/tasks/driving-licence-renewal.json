@@ -447,9 +447,184 @@
   "states": {
     "GJ": {
       "title": "How to Renew Your Driving Licence in Gujarat (2026)",
-      "summary": "Gujarat provides 100% faceless online DL renewal service through Sarathi Parivahan with Aadhaar e-KYC. Plastic smart card is delivered to your home via Speed Post.",
-      "estimatedTime": "7-15 working days",
-      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      "summary": "Gujarat provides 100% contactless online driving licence renewal through Sarathi Parivahan and Digital Gujarat with Aadhaar e-KYC. Renewed smart cards are printed and dispatched directly to your residence via India Post Speed Post.",
+      "estimatedTime": "7-12 working days",
+      "difficulty": "easy",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://cot.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Authenticate with Aadhaar on Sarathi Gujarat",
+          "description": "Select Gujarat state on Sarathi Parivahan and choose faceless service authentication using your registered mobile number and Aadhaar e-KYC.",
+          "where": "Sarathi Gujarat Portal (sarathi.parivahan.gov.in)",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://sarathi.parivahan.gov.in",
+          "officialLinkLabel": "Open Sarathi Gujarat Renewal",
+          "calloutType": "tip",
+          "calloutTitle": "Faceless Renewal",
+          "calloutText": "Aadhaar e-KYC eliminates the need to visit your local Gujarat RTO in person.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Existing Gujarat DL Number and Details",
+          "description": "Input your current driving licence number and date of birth to retrieve historical licensing records from the Gujarat Sarathi database.",
+          "where": "Sarathi Parivahan Portal",
+          "estimatedTime": "5 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Form 1A Medical Fitness Certificate",
+          "description": "Applicants aged 40 years or older must upload a signed Form 1A medical certificate from an authorized registered medical practitioner.",
+          "where": "Registered Medical Clinic / Portal Upload",
+          "estimatedTime": "30 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Age 40 Requirement",
+          "calloutText": "Under statutory transport rules, Form 1A medical fitness certification is compulsory for applicants aged forty and older.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Gujarat Statutory Renewal Fees",
+          "description": "Pay four hundred rupees online comprising two hundred rupees renewal fee and two hundred rupees smart card fee via Cyber Treasury.",
+          "where": "Gujarat Cyber Treasury / Sarathi Payment Gateway",
+          "estimatedTime": "10 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Timely Renewal",
+          "calloutText": "Renewing within one year of expiry prevents the statutory late penalty of one thousand rupees per year.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Undergo Faceless Scrutiny by Gujarat RTO",
+          "description": "The licensing authority at your registered Gujarat RTO reviews uploaded medical documents and approves renewal online without physical visits.",
+          "where": "Gujarat RTO Electronic Desk",
+          "estimatedTime": "3-5 working days",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Smart Card DL Delivery via Speed Post",
+          "description": "Your renewed Smart Card Driving Licence is printed and dispatched to your home address via India Post Speed Post with SMS tracking.",
+          "where": "Applicant Residence across Gujarat",
+          "estimatedTime": "5-7 working days",
+          "calloutType": "success",
+          "calloutTitle": "DigiLocker Access",
+          "calloutText": "Your renewed validity date immediately reflects on DigiLocker and mParivahan as soon as the RTO officer approves the renewal.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-dl-renew-standard",
+          "label": "Standard DL Renewal with Smart Card Fee",
+          "amount": 400,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory composite fee: 200 rupees renewal charge plus 200 rupees smart card printing charge.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dl-renew-late",
+          "label": "Late Renewal Penalty (After 1 Year of Expiry)",
+          "amount": 1000,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory annual penalty per year or part thereof for renewals filed more than 365 days after expiry.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-dlr-faq-1",
+          "question": "Can I renew my Gujarat driving licence without visiting the RTO office?",
+          "answer": "Yes. Gujarat offers 100% faceless online renewal via Aadhaar e-KYC on the Sarathi portal.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dlr-faq-2",
+          "question": "Who needs to submit Form 1A medical certificate in Gujarat?",
+          "answer": "Applicants aged 40 and above or those renewing commercial transport licences must submit Form 1A.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dlr-faq-3",
+          "question": "How long is the grace period for DL renewal in Gujarat?",
+          "answer": "You can apply up to one year before expiry and up to one year after expiry without driving test re-examination.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dlr-faq-4",
+          "question": "Can I change my address during driving licence renewal in Gujarat?",
+          "answer": "Yes. Select change of address along with renewal and authenticate with Aadhaar to update your residence.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-dlr-link-sarathi",
+          "label": "Sarathi Parivahan Gujarat Renewal Portal",
+          "url": "https://sarathi.parivahan.gov.in",
+          "isPrimary": true,
+          "department": "Commissioner of Transport Gujarat",
+          "portalName": "Sarathi Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sarathi.parivahan.gov.in"
+        },
+        {
+          "id": "gj-dlr-link-cot",
+          "label": "Commissionerate of Transport Gujarat",
+          "url": "https://cot.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Ports and Transport Department Gujarat",
+          "portalName": "COT Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://cot.gujarat.gov.in"
+        },
+        {
+          "id": "gj-dlr-link-digitalgujarat",
+          "label": "Digital Gujarat Citizen Services",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ]
     }
   }
 }
