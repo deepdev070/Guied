@@ -450,9 +450,184 @@
   "states": {
     "GJ": {
       "title": "How to Apply for New Electricity Connection in Gujarat (2026)",
-      "summary": "Gujarat distribution is managed by GUVNL subsidiaries (DGVCL, MGVCL, PGVCL, UGVCL) and Torrent Power. Applications are processed online via Digital Gujarat or dedicated DISCOM portals with doorstep smart meter installation.",
+      "summary": "Gujarat electricity distribution is operated by GUVNL subsidiaries (DGVCL, MGVCL, PGVCL, UGVCL) and Torrent Power. Learn about GERC regulated security deposits, Gujarat CEI wiring test certificates, and smart meter procedures.",
       "estimatedTime": "7-10 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Identify Area Distribution Company (GUVNL or Torrent)",
+          "description": "Determine your area power company: PGVCL, UGVCL, DGVCL, or MGVCL in state territories, or Torrent Power in Ahmedabad and Surat city.",
+          "where": "Applicant Residence",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat DISCOM Portal",
+          "calloutType": "tip",
+          "calloutTitle": "Utility Mapping",
+          "calloutText": "Check an adjacent neighbor's electricity bill to confirm your exact sub-division office and company name.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Obtain Form A Wiring Certificate from Licensed Electrician",
+          "description": "Engage an electrical contractor certified by the Chief Electrical Inspectorate of Gujarat to inspect domestic wiring and issue Form A.",
+          "where": "Applicant Premises / Contractor Office",
+          "estimatedTime": "1-2 days",
+          "calloutType": "important",
+          "calloutTitle": "Gujarat CEI License",
+          "calloutText": "Gujarat DISCOMs reject wiring completion certificates issued by contractors without active state licensing credentials.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Submit Application on Digital Gujarat or DISCOM Web",
+          "description": "Fill the A-Form online on Digital Gujarat or your DISCOM portal. Upload property tax receipt, identity proof, and wiring certificate.",
+          "where": "Digital Gujarat / DISCOM Consumer Portal",
+          "estimatedTime": "20 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Junior Engineer Field Survey and Demand Notice",
+          "description": "The local sub-division Junior Engineer inspects line feasibility from the nearest pole and issues a statutory demand quotation notice.",
+          "where": "Applicant Property Premises",
+          "estimatedTime": "2-3 working days",
+          "calloutType": "tip",
+          "calloutTitle": "Outdoor Meter Space",
+          "calloutText": "Ensure clear access to an exterior ground-floor wall for mounting the weatherproof smart meter box.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Pay GERC Prescribed Security Deposit and Charges",
+          "description": "Pay five hundred rupees per kilowatt security deposit, meter charges, and service line fees online via Cyber Treasury gateway.",
+          "where": "DISCOM Online Payment Gateway",
+          "estimatedTime": "10 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Smart Meter Installation and Power Energisation",
+          "description": "Linesmen draw the service connection cable and mount the electronic smart meter. The technician seals the meter box and activates power.",
+          "where": "Applicant Premises Distribution Board",
+          "estimatedTime": "3-5 working days",
+          "calloutType": "success",
+          "calloutTitle": "Electricity Activated",
+          "calloutText": "Your permanent consumer account number is generated instantly and displays in your online mobile banking apps.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-elec-fee-deposit",
+          "label": "GERC Regulated Security Deposit (Per kW)",
+          "amount": 500,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory refundable security deposit prescribed by Gujarat Electricity Regulatory Commission.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "id": "gj-elec-fee-meter",
+          "label": "Smart Meter Security and Testing Charge",
+          "amount": 350,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "online",
+          "description": "Statutory meter equipment deposit and laboratory calibration fee for single-phase connection.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-elec-faq-1",
+          "question": "Which electricity company serves my location in Gujarat?",
+          "answer": "GUVNL subsidiaries (PGVCL, UGVCL, DGVCL, MGVCL) cover the state, while Torrent Power serves Ahmedabad, Gandhinagar, and Surat city.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "id": "gj-elec-faq-2",
+          "question": "What is the security deposit rate per kilowatt in Gujarat?",
+          "answer": "Under GERC tariff regulations, domestic single-phase security deposit is five hundred rupees per contracted kilowatt.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "id": "gj-elec-faq-3",
+          "question": "What is the Form A wiring test report in Gujarat?",
+          "answer": "It is a statutory safety certificate issued by an electrical contractor licensed by the Gujarat Chief Electrical Inspectorate.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "id": "gj-elec-faq-4",
+          "question": "How long does it take to get a new power connection in Gujarat?",
+          "answer": "Under Gujarat citizen charter norms, distribution utilities must energise domestic connections within seven to ten working days.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-elec-link-digitalgujarat",
+          "label": "Digital Gujarat Electricity Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Energy and Petrochemicals Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-elec-link-epd",
+          "label": "Energy and Petrochemicals Department Gujarat",
+          "url": "https://epd.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "EPD Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://epd.gujarat.gov.in"
+        },
+        {
+          "id": "gj-elec-link-services",
+          "label": "National Services Portal - Gujarat DISCOM",
+          "url": "https://services.india.gov.in",
+          "isPrimary": false,
+          "department": "National Informatics Centre",
+          "portalName": "Services India",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://services.india.gov.in"
+        }
+      ]
     }
   }
 }
