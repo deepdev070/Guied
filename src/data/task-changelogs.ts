@@ -610,6 +610,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       stateCode: "GJ",
     },
   ],
+  "epf-withdrawal-claim": [
+    {
+      id: "ch-epf-claim-01",
+      date: "2026-11-20",
+      changeType: "fee",
+      changeTypeLabel: "Zero Fee Verified",
+      title: "Statutory Zero Fee Policy Verified",
+      description:
+        "Verified ₹0 official government fee policy and automated settlement for medical advances up to ₹1 Lakh on epfindia.gov.in.",
+      officialSourceLabel: "EPFO Member Portal (epfindia.gov.in)",
+      officialSourceUrl: "https://www.epfindia.gov.in",
+    },
+    {
+      id: "ch-epf-claim-02",
+      date: "2026-11-20",
+      changeType: "rule",
+      changeTypeLabel: "Tax Rules Verified",
+      title: "TDS Exemption & Service Period Guidelines Verified",
+      description:
+        "Confirmed 5-year continuous service tax exemption rules and Form 15G/15H requirements for withdrawals exceeding ₹50,000.",
+      officialSourceLabel: "EPFO Portal (epfindia.gov.in)",
+      officialSourceUrl: "https://www.epfindia.gov.in",
+    },
+  ],
 };
 
 /**

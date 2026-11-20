@@ -1,0 +1,405 @@
+{
+  "slug": "epf-withdrawal-claim",
+  "name": "EPF Withdrawal / Claim (PF Settlement)",
+  "description": "Master guide for online EPF withdrawal, advances Form 31, and full settlement Form 19 on the EPFO portal with zero fees and verified rules.",
+  "categorySlug": "money-and-tax",
+  "national": {
+    "title": "How to Withdraw EPF Online via EPFO Member Portal (2026)",
+    "summary": "Master procedure for claiming EPF withdrawal and advances on the official EPFO Unified Portal. Verified guide covering UAN KYC, Form 19, Form 31 advance, cancelled cheque upload, and direct bank settlement.",
+    "estimatedTime": "3-15 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://www.epfindia.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Verify UAN Activation and KYC Seeding",
+        "description": "Log into the EPFO member portal using your UAN and password. Check that Aadhaar, PAN, and bank details reflect approved KYC status.",
+        "where": "EPFO Unified Member Portal (epfindia.gov.in)",
+        "estimatedTime": "10 minutes",
+        "officialLinkUrl": "https://www.epfindia.gov.in",
+        "officialLinkLabel": "Open EPFO Member Portal",
+        "calloutType": "important",
+        "calloutTitle": "Aadhaar Linkage",
+        "calloutText": "Claims cannot be submitted unless Aadhaar is verified and linked to your active mobile number.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Confirm Date of Exit in Service Record",
+        "description": "Check your service history under the View tab. For full settlement Form 19, ensure your previous employer has marked your official date of exit.",
+        "where": "EPFO Member Portal (epfindia.gov.in)",
+        "estimatedTime": "5 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Employee Exit Marking",
+        "calloutText": "Employees can mark their own date of exit under the Manage tab two months after leaving employment.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Select Online Claim Service (Form 31, 19, or 10C)",
+        "description": "Navigate to Online Services and click Claim (Form-31, 19, 10C & 10D). Review your member profile, father name, and employment dates.",
+        "where": "EPFO Online Claims Interface",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Verify Linked Bank Account Number",
+        "description": "Enter the complete bank account number seeded in your UAN profile to verify bank credentials. Click Verify and accept the certificate of undertaking.",
+        "where": "EPFO Online Claims Interface",
+        "estimatedTime": "5 minutes",
+        "calloutType": "important",
+        "calloutTitle": "Exact Match",
+        "calloutText": "The account number entered must match the seeded bank record character-for-character to enable verification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Choose Claim Type and Specify Withdrawal Purpose",
+        "description": "Select Only PF Withdrawal (Form 19), Only Pension Withdrawal (Form 10C), or PF Advance (Form 31). For advances, choose your specific eligible purpose.",
+        "where": "EPFO Online Claims Interface",
+        "estimatedTime": "10 minutes",
+        "calloutType": "tip",
+        "calloutTitle": "Advance Categories",
+        "calloutText": "Common advance categories include illness, house purchase or construction, daughter or self marriage, and post-matric education.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Upload Clear Scanned Copy of Cancelled Cheque",
+        "description": "Upload a scanned image of your personalized cancelled cheque or bank passbook front page. Ensure your name, account number, and IFSC are clearly visible.",
+        "where": "EPFO Online Claims Interface",
+        "estimatedTime": "10 minutes",
+        "calloutType": "warning",
+        "calloutTitle": "Name Printed Required",
+        "calloutText": "Cheques without the pre-printed account holder name cause instant claim rejection by EPFO desk officers.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Authenticate Claim via Aadhaar OTP",
+        "description": "Click Get Aadhaar OTP to receive a one-time password on your UIDAI-registered mobile number. Enter the six-digit code to submit your digital claim.",
+        "where": "EPFO Online Claims Interface / Mobile Device",
+        "estimatedTime": "5 minutes",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Track Settlement and Receive Bank Credit",
+        "description": "Monitor claim status under Track Claim Status tab or via the UMANG app. Funds are credited directly to your bank account via NEFT upon approval.",
+        "where": "EPFO Member Portal or UMANG App",
+        "estimatedTime": "3-15 days",
+        "officialLinkUrl": "https://www.epfindia.gov.in",
+        "officialLinkLabel": "Track Claim Status",
+        "calloutType": "success",
+        "calloutTitle": "Auto-Settlement",
+        "calloutText": "Eligible medical advances up to one lakh rupees are processed automatically by computer algorithms within three days.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "id": "uan_credentials",
+        "name": "Activated Universal Account Number (UAN)",
+        "description": "Twelve-digit UAN linked with active password and Aadhaar-registered mobile number.",
+        "requirementType": "required",
+        "copiesHint": "Active portal login credentials",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "cancelled_cheque_scan",
+        "name": "Personalized Cancelled Cheque or Bank Passbook",
+        "description": "Clear image of a cancelled cheque or bank passbook displaying employee printed name, account number, and IFSC code.",
+        "requirementType": "required",
+        "copiesHint": "Clear JPG or PDF between 100 KB and 500 KB",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "aadhaar_linked",
+        "name": "Aadhaar Card Linked to UAN and Mobile",
+        "description": "Verified Aadhaar profile linked to UIDAI servers for OTP verification.",
+        "requirementType": "required",
+        "copiesHint": "Active mobile for OTP reception",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "pan_seeded",
+        "name": "PAN Card Seeded in EPFO Records",
+        "description": "Verified Permanent Account Number linked to UAN to avoid maximum tax deduction at source.",
+        "requirementType": "required",
+        "copiesHint": "10-character PAN verified in KYC",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "form_15g_15h",
+        "name": "Form 15G or Form 15H for Nil TDS Deduction",
+        "description": "Self-declaration form to prevent TDS deduction on withdrawals exceeding fifty thousand rupees with under five years of service.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isShortServiceHighAmount": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Duly signed Form 15G/15H in PDF",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "hospital_medical_proof",
+        "name": "Medical Certificate for Illness Advance",
+        "description": "Doctor certificate or hospitalization estimate for illness advance under paragraph 68-J of the EPF Scheme.",
+        "requirementType": "conditional",
+        "appliesWhen": {
+          "isMedicalAdvance": {
+            "eq": true
+          }
+        },
+        "copiesHint": "Doctor certificate or estimate letter",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "id": "epfo_claim_fee",
+        "label": "Government Statutory EPFO Claim Processing Fee",
+        "amount": 0,
+        "currency": "INR",
+        "isStatutory": true,
+        "paymentMode": "online",
+        "sourceUrl": "https://www.epfindia.gov.in",
+        "verifiedOn": "2026-11-20T00:00:00.000Z",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "EPFO provides online claim filing and settlement services completely free of charge. No fee is deducted."
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "id": "cheque_name_missing",
+        "title": "Cancelled Cheque Lacks Printed Account Holder Name",
+        "description": "Uploading non-personalized cheques where the account holder name is handwritten or blank causes immediate rejection.",
+        "solution": "Upload a cheque leaf with your pre-printed name or provide a signed bank passbook copy.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "missing_exit_date",
+        "title": "Date of Exit Not Recorded in Previous Employment History",
+        "description": "Submitting full settlement Form 19 while your profile displays ongoing employment leads to automatic system rejection.",
+        "solution": "Ask your previous employer to mark your exit date or mark it yourself two months after resignation.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "bank_kyc_unapproved",
+        "title": "Bank Account Details Pending Digital Approval by Employer",
+        "description": "Bank KYC uploaded on the portal remains unusable until verified by your employer using their digital signature token.",
+        "solution": "Contact your company human resources team to approve your pending bank KYC in their employer portal.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "name_dob_mismatch",
+        "title": "Discrepancy in Name or Date of Birth Across Records",
+        "description": "Variations between details in the EPFO member database and UIDAI records prevent biometric OTP authorization.",
+        "solution": "Submit an online joint declaration request on the member portal to correct biographical errors.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "service_overlap_untransferred",
+        "title": "Multiple PF Accounts Without Prior Account Transfer",
+        "description": "Holding funds in previous member IDs without transferring balances into the current account delays claim processing.",
+        "solution": "Submit an online Form 13 transfer request to consolidate old PF balances into your current account.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "id": "tds_deduction_no_pan",
+        "title": "Applying Without Seeded PAN with Service Under Five Years",
+        "description": "Withdrawing fifty thousand rupees or more before five years of service without PAN triggers thirty percent maximum TDS deduction.",
+        "solution": "Seed and verify your PAN on the portal and upload Form 15G to claim tax exemption.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "What is the official government fee for EPF withdrawal?",
+        "answer": "EPF withdrawal is completely free of charge. EPFO never charges any fee for online claim processing.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "When can I withdraw my complete EPF balance?",
+        "answer": "You can withdraw your entire EPF balance upon retirement or two months after leaving employment if currently unemployed.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "Can I withdraw EPF while still working in my company?",
+        "answer": "Yes. You can apply for a partial advance under Form 31 for specific needs like illness, home purchase, or marriage.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "How long does it take for EPF funds to reach my bank account?",
+        "answer": "Claims are settled within three to fifteen working days. Eligible medical advances are settled within three days automatically.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "Is EPF withdrawal taxable under Indian Income Tax rules?",
+        "answer": "Withdrawal after five years of continuous service is fully tax-free. Under five years, TDS applies unless Form 15G is submitted.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "Can I mark my date of exit without employer assistance?",
+        "answer": "Yes. Members can mark their own date of exit online two months after leaving service under the Manage tab.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "What is the purpose of Form 10C in EPFO claims?",
+        "answer": "Form 10C is used to withdraw accumulated EPS pension contributions or obtain a scheme certificate for continuous service recognition.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "question": "Can I track my EPF claim status on a mobile app?",
+        "answer": "Yes. You can track claim progress in real time using the official UMANG mobile app by logging in with your UAN.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You File EPF Withdrawal Claim",
+      "subtitle": "5 mandatory checks before submitting your claim on the member portal",
+      "items": [
+        {
+          "id": "uan_kyc_approved",
+          "title": "Digitally Approved Bank KYC",
+          "description": "Confirm your bank details are approved by your employer and status shows digitally verified.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "aadhaar_otp_active",
+          "title": "Aadhaar-Linked Active Mobile",
+          "description": "Ensure your phone can receive the final six-digit Aadhaar OTP to sign the claim electronically.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "personalized_cheque",
+          "title": "Cheque with Pre-Printed Name",
+          "description": "Verify your scanned cancelled cheque clearly displays your printed name, account number, and IFSC.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "exit_date_verified",
+          "title": "Verified Date of Exit",
+          "description": "Check that your resignation date is recorded in service history if filing for full settlement.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "form_15g_readiness",
+          "title": "Form 15G Ready if Service < 5 Years",
+          "description": "Prepare Form 15G to avoid unnecessary tax deduction if withdrawing over 50,000 rupees.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "EPFO Member Unified Portal",
+        "url": "https://www.epfindia.gov.in",
+        "isPrimary": true,
+        "department": "Employees Provident Fund Organisation, Ministry of Labour and Employment",
+        "portalName": "EPFO Unified Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://www.epfindia.gov.in"
+      },
+      {
+        "label": "UMANG Government Services App",
+        "url": "https://web.umang.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of Electronics and Information Technology (MeitY)",
+        "portalName": "UMANG Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+        "sourceUrl": "https://web.umang.gov.in"
+      }
+    ],
+    "sourceRefs": [
+      {
+        "title": "Employees Provident Funds and Miscellaneous Provisions Act, 1952",
+        "actOrRuleNumber": "Section 5 to 6D (Employees Provident Fund Scheme Provisions)",
+        "issuingAuthority": "Ministry of Labour and Employment",
+        "url": "https://www.epfindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      },
+      {
+        "title": "Employees Provident Fund Scheme, 1952",
+        "actOrRuleNumber": "Paragraph 68 to 72 (Withdrawals, Advances, and Final Settlements)",
+        "issuingAuthority": "Central Board of Trustees, EPFO",
+        "url": "https://www.epfindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Withdraw EPF in Gujarat (2026)",
+      "summary": "EPF subscribers in Gujarat file claims via the central EPFO Unified Member Portal. Regional EPFO offices in Ahmedabad, Vadodara, Surat, Rajkot, and Vapi process claims with direct NEFT remittance to Gujarat bank accounts.",
+      "estimatedTime": "3-15 working days",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+    }
+  }
+}
