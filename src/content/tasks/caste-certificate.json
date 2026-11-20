@@ -433,9 +433,184 @@
   "states": {
     "GJ": {
       "title": "How to Apply for Caste Certificate in Gujarat (2026)",
-      "summary": "Caste certificates in Gujarat for SC, ST, and SEBC are issued via Digital Gujarat by the Taluka Mamlatdar. A verified Vanshavali pedigree attested by the Talati and pre-1978 SEBC residency proof are compulsory prerequisites.",
+      "summary": "Caste certificates in Gujarat for SC, ST, and SEBC are issued via Digital Gujarat by the Taluka Mamlatdar. Learn about mandatory Vanshavali pedigree charts, 1978 SEBC cut-off rules, and three-year Non-Creamy Layer validity.",
       "estimatedTime": "7-15 working days",
-      "lastVerifiedAt": "2026-11-20T00:00:00.000Z"
+      "difficulty": "hard",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://digitalgujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register on Digital Gujarat Portal or Jan Seva Kendra",
+          "description": "Log into Digital Gujarat using your mobile number or visit the Jan Seva Kendra at your local taluka Mamlatdar office.",
+          "where": "Digital Gujarat Portal (digitalgujarat.gov.in) or Jan Seva Kendra",
+          "estimatedTime": "10 minutes",
+          "officialLinkUrl": "https://digitalgujarat.gov.in",
+          "officialLinkLabel": "Open Digital Gujarat Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select Category Application (SC, ST, or SEBC)",
+          "description": "Choose your designated community scheme. SEBC applicants must simultaneously apply for the Parishishta-K Non-Creamy Layer income certificate.",
+          "where": "Digital Gujarat Category Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Parishishta-K",
+          "calloutText": "SEBC reservations in Gujarat require both the caste certificate and a valid three-year Non-Creamy Layer certificate.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Prepare Vanshavali Pedigree Chart Attested by Talati",
+          "description": "Draft the family tree chart (Vanshavali) tracing male lineage from your paternal grandfather. Get the pedigree attested by your local Talati-cum-Mantri.",
+          "where": "Gram Panchayat Talati Office",
+          "estimatedTime": "1-2 days",
+          "calloutType": "important",
+          "calloutTitle": "Vanshavali Mandate",
+          "calloutText": "A signed Vanshavali establishing unbroken paternal lineage is strictly compulsory for caste verification in Gujarat.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Upload Paternal Pre-Cutoff Records and Identity Proofs",
+          "description": "Upload father's school leaving certificate showing caste, pre-1950 records for SC/ST, or pre-1978 Gujarat residence documents for SEBC.",
+          "where": "Online Document Upload Screen",
+          "estimatedTime": "20 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Cut-Off Compliance",
+          "calloutText": "SEBC applicants must prove their paternal family resided in Gujarat prior to 1st April 1978.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Pay Statutory Twenty Rupee Citizen Fee",
+          "description": "Pay twenty rupees statutory application processing fee via Cyber Treasury online payment gateway or at the Jan Seva counter.",
+          "where": "Gujarat Cyber Treasury / Cash Counter",
+          "estimatedTime": "5 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Mamlatdar Scrutiny and Digital Certificate Download",
+          "description": "The Taluka Mamlatdar verifies genealogical evidence. Download your official barcoded caste certificate directly from Digital Gujarat or DigiLocker.",
+          "where": "Digital Gujarat Portal / DigiLocker",
+          "estimatedTime": "Immediate download upon approval",
+          "calloutType": "success",
+          "calloutTitle": "Permanent Validity",
+          "calloutText": "The caste certificate itself has lifetime validity, while Non-Creamy Layer certificates expire after three financial years.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-caste-fee-portal",
+          "label": "Gujarat Citizen Charter Processing Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Prescribed statutory application fee under Gujarat Citizen Charter for caste certification.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-caste-fee-kiosk",
+          "label": "Village e-Gram / CSC Facilitation Fee",
+          "amount": 20,
+          "currency": "INR",
+          "isStatutory": false,
+          "paymentMode": "counter",
+          "description": "Permitted service fee when applying through village computer centers or Jan Seva Kendras.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-caste-faq-1",
+          "question": "What is a Vanshavali pedigree in Gujarat caste applications?",
+          "answer": "It is an official family tree attested by the Talati proving applicant's direct paternal relationship to caste record holders.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-caste-faq-2",
+          "question": "What is the cut-off date for SEBC certificates in Gujarat?",
+          "answer": "Applicants must provide documentary proof that their paternal ancestors resided in Gujarat before 1st April 1978.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-caste-faq-3",
+          "question": "How long is a Non-Creamy Layer certificate valid in Gujarat?",
+          "answer": "Under Gujarat Government rules, the Parishishta-K Non-Creamy Layer certificate remains valid for three financial years.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-caste-faq-4",
+          "question": "Can a caste certificate be issued based on maternal relatives in Gujarat?",
+          "answer": "No. Caste status is strictly determined by paternal bloodline under statutory reservation laws across Gujarat.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-caste-link-digitalgujarat",
+          "label": "Digital Gujarat Caste Services Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": true,
+          "department": "Social Justice and Empowerment Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-caste-link-sje",
+          "label": "Social Justice and Empowerment Department Gujarat",
+          "url": "https://sje.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "SJE Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://sje.gujarat.gov.in"
+        },
+        {
+          "id": "gj-caste-link-tribal",
+          "label": "Tribal Development Department Gujarat",
+          "url": "https://tribal.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Government of Gujarat",
+          "portalName": "Tribal Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://tribal.gujarat.gov.in"
+        }
+      ]
     }
   }
 }
