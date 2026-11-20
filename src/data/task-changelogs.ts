@@ -328,6 +328,30 @@ export const TASK_CHANGELOGS: Record<string, ChangelogItem[]> = {
       officialSourceUrl: "https://lawmin.gov.in",
     },
   ],
+  "name-change-after-marriage": [
+    {
+      id: "nc-2026-11-17-01",
+      date: "2026-11-17",
+      changeType: "verification",
+      changeTypeLabel: "Complete Guide Published",
+      title: "Name Change After Marriage Guide Published & Verified",
+      description:
+        "Full post-marriage name change guide published with verified ₹1,100 Gazette fee, sequential Aadhaar -> PAN -> Passport workflow, and affidavit formats.",
+      officialSourceLabel: "The Gazette of India (egazette.gov.in)",
+      officialSourceUrl: "https://egazette.gov.in",
+    },
+    {
+      id: "nc-2026-04-10-02",
+      date: "2026-04-10",
+      changeType: "rule",
+      changeTypeLabel: "Paperless e-Gazette",
+      title: "100% Digital e-Gazette PDF Downloads Standardized",
+      description:
+        "Physical Gazette booklets are no longer printed; electronic gazette notifications with digital signatures are legally valid under Section 8 of the IT Act.",
+      officialSourceLabel: "Department of Publication, MoHUA",
+      officialSourceUrl: "https://egazette.gov.in",
+    },
+  ],
   "passport-renewal": [
     {
       id: "pr-01",

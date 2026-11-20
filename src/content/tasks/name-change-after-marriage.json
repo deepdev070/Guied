@@ -1,0 +1,463 @@
+{
+  "slug": "name-change-after-marriage",
+  "name": "Name Change After Marriage (Documents to Update)",
+  "description": "Complete guide to changing surname after marriage across Aadhaar, PAN, passport, and banks with verified sequence, fees, and gazette rules.",
+  "categorySlug": "family-and-certificates",
+  "national": {
+    "title": "How to Change Name After Marriage Across All Indian Documents (2026)",
+    "summary": "Step-by-step master checklist for legally changing your name or surname after marriage across Indian identity documents. Verified sequence covering marriage certificate, Gazette notification, Aadhaar, PAN, and passport updates.",
+    "estimatedTime": "15-30 working days",
+    "difficulty": "medium",
+    "status": "PUBLISHED",
+    "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+    "verifiedBy": "Civic Research Editorial Team",
+    "sourceUrl": "https://egazette.gov.in",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Secure Registered Marriage Certificate as Legal Base",
+        "description": "Obtain your official marriage certificate, which serves as primary legal evidence of marriage and surname change.",
+        "where": "Sub-Registrar Office / Municipal Corporation",
+        "estimatedTime": "7-15 days",
+        "officialLinkUrl": "https://services.india.gov.in",
+        "officialLinkLabel": "Open National Marriage Services Portal",
+        "calloutType": "tip",
+        "calloutTitle": "Foundation Document",
+        "calloutText": "A legally registered marriage certificate is accepted by UIDAI and Passport Seva for simple surname changes.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Execute Name Change Affidavit on Non-Judicial Stamp Paper",
+        "description": "Draft an affidavit stating maiden name, married name, husband's name, and wedding date on ₹100 stamp paper.",
+        "where": "Notary Public / Local Court Complex",
+        "estimatedTime": "1 day",
+        "calloutType": "important",
+        "calloutTitle": "Joint Affidavit Format",
+        "calloutText": "The affidavit should be signed by both husband and wife before a first-class judicial magistrate or notary public.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Publish Name Change Declaration in Daily Newspaper",
+        "description": "Place a public notice declaring your change of maiden surname to married surname in one prominent newspaper.",
+        "where": "Local Daily Newspaper Office",
+        "estimatedTime": "2-3 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Apply for Gazette of India Notification",
+        "description": "Submit application to the Controller of Publications with ₹1,100 fee to publish formal notice in Part IV of The Gazette.",
+        "where": "Department of Publication Portal (egazette.gov.in)",
+        "estimatedTime": "15-20 days",
+        "officialLinkUrl": "https://egazette.gov.in",
+        "officialLinkLabel": "Open The Gazette of India Portal",
+        "calloutType": "warning",
+        "calloutTitle": "When Gazette Is Needed",
+        "calloutText": "Gazette notification is compulsory for government servants and when completely changing first name along with surname.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Update Married Name in Aadhaar First",
+        "description": "Visit an Aadhaar Kendra with your marriage certificate to update your surname and receive updated e-Aadhaar in 7-15 days.",
+        "where": "Aadhaar Seva Kendra (ASK)",
+        "estimatedTime": "7-15 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Update PAN Card with Updated Aadhaar Details",
+        "description": "Submit PAN correction Form CSF online using paperless Aadhaar e-KYC. Fee is ₹107 for physical card reprint.",
+        "where": "Income Tax Authorized PAN Portal (Form CSF)",
+        "estimatedTime": "10-15 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Re-issue Passport with New Surname and Spouse Endorsement",
+        "description": "Apply for passport re-issue under 'Change in Personal Particulars' to print your married surname and spouse's name.",
+        "where": "Passport Seva Kendra (PSK / POPSK)",
+        "estimatedTime": "5-10 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://passportindia.gov.in"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Update Bank Accounts, Voter ID, and Property Records",
+        "description": "Submit updated Aadhaar and PAN copies to update bank KYC, credit cards, investments, and electoral roll.",
+        "where": "Bank Branch, EPIC Portal & Revenue Office",
+        "estimatedTime": "3-7 days",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "documentRequirements": [
+      {
+        "name": "Registered Marriage Certificate",
+        "description": "Certified copy of the official marriage certificate issued by the Registrar of Marriages or Municipal Corporation.",
+        "requirementType": "required",
+        "copiesHint": "Original certificate + 5 photocopies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "name": "Notarized Name Change Affidavit",
+        "description": "Joint affidavit executed on ₹100 stamp paper stating change from maiden surname to married surname.",
+        "requirementType": "required",
+        "copiesHint": "Original signed and notarized affidavit",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "name": "Original Newspaper Clipping with Name Change Ad",
+        "description": "Full page of the daily newspaper containing the printed advertisement declaring legal name change.",
+        "requirementType": "required",
+        "copiesHint": "Original full newspaper sheet",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "name": "Gazette of India Notification Copy",
+        "description": "Official Gazette copy downloaded from egazette.gov.in displaying the published name change entry.",
+        "requirementType": "conditional",
+        "copiesHint": "Downloaded digital e-Gazette PDF printout",
+        "appliesWhen": {
+          "isGovernmentEmployeeOrFullChange": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "name": "Existing Aadhaar Card and PAN Card",
+        "description": "Physical cards or numbers carrying the maiden pre-marriage name for biometric demographic verification.",
+        "requirementType": "required",
+        "copiesHint": "Original cards + self-attested copies",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "name": "Spouse's Passport or Aadhaar Card",
+        "description": "Spouse's valid government photo identity document needed to endorse spouse name on passport.",
+        "requirementType": "conditional",
+        "copiesHint": "Original document + 1 photocopy",
+        "appliesWhen": {
+          "addingSpouseToPassport": {
+            "eq": true
+          }
+        },
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://passportindia.gov.in"
+      }
+    ],
+    "fees": [
+      {
+        "label": "Central Gazette Notification Fee (Department of Publication)",
+        "amount": 1100,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Department of Publication Fee Schedule",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "label": "Aadhaar Demographic Name Update Fee",
+        "amount": 50,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Aadhaar Regulations 2016",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "label": "PAN Card Correction & Reprint Fee (Form CSF)",
+        "amount": 107,
+        "currency": "INR",
+        "paymentMode": "online",
+        "rulesReference": "Income Tax Rules 1962 Rule 114",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "label": "Passport Re-issue Fee (Normal 36-Page Booklet)",
+        "amount": 1500,
+        "currency": "INR",
+        "isOptional": true,
+        "paymentMode": "online",
+        "rulesReference": "Passports Act 1967 Schedule",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://passportindia.gov.in"
+      }
+    ],
+    "feeCalculator": {
+      "title": "Name Change Document Update Fee Calculator",
+      "description": "Calculate total statutory costs to update surname across Aadhaar, PAN, Gazette, and Passport.",
+      "baseFee": 1257,
+      "baseFeeLabel": "Base Identity Updates (₹50 Aadhaar + ₹107 PAN + ₹1,100 Gazette)",
+      "officialSourceUrl": "https://egazette.gov.in",
+      "officialSourceLabel": "Official Department of Publication Schedule",
+      "rulesReference": "The Gazette of India Fee Schedule",
+      "options": [
+        {
+          "id": "include_passport",
+          "label": "Passport Re-issue Preference",
+          "type": "passport",
+          "defaultChoiceId": "no_passport",
+          "choices": [
+            {
+              "id": "no_passport",
+              "label": "Aadhaar, PAN & Gazette Only (₹1,257)",
+              "amount": 0,
+              "description": "Complete core domestic tax and identity updates"
+            },
+            {
+              "id": "with_passport",
+              "label": "Include Passport Re-issue (+₹1,500)",
+              "amount": 1500,
+              "description": "Re-issue 36-page passport with married name (total ₹2,757)"
+            }
+          ]
+        }
+      ]
+    },
+    "officialLinks": [
+      {
+        "label": "The Gazette of India Portal",
+        "url": "https://egazette.gov.in",
+        "isPrimary": true,
+        "department": "Department of Publication, Ministry of Housing and Urban Affairs",
+        "portalName": "eGazette Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "label": "Passport Seva Portal",
+        "url": "https://passportindia.gov.in",
+        "isPrimary": false,
+        "department": "Ministry of External Affairs (MEA)",
+        "portalName": "Passport Seva Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://passportindia.gov.in"
+      },
+      {
+        "label": "UIDAI Official Portal",
+        "url": "https://uidai.gov.in",
+        "isPrimary": false,
+        "department": "Unique Identification Authority of India",
+        "portalName": "UIDAI Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "label": "Income Tax Department of India",
+        "url": "https://incometaxindia.gov.in",
+        "isPrimary": false,
+        "department": "Central Board of Direct Taxes (CBDT)",
+        "portalName": "Income Tax Portal",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      }
+    ],
+    "rejectionReasons": [
+      {
+        "title": "Updating Bank or Passport Before Updating Aadhaar and PAN",
+        "description": "Financial institutions and Passport Seva verify live data against UIDAI and Income Tax databases automatically.",
+        "solution": "Update Aadhaar first, then PAN card, before approaching banks or passport authorities.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "title": "Spelling Mismatch Between Marriage Certificate and New Documents",
+        "description": "If your chosen married surname differs from the husband's surname recorded in the marriage certificate, scrutiny fails.",
+        "solution": "Ensure the married surname matches the husband's family name or execute a formal Gazette notification.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "title": "Unnotarized Name Change Affidavit on Plain Paper",
+        "description": "Affidavits written on plain paper or lacking notary public verification stamps are rejected across all departments.",
+        "solution": "Execute the affidavit on ₹100 non-judicial stamp paper attested by a registered notary public.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "title": "Uploading Classified Ad Slip Instead of Full Newspaper Page",
+        "description": "The Gazette Department strictly rejects receipts or cut-out clippings without the newspaper masthead and publication date.",
+        "solution": "Submit the complete unaltered page of the daily newspaper showing header and date.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "title": "Changing First Name Without Formal Gazette Notification",
+        "description": "While surname change alone is permitted with a marriage certificate, altering a first name mandates full Gazette notice.",
+        "solution": "Publish a formal notification in The Gazette of India before requesting first name change in passport.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://passportindia.gov.in"
+      },
+      {
+        "title": "Submitting Unregistered Marriage Proof (Temple Receipt Only)",
+        "description": "Informal temple receipts or unofficial marriage photos are not recognized as legal proof for surname change.",
+        "solution": "Register the marriage with the Sub-Registrar to obtain a certified statutory marriage certificate.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Is a woman legally required to change her surname after marriage?",
+        "answer": "No. Retaining your maiden surname after marriage is completely legal under Indian law, and changing it is entirely optional.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "Is a Gazette notification mandatory for changing surname after marriage?",
+        "answer": "No. For a simple surname change to husband's family name, a registered marriage certificate is accepted by most authorities.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://egazette.gov.in"
+      },
+      {
+        "question": "In what order should I update my official documents after marriage?",
+        "answer": "Update Aadhaar first, then PAN card, followed by Passport, bank accounts, voter ID, and driving licence.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://uidai.gov.in"
+      },
+      {
+        "question": "Can I add my spouse's name to my passport without changing my surname?",
+        "answer": "Yes. You can endorse your husband's name as spouse in your passport while retaining your maiden surname.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://passportindia.gov.in"
+      },
+      {
+        "question": "How long does the entire post-marriage document update process take?",
+        "answer": "Updating Aadhaar and PAN takes 15 to 25 days, while passport re-issue takes an additional 7 to 14 days.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      },
+      {
+        "question": "What is the fee to update name and surname across all documents?",
+        "answer": "Aadhaar update costs ₹50, PAN correction costs ₹107, and passport re-issue costs ₹1,500 under standard service.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "Can I update my PAN card name before updating my Aadhaar card?",
+        "answer": "No. Income Tax rules require the updated name to match Aadhaar records before a PAN correction can be validated.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://incometaxindia.gov.in"
+      },
+      {
+        "question": "What documents do banks require to change a married woman's name?",
+        "answer": "Banks require an updated Aadhaar card, updated PAN card, marriage certificate, and a formal name change request form.",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z",
+        "sourceUrl": "https://services.india.gov.in"
+      }
+    ],
+    "beforeYouGo": {
+      "title": "Before You Start Name Change Updates",
+      "subtitle": "5 final checks before submitting post-marriage update applications",
+      "items": [
+        {
+          "id": "marriage_cert_copies",
+          "title": "Certified Marriage Certificate Copies",
+          "description": "Have at least five certified photocopies of your registered marriage certificate ready.",
+          "icon": "FolderCheck"
+        },
+        {
+          "id": "notarized_affidavit",
+          "title": "Notarized Affidavit on ₹100 Stamp Paper",
+          "description": "Execute the name change affidavit signed before a notary public with official seal.",
+          "icon": "FileCheck"
+        },
+        {
+          "id": "newspaper_page",
+          "title": "Full Original Newspaper Sheet",
+          "description": "Keep the complete newspaper edition containing the published name change notice.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "id": "spouse_id_proof",
+          "title": "Spouse's Aadhaar & Passport Copies",
+          "description": "Have spouse's self-attested identification proofs ready for passport endorsement.",
+          "icon": "CheckSquare"
+        },
+        {
+          "id": "ordered_sequence",
+          "title": "Sequential Application Checklist",
+          "description": "Follow the strict sequence: Aadhaar first, then PAN card, and finally passport and banks.",
+          "icon": "FileText"
+        }
+      ]
+    },
+    "sourceRefs": [
+      {
+        "title": "The Passports Act, 1967",
+        "actOrRuleNumber": "Passport Rules, 1980 (Change of Name Procedures)",
+        "issuingAuthority": "Ministry of External Affairs",
+        "url": "https://passportindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      },
+      {
+        "title": "Income Tax Rules, 1962",
+        "actOrRuleNumber": "Rule 114 (Changes or Correction in PAN Data)",
+        "issuingAuthority": "Central Board of Direct Taxes",
+        "url": "https://incometaxindia.gov.in",
+        "status": "PUBLISHED",
+        "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      }
+    ]
+  },
+  "states": {
+    "GJ": {
+      "title": "How to Change Name After Marriage in Gujarat (2026)",
+      "summary": "Gujarat citizens can publish name change notifications in the Gujarat Government Gazette through the Government Central Press, Gandhinagar. Marriage certificates issued via e-Nagar are recognized seamlessly across all Gujarat district offices.",
+      "estimatedTime": "15-30 working days",
+      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+    }
+  }
+}
