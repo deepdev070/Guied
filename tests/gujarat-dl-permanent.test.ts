@@ -32,12 +32,21 @@ describe("PROMPT 188: Gujarat Variant — Driving Licence: Permanent Licence", (
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasSlot = steps.some((s) => (s.where && s.where.includes("Slot")) || (s.description && s.description.includes("slot")));
+    const hasSlot = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Slot")) || (s.description && s.description.includes("slot"))
+    );
     assert.ok(hasSlot, "Must detail slot booking on Sarathi");
 
-    const hasTrack = steps.some((s) => (s.where && s.where.includes("Track")) || (s.description && s.description.includes("track")));
+    const hasTrack = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Track")) || (s.description && s.description.includes("track"))
+    );
     assert.ok(hasTrack, "Must detail automated driving test track");
   });
 
@@ -62,7 +71,9 @@ describe("PROMPT 188: Gujarat Variant — Driving Licence: Permanent Licence", (
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasTrackFaq = faqs.some((f) => f.question.includes("automated") || f.answer.includes("parking"));
+    const hasTrackFaq = faqs.some(
+      (f) => f.question.includes("automated") || f.answer.includes("parking")
+    );
     assert.ok(hasTrackFaq, "Must answer question regarding automated test maneuvers");
   });
 
@@ -73,7 +84,10 @@ describe("PROMPT 188: Gujarat Variant — Driving Licence: Permanent Licence", (
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

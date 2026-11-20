@@ -324,12 +324,15 @@ export async function getRelatedTasks(
         estimatedTime: t.national.estimatedTime,
         cost: formatTaskCost(t.national.fees),
         availableStates: (() => {
-        const states = Object.keys(t.states || {});
-        if ((states.includes("GJ") || states.includes("gujarat")) && !states.includes("gujarat")) {
-          return [...states, "gujarat"];
-        }
-        return states;
-      })(),
+          const states = Object.keys(t.states || {});
+          if (
+            (states.includes("GJ") || states.includes("gujarat")) &&
+            !states.includes("gujarat")
+          ) {
+            return [...states, "gujarat"];
+          }
+          return states;
+        })(),
       };
     });
 }
@@ -372,12 +375,15 @@ export async function getTasksByCategory(categorySlug: string): Promise<TaskSumm
         estimatedTime: t.national.estimatedTime,
         cost: formatTaskCost(t.national.fees),
         availableStates: (() => {
-        const states = Object.keys(t.states || {});
-        if ((states.includes("GJ") || states.includes("gujarat")) && !states.includes("gujarat")) {
-          return [...states, "gujarat"];
-        }
-        return states;
-      })(),
+          const states = Object.keys(t.states || {});
+          if (
+            (states.includes("GJ") || states.includes("gujarat")) &&
+            !states.includes("gujarat")
+          ) {
+            return [...states, "gujarat"];
+          }
+          return states;
+        })(),
       };
     });
 

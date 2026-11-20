@@ -32,12 +32,21 @@ describe("PROMPT 187: Gujarat Variant — Driving Licence: Learner's Licence", (
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasHomeTest = steps.some((s) => (s.where && s.where.includes("Home")) || (s.description && s.description.includes("test")));
+    const hasHomeTest = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Home")) || (s.description && s.description.includes("test"))
+    );
     assert.ok(hasHomeTest, "Must detail home-based computerized testing");
 
-    const hasITI = steps.some((s) => (s.where && s.where.includes("ITI")) || (s.description && s.description.includes("ITI")));
+    const hasITI = steps.some(
+      (s) =>
+        (s.where && s.where.includes("ITI")) || (s.description && s.description.includes("ITI"))
+    );
     assert.ok(hasITI, "Must detail ITI testing center option");
   });
 
@@ -62,8 +71,13 @@ describe("PROMPT 187: Gujarat Variant — Driving Licence: Learner's Licence", (
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasGujaratiLang = faqs.some((f) => f.question.includes("Gujarati") || f.answer.includes("Gujarati"));
-    assert.ok(hasGujaratiLang, "Must answer question regarding Gujarati language test availability");
+    const hasGujaratiLang = faqs.some(
+      (f) => f.question.includes("Gujarati") || f.answer.includes("Gujarati")
+    );
+    assert.ok(
+      hasGujaratiLang,
+      "Must answer question regarding Gujarati language test availability"
+    );
   });
 
   it("6. Gujarat official links point to official Gujarat portals", () => {
@@ -73,7 +87,10 @@ describe("PROMPT 187: Gujarat Variant — Driving Licence: Learner's Licence", (
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

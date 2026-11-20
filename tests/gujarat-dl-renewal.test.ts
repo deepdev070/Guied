@@ -32,12 +32,21 @@ describe("PROMPT 189: Gujarat Variant — Driving Licence Renewal", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasAadhaar = steps.some((s) => (s.where && s.where.includes("Sarathi")) || (s.description && s.description.includes("Aadhaar")));
+    const hasAadhaar = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Sarathi")) ||
+        (s.description && s.description.includes("Aadhaar"))
+    );
     assert.ok(hasAadhaar, "Must detail Aadhaar e-KYC authentication");
 
-    const hasForm1A = steps.some((s) => (s.title && s.title.includes("1A")) || (s.description && s.description.includes("1A")));
+    const hasForm1A = steps.some(
+      (s) => (s.title && s.title.includes("1A")) || (s.description && s.description.includes("1A"))
+    );
     assert.ok(hasForm1A, "Must detail Form 1A medical certificate requirement");
   });
 
@@ -62,7 +71,9 @@ describe("PROMPT 189: Gujarat Variant — Driving Licence Renewal", () => {
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasGraceFaq = faqs.some((f) => f.question.includes("grace") || f.answer.includes("grace"));
+    const hasGraceFaq = faqs.some(
+      (f) => f.question.includes("grace") || f.answer.includes("grace")
+    );
     assert.ok(hasGraceFaq, "Must answer question regarding grace period rules");
   });
 
@@ -73,7 +84,10 @@ describe("PROMPT 189: Gujarat Variant — Driving Licence Renewal", () => {
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

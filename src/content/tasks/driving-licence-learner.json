@@ -136,10 +136,7 @@
           "backgroundColor": "Plain white paper with dark blue or black ink",
           "maxFileSizeBytes": 20480,
           "maxFileSizeLabel": "10 KB to 20 KB",
-          "acceptedFormats": [
-            "JPEG",
-            "JPG"
-          ],
+          "acceptedFormats": ["JPEG", "JPG"],
           "diagramType": "signature",
           "guidanceUrl": "https://sarathi.parivahan.gov.in",
           "instructions": [

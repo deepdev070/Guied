@@ -32,12 +32,24 @@ describe("PROMPT 200: Gujarat Variant — New Electricity Connection", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasUtility = steps.some((s) => (s.where && s.where.includes("Residence")) || (s.description && s.description.includes("GUVNL") || s.description.includes("PGVCL")));
+    const hasUtility = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Residence")) ||
+        (s.description && s.description.includes("GUVNL")) ||
+        s.description.includes("PGVCL")
+    );
     assert.ok(hasUtility, "Must detail Gujarat DISCOM identification");
 
-    const hasCei = steps.some((s) => (s.title && s.title.includes("Form A")) || (s.description && s.description.includes("Electrical Inspectorate")));
+    const hasCei = steps.some(
+      (s) =>
+        (s.title && s.title.includes("Form A")) ||
+        (s.description && s.description.includes("Electrical Inspectorate"))
+    );
     assert.ok(hasCei, "Must detail Chief Electrical Inspectorate Form A wiring report");
   });
 
@@ -62,7 +74,9 @@ describe("PROMPT 200: Gujarat Variant — New Electricity Connection", () => {
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasTorrentFaq = faqs.some((f) => f.question.includes("company") && f.answer.includes("Torrent Power"));
+    const hasTorrentFaq = faqs.some(
+      (f) => f.question.includes("company") && f.answer.includes("Torrent Power")
+    );
     assert.ok(hasTorrentFaq, "Must answer question regarding DISCOM and Torrent Power coverage");
   });
 
@@ -73,7 +87,10 @@ describe("PROMPT 200: Gujarat Variant — New Electricity Connection", () => {
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

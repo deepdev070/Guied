@@ -32,12 +32,23 @@ describe("PROMPT 202: Gujarat Variant — Post-Matric Scholarship", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasDigital = steps.some((s) => (s.where && s.where.includes("Digital Gujarat")) || (s.description && s.description.includes("Digital Gujarat")));
+    const hasDigital = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Digital Gujarat")) ||
+        (s.description && s.description.includes("Digital Gujarat"))
+    );
     assert.ok(hasDigital, "Must detail Digital Gujarat portal");
 
-    const hasNodal = steps.some((s) => (s.title && s.title.includes("Nodal Officer")) || (s.description && s.description.includes("nodal verification")));
+    const hasNodal = steps.some(
+      (s) =>
+        (s.title && s.title.includes("Nodal Officer")) ||
+        (s.description && s.description.includes("nodal verification"))
+    );
     assert.ok(hasNodal, "Must detail college nodal officer verification");
   });
 
@@ -62,7 +73,9 @@ describe("PROMPT 202: Gujarat Variant — Post-Matric Scholarship", () => {
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasFoodBill = faqs.some((f) => f.question.includes("Food Bill") || f.answer.includes("Food Bill"));
+    const hasFoodBill = faqs.some(
+      (f) => f.question.includes("Food Bill") || f.answer.includes("Food Bill")
+    );
     assert.ok(hasFoodBill, "Must answer question regarding Food Bill Assistance");
   });
 
@@ -73,7 +86,10 @@ describe("PROMPT 202: Gujarat Variant — Post-Matric Scholarship", () => {
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

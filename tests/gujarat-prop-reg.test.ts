@@ -6,7 +6,10 @@ import { TaskContentSchema, type TaskContent } from "../src/types/content.ts";
 import { isOfficialGovernmentDomain } from "../scripts/validate-content.ts";
 
 describe("PROMPT 195: Gujarat Variant — Property Registration / Sale Deed", () => {
-  const filePath = path.resolve(process.cwd(), "src/content/tasks/property-registration-sale-deed.json");
+  const filePath = path.resolve(
+    process.cwd(),
+    "src/content/tasks/property-registration-sale-deed.json"
+  );
 
   it("1. Content file exists and schema validates", () => {
     assert.ok(fs.existsSync(filePath), "property-registration-sale-deed.json must exist");
@@ -32,12 +35,22 @@ describe("PROMPT 195: Gujarat Variant — Property Registration / Sale Deed", ()
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasAnyror = steps.some((s) => (s.where && s.where.includes("AnyRoR")) || (s.description && s.description.includes("AnyRoR")));
+    const hasAnyror = steps.some(
+      (s) =>
+        (s.where && s.where.includes("AnyRoR")) ||
+        (s.description && s.description.includes("AnyRoR"))
+    );
     assert.ok(hasAnyror, "Must detail AnyRoR 7/12 check");
 
-    const hasGarvi = steps.some((s) => (s.where && s.where.includes("GARVI")) || (s.description && s.description.includes("GARVI")));
+    const hasGarvi = steps.some(
+      (s) =>
+        (s.where && s.where.includes("GARVI")) || (s.description && s.description.includes("GARVI"))
+    );
     assert.ok(hasGarvi, "Must detail GARVI portal appointment");
   });
 
@@ -62,7 +75,9 @@ describe("PROMPT 195: Gujarat Variant — Property Registration / Sale Deed", ()
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasJantriFaq = faqs.some((f) => f.question.includes("Jantri") || f.answer.includes("Jantri"));
+    const hasJantriFaq = faqs.some(
+      (f) => f.question.includes("Jantri") || f.answer.includes("Jantri")
+    );
     assert.ok(hasJantriFaq, "Must answer question regarding Gujarat Jantri benchmark rates");
   });
 
@@ -73,7 +88,10 @@ describe("PROMPT 195: Gujarat Variant — Property Registration / Sale Deed", ()
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

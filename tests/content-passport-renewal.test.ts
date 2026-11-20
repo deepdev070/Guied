@@ -21,7 +21,11 @@ describe("PROMPT 158: Content Factory — Passport Renewal (Re-issue)", () => {
     const task: TaskContent = JSON.parse(raw);
     const summary = task.national.summary.trim();
     const sentences = summary.split(/(?<=[.?!])\s+/).filter(Boolean);
-    assert.equal(sentences.length, 2, `Summary must have exactly 2 sentences, got ${sentences.length}`);
+    assert.equal(
+      sentences.length,
+      2,
+      `Summary must have exactly 2 sentences, got ${sentences.length}`
+    );
     for (const s of sentences) {
       const words = s.trim().split(/\s+/).length;
       assert.ok(words <= 25, `Sentence exceeds 25 words: "${s}" (${words} words)`);
@@ -32,10 +36,16 @@ describe("PROMPT 158: Content Factory — Passport Renewal (Re-issue)", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.national.steps;
-    assert.ok(steps.length >= 6 && steps.length <= 10, `Steps count must be between 6 and 10 (got ${steps.length})`);
+    assert.ok(
+      steps.length >= 6 && steps.length <= 10,
+      `Steps count must be between 6 and 10 (got ${steps.length})`
+    );
 
     for (const step of steps) {
-      assert.ok(step.where && step.where.length > 3, `Step ${step.stepNumber} must have 'where' specified`);
+      assert.ok(
+        step.where && step.where.length > 3,
+        `Step ${step.stepNumber} must have 'where' specified`
+      );
       assert.ok(step.title.length > 5, `Step ${step.stepNumber} must have descriptive title`);
       assert.ok(step.description.length > 15, `Step ${step.stepNumber} must have descriptive body`);
     }
@@ -48,7 +58,10 @@ describe("PROMPT 158: Content Factory — Passport Renewal (Re-issue)", () => {
     assert.ok(docs.length >= 5, "Must list at least 5 document requirements");
 
     const conditionalDocs = docs.filter((d) => d.requirementType === "conditional");
-    assert.ok(conditionalDocs.length >= 2, "Must have conditional documents with appliesWhen rules");
+    assert.ok(
+      conditionalDocs.length >= 2,
+      "Must have conditional documents with appliesWhen rules"
+    );
 
     for (const cDoc of conditionalDocs) {
       assert.ok(cDoc.appliesWhen, `Conditional doc "${cDoc.name}" must have appliesWhen rule`);
@@ -78,7 +91,10 @@ describe("PROMPT 158: Content Factory — Passport Renewal (Re-issue)", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const reasons = task.national.rejectionReasons || [];
-    assert.ok(reasons.length >= 5 && reasons.length <= 8, `Rejection reasons count must be 5-8 (got ${reasons.length})`);
+    assert.ok(
+      reasons.length >= 5 && reasons.length <= 8,
+      `Rejection reasons count must be 5-8 (got ${reasons.length})`
+    );
 
     for (const r of reasons) {
       assert.ok(r.title.length >= 5, "Title must be descriptive");
@@ -139,7 +155,11 @@ describe("PROMPT 158: Content Factory — Passport Renewal (Re-issue)", () => {
     const violations: { text: string; words: number }[] = [];
 
     for (const text of strings) {
-      if (text.startsWith("http://") || text.startsWith("https://") || /^\d{4}-\d{2}-\d{2}/.test(text)) {
+      if (
+        text.startsWith("http://") ||
+        text.startsWith("https://") ||
+        /^\d{4}-\d{2}-\d{2}/.test(text)
+      ) {
         continue;
       }
 

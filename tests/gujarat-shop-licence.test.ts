@@ -6,7 +6,10 @@ import { TaskContentSchema, type TaskContent } from "../src/types/content.ts";
 import { isOfficialGovernmentDomain } from "../scripts/validate-content.ts";
 
 describe("PROMPT 199: Gujarat Variant — Shop and Establishment Licence", () => {
-  const filePath = path.resolve(process.cwd(), "src/content/tasks/shop-and-establishment-licence.json");
+  const filePath = path.resolve(
+    process.cwd(),
+    "src/content/tasks/shop-and-establishment-licence.json"
+  );
 
   it("1. Content file exists and schema validates", () => {
     assert.ok(fs.existsSync(filePath), "shop-and-establishment-licence.json must exist");
@@ -32,12 +35,23 @@ describe("PROMPT 199: Gujarat Variant — Shop and Establishment Licence", () =>
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasIntimation = steps.some((s) => (s.title && s.title.includes("Form A")) || (s.description && s.description.includes("Form A")));
+    const hasIntimation = steps.some(
+      (s) =>
+        (s.title && s.title.includes("Form A")) ||
+        (s.description && s.description.includes("Form A"))
+    );
     assert.ok(hasIntimation, "Must detail Form A intimation for under 10 workers");
 
-    const hasSignboard = steps.some((s) => (s.title && s.title.includes("Signboard")) || (s.description && s.description.includes("Gujarati")));
+    const hasSignboard = steps.some(
+      (s) =>
+        (s.title && s.title.includes("Signboard")) ||
+        (s.description && s.description.includes("Gujarati"))
+    );
     assert.ok(hasSignboard, "Must detail Gujarati language signboard mandate");
   });
 
@@ -62,7 +76,9 @@ describe("PROMPT 199: Gujarat Variant — Shop and Establishment Licence", () =>
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasLifetimeFaq = faqs.some((f) => f.question.includes("renewal") && f.answer.includes("lifetime"));
+    const hasLifetimeFaq = faqs.some(
+      (f) => f.question.includes("renewal") && f.answer.includes("lifetime")
+    );
     assert.ok(hasLifetimeFaq, "Must answer question regarding lifetime validity");
   });
 
@@ -73,7 +89,10 @@ describe("PROMPT 199: Gujarat Variant — Shop and Establishment Licence", () =>
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

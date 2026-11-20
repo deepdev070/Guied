@@ -9,7 +9,10 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
   const filePath = path.resolve(process.cwd(), "src/content/tasks/driving-licence-learner.json");
 
   it("1. Content file exists and conforms to TaskContentSchema", () => {
-    assert.ok(fs.existsSync(filePath), "driving-licence-learner.json must exist in src/content/tasks/");
+    assert.ok(
+      fs.existsSync(filePath),
+      "driving-licence-learner.json must exist in src/content/tasks/"
+    );
     const raw = fs.readFileSync(filePath, "utf-8");
     const json = JSON.parse(raw);
     const parsed = TaskContentSchema.safeParse(json);
@@ -21,7 +24,11 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
     const task: TaskContent = JSON.parse(raw);
     const summary = task.national.summary.trim();
     const sentences = summary.split(/(?<=[.?!])\s+/).filter(Boolean);
-    assert.equal(sentences.length, 2, `Summary must have exactly 2 sentences, got ${sentences.length}`);
+    assert.equal(
+      sentences.length,
+      2,
+      `Summary must have exactly 2 sentences, got ${sentences.length}`
+    );
     for (const s of sentences) {
       const words = s.trim().split(/\s+/).length;
       assert.ok(words <= 25, `Sentence exceeds 25 words: "${s}" (${words} words)`);
@@ -32,10 +39,16 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.national.steps;
-    assert.ok(steps.length >= 6 && steps.length <= 10, `Steps count must be between 6 and 10 (got ${steps.length})`);
+    assert.ok(
+      steps.length >= 6 && steps.length <= 10,
+      `Steps count must be between 6 and 10 (got ${steps.length})`
+    );
 
     for (const step of steps) {
-      assert.ok(step.where && step.where.length > 3, `Step ${step.stepNumber} must have 'where' specified`);
+      assert.ok(
+        step.where && step.where.length > 3,
+        `Step ${step.stepNumber} must have 'where' specified`
+      );
       assert.ok(step.title.length > 5, `Step ${step.stepNumber} must have descriptive title`);
       assert.ok(step.description.length > 15, `Step ${step.stepNumber} must have descriptive body`);
     }
@@ -48,7 +61,10 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
     assert.ok(docs.length >= 5, "Must list at least 5 document requirements");
 
     const conditionalDocs = docs.filter((d) => d.requirementType === "conditional");
-    assert.ok(conditionalDocs.length >= 1, "Must have conditional documents with appliesWhen rules");
+    assert.ok(
+      conditionalDocs.length >= 1,
+      "Must have conditional documents with appliesWhen rules"
+    );
 
     for (const cDoc of conditionalDocs) {
       assert.ok(cDoc.appliesWhen, `Conditional doc "${cDoc.name}" must have appliesWhen rule`);
@@ -81,7 +97,10 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const reasons = task.national.rejectionReasons || [];
-    assert.ok(reasons.length >= 5 && reasons.length <= 8, `Rejection reasons count must be 5-8 (got ${reasons.length})`);
+    assert.ok(
+      reasons.length >= 5 && reasons.length <= 8,
+      `Rejection reasons count must be 5-8 (got ${reasons.length})`
+    );
 
     for (const r of reasons) {
       assert.ok(r.title.length >= 5, "Title must be descriptive");
@@ -142,7 +161,11 @@ describe("PROMPT 160: Content Factory — Driving Licence: Learner's Licence", (
     const violations: { text: string; words: number }[] = [];
 
     for (const text of strings) {
-      if (text.startsWith("http://") || text.startsWith("https://") || /^\d{4}-\d{2}-\d{2}/.test(text)) {
+      if (
+        text.startsWith("http://") ||
+        text.startsWith("https://") ||
+        /^\d{4}-\d{2}-\d{2}/.test(text)
+      ) {
         continue;
       }
 

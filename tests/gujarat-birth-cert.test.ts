@@ -32,12 +32,23 @@ describe("PROMPT 192: Gujarat Variant — Birth Certificate", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasEnagar = steps.some((s) => (s.where && s.where.includes("e-Nagar")) || (s.description && s.description.includes("e-Nagar")));
+    const hasEnagar = steps.some(
+      (s) =>
+        (s.where && s.where.includes("e-Nagar")) ||
+        (s.description && s.description.includes("e-Nagar"))
+    );
     assert.ok(hasEnagar, "Must detail Gujarat e-Nagar portal");
 
-    const hasDelayed = steps.some((s) => (s.title && s.title.includes("Delayed")) || (s.description && s.description.includes("Mamlatdar")));
+    const hasDelayed = steps.some(
+      (s) =>
+        (s.title && s.title.includes("Delayed")) ||
+        (s.description && s.description.includes("Mamlatdar"))
+    );
     assert.ok(hasDelayed, "Must detail Executive Magistrate / Mamlatdar delayed order");
   });
 
@@ -62,7 +73,9 @@ describe("PROMPT 192: Gujarat Variant — Birth Certificate", () => {
     const faqs = task.states?.GJ?.faqItems || [];
     assert.ok(faqs.length >= 4, "Must contain at least 4 Gujarat-specific FAQs");
 
-    const hasBilingual = faqs.some((f) => f.question.includes("Gujarati") || f.answer.includes("Gujarati"));
+    const hasBilingual = faqs.some(
+      (f) => f.question.includes("Gujarati") || f.answer.includes("Gujarati")
+    );
     assert.ok(hasBilingual, "Must answer question regarding Gujarati and English bilingual format");
   });
 
@@ -73,7 +86,10 @@ describe("PROMPT 192: Gujarat Variant — Birth Certificate", () => {
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

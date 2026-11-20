@@ -32,12 +32,23 @@ describe("PROMPT 198: Gujarat Variant — Domicile / Residence Certificate", () 
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasTenYear = steps.some((s) => (s.title && s.title.includes("10-Year")) || (s.description && s.description.includes("ten unbroken years")));
+    const hasTenYear = steps.some(
+      (s) =>
+        (s.title && s.title.includes("10-Year")) ||
+        (s.description && s.description.includes("ten unbroken years"))
+    );
     assert.ok(hasTenYear, "Must detail ten-year continuous residence requirement");
 
-    const hasTalati = steps.some((s) => (s.where && s.where.includes("Talati")) || (s.description && s.description.includes("Talati-cum-Mantri")));
+    const hasTalati = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Talati")) ||
+        (s.description && s.description.includes("Talati-cum-Mantri"))
+    );
     assert.ok(hasTalati, "Must detail Talati spot inquiry and neighbor statements");
   });
 
@@ -73,7 +84,10 @@ describe("PROMPT 198: Gujarat Variant — Domicile / Residence Certificate", () 
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 

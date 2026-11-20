@@ -32,12 +32,24 @@ describe("PROMPT 194: Gujarat Variant — Marriage Registration", () => {
     const raw = fs.readFileSync(filePath, "utf-8");
     const task: TaskContent = JSON.parse(raw);
     const steps = task.states?.GJ?.steps || [];
-    assert.ok(steps.length >= 6, `Gujarat override must have at least 6 steps, got ${steps.length}`);
+    assert.ok(
+      steps.length >= 6,
+      `Gujarat override must have at least 6 steps, got ${steps.length}`
+    );
 
-    const hasKankotri = steps.some((s) => (s.where && s.where.includes("Kankotri")) || (s.description && s.description.includes("Kankotri")));
+    const hasKankotri = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Kankotri")) ||
+        (s.description && s.description.includes("Kankotri"))
+    );
     assert.ok(hasKankotri, "Must detail wedding Kankotri evidence");
 
-    const hasWitnesses = steps.some((s) => (s.where && s.where.includes("Witness")) || (s.description && s.description.includes("Three Witnesses") || s.description.includes("three witnesses")));
+    const hasWitnesses = steps.some(
+      (s) =>
+        (s.where && s.where.includes("Witness")) ||
+        (s.description && s.description.includes("Three Witnesses")) ||
+        s.description.includes("three witnesses")
+    );
     assert.ok(hasWitnesses, "Must detail 3 adult witnesses requirement");
   });
 
@@ -73,7 +85,10 @@ describe("PROMPT 194: Gujarat Variant — Marriage Registration", () => {
     assert.ok(links.length >= 2, "Must contain at least 2 official Gujarat links");
 
     for (const link of links) {
-      assert.ok(isOfficialGovernmentDomain(link.url), `Link ${link.url} must be official gov domain`);
+      assert.ok(
+        isOfficialGovernmentDomain(link.url),
+        `Link ${link.url} must be official gov domain`
+      );
     }
   });
 
