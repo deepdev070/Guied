@@ -47,7 +47,9 @@ describe("Prompt 107: 'Mark as Verified Today' Action, Revalidation & Audit Logg
     // Verify retrieval in listAuditLogs
     const logs = await listAuditLogs({ targetSlug: testSlug, action: "VERIFY_GUIDE" });
     assert.ok(logs.length > 0, "Must retrieve recorded audit logs");
-    assert.equal(logs[0]?.actor, testActor);
+    const found = logs.find((l) => l.id === logEntry.id);
+    assert.ok(found, "Recorded log entry must be present");
+    assert.equal(found?.actor, testActor);
   });
 
   it("verifies verify API route exists and enforces session and validation checks", () => {
