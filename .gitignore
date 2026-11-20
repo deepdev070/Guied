@@ -32,6 +32,19 @@ yarn-error.log*
 
 # Testing & Coverage
 /coverage
+test-results/
+playwright-report/
+blob-report/
+.lighthouseci/
+
+# Runtime and Local Backups
+.audit/
+.reports/
+.revisions/
+backups/
+.expo/
+**/.expo/
+**/.metro/
 
 # Vercel & Deployment
 .vercel
