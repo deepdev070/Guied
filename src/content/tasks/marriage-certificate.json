@@ -435,9 +435,196 @@
   "states": {
     "GJ": {
       "title": "How to Register a Marriage in Gujarat (2026)",
-      "summary": "In Gujarat, marriages are registered under the Gujarat Compulsory Registration of Marriages Act, 2006 through the e-Nagar portal or local Ward Offices. The statutory fee within 30 days is ₹5, and certified digital certificates with QR code are issued.",
-      "estimatedTime": "7-15 working days",
-      "lastVerifiedAt": "2026-11-17T00:00:00.000Z"
+      "summary": "In Gujarat, marriages are registered under the Gujarat Compulsory Registration of Marriages Act, 2006 via e-Nagar or local Ward Offices. Learn the 5 rupee timely fee rule, wedding Kankotri proofs, and digital QR certificate issuance.",
+      "estimatedTime": "5-10 working days",
+      "difficulty": "medium",
+      "status": "PUBLISHED",
+      "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+      "verifiedBy": "Civic Research Editorial Team - Gujarat Bureau",
+      "sourceUrl": "https://enagar.gujarat.gov.in",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Complete Online Memorandum on Gujarat e-Nagar",
+          "description": "Log into the e-Nagar portal or visit your municipal ward office to fill the statutory Memorandum of Marriage under the Gujarat 2006 Act.",
+          "where": "e-Nagar Portal (enagar.gujarat.gov.in) or Ward Office",
+          "estimatedTime": "20 minutes",
+          "officialLinkUrl": "https://enagar.gujarat.gov.in",
+          "officialLinkLabel": "Open Gujarat e-Nagar Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Upload Wedding Invitation Kankotri and Ceremony Photos",
+          "description": "Attach scanned wedding invitation card (Kankotri), priest solemnization certificate (Gor Maharaj slip), and two photographs of the ceremony.",
+          "where": "Online Application Interface",
+          "estimatedTime": "15 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Kankotri Evidence",
+          "calloutText": "The traditional wedding invitation card in Gujarati or English serves as primary documentary evidence of solemnization.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Upload Identity Proofs of Couple and Three Witnesses",
+          "description": "Upload scanned copies of Aadhaar cards, school leaving certificates for age proof, and identity documents for three adult witnesses.",
+          "where": "Document Upload Screen",
+          "estimatedTime": "15 minutes",
+          "calloutType": "important",
+          "calloutTitle": "Three Witnesses Required",
+          "calloutText": "Under Gujarat marriage regulations, three adult witnesses who attended the wedding must sign the register in person.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Pay Gujarat Statutory Five Rupee Registration Fee",
+          "description": "Pay five rupees statutory memorandum fee if applying within 30 days, or applicable delayed fees via Cyber Treasury or cash counter.",
+          "where": "Gujarat Cyber Treasury / Civic Cash Counter",
+          "estimatedTime": "5 minutes",
+          "calloutType": "tip",
+          "calloutTitle": "Timely Benefit",
+          "calloutText": "Registering within thirty days costs just five rupees, saving you late penalty surcharges under state rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Physical Appearance Before Marriage Registrar in Gujarat",
+          "description": "Visit the municipal ward registrar or rural Talati office with your spouse and three witnesses to sign the official state marriage ledger.",
+          "where": "Municipal Ward Office or Gram Panchayat Office",
+          "estimatedTime": "30 minutes",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Download QR-Coded Bilingual Marriage Certificate",
+          "description": "The Registrar signs the entry. Download your official bilingual certificate in Gujarati and English directly from e-Nagar with QR verification.",
+          "where": "e-Nagar Portal / Ward Registry Counter",
+          "estimatedTime": "Immediate download",
+          "calloutType": "success",
+          "calloutTitle": "Digital QR Verification",
+          "calloutText": "The digital certificate carries full statutory validity for visa, passport, joint property, and banking formalities.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        }
+      ],
+      "fees": [
+        {
+          "id": "gj-marr-fee-timely",
+          "label": "Timely Registration Fee (Within 30 Days)",
+          "amount": 5,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Statutory memorandum fee under Gujarat Compulsory Registration of Marriages Act, 2006.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-fee-copy",
+          "label": "Certified Marriage Certificate Copy Fee",
+          "amount": 5,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Prescribed statutory charge per certified extract under Gujarat state marriage rules.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-fee-late",
+          "label": "Delayed Registration Late Fee (After 30 Days)",
+          "amount": 25,
+          "currency": "INR",
+          "isStatutory": true,
+          "paymentMode": "both",
+          "description": "Statutory delayed registration surcharge under Section 6 of the Gujarat Marriage Act.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        }
+      ],
+      "faqItems": [
+        {
+          "id": "gj-marr-faq-1",
+          "question": "What is the statutory fee to register a marriage in Gujarat within 30 days?",
+          "answer": "The statutory registration fee is just five rupees under the Gujarat Compulsory Registration of Marriages Act.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-faq-2",
+          "question": "How many witnesses are required for marriage registration in Gujarat?",
+          "answer": "Three adult witnesses who attended the marriage ceremony must sign the marriage register in person.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-faq-3",
+          "question": "Is the wedding invitation card (Kankotri) accepted as proof in Gujarat?",
+          "answer": "Yes. The wedding invitation card along with priest certificate serves as primary solemnization proof.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-faq-4",
+          "question": "Can I download my Gujarat marriage certificate online?",
+          "answer": "Yes. Once the Registrar approves the entry, download your digitally signed bilingual certificate from e-Nagar.",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        }
+      ],
+      "officialLinks": [
+        {
+          "id": "gj-marr-link-enagar",
+          "label": "Gujarat e-Nagar Marriage Registration Portal",
+          "url": "https://enagar.gujarat.gov.in",
+          "isPrimary": true,
+          "department": "Urban Development and Urban Housing Department Gujarat",
+          "portalName": "e-Nagar Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://enagar.gujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-link-digitalgujarat",
+          "label": "Digital Gujarat Citizen Portal",
+          "url": "https://digitalgujarat.gov.in",
+          "isPrimary": false,
+          "department": "Science and Technology Department Gujarat",
+          "portalName": "Digital Gujarat",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://digitalgujarat.gov.in"
+        },
+        {
+          "id": "gj-marr-link-garvi",
+          "label": "GARVI Gujarat Inspector General of Registration",
+          "url": "https://garvi.gujarat.gov.in",
+          "isPrimary": false,
+          "department": "Revenue Department Gujarat",
+          "portalName": "GARVI Portal",
+          "status": "PUBLISHED",
+          "lastVerifiedAt": "2026-11-20T00:00:00.000Z",
+          "sourceUrl": "https://garvi.gujarat.gov.in"
+        }
+      ]
     }
   }
 }
