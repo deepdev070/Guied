@@ -285,7 +285,13 @@ export async function getPopularTasks(limit = 8): Promise<TaskSummary[]> {
       difficulty: t.national.difficulty,
       estimatedTime: t.national.estimatedTime,
       cost: formatTaskCost(t.national.fees),
-      availableStates: Object.keys(t.states || {}),
+      availableStates: (() => {
+        const states = Object.keys(t.states || {});
+        if ((states.includes("GJ") || states.includes("gujarat")) && !states.includes("gujarat")) {
+          return [...states, "gujarat"];
+        }
+        return states;
+      })(),
     };
   });
 
@@ -317,7 +323,13 @@ export async function getRelatedTasks(
         difficulty: t.national.difficulty,
         estimatedTime: t.national.estimatedTime,
         cost: formatTaskCost(t.national.fees),
-        availableStates: Object.keys(t.states || {}),
+        availableStates: (() => {
+        const states = Object.keys(t.states || {});
+        if ((states.includes("GJ") || states.includes("gujarat")) && !states.includes("gujarat")) {
+          return [...states, "gujarat"];
+        }
+        return states;
+      })(),
       };
     });
 }
@@ -359,7 +371,13 @@ export async function getTasksByCategory(categorySlug: string): Promise<TaskSumm
         difficulty: t.national.difficulty,
         estimatedTime: t.national.estimatedTime,
         cost: formatTaskCost(t.national.fees),
-        availableStates: Object.keys(t.states || {}),
+        availableStates: (() => {
+        const states = Object.keys(t.states || {});
+        if ((states.includes("GJ") || states.includes("gujarat")) && !states.includes("gujarat")) {
+          return [...states, "gujarat"];
+        }
+        return states;
+      })(),
       };
     });
 

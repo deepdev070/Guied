@@ -265,7 +265,13 @@ export function buildSearchIndex(): SearchableItem[] {
         t.name.toLowerCase(),
         ...(category?.name ? [category.name.toLowerCase()] : []),
       ],
-      availableStates: Object.keys(t.states || {}),
+      availableStates: (() => {
+        const states = Object.keys(t.states || {});
+        if ((states.includes("GJ") || states.includes("gujarat")) && !states.includes("gujarat")) {
+          return [...states, "gujarat"];
+        }
+        return states;
+      })(),
       launchState: Boolean(t.states?.["gujarat"] || t.states?.["GJ"]),
     });
   }
